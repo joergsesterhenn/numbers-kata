@@ -39,7 +39,7 @@ class Numbers:
             return ' ' + self.digits[digit]
     
     def to_tens(self,digit, leading):
-        space = ' '
+        space = ' and '
         if leading:
             space = ''
         if digit == 0:
