@@ -1,0 +1,10 @@
+--- NumbersTest.test_single_digits.approved.txt
++++ NumbersTest.test_single_digits.received.txt
+@@ -1 +1 @@
+-['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']+['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight']
+
+
+to approve this result:
+
+mv -f /sandbox/NumbersTest.test_single_digits.received.txt /sandbox/NumbersTest.test_single_digits.approved.txt
+
