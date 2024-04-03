@@ -30,8 +30,8 @@ class Numbers:
     def is_below_hundred(self, number):
         return number < 100
     
-    def units(self,digit)
+    def units(self,digit):
         return self.units[digit]
     
-    def tens(self,digit)
+    def tens(self,digit):
         return self.tens[digit]

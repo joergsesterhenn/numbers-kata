@@ -1,22 +1,35 @@
+EE....
+======================================================================
+ERROR: test_every_two_digit_number (test_numbers.NumbersTest.test_every_two_digit_number)
+----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.12/unittest/__main__.py", line 18, in <module>
-    main(module=None)
-  File "/usr/local/lib/python3.12/unittest/main.py", line 104, in __init__
-    self.parseArgs(argv)
-  File "/usr/local/lib/python3.12/unittest/main.py", line 153, in parseArgs
-    self.createTests()
-  File "/usr/local/lib/python3.12/unittest/main.py", line 164, in createTests
-    self.test = self.testLoader.loadTestsFromNames(self.testNames,
-                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/unittest/loader.py", line 207, in loadTestsFromNames
-    suites = [self.loadTestsFromName(name, module) for name in names]
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/unittest/loader.py", line 137, in loadTestsFromName
-    module = __import__(module_name)
-             ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/sandbox/test_numbers.py", line 1, in <module>
-    from numbers import Numbers
-  File "/sandbox/numbers.py", line 33
-    def units(self,digit)
-                         ^
-SyntaxError: expected ':'
+  File "/sandbox/test_numbers.py", line 46, in test_every_two_digit_number
+    result = [Numbers().to_number(number) for number in range(10,100)]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sandbox/numbers.py", line 20, in to_number
+    return self.tens(first_digit) + self.units(second_digit)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/sandbox/numbers.py", line 37, in tens
+    return self.tens[digit]
+           ~~~~~~~~~^^^^^^^
+TypeError: 'method' object is not subscriptable
+
+======================================================================
+ERROR: test_ninety_nine (test_numbers.NumbersTest.test_ninety_nine)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/sandbox/test_numbers.py", line 42, in test_ninety_nine
+    result = str(Numbers().to_number(99))
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sandbox/numbers.py", line 20, in to_number
+    return self.tens(first_digit) + self.units(second_digit)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/sandbox/numbers.py", line 37, in tens
+    return self.tens[digit]
+           ~~~~~~~~~^^^^^^^
+TypeError: 'method' object is not subscriptable
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.025s
+
+FAILED (errors=2)
