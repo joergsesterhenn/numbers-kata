@@ -4,7 +4,7 @@ class Numbers:
     # all teens are special !
     teens = ['ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen']
     # here are the special numbers up to 100
-    tens = ['zero', 'ten', 'twenty','thirty', 'fourty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety']
+    tens = ['', 'ten', 'twenty','thirty', 'fourty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety']
     orders= ['unit', 'ten', 'hundred', 'thousand','million']
     
     def to_number(self, number):
@@ -42,4 +42,4 @@ class Numbers:
         return self.tens[digit]
     
     def to_hundreds(self,digit):
-        return self.to_units(digit) + ' hundred'
+        return self.digits[digit] + ' hundred'
