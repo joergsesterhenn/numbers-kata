@@ -1,0 +1,5 @@
+--- HikerTest.test_instance.approved.txt
++++ HikerTest.test_instance.received.txt
+@@ -1 +1 @@
+-42
++54

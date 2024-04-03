@@ -1,0 +1,22 @@
+--- HikerTest.test_global.approved.txt
++++ HikerTest.test_global.received.txt
+@@ -1 +1 @@
+-42
++54
+
+
+to approve this result:
+
+mv -f /sandbox/HikerTest.test_global.received.txt /sandbox/HikerTest.test_global.approved.txt
+
+--- HikerTest.test_instance.approved.txt
++++ HikerTest.test_instance.received.txt
+@@ -1 +1 @@
+-42
++54
+
+
+to approve this result:
+
+mv -f /sandbox/HikerTest.test_instance.received.txt /sandbox/HikerTest.test_instance.approved.txt
+
