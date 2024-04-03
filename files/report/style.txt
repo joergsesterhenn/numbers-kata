@@ -751,8 +751,8 @@
     E231: ['a','b']
     E231: foo(bar,baz)
     E231: [{'a':'b'}]
-/sandbox/numbers.py:23:81: E501 line too long (106 > 80 characters)
-            return self.to_hundreds(first_digit) + self.to_tens(second_digit) + self.to_units(third_digit)
+/sandbox/numbers.py:23:81: E501 line too long (113 > 80 characters)
+            return self.to_hundreds(first_digit) + self.to_tens(second_digit, False) + self.to_units(third_digit)
                                                                                 ^
     Limit all lines to a maximum of 79 characters.
 
@@ -807,7 +807,7 @@
     E231: foo(bar,baz)
     E231: [{'a':'b'}]
 /sandbox/numbers.py:41:21: E231 missing whitespace after ','
-    def to_tens(self,digit):
+    def to_tens(self,digit, leading):
                     ^
     Surround operators with the correct amount of whitespace.
 
@@ -848,7 +848,7 @@
     E231: ['a','b']
     E231: foo(bar,baz)
     E231: [{'a':'b'}]
-/sandbox/numbers.py:44:25: E231 missing whitespace after ','
+/sandbox/numbers.py:50:25: E231 missing whitespace after ','
     def to_hundreds(self,digit):
                         ^
     Surround operators with the correct amount of whitespace.
@@ -890,7 +890,7 @@
     E231: ['a','b']
     E231: foo(bar,baz)
     E231: [{'a':'b'}]
-/sandbox/numbers.py:45:47: W292 no newline at end of file
+/sandbox/numbers.py:51:47: W292 no newline at end of file
         return self.digits[digit] + ' hundred'
                                               ^
     Trailing blank lines are superfluous.
