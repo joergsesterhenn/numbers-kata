@@ -12,6 +12,6 @@ Traceback (most recent call last):
 TypeError: 'list' object is not callable
 
 ----------------------------------------------------------------------
-Ran 4 tests in 0.022s
+Ran 4 tests in 0.025s
 
 FAILED (errors=1)
