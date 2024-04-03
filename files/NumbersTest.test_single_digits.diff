@@ -2,9 +2,3 @@
 +++ NumbersTest.test_single_digits.received.txt
 @@ -0,0 +1 @@
 +['one', 'one', 'one', 'one', 'one', 'one', 'one', 'one']
-
-
-to approve this result:
-
-mv -f /sandbox/NumbersTest.test_single_digits.received.txt /sandbox/NumbersTest.test_single_digits.approved.txt
-
