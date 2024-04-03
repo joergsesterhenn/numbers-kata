@@ -2,7 +2,7 @@ class Numbers:
     
     digits = ['zero','one','two','three','four','five','six','seven','eight','nine']
     # units do not contain zero and are led by a space
-    units = [''] + [' '+ value] for value in digits [1:]
+    units = [''] + [[' '+ value] for value in digits [1:]]
     # all teens are special !
     teens = ['ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen']
     # here are the special numbers up to 100
