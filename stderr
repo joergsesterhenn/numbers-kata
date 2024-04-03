@@ -17,6 +17,6 @@ Traceback (most recent call last):
   File "/sandbox/test_numbers.py", line 1, in <module>
     from numbers import Numbers
   File "/sandbox/numbers.py", line 18
-    return self.to_number(digit) for digit in str(number)
-                                 ^^^
+    return self.to_number(int(digit)) for digit in str(number)
+                                      ^^^
 SyntaxError: invalid syntax
