@@ -14,3 +14,6 @@ class Numbers:
 
     def instance_answer(self):
         return global_answer()
+    
+    def to_number(self, number):
+        return ""

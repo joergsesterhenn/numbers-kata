@@ -1,5 +1,25 @@
-..
+..E
+======================================================================
+ERROR: test_number_one (test_numbers.NumbersTest.test_number_one)
 ----------------------------------------------------------------------
-Ran 2 tests in 0.018s
+Traceback (most recent call last):
+  File "/sandbox/test_numbers.py", line 45, in test_number_one
+    verify(result)
+  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 120, in verify
+    verify_with_namer(
+  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 220, in verify_with_namer
+    verify_with_namer_and_writer(namer, writer, options=options)
+  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 231, in verify_with_namer_and_writer
+    error = FileApprover.verify(namer, writer, options.reporter, options.comparator)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 55, in verify
+    verified = FileApprover.verify_files(approved, received, reporter, comparator)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 111, in verify_files
+    raise ReporterNotWorkingException(reporter)
+approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7f8adaba9af0> failed to work!
 
-OK
+----------------------------------------------------------------------
+Ran 3 tests in 0.427s
+
+FAILED (errors=1)

@@ -1,0 +1,10 @@
+--- NumbersTest.test_number_one.approved.txt
++++ NumbersTest.test_number_one.received.txt
+@@ -0,0 +1 @@
++
+
+
+to approve this result:
+
+mv -f /sandbox/NumbersTest.test_number_one.received.txt /sandbox/NumbersTest.test_number_one.approved.txt
+

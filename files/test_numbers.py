@@ -39,6 +39,10 @@ class NumbersTest(unittest.TestCase):
     def test_instance(self):
         result = str(Numbers().instance_answer())
         verify(result)
+        
+    def test_number_one(self):
+        result = str(Numbers().to_number(1))
+        verify(result)
 
 
 if __name__ == "__main__":
