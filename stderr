@@ -1,9 +1,9 @@
-....E
+E....
 ======================================================================
-ERROR: test_very_two_digit_number (test_numbers.NumbersTest.test_very_two_digit_number)
+ERROR: test_every_two_digit_number (test_numbers.NumbersTest.test_every_two_digit_number)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/sandbox/test_numbers.py", line 47, in test_very_two_digit_number
+  File "/sandbox/test_numbers.py", line 47, in test_every_two_digit_number
     verify(result)
   File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 120, in verify
     verify_with_namer(
@@ -17,9 +17,9 @@ Traceback (most recent call last):
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 111, in verify_files
     raise ReporterNotWorkingException(reporter)
-approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7f01bf54a750> failed to work!
+approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7fbb2b2b5ee0> failed to work!
 
 ----------------------------------------------------------------------
-Ran 5 tests in 0.362s
+Ran 5 tests in 0.365s
 
 FAILED (errors=1)

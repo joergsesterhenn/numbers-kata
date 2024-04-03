@@ -42,7 +42,7 @@ class NumbersTest(unittest.TestCase):
         result = str(Numbers().to_number(99))
         verify(result)
 
-    def test_very_two_digit_number(self):
+    def test_every_two_digit_number(self):
         result = [Numbers().to_number(number) for number in range(10,100)]
         verify(result)
 
