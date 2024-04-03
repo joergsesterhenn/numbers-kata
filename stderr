@@ -1,17 +1,5 @@
-E...
-======================================================================
-ERROR: test_ninety_nine (test_numbers.NumbersTest.test_ninety_nine)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/sandbox/test_numbers.py", line 48, in test_ninety_nine
-    result = str(Numbers().to_number(99))
-                 ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/sandbox/numbers.py", line 18, in to_number
-    return self.tens[int(str(number)[0])] + ' ' + self.units[int(str(number)[1])]
-                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
-IndexError: list index out of range
-
+....
 ----------------------------------------------------------------------
 Ran 4 tests in 0.021s
 
-FAILED (errors=1)
+OK
