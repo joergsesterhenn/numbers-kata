@@ -15,12 +15,12 @@ class Numbers:
         elif self.is_below_hundred(number):
             first_digit=int(str(number)[0])
             second_digit=int(str(number)[1])
-            return self.to_tens(first_digit) + self.to_units(second_digit)
+            return self.to_tens(first_digit, true) + self.to_units(second_digit)
         else:
             first_digit=int(str(number)[0])
             second_digit=int(str(number)[1])
             third_digit=int(str(number)[2])
-            return self.to_hundreds(first_digit) + self.to_tens(second_digit) + self.to_units(third_digit)
+            return self.to_hundreds(first_digit) + self.to_tens(second_digit, false) + self.to_units(third_digit)
         
     def is_digit(self, number):
         return number < 10
@@ -38,11 +38,14 @@ class Numbers:
         else:
             return ' ' + self.digits[digit]
     
-    def to_tens(self,digit):
+    def to_tens(self,digit, leading):
+        space = ' '
+        if leading:
+            space = ''
         if digit == 0:
             return ''
         else:
-            return ' ' + self.tens[digit]
+            return space + self.tens[digit]
     
     def to_hundreds(self,digit):
         return self.digits[digit] + ' hundred'
