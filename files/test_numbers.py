@@ -37,7 +37,7 @@ class NumbersTest(unittest.TestCase):
         verify(result)
     
     def test_single_digits(self):
-        result =  [Numbers().to_number(number) for number in range(1,9)]
+        result =  [Numbers().to_number(number) for number in range(1,10)]
         verify(result)
 
 
