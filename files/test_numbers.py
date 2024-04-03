@@ -17,7 +17,7 @@ class NumbersTest(unittest.TestCase):
     # x test single digit
     # x test ten
     # x 99 --> ninety nine
-    # test two digits
+    # x test two digits
     # test one hundred
     # 300 --> three hundred
     # 310 --> three hundred and ten
