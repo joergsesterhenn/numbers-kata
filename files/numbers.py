@@ -12,10 +12,13 @@ class Numbers:
     def to_number(self, number):
         if self.is_digit(number):
             return self.digits[number]
-        elif number < 20:
-            return "ten"
+        elif self.is_teen(number):
+            return teens[str(number)[1]]
         else:
             return "ninety nine"
         
     def is_digit(self, number):
         return number < 10
+
+    def is_teen(self, number):
+        return 9 < number < 20

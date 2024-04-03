@@ -1,5 +1,17 @@
-....
+...E
+======================================================================
+ERROR: test_ten (test_numbers.NumbersTest.test_ten)
 ----------------------------------------------------------------------
-Ran 4 tests in 0.019s
+Traceback (most recent call last):
+  File "/sandbox/test_numbers.py", line 44, in test_ten
+    result = str(Numbers().to_number(10))
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sandbox/numbers.py", line 16, in to_number
+    return teens[str(number)[1]]
+           ^^^^^
+NameError: name 'teens' is not defined. Did you mean: 'self.teens'?
 
-OK
+----------------------------------------------------------------------
+Ran 4 tests in 0.018s
+
+FAILED (errors=1)
