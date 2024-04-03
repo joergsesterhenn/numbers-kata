@@ -11,18 +11,12 @@ class NumbersTest(unittest.TestCase):
     def setUp(self):
         set_default_reporter(ReportOnCyberDojo())
 
-    # if you want to change the expected result, 
-    # move HikerTest.test_global.recieved.txt
-    # to   HikerTest.test_global.approved.txt
-    # to view the differences, 
-    # open HikerTest.test_global.diff
-    
     # testplan:
     #
     # x test number one
     # x test single digit
     # x test ten
-    # 99 --> ninety nine
+    # x 99 --> ninety nine
     # test two digits
     # test one hundred
     # 300 --> three hundred
@@ -48,5 +42,10 @@ class NumbersTest(unittest.TestCase):
         result = str(Numbers().to_number(99))
         verify(result)
 
+    def test_very_two_digit_number(self):
+        result = [Numbers().to_number(number) for number in range(10,100)]
+        verify(result)
+
+        
 if __name__ == "__main__":
     unittest.main()
