@@ -15,7 +15,9 @@ class Numbers:
         elif self.is_teen(number):
             return self.teens[int(str(number)[1])]
         elif self.is_below_hundred(number):
-            return self.tens[int(str(number)[0])] + self.units[int(str(number)[1])]
+            first_digit=int(str(number)[0])
+            second_digit=int(str(number)[1])
+            return self.tens(first_digit) + self.units(second_digit)
         else:
             return 'one hundred'
         
@@ -27,3 +29,9 @@ class Numbers:
 
     def is_below_hundred(self, number):
         return number < 100
+    
+    def units(self,digit)
+        return self.units[digit]
+    
+    def tens(self,digit)
+        return self.tens[digit]
