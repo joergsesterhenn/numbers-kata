@@ -20,7 +20,15 @@ class Numbers:
             first_digit=int(str(number)[0])
             second_digit=int(str(number)[1])
             third_digit=int(str(number)[2])
-            return self.to_hundreds(first_digit) + self.to_tens(second_digit, False) + self.to_units(third_digit)
+            if second_digit==0:
+                if third_digit==0:
+                    return self.to_hundreds(first_digit) 
+                else:
+                    return self.to_hundreds(first_digit) + ' and '  + self.to_units(third_digit)
+            elif second_digit==1:
+                return self.to_hundreds(first_digit) + ' and ' + return self.teens[second_digit]
+            else:
+                return self.to_hundreds(first_digit) + self.to_tens(second_digit, False) + self.to_units(third_digit)
         
     def is_digit(self, number):
         return number < 10
