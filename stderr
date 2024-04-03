@@ -1,45 +1,5 @@
-EE
-======================================================================
-ERROR: test_global (test_hiker.HikerTest.test_global)
+..
 ----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/sandbox/test_hiker.py", line 20, in test_global
-    verify(result)
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 120, in verify
-    verify_with_namer(
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 220, in verify_with_namer
-    verify_with_namer_and_writer(namer, writer, options=options)
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 231, in verify_with_namer_and_writer
-    error = FileApprover.verify(namer, writer, options.reporter, options.comparator)
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 55, in verify
-    verified = FileApprover.verify_files(approved, received, reporter, comparator)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 111, in verify_files
-    raise ReporterNotWorkingException(reporter)
-approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7f445e4c9a90> failed to work!
+Ran 2 tests in 0.016s
 
-======================================================================
-ERROR: test_instance (test_hiker.HikerTest.test_instance)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/sandbox/test_hiker.py", line 24, in test_instance
-    verify(result)
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 120, in verify
-    verify_with_namer(
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 220, in verify_with_namer
-    verify_with_namer_and_writer(namer, writer, options=options)
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 231, in verify_with_namer_and_writer
-    error = FileApprover.verify(namer, writer, options.reporter, options.comparator)
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 55, in verify
-    verified = FileApprover.verify_files(approved, received, reporter, comparator)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 111, in verify_files
-    raise ReporterNotWorkingException(reporter)
-approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7f445e43ea50> failed to work!
-
-----------------------------------------------------------------------
-Ran 2 tests in 0.020s
-
-FAILED (errors=2)
+OK

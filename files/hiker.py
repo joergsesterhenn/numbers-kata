@@ -8,7 +8,7 @@ Then delete the other one, along with this comment!
 '''
 
 def global_answer():
-    return 6 * 9
+    return 6 * 7
 
 class Hiker:
 
