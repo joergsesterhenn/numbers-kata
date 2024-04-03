@@ -44,7 +44,7 @@ class NumbersTest(unittest.TestCase):
         result = str(Numbers().to_number(10))
         verify(result)
         
-    def test_ninety nine(self):
+    def test_ninety_nine(self):
         result = str(Numbers().to_number(99))
         verify(result)
 
