@@ -6,7 +6,7 @@ class Numbers:
     # all teens are special !
     teens = ['ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen']
     # here are the special numbers up to 100
-    tens = ['twenty','thirty', 'fourty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety']
+    tens = ['ten', 'twenty','thirty', 'fourty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety']
     
     
     def to_number(self, number):
