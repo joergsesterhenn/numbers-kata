@@ -1,17 +1,5 @@
-...E
-======================================================================
-ERROR: test_ten (test_numbers.NumbersTest.test_ten)
+....
 ----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/sandbox/test_numbers.py", line 44, in test_ten
-    result = str(Numbers().to_number(10))
-                 ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/sandbox/numbers.py", line 16, in to_number
-    return self.teens[str(number)[1]]
-           ~~~~~~~~~~^^^^^^^^^^^^^^^^
-TypeError: list indices must be integers or slices, not str
+Ran 4 tests in 0.019s
 
-----------------------------------------------------------------------
-Ran 4 tests in 0.023s
-
-FAILED (errors=1)
+OK

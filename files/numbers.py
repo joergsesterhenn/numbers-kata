@@ -13,7 +13,7 @@ class Numbers:
         if self.is_digit(number):
             return self.digits[number]
         elif self.is_teen(number):
-            return self.teens[str(number)[1]]
+            return self.teens[int(str(number)[1])]
         else:
             return "ninety nine"
         
