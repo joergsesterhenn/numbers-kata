@@ -7,11 +7,11 @@ Traceback (most recent call last):
     result = str(Numbers().to_number(99))
                  ^^^^^^^^^^^^^^^^^^^^^^^
   File "/sandbox/numbers.py", line 18, in to_number
-    return self.tens(int(number[0])) + ' ' + self.units(int(number[1]))
-                         ~~~~~~^^^
-TypeError: 'int' object is not subscriptable
+    return self.tens(int(str(number)[0])) + ' ' + self.units(int(str(number)[1]))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'list' object is not callable
 
 ----------------------------------------------------------------------
-Ran 4 tests in 0.018s
+Ran 4 tests in 0.019s
 
 FAILED (errors=1)
