@@ -3,23 +3,15 @@ E...
 ERROR: test_ninety_nine (test_numbers.NumbersTest.test_ninety_nine)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/sandbox/test_numbers.py", line 49, in test_ninety_nine
-    verify(result)
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 120, in verify
-    verify_with_namer(
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 220, in verify_with_namer
-    verify_with_namer_and_writer(namer, writer, options=options)
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 231, in verify_with_namer_and_writer
-    error = FileApprover.verify(namer, writer, options.reporter, options.comparator)
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 55, in verify
-    verified = FileApprover.verify_files(approved, received, reporter, comparator)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 111, in verify_files
-    raise ReporterNotWorkingException(reporter)
-approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7fb28f2998b0> failed to work!
+  File "/sandbox/test_numbers.py", line 48, in test_ninety_nine
+    result = str(Numbers().to_number(99))
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sandbox/numbers.py", line 18, in to_number
+    return self.tens(int(number[0])) + ' ' + self.units(int(number[1]))
+                         ~~~~~~^^^
+TypeError: 'int' object is not subscriptable
 
 ----------------------------------------------------------------------
-Ran 4 tests in 0.030s
+Ran 4 tests in 0.018s
 
 FAILED (errors=1)
