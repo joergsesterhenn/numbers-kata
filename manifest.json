@@ -1,0 +1,23 @@
+{
+  "display_name": "Python 3.12, approval-unittest 10.3",
+  "image_name": "cyberdojofoundation/python_approval_unittest:080dff5",
+  "filename_extension": [
+    ".py",
+    ".approved.txt",
+    ".received.txt"
+  ],
+  "max_seconds": 10,
+  "tab_size": 4,
+  "exercise": "Number Names",
+  "version": 2,
+  "created": [
+    2024,
+    4,
+    3,
+    16,
+    30,
+    25,
+    146492
+  ],
+  "id": "v8wNWc"
+}
