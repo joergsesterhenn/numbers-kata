@@ -10,7 +10,7 @@ class Numbers:
     
     
     def to_number(self, number):
-        if is_digit(number):
+        if self.is_digit(number):
             return self.digits[number]
         elif number < 20:
             return "ten"
