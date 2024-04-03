@@ -1,11 +1,11 @@
-from hiker import global_answer, Hiker
+from numbers import global_answer, Numbers
 import unittest
 from approvaltests.approvals import verify
 from approvaltests.reporters.report_on_cyber_dojo import ReportOnCyberDojo
 from approvaltests import set_default_reporter
 
 
-class HikerTest(unittest.TestCase):
+class NumbersTest(unittest.TestCase):
     def setUp(self):
         set_default_reporter(ReportOnCyberDojo())
 
@@ -20,7 +20,7 @@ class HikerTest(unittest.TestCase):
         verify(result)
 
     def test_instance(self):
-        result = str(Hiker().instance_answer())
+        result = str(Numbers().instance_answer())
         verify(result)
 
 

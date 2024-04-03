@@ -1,4 +1,4 @@
-/sandbox/test_hiker.py:12:49: W291 trailing whitespace
+/sandbox/test_numbers.py:12:49: W291 trailing whitespace
     # if you want to change the expected result,
                                                 ^
     Trailing whitespace is superfluous.
@@ -9,7 +9,7 @@
     Okay: spam(1)\n#
     W291: spam(1) \n#
     W293: class Foo(object):\n    \n    bang = 12
-/sandbox/test_hiker.py:15:31: W291 trailing whitespace
+/sandbox/test_numbers.py:15:31: W291 trailing whitespace
     # to view the differences,
                               ^
     Trailing whitespace is superfluous.

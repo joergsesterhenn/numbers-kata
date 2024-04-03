@@ -10,7 +10,7 @@ Then delete the other one, along with this comment!
 def global_answer():
     return 6 * 7
 
-class Hiker:
+class Numbers:
 
     def instance_answer(self):
         return global_answer()
