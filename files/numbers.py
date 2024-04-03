@@ -20,7 +20,7 @@ class Numbers:
             first_digit=int(str(number)[0])
             second_digit=int(str(number)[1])
             third_digit=int(str(number)[2])
-            return 'one hundred'
+            return self.to_hundreds(first_digit) + self.to_tens(second_digit) + self.to_units(third_digit)
         
     def is_digit(self, number):
         return number < 10
@@ -40,3 +40,6 @@ class Numbers:
     
     def to_tens(self,digit):
         return self.tens[digit]
+    
+    def to_hundreds(self,digit):
+        return self.digits[digit] + ' hundred'
