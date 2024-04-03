@@ -20,7 +20,7 @@ class NumbersTest(unittest.TestCase):
     # testplan:
     #
     # x test number one
-    # test single digit
+    # x test single digit
     # test ten
     # test two digits
     # 99 --> ninety nine
@@ -40,6 +40,9 @@ class NumbersTest(unittest.TestCase):
         result =  [Numbers().to_number(number) for number in range(1,10)]
         verify(result)
 
+    def test_ten(self):
+        result = str(Numbers().to_number(10))
+        verify(result)
 
 if __name__ == "__main__":
     unittest.main()
