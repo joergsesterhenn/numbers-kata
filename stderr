@@ -1,29 +1,25 @@
-EE...
+E....
 ======================================================================
 ERROR: test_every_two_digit_number (test_numbers.NumbersTest.test_every_two_digit_number)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/sandbox/test_numbers.py", line 46, in test_every_two_digit_number
-    result = [Numbers().to_number(number) for number in range(10,100)]
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/sandbox/numbers.py", line 18, in to_number
-    return self.tens[int(str(number)[0])] + self.units[int(str(number)[1])]
-           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-TypeError: can only concatenate str (not "list") to str
-
-======================================================================
-ERROR: test_ninety_nine (test_numbers.NumbersTest.test_ninety_nine)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/sandbox/test_numbers.py", line 42, in test_ninety_nine
-    result = str(Numbers().to_number(99))
-                 ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/sandbox/numbers.py", line 18, in to_number
-    return self.tens[int(str(number)[0])] + self.units[int(str(number)[1])]
-           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-TypeError: can only concatenate str (not "list") to str
+  File "/sandbox/test_numbers.py", line 47, in test_every_two_digit_number
+    verify(result)
+  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 120, in verify
+    verify_with_namer(
+  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 220, in verify_with_namer
+    verify_with_namer_and_writer(namer, writer, options=options)
+  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 231, in verify_with_namer_and_writer
+    error = FileApprover.verify(namer, writer, options.reporter, options.comparator)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 55, in verify
+    verified = FileApprover.verify_files(approved, received, reporter, comparator)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 111, in verify_files
+    raise ReporterNotWorkingException(reporter)
+approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7fbe45976240> failed to work!
 
 ----------------------------------------------------------------------
-Ran 5 tests in 0.018s
+Ran 5 tests in 0.026s
 
-FAILED (errors=2)
+FAILED (errors=1)
