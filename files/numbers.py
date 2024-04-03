@@ -25,5 +25,5 @@ class Numbers:
     def is_teen(self, number):
         return 9 < number < 20
 
-     def is_below_hundred(self, number):
+    def is_below_hundred(self, number):
         return number < 100
