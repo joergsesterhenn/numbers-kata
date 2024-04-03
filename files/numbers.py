@@ -5,5 +5,7 @@ class Numbers:
     def to_number(self, number):
         if number < 10:
             return self.digits[number]
-        else:
+        elif number < 20:
             return "ten"
+        else
+            return "ninety nine"
