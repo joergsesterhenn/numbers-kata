@@ -1,35 +1,5 @@
-EE....
-======================================================================
-ERROR: test_every_two_digit_number (test_numbers.NumbersTest.test_every_two_digit_number)
+......
 ----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/sandbox/test_numbers.py", line 46, in test_every_two_digit_number
-    result = [Numbers().to_number(number) for number in range(10,100)]
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/sandbox/numbers.py", line 20, in to_number
-    return self.tens(first_digit) + self.units(second_digit)
-           ^^^^^^^^^^^^^^^^^^^^^^
-  File "/sandbox/numbers.py", line 37, in tens
-    return self.tens[digit]
-           ~~~~~~~~~^^^^^^^
-TypeError: 'method' object is not subscriptable
+Ran 6 tests in 0.032s
 
-======================================================================
-ERROR: test_ninety_nine (test_numbers.NumbersTest.test_ninety_nine)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/sandbox/test_numbers.py", line 42, in test_ninety_nine
-    result = str(Numbers().to_number(99))
-                 ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/sandbox/numbers.py", line 20, in to_number
-    return self.tens(first_digit) + self.units(second_digit)
-           ^^^^^^^^^^^^^^^^^^^^^^
-  File "/sandbox/numbers.py", line 37, in tens
-    return self.tens[digit]
-           ~~~~~~~~~^^^^^^^
-TypeError: 'method' object is not subscriptable
-
-----------------------------------------------------------------------
-Ran 6 tests in 0.025s
-
-FAILED (errors=2)
+OK
