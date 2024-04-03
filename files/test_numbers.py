@@ -21,9 +21,9 @@ class NumbersTest(unittest.TestCase):
     #
     # x test number one
     # x test single digit
-    # test ten
-    # test two digits
+    # x test ten
     # 99 --> ninety nine
+    # test two digits
     # test one hundred
     # 300 --> three hundred
     # 310 --> three hundred and ten
@@ -42,6 +42,10 @@ class NumbersTest(unittest.TestCase):
 
     def test_ten(self):
         result = str(Numbers().to_number(10))
+        verify(result)
+        
+    def test_ninety nine(self):
+        result = str(Numbers().to_number(99))
         verify(result)
 
 if __name__ == "__main__":
