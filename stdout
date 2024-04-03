@@ -1,0 +1,10 @@
+--- NumbersTest.test_one_thousand_five_hundred_and_one.approved.txt
++++ NumbersTest.test_one_thousand_five_hundred_and_one.received.txt
+@@ -1 +1 @@
+-one thousand five hundred and one+one thousand five hundred and one
+
+
+to approve this result:
+
+mv -f /sandbox/NumbersTest.test_one_thousand_five_hundred_and_one.received.txt /sandbox/NumbersTest.test_one_thousand_five_hundred_and_one.approved.txt
+

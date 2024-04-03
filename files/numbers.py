@@ -16,7 +16,7 @@ class Numbers:
             first_digit=int(str(number)[0])
             second_digit=int(str(number)[1])
             return self.to_tens(first_digit, True) + self.to_units(second_digit)
-        else self.is_below_thousand(number):
+        elif self.is_below_thousand(number):
             first_digit=int(str(number)[0])
             second_digit=int(str(number)[1])
             third_digit=int(str(number)[2])
