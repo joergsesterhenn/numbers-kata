@@ -7,11 +7,11 @@ Traceback (most recent call last):
     result = str(Numbers().to_number(10))
                  ^^^^^^^^^^^^^^^^^^^^^^^
   File "/sandbox/numbers.py", line 16, in to_number
-    return teens[str(number)[1]]
-           ^^^^^
-NameError: name 'teens' is not defined. Did you mean: 'self.teens'?
+    return self.teens[str(number)[1]]
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
 
 ----------------------------------------------------------------------
-Ran 4 tests in 0.018s
+Ran 4 tests in 0.023s
 
 FAILED (errors=1)
