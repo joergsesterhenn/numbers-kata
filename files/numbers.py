@@ -39,7 +39,10 @@ class Numbers:
             return ' ' + self.digits[digit]
     
     def to_tens(self,digit):
-        return self.tens[digit]
+        if digit == 0:
+            return ''
+        else:
+            return ' ' + self.tens[digit]
     
     def to_hundreds(self,digit):
         return self.digits[digit] + ' hundred'
