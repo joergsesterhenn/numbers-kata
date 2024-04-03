@@ -46,6 +46,9 @@ class NumbersTest(unittest.TestCase):
         result = [Numbers().to_number(number) for number in range(10,100)]
         verify(result)
 
+    def test_one_hundred(self):
+        result = Numbers().to_number(100)
+        verify(result)
         
 if __name__ == "__main__":
     unittest.main()
