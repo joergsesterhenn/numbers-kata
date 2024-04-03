@@ -17,9 +17,9 @@ Traceback (most recent call last):
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 111, in verify_files
     raise ReporterNotWorkingException(reporter)
-approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7f8308297140> failed to work!
+approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7f11286b29f0> failed to work!
 
 ----------------------------------------------------------------------
-Ran 6 tests in 0.032s
+Ran 6 tests in 0.026s
 
 FAILED (errors=1)

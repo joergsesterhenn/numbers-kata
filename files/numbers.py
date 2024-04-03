@@ -42,4 +42,4 @@ class Numbers:
         return self.tens[digit]
     
     def to_hundreds(self,digit):
-        return self.digits[digit] + ' hundred'
+        return self.to_units(digit) + ' hundred'
