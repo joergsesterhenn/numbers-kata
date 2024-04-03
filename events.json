@@ -203,5 +203,21 @@
       43,
       164546
     ]
+  },
+  {
+    "duration": 0.82556,
+    "colour": "amber",
+    "predicted": "green",
+    "revert_if_wrong": "off",
+    "index": 13,
+    "time": [
+      2024,
+      4,
+      3,
+      17,
+      13,
+      4,
+      56444
+    ]
   }
 ]
