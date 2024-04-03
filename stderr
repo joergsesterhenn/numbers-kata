@@ -1,5 +1,53 @@
-....
+EEEE
+======================================================================
+ERROR: test_ninety_nine (test_numbers.NumbersTest.test_ninety_nine)
 ----------------------------------------------------------------------
-Ran 4 tests in 0.019s
+Traceback (most recent call last):
+  File "/sandbox/test_numbers.py", line 48, in test_ninety_nine
+    result = str(Numbers().to_number(99))
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sandbox/numbers.py", line 13, in to_number
+    if is_digit(number):
+       ^^^^^^^^
+NameError: name 'is_digit' is not defined. Did you mean: 'self.is_digit'?
 
-OK
+======================================================================
+ERROR: test_number_one (test_numbers.NumbersTest.test_number_one)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/sandbox/test_numbers.py", line 36, in test_number_one
+    result = str(Numbers().to_number(1))
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/sandbox/numbers.py", line 13, in to_number
+    if is_digit(number):
+       ^^^^^^^^
+NameError: name 'is_digit' is not defined. Did you mean: 'self.is_digit'?
+
+======================================================================
+ERROR: test_single_digits (test_numbers.NumbersTest.test_single_digits)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/sandbox/test_numbers.py", line 40, in test_single_digits
+    result =  [Numbers().to_number(number) for number in range(1,10)]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sandbox/numbers.py", line 13, in to_number
+    if is_digit(number):
+       ^^^^^^^^
+NameError: name 'is_digit' is not defined. Did you mean: 'self.is_digit'?
+
+======================================================================
+ERROR: test_ten (test_numbers.NumbersTest.test_ten)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/sandbox/test_numbers.py", line 44, in test_ten
+    result = str(Numbers().to_number(10))
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sandbox/numbers.py", line 13, in to_number
+    if is_digit(number):
+       ^^^^^^^^
+NameError: name 'is_digit' is not defined. Did you mean: 'self.is_digit'?
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.002s
+
+FAILED (errors=4)
