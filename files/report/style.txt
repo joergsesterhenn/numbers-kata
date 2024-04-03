@@ -937,7 +937,18 @@
     comments), limiting the length to 72 characters is recommended.
 
     Reports error E501.
-/sandbox/numbers.py:43:22: E231 missing whitespace after ','
+/sandbox/numbers.py:32:14: W291 trailing whitespace
+        else:
+             ^
+    Trailing whitespace is superfluous.
+
+    The warning returned varies on whether the line itself is blank,
+    for easier filtering for those who want to indent their blank lines.
+
+    Okay: spam(1)\n#
+    W291: spam(1) \n#
+    W293: class Foo(object):\n    \n    bang = 12
+/sandbox/numbers.py:48:22: E231 missing whitespace after ','
     def to_units(self,digit):
                      ^
     Surround operators with the correct amount of whitespace.
@@ -979,7 +990,7 @@
     E231: ['a','b']
     E231: foo(bar,baz)
     E231: [{'a':'b'}]
-/sandbox/numbers.py:49:21: E231 missing whitespace after ','
+/sandbox/numbers.py:54:21: E231 missing whitespace after ','
     def to_tens(self,digit, leading):
                     ^
     Surround operators with the correct amount of whitespace.
@@ -1021,7 +1032,7 @@
     E231: ['a','b']
     E231: foo(bar,baz)
     E231: [{'a':'b'}]
-/sandbox/numbers.py:58:25: E231 missing whitespace after ','
+/sandbox/numbers.py:63:25: E231 missing whitespace after ','
     def to_hundreds(self,digit):
                         ^
     Surround operators with the correct amount of whitespace.
@@ -1063,7 +1074,7 @@
     E231: ['a','b']
     E231: foo(bar,baz)
     E231: [{'a':'b'}]
-/sandbox/numbers.py:59:47: W292 no newline at end of file
+/sandbox/numbers.py:64:47: W292 no newline at end of file
         return self.digits[digit] + ' hundred'
                                               ^
     Trailing blank lines are superfluous.
@@ -1251,26 +1262,3 @@ class NumbersTest(unittest.TestCase):
     E231: ['a','b']
     E231: foo(bar,baz)
     E231: [{'a':'b'}]
-/sandbox/test_numbers.py:66:5: E265 block comment should start with '# '
-    #def test_one_thousand_five_hundred_and_one(self):
-    ^
-    Separate inline comments by at least two spaces.
-
-    An inline comment is a comment on the same line as a statement.
-    Inline comments should be separated by at least two spaces from the
-    statement. They should start with a # and a single space.
-
-    Each line of a block comment starts with a # and one or multiple
-    spaces as there can be indented text inside the comment.
-
-    Okay: x = x + 1  # Increment x
-    Okay: x = x + 1    # Increment x
-    Okay: # Block comments:
-    Okay: #  - Block comment list
-    Okay: #  - Block comment list
-    E261: x = x + 1 # Increment x
-    E262: x = x + 1  #Increment x
-    E262: x = x + 1  #  Increment x
-    E262: x = x + 1  #  Increment x
-    E265: #Block comment
-    E266: ### Block comment
