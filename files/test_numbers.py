@@ -1,4 +1,4 @@
-from numbers import global_answer, Numbers
+from numbers import Numbers
 import unittest
 from approvaltests.approvals import verify
 from approvaltests.reporters.report_on_cyber_dojo import ReportOnCyberDojo
@@ -31,15 +31,7 @@ class NumbersTest(unittest.TestCase):
     # 12609 --> twelve thousand, six hundred and nine
     # 512607 --> five hundred and twelve thousand, six hundred and seven
     # 43112603 --> forty three million, one hundred and twelve thousand, six hundred and three
-
-    def test_global(self):
-        result = str(global_answer())
-        verify(result)
-
-    def test_instance(self):
-        result = str(Numbers().instance_answer())
-        verify(result)
-        
+      
     def test_number_one(self):
         result = str(Numbers().to_number(1))
         verify(result)
