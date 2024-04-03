@@ -1,6 +1,6 @@
 Name              Stmts   Miss  Cover   Missing
 -----------------------------------------------
-numbers.py           37      0   100%
-test_numbers.py      34      1    97%   62
+numbers.py           43      1    98%   54
+test_numbers.py      37      1    97%   71
 -----------------------------------------------
-TOTAL                71      1    99%
+TOTAL                80      2    98%
