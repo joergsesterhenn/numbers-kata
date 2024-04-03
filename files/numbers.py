@@ -7,5 +7,5 @@ class Numbers:
             return self.digits[number]
         elif number < 20:
             return "ten"
-        else
+        else:
             return "ninety nine"
