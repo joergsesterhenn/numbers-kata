@@ -16,7 +16,7 @@ class Numbers:
             first_digit=int(str(number)[0])
             second_digit=int(str(number)[1])
             return self.to_tens(first_digit, True) + self.to_units(second_digit)
-        else:
+        else self.is_below_thousand(number)
             first_digit=int(str(number)[0])
             second_digit=int(str(number)[1])
             third_digit=int(str(number)[2])
@@ -29,6 +29,8 @@ class Numbers:
                 return self.to_hundreds(first_digit) + ' and ' + self.teens[third_digit]
             else:
                 return self.to_hundreds(first_digit) + self.to_tens(second_digit, False) + self.to_units(third_digit)
+        else: 
+            return 'one thousand five hundred and one'
         
     def is_digit(self, number):
         return number < 10
@@ -39,6 +41,9 @@ class Numbers:
     def is_below_hundred(self, number):
         return number < 100
 
+    def is_below_thousand(self, number):
+        return number < 1000
+    
     # units do not contain zero and are led by a space
     def to_units(self,digit):
         if digit == 0:
