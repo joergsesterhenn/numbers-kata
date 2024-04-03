@@ -1,7 +1,7 @@
 --- NumbersTest.test_number_one.approved.txt
 +++ NumbersTest.test_number_one.received.txt
-@@ -0,0 +1 @@
-+
+@@ -1 +1 @@
+-one+
 
 
 to approve this result:
