@@ -1,8 +1,6 @@
 class Numbers:
     
     digits = ['zero','one','two','three','four','five','six','seven','eight','nine']
-    # units do not contain zero and are led by a space
-    units = [''] + [' '+ value for value in digits [1:]]
     # all teens are special !
     teens = ['ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen']
     # here are the special numbers up to 100
@@ -19,6 +17,9 @@ class Numbers:
             second_digit=int(str(number)[1])
             return self.to_tens(first_digit) + self.to_units(second_digit)
         else:
+            first_digit=int(str(number)[0])
+            second_digit=int(str(number)[1])
+            third_digit=int(str(number)[2])
             return 'one hundred'
         
     def is_digit(self, number):
@@ -29,9 +30,13 @@ class Numbers:
 
     def is_below_hundred(self, number):
         return number < 100
-    
+
+    # units do not contain zero and are led by a space
     def to_units(self,digit):
-        return self.units[digit]
+        if digit == 0:
+            return ''
+        else:
+            return ' ' + self.digits[digit]
     
     def to_tens(self,digit):
         return self.tens[digit]
