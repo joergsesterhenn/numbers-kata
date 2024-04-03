@@ -19,7 +19,7 @@ class NumbersTest(unittest.TestCase):
     # x 99 --> ninety nine
     # x test two digits
     # x test one hundred
-    # 300 --> three hundred
+    # x 300 --> three hundred
     # 310 --> three hundred and ten
     # 1501 --> one thousand, five hundred and one
     # 12609 --> twelve thousand, six hundred and nine
@@ -52,6 +52,10 @@ class NumbersTest(unittest.TestCase):
         
     def test_three_hundred(self):
         result = Numbers().to_number(300)
+        verify(result)
+        
+    def test_three_hundred_ten(self):
+        result = Numbers().to_number(310)
         verify(result)
         
 if __name__ == "__main__":
