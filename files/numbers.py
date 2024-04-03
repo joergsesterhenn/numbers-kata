@@ -1,13 +1,41 @@
 class Numbers:
     
     digits = ['zero','one','two','three','four','five','six','seven','eight','nine']
-    # all teens are special !
+    # all teens are special - who would have thought!
     teens = ['ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen']
-    # here are the special numbers up to 100
+    # all multiples of ten are also special to us
     tens = ['', 'ten', 'twenty','thirty', 'fourty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety']
-    orders= ['unit', 'ten', 'hundred', 'thousand','million']
+    orders= ['', 'thousand', 'million', 'billion', 'trillion']
+    
+    
+    # we need to look at the length of the number before we start calculations
+    #
+    # length:
+    # 1 == units
+    # 2 == tens (of units -- we never mention those as they are the default when counting)    
+    # 3 == hundreds (of units)
+    # ----------
+    # 4 == thousands 
+    # 5 == tens of thousands 
+    # 6 == hundreds of thousands
+    # ----------
+    # 7 == millions
+    # 8 == tens of millions
+    # 9 == hundreds of millions ...
+    #
+    # every new oder can have every lower order as part 
+    # zeros need to be handled for every length above 1
+    # multiples of ten and teens need to be handled for length 2, 5, 8, 11, ... (2+x*3)
+    #
+    # we need to count tupples of three digits
+    # once those are done we can calculate the next order of magnitude
+    # blocks of three digits are divided by a comma - unless nothing follows
+    # if we have hundreds of something we append partial hundreds with an ' and '
+    
+   
     
     def to_number(self, number):
+     #   array_of_numbers_by_order = self.disect_number_to_order(number)
         if self.is_digit(number):
             return self.digits[number]
         elif self.is_teen(number):
@@ -31,6 +59,10 @@ class Numbers:
                 return self.to_hundreds(first_digit) + self.to_tens(second_digit, False) + self.to_units(third_digit)
         else: 
             return 'one thousand five hundred and one'
+        
+    #def disect_number_to_order(self, number):
+    #    order_of_number = len(str(number))//3
+    #    return [str(number)[start:start+order_of_number] for start in range(0,len(number),order_of_number)]  
         
     def is_digit(self, number):
         return number < 10
