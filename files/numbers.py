@@ -15,7 +15,7 @@ class Numbers:
         elif self.is_teen(number):
             return self.teens[int(str(number)[1])]
         else:
-            return "ninety nine"
+            return self.to_number(digit) for digit in str(number)
         
     def is_digit(self, number):
         return number < 10
