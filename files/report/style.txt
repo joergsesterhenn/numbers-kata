@@ -1069,56 +1069,9 @@
     Okay: spam(1)\n#
     W291: spam(1) \n#
     W293: class Foo(object):\n    \n    bang = 12
-/sandbox/numbers.py:63:5: E265 block comment should start with '# '
-    #def disect_number_to_order(self, number):
-    ^
-    Separate inline comments by at least two spaces.
-
-    An inline comment is a comment on the same line as a statement.
-    Inline comments should be separated by at least two spaces from the
-    statement. They should start with a # and a single space.
-
-    Each line of a block comment starts with a # and one or multiple
-    spaces as there can be indented text inside the comment.
-
-    Okay: x = x + 1  # Increment x
-    Okay: x = x + 1    # Increment x
-    Okay: # Block comments:
-    Okay: #  - Block comment list
-    Okay: #  - Block comment list
-    E261: x = x + 1 # Increment x
-    E262: x = x + 1  #Increment x
-    E262: x = x + 1  #  Increment x
-    E262: x = x + 1  #  Increment x
-    E265: #Block comment
-    E266: ### Block comment
-/sandbox/numbers.py:65:81: E501 line too long (108 > 80 characters)
-    #    return [str(number)[start:start+order_of_number] for start in range(0,len(number),order_of_number)]
-                                                                                ^
-    Limit all lines to a maximum of 79 characters.
-
-    There are still many devices around that are limited to 80 character
-    lines; plus, limiting windows to 80 characters makes it possible to
-    have several windows side-by-side.  The default wrapping on such
-    devices looks ugly.  Therefore, please limit all lines to a maximum
-    of 79 characters. For flowing long blocks of text (docstrings or
-    comments), limiting the length to 72 characters is recommended.
-
-    Reports error E501.
-/sandbox/numbers.py:65:109: W291 trailing whitespace
-    #    return [str(number)[start:start+order_of_number] for start in range(0,len(number),order_of_number)]
-                                                                                                            ^
-    Trailing whitespace is superfluous.
-
-    The warning returned varies on whether the line itself is blank,
-    for easier filtering for those who want to indent their blank lines.
-
-    Okay: spam(1)\n#
-    W291: spam(1) \n#
-    W293: class Foo(object):\n    \n    bang = 12
-/sandbox/numbers.py:80:22: E231 missing whitespace after ','
-    def to_units(self,digit):
-                     ^
+/sandbox/numbers.py:64:43: E226 missing whitespace around arithmetic operator
+        order_of_number = len(str(number))//3
+                                          ^
     Surround operators with the correct amount of whitespace.
 
     - Always surround these binary operators with a single space on
@@ -1158,50 +1111,8 @@
     E231: ['a','b']
     E231: foo(bar,baz)
     E231: [{'a':'b'}]
-/sandbox/numbers.py:86:21: E231 missing whitespace after ','
-    def to_tens(self,digit, leading):
-                    ^
-    Surround operators with the correct amount of whitespace.
-
-    - Always surround these binary operators with a single space on
-      either side: assignment (=), augmented assignment (+=, -= etc.),
-      comparisons (==, <, >, !=, <=, >=, in, not in, is, is not),
-      Booleans (and, or, not).
-
-    - Each comma, semicolon or colon should be followed by whitespace.
-
-    - If operators with different priorities are used, consider adding
-      whitespace around the operators with the lowest priorities.
-
-    Okay: i = i + 1
-    Okay: submitted += 1
-    Okay: x = x * 2 - 1
-    Okay: hypot2 = x * x + y * y
-    Okay: c = (a + b) * (a - b)
-    Okay: foo(bar, key='word', *args, **kwargs)
-    Okay: alpha[:-i]
-    Okay: [a, b]
-    Okay: (3,)
-    Okay: a[3,] = 1
-    Okay: a[1:4]
-    Okay: a[:4]
-    Okay: a[1:]
-    Okay: a[1:4:2]
-
-    E225: i=i+1
-    E225: submitted +=1
-    E225: x = x /2 - 1
-    E225: z = x **y
-    E225: z = 1and 1
-    E226: c = (a+b) * (a-b)
-    E226: hypot2 = x*x + y*y
-    E227: c = a|b
-    E228: msg = fmt%(errno, errmsg)
-    E231: ['a','b']
-    E231: foo(bar,baz)
-    E231: [{'a':'b'}]
-/sandbox/numbers.py:95:25: E231 missing whitespace after ','
-    def to_hundreds(self,digit):
+/sandbox/numbers.py:65:25: E225 missing whitespace around operator
+        length_of_number=len(str(number))
                         ^
     Surround operators with the correct amount of whitespace.
 
@@ -1242,47 +1153,157 @@
     E231: ['a','b']
     E231: foo(bar,baz)
     E231: [{'a':'b'}]
-/sandbox/numbers.py:96:47: W292 no newline at end of file
-        return self.digits[digit] + ' hundred'
-                                              ^
-    Trailing blank lines are superfluous.
+/sandbox/numbers.py:66:25: E231 missing whitespace after ','
+        print('number: ',number)
+                        ^
+    Surround operators with the correct amount of whitespace.
 
-    Okay: spam(1)
-    W391: spam(1)\n
+    - Always surround these binary operators with a single space on
+      either side: assignment (=), augmented assignment (+=, -= etc.),
+      comparisons (==, <, >, !=, <=, >=, in, not in, is, is not),
+      Booleans (and, or, not).
 
-    However the last line should end with a new line (warning W292).
-/sandbox/test_numbers.py:10:1: E303 too many blank lines (4)
-class NumbersTest(unittest.TestCase):
-^
-    Separate top-level function and class definitions with two blank
-    lines.
+    - Each comma, semicolon or colon should be followed by whitespace.
 
-    Method definitions inside a class are separated by a single blank
-    line.
+    - If operators with different priorities are used, consider adding
+      whitespace around the operators with the lowest priorities.
 
-    Extra blank lines may be used (sparingly) to separate groups of
-    related functions.  Blank lines may be omitted between a bunch of
-    related one-liners (e.g. a set of dummy implementations).
+    Okay: i = i + 1
+    Okay: submitted += 1
+    Okay: x = x * 2 - 1
+    Okay: hypot2 = x * x + y * y
+    Okay: c = (a + b) * (a - b)
+    Okay: foo(bar, key='word', *args, **kwargs)
+    Okay: alpha[:-i]
+    Okay: [a, b]
+    Okay: (3,)
+    Okay: a[3,] = 1
+    Okay: a[1:4]
+    Okay: a[:4]
+    Okay: a[1:]
+    Okay: a[1:4:2]
 
-    Use blank lines in functions, sparingly, to indicate logical
-    sections.
+    E225: i=i+1
+    E225: submitted +=1
+    E225: x = x /2 - 1
+    E225: z = x **y
+    E225: z = 1and 1
+    E226: c = (a+b) * (a-b)
+    E226: hypot2 = x*x + y*y
+    E227: c = a|b
+    E228: msg = fmt%(errno, errmsg)
+    E231: ['a','b']
+    E231: foo(bar,baz)
+    E231: [{'a':'b'}]
+/sandbox/numbers.py:67:24: E231 missing whitespace after ','
+        print('order: ',order_of_number)
+                       ^
+    Surround operators with the correct amount of whitespace.
 
-    Okay: def a():\n    pass\n\n\ndef b():\n    pass
-    Okay: def a():\n    pass\n\n\nasync def b():\n    pass
-    Okay: def a():\n    pass\n\n\n# Foo\n# Bar\n\ndef b():\n    pass
-    Okay: default = 1\nfoo = 1
-    Okay: classify = 1\nfoo = 1
+    - Always surround these binary operators with a single space on
+      either side: assignment (=), augmented assignment (+=, -= etc.),
+      comparisons (==, <, >, !=, <=, >=, in, not in, is, is not),
+      Booleans (and, or, not).
 
-    E301: class Foo:\n    b = 0\n    def bar():\n        pass
-    E302: def a():\n    pass\n\ndef b(n):\n    pass
-    E302: def a():\n    pass\n\nasync def b(n):\n    pass
-    E303: def a():\n    pass\n\n\n\ndef b(n):\n    pass
-    E303: def a():\n\n\n\n    pass
-    E304: @decorator\n\ndef a():\n    pass
-    E305: def a():\n    pass\na()
-    E306: def a():\n    def b():\n        pass\n    def c():\n        pass
-/sandbox/test_numbers.py:28:81: E501 line too long (94 > 80 characters)
-    # 43112603 --> forty three million, one hundred and twelve thousand, six hundred and three
+    - Each comma, semicolon or colon should be followed by whitespace.
+
+    - If operators with different priorities are used, consider adding
+      whitespace around the operators with the lowest priorities.
+
+    Okay: i = i + 1
+    Okay: submitted += 1
+    Okay: x = x * 2 - 1
+    Okay: hypot2 = x * x + y * y
+    Okay: c = (a + b) * (a - b)
+    Okay: foo(bar, key='word', *args, **kwargs)
+    Okay: alpha[:-i]
+    Okay: [a, b]
+    Okay: (3,)
+    Okay: a[3,] = 1
+    Okay: a[1:4]
+    Okay: a[:4]
+    Okay: a[1:]
+    Okay: a[1:4:2]
+
+    E225: i=i+1
+    E225: submitted +=1
+    E225: x = x /2 - 1
+    E225: z = x **y
+    E225: z = 1and 1
+    E226: c = (a+b) * (a-b)
+    E226: hypot2 = x*x + y*y
+    E227: c = a|b
+    E228: msg = fmt%(errno, errmsg)
+    E231: ['a','b']
+    E231: foo(bar,baz)
+    E231: [{'a':'b'}]
+/sandbox/numbers.py:68:25: E231 missing whitespace after ','
+        print('length: ',length_of_number)
+                        ^
+    Surround operators with the correct amount of whitespace.
+
+    - Always surround these binary operators with a single space on
+      either side: assignment (=), augmented assignment (+=, -= etc.),
+      comparisons (==, <, >, !=, <=, >=, in, not in, is, is not),
+      Booleans (and, or, not).
+
+    - Each comma, semicolon or colon should be followed by whitespace.
+
+    - If operators with different priorities are used, consider adding
+      whitespace around the operators with the lowest priorities.
+
+    Okay: i = i + 1
+    Okay: submitted += 1
+    Okay: x = x * 2 - 1
+    Okay: hypot2 = x * x + y * y
+    Okay: c = (a + b) * (a - b)
+    Okay: foo(bar, key='word', *args, **kwargs)
+    Okay: alpha[:-i]
+    Okay: [a, b]
+    Okay: (3,)
+    Okay: a[3,] = 1
+    Okay: a[1:4]
+    Okay: a[:4]
+    Okay: a[1:]
+    Okay: a[1:4:2]
+
+    E225: i=i+1
+    E225: submitted +=1
+    E225: x = x /2 - 1
+    E225: z = x **y
+    E225: z = 1and 1
+    E226: c = (a+b) * (a-b)
+    E226: hypot2 = x*x + y*y
+    E227: c = a|b
+    E228: msg = fmt%(errno, errmsg)
+    E231: ['a','b']
+    E231: foo(bar,baz)
+    E231: [{'a':'b'}]
+/sandbox/numbers.py:69:9: E265 block comment should start with '# '
+        #array_of_ordered_numbers=[str(number)[max(3*start,-1*length_of_number):start] for start in (range(-1*(order_of_number+1),-2,-1))]
+        ^
+    Separate inline comments by at least two spaces.
+
+    An inline comment is a comment on the same line as a statement.
+    Inline comments should be separated by at least two spaces from the
+    statement. They should start with a # and a single space.
+
+    Each line of a block comment starts with a # and one or multiple
+    spaces as there can be indented text inside the comment.
+
+    Okay: x = x + 1  # Increment x
+    Okay: x = x + 1    # Increment x
+    Okay: # Block comments:
+    Okay: #  - Block comment list
+    Okay: #  - Block comment list
+    E261: x = x + 1 # Increment x
+    E262: x = x + 1  #Increment x
+    E262: x = x + 1  #  Increment x
+    E262: x = x + 1  #  Increment x
+    E265: #Block comment
+    E266: ### Block comment
+/sandbox/numbers.py:69:81: E501 line too long (138 > 80 characters)
+        #array_of_ordered_numbers=[str(number)[max(3*start,-1*length_of_number):start] for start in (range(-1*(order_of_number+1),-2,-1))]
                                                                                 ^
     Limit all lines to a maximum of 79 characters.
 
@@ -1294,19 +1315,9 @@ class NumbersTest(unittest.TestCase):
     comments), limiting the length to 72 characters is recommended.
 
     Reports error E501.
-/sandbox/test_numbers.py:35:17: E222 multiple spaces after operator
-        result =  [Numbers().to_number(number) for number in range(1,10)]
-                ^
-    Avoid extraneous whitespace around an operator.
-
-    Okay: a = 12 + 3
-    E221: a = 4  + 5
-    E222: a = 4 +  5
-    E223: a = 4\t+ 5
-    E224: a = 4 +\t5
-/sandbox/test_numbers.py:35:69: E231 missing whitespace after ','
-        result =  [Numbers().to_number(number) for number in range(1,10)]
-                                                                    ^
+/sandbox/numbers.py:71:40: E226 missing whitespace around arithmetic operator
+        for order in reversed((range(-1*(order_of_number+1),0))):
+                                       ^
     Surround operators with the correct amount of whitespace.
 
     - Always surround these binary operators with a single space on
@@ -1346,9 +1357,9 @@ class NumbersTest(unittest.TestCase):
     E231: ['a','b']
     E231: foo(bar,baz)
     E231: [{'a':'b'}]
-/sandbox/test_numbers.py:47:69: E231 missing whitespace after ','
-        result = [Numbers().to_number(number) for number in range(10,100)]
-                                                                    ^
+/sandbox/numbers.py:71:57: E226 missing whitespace around arithmetic operator
+        for order in reversed((range(-1*(order_of_number+1),0))):
+                                                        ^
     Surround operators with the correct amount of whitespace.
 
     - Always surround these binary operators with a single space on
@@ -1388,9 +1399,9 @@ class NumbersTest(unittest.TestCase):
     E231: ['a','b']
     E231: foo(bar,baz)
     E231: [{'a':'b'}]
-/sandbox/test_numbers.py:63:70: E231 missing whitespace after ','
-        result = [Numbers().to_number(number) for number in range(100,1000)]
-                                                                     ^
+/sandbox/numbers.py:71:60: E231 missing whitespace after ','
+        for order in reversed((range(-1*(order_of_number+1),0))):
+                                                           ^
     Surround operators with the correct amount of whitespace.
 
     - Always surround these binary operators with a single space on
@@ -1430,3 +1441,78 @@ class NumbersTest(unittest.TestCase):
     E231: ['a','b']
     E231: foo(bar,baz)
     E231: [{'a':'b'}]
+/sandbox/numbers.py:72:18: E225 missing whitespace around operator
+            start=max(3*order,-1*length_of_number)
+                 ^
+    Surround operators with the correct amount of whitespace.
+
+    - Always surround these binary operators with a single space on
+      either side: assignment (=), augmented assignment (+=, -= etc.),
+      comparisons (==, <, >, !=, <=, >=, in, not in, is, is not),
+      Booleans (and, or, not).
+
+    - Each comma, semicolon or colon should be followed by whitespace.
+
+    - If operators with different priorities are used, consider adding
+      whitespace around the operators with the lowest priorities.
+
+    Okay: i = i + 1
+    Okay: submitted += 1
+    Okay: x = x * 2 - 1
+    Okay: hypot2 = x * x + y * y
+    Okay: c = (a + b) * (a - b)
+    Okay: foo(bar, key='word', *args, **kwargs)
+    Okay: alpha[:-i]
+    Okay: [a, b]
+    Okay: (3,)
+    Okay: a[3,] = 1
+    Okay: a[1:4]
+    Okay: a[:4]
+    Okay: a[1:]
+    Okay: a[1:4:2]
+
+    E225: i=i+1
+    E225: submitted +=1
+    E225: x = x /2 - 1
+    E225: z = x **y
+    E225: z = 1and 1
+    E226: c = (a+b) * (a-b)
+    E226: hypot2 = x*x + y*y
+    E227: c = a|b
+    E228: msg = fmt%(errno, errmsg)
+    E231: ['a','b']
+    E231: foo(bar,baz)
+    E231: [{'a':'b'}]
+/sandbox/numbers.py:72:24: E226 missing whitespace around arithmetic operator
+            start=max(3*order,-1*length_of_number)
+                       ^
+    Surround operators with the correct amount of whitespace.
+
+    - Always surround these binary operators with a single space on
+      either side: assignment (=), augmented assignment (+=, -= etc.),
+      comparisons (==, <, >, !=, <=, >=, in, not in, is, is not),
+      Booleans (and, or, not).
+
+    - Each comma, semicolon or colon should be followed by whitespace.
+
+    - If operators with different priorities are used, consider adding
+      whitespace around the operators with the lowest priorities.
+
+    Okay: i = i + 1
+    Okay: submitted += 1
+    Okay: x = x * 2 - 1
+    Okay: hypot2 = x * x + y * y
+    Okay: c = (a + b) * (a - b)
+    Okay: foo(bar, key='word', *args, **kwargs)
+    Okay: alpha[:-i]
+    Okay: [a, b]
+    Okay: (3,)
+    Okay: a[3,] = 1
+    Okay: a[1:4]
+    Okay: a[:4]
+    Okay: a[1:]
+    Okay: a[1:4:2]
+
+    E225: i=i+1
+    E225: submitted +=1
+    E225: 
