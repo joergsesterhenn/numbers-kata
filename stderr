@@ -6,10 +6,10 @@ Traceback (most recent call last):
   File "/sandbox/test_numbers.py", line 63, in test_every_three_digit_number
     result = [Numbers().to_number(number) for number in range(100,1000)]
               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/sandbox/numbers.py", line 41, in to_number
-    number_string.append(get_number_by_order(self, number, order))
-    ^^^^^^^^^^^^^^^^^^^^
-AttributeError: 'str' object has no attribute 'append'
+  File "/sandbox/numbers.py", line 39, in to_number
+    number_string+=(get_number_by_order(self, number, order))
+                    ^^^^^^^^^^^^^^^^^^^
+NameError: name 'get_number_by_order' is not defined. Did you mean: 'self.get_number_by_order'?
 
 ======================================================================
 ERROR: test_every_two_digit_number (test_numbers.NumbersTest.test_every_two_digit_number)
@@ -18,10 +18,10 @@ Traceback (most recent call last):
   File "/sandbox/test_numbers.py", line 47, in test_every_two_digit_number
     result = [Numbers().to_number(number) for number in range(10,100)]
               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/sandbox/numbers.py", line 41, in to_number
-    number_string.append(get_number_by_order(self, number, order))
-    ^^^^^^^^^^^^^^^^^^^^
-AttributeError: 'str' object has no attribute 'append'
+  File "/sandbox/numbers.py", line 39, in to_number
+    number_string+=(get_number_by_order(self, number, order))
+                    ^^^^^^^^^^^^^^^^^^^
+NameError: name 'get_number_by_order' is not defined. Did you mean: 'self.get_number_by_order'?
 
 ======================================================================
 ERROR: test_ninety_nine (test_numbers.NumbersTest.test_ninety_nine)
@@ -30,10 +30,10 @@ Traceback (most recent call last):
   File "/sandbox/test_numbers.py", line 43, in test_ninety_nine
     result = str(Numbers().to_number(99))
                  ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/sandbox/numbers.py", line 41, in to_number
-    number_string.append(get_number_by_order(self, number, order))
-    ^^^^^^^^^^^^^^^^^^^^
-AttributeError: 'str' object has no attribute 'append'
+  File "/sandbox/numbers.py", line 39, in to_number
+    number_string+=(get_number_by_order(self, number, order))
+                    ^^^^^^^^^^^^^^^^^^^
+NameError: name 'get_number_by_order' is not defined. Did you mean: 'self.get_number_by_order'?
 
 ======================================================================
 ERROR: test_number_one (test_numbers.NumbersTest.test_number_one)
@@ -42,10 +42,10 @@ Traceback (most recent call last):
   File "/sandbox/test_numbers.py", line 31, in test_number_one
     result = str(Numbers().to_number(1))
                  ^^^^^^^^^^^^^^^^^^^^^^
-  File "/sandbox/numbers.py", line 41, in to_number
-    number_string.append(get_number_by_order(self, number, order))
-    ^^^^^^^^^^^^^^^^^^^^
-AttributeError: 'str' object has no attribute 'append'
+  File "/sandbox/numbers.py", line 39, in to_number
+    number_string+=(get_number_by_order(self, number, order))
+                    ^^^^^^^^^^^^^^^^^^^
+NameError: name 'get_number_by_order' is not defined. Did you mean: 'self.get_number_by_order'?
 
 ======================================================================
 ERROR: test_one_hundred (test_numbers.NumbersTest.test_one_hundred)
@@ -54,10 +54,10 @@ Traceback (most recent call last):
   File "/sandbox/test_numbers.py", line 51, in test_one_hundred
     result = Numbers().to_number(100)
              ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/sandbox/numbers.py", line 41, in to_number
-    number_string.append(get_number_by_order(self, number, order))
-    ^^^^^^^^^^^^^^^^^^^^
-AttributeError: 'str' object has no attribute 'append'
+  File "/sandbox/numbers.py", line 39, in to_number
+    number_string+=(get_number_by_order(self, number, order))
+                    ^^^^^^^^^^^^^^^^^^^
+NameError: name 'get_number_by_order' is not defined. Did you mean: 'self.get_number_by_order'?
 
 ======================================================================
 ERROR: test_one_thousand_five_hundred_and_one (test_numbers.NumbersTest.test_one_thousand_five_hundred_and_one)
@@ -66,10 +66,10 @@ Traceback (most recent call last):
   File "/sandbox/test_numbers.py", line 67, in test_one_thousand_five_hundred_and_one
     result = Numbers().to_number(1501)
              ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/sandbox/numbers.py", line 41, in to_number
-    number_string.append(get_number_by_order(self, number, order))
-    ^^^^^^^^^^^^^^^^^^^^
-AttributeError: 'str' object has no attribute 'append'
+  File "/sandbox/numbers.py", line 39, in to_number
+    number_string+=(get_number_by_order(self, number, order))
+                    ^^^^^^^^^^^^^^^^^^^
+NameError: name 'get_number_by_order' is not defined. Did you mean: 'self.get_number_by_order'?
 
 ======================================================================
 ERROR: test_single_digits (test_numbers.NumbersTest.test_single_digits)
@@ -78,10 +78,10 @@ Traceback (most recent call last):
   File "/sandbox/test_numbers.py", line 35, in test_single_digits
     result =  [Numbers().to_number(number) for number in range(1,10)]
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/sandbox/numbers.py", line 41, in to_number
-    number_string.append(get_number_by_order(self, number, order))
-    ^^^^^^^^^^^^^^^^^^^^
-AttributeError: 'str' object has no attribute 'append'
+  File "/sandbox/numbers.py", line 39, in to_number
+    number_string+=(get_number_by_order(self, number, order))
+                    ^^^^^^^^^^^^^^^^^^^
+NameError: name 'get_number_by_order' is not defined. Did you mean: 'self.get_number_by_order'?
 
 ======================================================================
 ERROR: test_ten (test_numbers.NumbersTest.test_ten)
@@ -90,10 +90,10 @@ Traceback (most recent call last):
   File "/sandbox/test_numbers.py", line 39, in test_ten
     result = str(Numbers().to_number(10))
                  ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/sandbox/numbers.py", line 41, in to_number
-    number_string.append(get_number_by_order(self, number, order))
-    ^^^^^^^^^^^^^^^^^^^^
-AttributeError: 'str' object has no attribute 'append'
+  File "/sandbox/numbers.py", line 39, in to_number
+    number_string+=(get_number_by_order(self, number, order))
+                    ^^^^^^^^^^^^^^^^^^^
+NameError: name 'get_number_by_order' is not defined. Did you mean: 'self.get_number_by_order'?
 
 ======================================================================
 ERROR: test_three_hundred (test_numbers.NumbersTest.test_three_hundred)
@@ -102,10 +102,10 @@ Traceback (most recent call last):
   File "/sandbox/test_numbers.py", line 55, in test_three_hundred
     result = Numbers().to_number(300)
              ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/sandbox/numbers.py", line 41, in to_number
-    number_string.append(get_number_by_order(self, number, order))
-    ^^^^^^^^^^^^^^^^^^^^
-AttributeError: 'str' object has no attribute 'append'
+  File "/sandbox/numbers.py", line 39, in to_number
+    number_string+=(get_number_by_order(self, number, order))
+                    ^^^^^^^^^^^^^^^^^^^
+NameError: name 'get_number_by_order' is not defined. Did you mean: 'self.get_number_by_order'?
 
 ======================================================================
 ERROR: test_three_hundred_ten (test_numbers.NumbersTest.test_three_hundred_ten)
@@ -114,12 +114,12 @@ Traceback (most recent call last):
   File "/sandbox/test_numbers.py", line 59, in test_three_hundred_ten
     result = Numbers().to_number(310)
              ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/sandbox/numbers.py", line 41, in to_number
-    number_string.append(get_number_by_order(self, number, order))
-    ^^^^^^^^^^^^^^^^^^^^
-AttributeError: 'str' object has no attribute 'append'
+  File "/sandbox/numbers.py", line 39, in to_number
+    number_string+=(get_number_by_order(self, number, order))
+                    ^^^^^^^^^^^^^^^^^^^
+NameError: name 'get_number_by_order' is not defined. Did you mean: 'self.get_number_by_order'?
 
 ----------------------------------------------------------------------
-Ran 11 tests in 0.052s
+Ran 11 tests in 0.016s
 
 FAILED (errors=10)

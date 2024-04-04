@@ -31,15 +31,15 @@ class Numbers:
     # once those are done we can calculate the next order of magnitude
     # blocks of three digits are divided by a comma - unless nothing follows
     # if we have hundreds of something we append partial hundreds with an ' and '
-    
-   
-    
+        
     def to_number(self, number):
         array_of_numbers_by_order = self.disect_number(number)
         number_string=''
         for order, number in enumerate(array_of_numbers_by_order):
-            number_string.append(get_number_by_order(self, number, order))
-        
+            number_string+=(get_number_by_order(self, number, order))
+        return number_string
+    
+    
     def get_number_by_order(self, number, order):    
         if self.is_digit(number) and order==0:
             return self.digits[number]
