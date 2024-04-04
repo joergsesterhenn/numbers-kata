@@ -41,7 +41,7 @@ class Numbers:
             number_string = number_string + (self.get_number_by_order(number_part, order))
             print (number, order, number_part, self.orders[order], number_string)
             if order_of_number-order >0:
-                number_string = number_string + ' ' + self.orders[order] + ', ' 
+                number_string = number_string + ' ' + self.orders[order+1] + ', ' 
         return number_string
     
     
