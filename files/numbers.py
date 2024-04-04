@@ -39,9 +39,9 @@ class Numbers:
         for order, number_part in enumerate(array_of_numbers_by_order):
             part_of_number_string = self.get_number_by_order(number_part, order)
             number_string = number_string + (part_of_number_string)
-            if part_of_number_string == '' and order_of_number<>order:
+            if part_of_number_string == '' and not order_of_number == order:
                 number_string=number_string(:number_string.rfind(''))
-            if order_of_number-order>0 and part_of_number_string <> '':
+            if order_of_number-order>0 and not part_of_number_string == '':
                 number_string = number_string + ' ' + self.orders[order_of_number-order] + ', ' 
         return number_string
     
