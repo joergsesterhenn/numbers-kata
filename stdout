@@ -1,7 +1,7 @@
 --- NumbersTest.test_one_million.approved.txt
 +++ NumbersTest.test_one_million.received.txt
 @@ -0,0 +1 @@
-+one million,
++one million
 
 
 to approve this result:
