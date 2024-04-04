@@ -1,4 +1,4 @@
 --- NumbersTest.test_disecting_to_order.approved.txt
 +++ NumbersTest.test_disecting_to_order.received.txt
 @@ -0,0 +1 @@
-+['1', '0', '5', '1']
++[]
