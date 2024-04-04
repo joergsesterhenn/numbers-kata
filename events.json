@@ -1437,5 +1437,21 @@
       58,
       281955
     ]
+  },
+  {
+    "duration": 1.062657,
+    "colour": "red",
+    "predicted": "red",
+    "revert_if_wrong": "off",
+    "index": 90,
+    "time": [
+      2024,
+      4,
+      4,
+      10,
+      45,
+      55,
+      804058
+    ]
   }
 ]
