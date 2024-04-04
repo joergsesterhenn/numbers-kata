@@ -1,13 +1,13 @@
 number:  1501
 order:  1
 length:  4
--1 -1 -4 50
--2 -4 -4 
-['50', '']
+-1 -1 -4 
+-2 -4 -4 1
+['', '1']
 --- NumbersTest.test_disecting_to_order.approved.txt
 +++ NumbersTest.test_disecting_to_order.received.txt
 @@ -0,0 +1 @@
-+['50', '']
++['', '1']
 
 
 to approve this result:
