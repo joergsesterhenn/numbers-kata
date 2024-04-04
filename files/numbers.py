@@ -63,13 +63,14 @@ class Numbers:
     def disect_number(self, number):
         order_of_number = len(str(number))//3
         length_of_number=len(str(number))
-        print(order_of_number)
-        print(length_of_number)
+        print('number: ',number)
+        print('order: ',order_of_number)
+        print('length: ',length_of_number)
         #array_of_ordered_numbers=[str(number)[max(3*start,-1*length_of_number):start] for start in (range(-1*(order_of_number+1),-2,-1))]
         array_of_ordered_numbers = []
         for start in reversed((range(-1*(order_of_number+1),0))):
-            print(start, -1*length_of_number, str(number)[max(3*start,-1*length_of_number):start])
-            array_of_ordered_numbers.append(str(number)[max(3*start,-1*length_of_number):start])
+            print(start, -1+(start+1)*3, -1*length_of_number, str(number)[max(3*start,-1*length_of_number):-1+(start+1)*3])
+            array_of_ordered_numbers.append(str(number)[max(3*start,-1*length_of_number):-1+(start+1)*3])
 
         print(array_of_ordered_numbers)
         return array_of_ordered_numbers  
