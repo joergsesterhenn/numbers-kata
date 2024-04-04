@@ -63,7 +63,11 @@ class Numbers:
     def disect_number(self, number):
         order_of_number = len(str(number))//3
         length_of_number=len(str(number))
-        return [str(number)[max(3*start,-1*length_of_number):start] for start in reversed((range(-1,-1*(order_of_number+1))))]  
+        print(order_of_number)
+        print(length_of_number)
+        array_of_ordered_numbers=[str(number)[max(3*start,-1*length_of_number):start],start for start in reversed((range(-1,-1*(order_of_number+1))))]
+        print(array_of_ordered_numbers)
+        return array_of_ordered_numbers  
         
     def is_digit(self, number):
         return number < 10
