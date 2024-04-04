@@ -4,8 +4,8 @@ ERROR: test_one_million (test_numbers.NumbersTest.test_one_million)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
   File "/sandbox/test_numbers.py", line 87, in test_one_million
-    result = Numbers().to_number(10000000)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    result = Numbers().to_number(1000000)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/sandbox/numbers.py", line 40, in to_number
     number_string = number_string + (self.get_number_by_order(number_part, order))
                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -15,6 +15,6 @@ Traceback (most recent call last):
 IndexError: string index out of range
 
 ----------------------------------------------------------------------
-Ran 15 tests in 0.072s
+Ran 15 tests in 0.055s
 
 FAILED (errors=1)
