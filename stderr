@@ -1,24 +1,4 @@
-.EEEE..EEE..EEE
-======================================================================
-ERROR: test_every_three_digit_number (test_numbers.NumbersTest.test_every_three_digit_number)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/sandbox/test_numbers.py", line 64, in test_every_three_digit_number
-    verify(result)
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 120, in verify
-    verify_with_namer(
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 220, in verify_with_namer
-    verify_with_namer_and_writer(namer, writer, options=options)
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 231, in verify_with_namer_and_writer
-    error = FileApprover.verify(namer, writer, options.reporter, options.comparator)
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 55, in verify
-    verified = FileApprover.verify_files(approved, received, reporter, comparator)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 111, in verify_files
-    raise ReporterNotWorkingException(reporter)
-approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7fc58f7a1190> failed to work!
-
+..E.EE..E......
 ======================================================================
 ERROR: test_every_two_digit_number (test_numbers.NumbersTest.test_every_two_digit_number)
 ----------------------------------------------------------------------
@@ -37,27 +17,7 @@ Traceback (most recent call last):
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 111, in verify_files
     raise ReporterNotWorkingException(reporter)
-approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7fc58f43c1d0> failed to work!
-
-======================================================================
-ERROR: test_five_hundred_and_twelve_thousand_six_hundred_and_seven (test_numbers.NumbersTest.test_five_hundred_and_twelve_thousand_six_hundred_and_seven)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/sandbox/test_numbers.py", line 80, in test_five_hundred_and_twelve_thousand_six_hundred_and_seven
-    verify(result)
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 120, in verify
-    verify_with_namer(
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 220, in verify_with_namer
-    verify_with_namer_and_writer(namer, writer, options=options)
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 231, in verify_with_namer_and_writer
-    error = FileApprover.verify(namer, writer, options.reporter, options.comparator)
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 55, in verify
-    verified = FileApprover.verify_files(approved, received, reporter, comparator)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 111, in verify_files
-    raise ReporterNotWorkingException(reporter)
-approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7fc58f39f3b0> failed to work!
+approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7f7536d05d90> failed to work!
 
 ======================================================================
 ERROR: test_forty_three_million (test_numbers.NumbersTest.test_forty_three_million)
@@ -77,13 +37,13 @@ Traceback (most recent call last):
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 111, in verify_files
     raise ReporterNotWorkingException(reporter)
-approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7fc58f39f620> failed to work!
+approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7f753658fe30> failed to work!
 
 ======================================================================
-ERROR: test_one_hundred (test_numbers.NumbersTest.test_one_hundred)
+ERROR: test_ninety_nine (test_numbers.NumbersTest.test_ninety_nine)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/sandbox/test_numbers.py", line 52, in test_one_hundred
+  File "/sandbox/test_numbers.py", line 44, in test_ninety_nine
     verify(result)
   File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 120, in verify
     verify_with_namer(
@@ -97,7 +57,7 @@ Traceback (most recent call last):
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 111, in verify_files
     raise ReporterNotWorkingException(reporter)
-approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7fc58f39f860> failed to work!
+approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7f75366140e0> failed to work!
 
 ======================================================================
 ERROR: test_one_million (test_numbers.NumbersTest.test_one_million)
@@ -117,89 +77,9 @@ Traceback (most recent call last):
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 111, in verify_files
     raise ReporterNotWorkingException(reporter)
-approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7fc58f39f6e0> failed to work!
-
-======================================================================
-ERROR: test_one_thousand_five_hundred_and_one (test_numbers.NumbersTest.test_one_thousand_five_hundred_and_one)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/sandbox/test_numbers.py", line 68, in test_one_thousand_five_hundred_and_one
-    verify(result)
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 120, in verify
-    verify_with_namer(
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 220, in verify_with_namer
-    verify_with_namer_and_writer(namer, writer, options=options)
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 231, in verify_with_namer_and_writer
-    error = FileApprover.verify(namer, writer, options.reporter, options.comparator)
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 55, in verify
-    verified = FileApprover.verify_files(approved, received, reporter, comparator)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 111, in verify_files
-    raise ReporterNotWorkingException(reporter)
-approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7fc58f39fc20> failed to work!
-
-======================================================================
-ERROR: test_three_hundred (test_numbers.NumbersTest.test_three_hundred)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/sandbox/test_numbers.py", line 56, in test_three_hundred
-    verify(result)
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 120, in verify
-    verify_with_namer(
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 220, in verify_with_namer
-    verify_with_namer_and_writer(namer, writer, options=options)
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 231, in verify_with_namer_and_writer
-    error = FileApprover.verify(namer, writer, options.reporter, options.comparator)
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 55, in verify
-    verified = FileApprover.verify_files(approved, received, reporter, comparator)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 111, in verify_files
-    raise ReporterNotWorkingException(reporter)
-approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7fc58f935970> failed to work!
-
-======================================================================
-ERROR: test_three_hundred_ten (test_numbers.NumbersTest.test_three_hundred_ten)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/sandbox/test_numbers.py", line 60, in test_three_hundred_ten
-    verify(result)
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 120, in verify
-    verify_with_namer(
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 220, in verify_with_namer
-    verify_with_namer_and_writer(namer, writer, options=options)
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 231, in verify_with_namer_and_writer
-    error = FileApprover.verify(namer, writer, options.reporter, options.comparator)
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 55, in verify
-    verified = FileApprover.verify_files(approved, received, reporter, comparator)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 111, in verify_files
-    raise ReporterNotWorkingException(reporter)
-approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7fc58f4cc350> failed to work!
-
-======================================================================
-ERROR: test_twelve_thousand_six_hundred_and_nine (test_numbers.NumbersTest.test_twelve_thousand_six_hundred_and_nine)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/sandbox/test_numbers.py", line 76, in test_twelve_thousand_six_hundred_and_nine
-    verify(result)
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 120, in verify
-    verify_with_namer(
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 220, in verify_with_namer
-    verify_with_namer_and_writer(namer, writer, options=options)
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 231, in verify_with_namer_and_writer
-    error = FileApprover.verify(namer, writer, options.reporter, options.comparator)
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 55, in verify
-    verified = FileApprover.verify_files(approved, received, reporter, comparator)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 111, in verify_files
-    raise ReporterNotWorkingException(reporter)
-approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7fc58f39fbc0> failed to work!
+approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7f75366141d0> failed to work!
 
 ----------------------------------------------------------------------
-Ran 15 tests in 0.070s
+Ran 15 tests in 0.060s
 
-FAILED (errors=10)
+FAILED (errors=4)
