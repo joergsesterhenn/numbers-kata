@@ -62,7 +62,7 @@ class Numbers:
         
     def disect_number(self, number):
         order_of_number = len(str(number))//3
-        length_of_number=len(str(number)
+        length_of_number=len(str(number))
         return [str(number)[start:start+order_of_number] for start in reversed(range(0,length_of_number,order_of_number))]  
         
     def is_digit(self, number):
