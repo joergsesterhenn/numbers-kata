@@ -1,5 +1,20 @@
-..............
+........E......
+======================================================================
+ERROR: test_one_million (test_numbers.NumbersTest.test_one_million)
 ----------------------------------------------------------------------
-Ran 14 tests in 0.060s
+Traceback (most recent call last):
+  File "/sandbox/test_numbers.py", line 87, in test_one_million
+    result = Numbers().to_number(10000000)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sandbox/numbers.py", line 40, in to_number
+    number_string = number_string + (self.get_number_by_order(number_part, order))
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sandbox/numbers.py", line 58, in get_number_by_order
+    second_digit=int(str(number)[1])
+                     ~~~~~~~~~~~^^^
+IndexError: string index out of range
 
-OK
+----------------------------------------------------------------------
+Ran 15 tests in 0.072s
+
+FAILED (errors=1)

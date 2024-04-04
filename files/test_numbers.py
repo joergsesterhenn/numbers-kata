@@ -83,6 +83,9 @@ class NumbersTest(unittest.TestCase):
         result = Numbers().to_number(43112603)
         verify(result)
         
+    def test_one_million(self):
+        result = Numbers().to_number(10000000)
+        verify(result)
        
 if __name__ == "__main__":
     unittest.main()
