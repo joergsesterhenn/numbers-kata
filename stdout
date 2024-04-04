@@ -1,14 +1,3 @@
---- NumbersTest.test_disecting_to_order.approved.txt
-+++ NumbersTest.test_disecting_to_order.received.txt
-@@ -1 +1 @@
--['1', '501']
-+[1, 501]
-
-
-to approve this result:
-
-mv -f /sandbox/NumbersTest.test_disecting_to_order.received.txt /sandbox/NumbersTest.test_disecting_to_order.approved.txt
-
 0 10 
 0 11 
 0 12 
