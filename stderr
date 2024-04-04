@@ -1,5 +1,17 @@
-..........
+E..........
+======================================================================
+ERROR: test_disecting_to_order (test_numbers.NumbersTest.test_disecting_to_order)
 ----------------------------------------------------------------------
-Ran 10 tests in 0.039s
+Traceback (most recent call last):
+  File "/sandbox/test_numbers.py", line 71, in test_disecting_to_order
+    result = Numbers().disect_number(1501)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sandbox/numbers.py", line 65, in disect_number
+    return [str(number)[start:start+order_of_number] for start in range(0,len(number),order_of_number)]
+                                                                        ^^^^^^^^^^^
+TypeError: object of type 'int' has no len()
 
-OK
+----------------------------------------------------------------------
+Ran 11 tests in 0.044s
+
+FAILED (errors=1)

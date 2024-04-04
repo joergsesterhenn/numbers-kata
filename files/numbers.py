@@ -60,9 +60,9 @@ class Numbers:
         else: 
             return 'one thousand five hundred and one'
         
-    #def disect_number_to_order(self, number):
-    #    order_of_number = len(str(number))//3
-    #    return [str(number)[start:start+order_of_number] for start in range(0,len(number),order_of_number)]  
+    def disect_number(self, number):
+        order_of_number = len(str(number))//3
+        return [str(number)[start:start+order_of_number] for start in range(0,len(number),order_of_number)]  
         
     def is_digit(self, number):
         return number < 10
