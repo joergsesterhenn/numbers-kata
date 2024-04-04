@@ -35,14 +35,14 @@ class Numbers:
     def to_number(self, number: int):
         array_of_numbers_by_order = self.disect_number(number)
         order_of_number = (len(str(number))-1)//3
-        #print (number, array_of_numbers_by_order)
+        if number ==43112603:
+            print (number, array_of_numbers_by_order)
         number_string=''
         for order, number_part in enumerate(array_of_numbers_by_order):
             number_string = number_string + (self.get_number_by_order(number_part, order))
-            if order_of_number-order >0:
+            if number ==43112603:
                 print (number, order, order_of_number, number_part, self.orders[order], number_string)
-                # 43112603 0 43  fourty three
-                # 43112603 1 112 thousand fourty three thousand, one hundred and twelve
+            if order_of_number-order >0:
                 number_string = number_string + ' ' + self.orders[order+1] + ', ' 
         return number_string
     
