@@ -1,4 +1,4 @@
 --- NumbersTest.test_one_million.approved.txt
 +++ NumbersTest.test_one_million.received.txt
 @@ -0,0 +1 @@
-+one million,  thousand, ten
++one million,  thousand, 
