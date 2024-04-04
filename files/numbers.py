@@ -76,7 +76,7 @@ class Numbers:
                 array_of_ordered_numbers.append(str(number)[start:])
             else:
                 array_of_ordered_numbers.append(str(number)[start:end])
-        return reversed(array_of_ordered_numbers)  
+        return list(reversed(array_of_ordered_numbers))  
         
     def is_digit(self, number):
         return number < 10

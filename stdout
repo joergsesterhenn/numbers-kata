@@ -6,7 +6,7 @@ length:  4
 --- NumbersTest.test_disecting_to_order.approved.txt
 +++ NumbersTest.test_disecting_to_order.received.txt
 @@ -0,0 +1 @@
-+<list_reverseiterator object at 0x7f045ada6710>
++['1', '501']
 
 
 to approve this result:
