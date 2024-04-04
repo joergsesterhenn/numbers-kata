@@ -2333,5 +2333,21 @@
       30,
       619566
     ]
+  },
+  {
+    "duration": 1.107575,
+    "colour": "red",
+    "predicted": "red",
+    "revert_if_wrong": "off",
+    "index": 146,
+    "time": [
+      2024,
+      4,
+      4,
+      14,
+      1,
+      12,
+      616675
+    ]
   }
 ]
