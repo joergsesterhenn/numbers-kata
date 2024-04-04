@@ -70,6 +70,10 @@ class NumbersTest(unittest.TestCase):
     def test_disecting_to_order(self):
         result = Numbers().disect_number(1501)
         verify(result)
+        
+    def test_twelve_thousand_six_hundred_and_nine(self):
+        result = Numbers().to_number(12609)
+        verify(result)
        
 if __name__ == "__main__":
     unittest.main()
