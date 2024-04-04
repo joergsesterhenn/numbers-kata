@@ -2,9 +2,3 @@
 +++ NumbersTest.test_one_million.received.txt
 @@ -0,0 +1 @@
 +one million, eleven thousand, eleven
-
-
-to approve this result:
-
-mv -f /sandbox/NumbersTest.test_one_million.received.txt /sandbox/NumbersTest.test_one_million.approved.txt
-
