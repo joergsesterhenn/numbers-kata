@@ -40,7 +40,9 @@ class Numbers:
         for order, number_part in enumerate(array_of_numbers_by_order):
             number_string = number_string + (self.get_number_by_order(number_part, order))
             if order_of_number-order >0:
-                print (number, order, number_part, self.orders[order], number_string)
+                print (number, order, order_of_number, number_part, self.orders[order], number_string)
+                # 43112603 0 43  fourty three
+                # 43112603 1 112 thousand fourty three thousand, one hundred and twelve
                 number_string = number_string + ' ' + self.orders[order+1] + ', ' 
         return number_string
     

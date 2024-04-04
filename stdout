@@ -1,6 +1,6 @@
-512607 0 512  five hundred and twelve
-43112603 0 43  fourty three
-43112603 1 112 thousand fourty three thousand, one hundred and twelve
+512607 0 1 512  five hundred and twelve
+43112603 0 2 43  fourty three
+43112603 1 2 112 thousand fourty three thousand, one hundred and twelve
 --- NumbersTest.test_forty_three_million.approved.txt
 +++ NumbersTest.test_forty_three_million.received.txt
 @@ -1 +1 @@
@@ -12,5 +12,5 @@ to approve this result:
 
 mv -f /sandbox/NumbersTest.test_forty_three_million.received.txt /sandbox/NumbersTest.test_forty_three_million.approved.txt
 
-1501 0 1  one
-12609 0 12  twelve
+1501 0 1 1  one
+12609 0 1 12  twelve
