@@ -1,20 +1,5 @@
-number:  15015646546654556
-order:  5
-length:  17
+number:  1501
+order:  1
+length:  4
 -3 0 
--6 -3 654
--9 -6 546
--12 -9 646
--15 -12 015
--17 -15 15
---- NumbersTest.test_disecting_to_order.approved.txt
-+++ NumbersTest.test_disecting_to_order.received.txt
-@@ -1 +1 @@
--['1', '501']
-+['15', '015', '646', '546', '654', '556']
-
-
-to approve this result:
-
-mv -f /sandbox/NumbersTest.test_disecting_to_order.received.txt /sandbox/NumbersTest.test_disecting_to_order.approved.txt
-
+-4 -3 1
