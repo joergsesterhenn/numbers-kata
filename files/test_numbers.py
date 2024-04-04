@@ -68,7 +68,7 @@ class NumbersTest(unittest.TestCase):
         verify(result)
         
     def test_disecting_to_order(self):
-        result = Numbers().disect_number(1501)
+        result = Numbers().disect_number(15015646546654556)
         verify(result)
         
 if __name__ == "__main__":
