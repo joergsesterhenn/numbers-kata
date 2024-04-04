@@ -36,10 +36,10 @@ class Numbers:
         array_of_numbers_by_order = self.disect_number(number)
         number_string=''
         for order, number in enumerate(array_of_numbers_by_order):
-            number_string+=(self.get_number_by_order(number, order))
-            print (order, number, self.orders[order])
+            number_string = number_string + (self.get_number_by_order(number, order))
+            print (order, number, self.orders[order], number_string)
             if order>0:
-                number_string+=' '+self.orders[order]
+                number_string = number_string + ' ' + self.orders[order] + ', ' 
         return number_string
     
     
