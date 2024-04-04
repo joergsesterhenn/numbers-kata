@@ -79,7 +79,7 @@ class NumbersTest(unittest.TestCase):
         result = Numbers().to_number(512607)
         verify(result)
     
-    def test_forty_three_million_one_hundred_and_twelve_thousand_six_hundred_and_three(self):
+    def test_forty_three_million(self):
         result = Numbers().to_number(43112603)
         verify(result)
         

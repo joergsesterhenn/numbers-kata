@@ -1,9 +1,9 @@
 ....E.........
 ======================================================================
-ERROR: test_forty_three_million_one_hundred_and_twelve_thousand_six_hundred_and_three (test_numbers.NumbersTest.test_forty_three_million_one_hundred_and_twelve_thousand_six_hundred_and_three)
+ERROR: test_forty_three_million (test_numbers.NumbersTest.test_forty_three_million)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/sandbox/test_numbers.py", line 84, in test_forty_three_million_one_hundred_and_twelve_thousand_six_hundred_and_three
+  File "/sandbox/test_numbers.py", line 84, in test_forty_three_million
     verify(result)
   File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 120, in verify
     verify_with_namer(
@@ -17,9 +17,9 @@ Traceback (most recent call last):
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 111, in verify_files
     raise ReporterNotWorkingException(reporter)
-approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7ff60659ffb0> failed to work!
+approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7ff8060d6660> failed to work!
 
 ----------------------------------------------------------------------
-Ran 14 tests in 0.412s
+Ran 14 tests in 0.386s
 
 FAILED (errors=1)
