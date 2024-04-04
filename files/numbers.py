@@ -55,13 +55,13 @@ class Numbers:
         elif self.is_teen(number):
             return self.teens[int(str(number)[1])]
         elif self.is_below_hundred(number):
-            first_digit=int(number_string[0])
-            second_digit=int(number_string[1])
+            first_digit=int(str(number)[0])
+            second_digit=int(str(number)[1])
             return self.to_tens(first_digit, True) + self.to_units(second_digit)
         elif self.is_below_thousand(number):
-            first_digit=int(number_string[0])
-            second_digit=int(number_string[1])
-            third_digit=int(number_string[2])
+            first_digit=int(str(number)[0])
+            second_digit=int(str(number)[1])
+            third_digit=int(str(number)[2])
             if second_digit==0:
                 if third_digit==0:
                     return self.to_hundreds(first_digit) 
