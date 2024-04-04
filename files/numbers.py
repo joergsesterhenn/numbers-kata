@@ -69,15 +69,15 @@ class Numbers:
     def disect_number(self, number: int):
         order_of_number = len(str(number))//3
         length_of_number=len(str(number))
-        #print('number: ',number)
-        #print('order: ',order_of_number)
-        #print('length: ',length_of_number)
-        #array_of_ordered_numbers=[str(number)[max(3*start,-1*length_of_number):start] for start in (range(-1*(order_of_number+1),-2,-1))]
+        print('number: ',number)
+        print('order: ',order_of_number)
+        print('length: ',length_of_number)
+        array_of_ordered_numbers=[str(number)[max(3*start,-1*length_of_number):start] for start in (range(-1*(order_of_number+1),-2,-1))]
         array_of_ordered_numbers = []
         for order in reversed((range(-1*(order_of_number+1),0))):
             start=max(3*order,-1*length_of_number)
             end=(order+1)*3
-            #print(start,end,str(number)[start:end])
+            print(start,end,str(number)[start:end])
             if end==0:
                 array_of_ordered_numbers.append(int(str(number)[start:]))
             else:
