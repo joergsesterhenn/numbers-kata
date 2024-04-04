@@ -1,4 +1,5 @@
 --- NumbersTest.test_twelve_thousand_six_hundred_and_nine.approved.txt
 +++ NumbersTest.test_twelve_thousand_six_hundred_and_nine.received.txt
-@@ -0,0 +1 @@
-+twelve thousand, six hundred and nine
+@@ -1 +1 @@
+-twelve thousand, six hundred and nine
++twelve thousand, nine hundred and six

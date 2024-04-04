@@ -1,4 +1,5 @@
 --- NumbersTest.test_three_hundred.approved.txt
 +++ NumbersTest.test_three_hundred.received.txt
-@@ -0,0 +1 @@
-+three hundred
+@@ -1 +1 @@
+-three hundred
++zero hundred and three

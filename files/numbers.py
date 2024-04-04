@@ -50,9 +50,9 @@ class Numbers:
     
     def get_number_by_order(self, number: int, order: int):    
         number_as_string=str(number).zfill(3)
-        first_digit=int(number_as_string[0])
+        first_digit=int(number_as_string[2])
         second_digit=int(number_as_string[1])
-        third_digit=int(number_as_string[2])
+        third_digit=int(number_as_string[0])
         
         if self.is_digit(number) and order==0:
             return self.digits[number]
