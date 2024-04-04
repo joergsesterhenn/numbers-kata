@@ -72,7 +72,7 @@ class Numbers:
             start=max(3*order,-1*length_of_number)
             end=(order+1)*3
             print(start,end,str(number)[start:end])
-            if end==-1:
+            if end==0:
                 array_of_ordered_numbers.append(str(number)[start:])
             else:
                 array_of_ordered_numbers.append(str(number)[start:end])
