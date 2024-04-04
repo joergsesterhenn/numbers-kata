@@ -67,7 +67,7 @@ class Numbers:
                 return self.to_hundreds(first_digit) + self.to_tens(second_digit, False) + self.to_units(third_digit)
         
     def disect_number(self, number: int):
-        order_of_number = len(str(number))//3
+        order_of_number = (len(str(number))-1)//3
         length_of_number=len(str(number))
         print('number: ',number)
         print('order: ',order_of_number)

@@ -1,8 +1,18 @@
 number:  101
-order:  1
+order:  0
 length:  3
 -3 0 
--3 -3 
+--- NumbersTest.test_disecting_to_order.approved.txt
++++ NumbersTest.test_disecting_to_order.received.txt
+@@ -1 +1 @@
+-[1, 501]
++[101]
+
+
+to approve this result:
+
+mv -f /sandbox/NumbersTest.test_disecting_to_order.received.txt /sandbox/NumbersTest.test_disecting_to_order.approved.txt
+
 number:  1
 order:  0
 length:  1
