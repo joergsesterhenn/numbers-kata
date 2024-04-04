@@ -1,5 +1,17 @@
-..
+E.
+======================================================================
+ERROR: test_disecting_to_order (test_numbers.NumbersTest.test_disecting_to_order)
 ----------------------------------------------------------------------
-Ran 2 tests in 0.015s
+Traceback (most recent call last):
+  File "/sandbox/test_numbers.py", line 71, in test_disecting_to_order
+    result = Numbers().disect_number(101)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sandbox/numbers.py", line 84, in disect_number
+    array_of_ordered_numbers.append(int(str(number)[start:end]))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
 
-OK
+----------------------------------------------------------------------
+Ran 2 tests in 0.019s
+
+FAILED (errors=1)
