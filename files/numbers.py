@@ -68,20 +68,14 @@ class Numbers:
         print('length: ',length_of_number)
         #array_of_ordered_numbers=[str(number)[max(3*start,-1*length_of_number):start] for start in (range(-1*(order_of_number+1),-2,-1))]
         array_of_ordered_numbers = []
-        for start in reversed((range(-1*(order_of_number+1),0))):
-            print(start, max(3*start,-1*length_of_number), (start+1)*3, str(number)[max(3*start,-1*length_of_number):(start+1)*3])
-            array_of_ordered_numbers.append(str(number)[max(3*start,-1*length_of_number):(start+1)*3])
-
-            #number:  1501
-            #order:  1
-            #length:  4
-            #-1 -1 -4 50
-            #-2 -4 -4 1
-            #['', '1']
-           
-
-            
-        print(array_of_ordered_numbers)
+        for order in reversed((range(-1*(order_of_number+1),0))):
+            start=max(3*order,-1*length_of_number)
+            end=(order+1)*3
+            print(start,end,str(number)[start:end])
+            if end==-1:
+                array_of_ordered_numbers.append(str(number)[start:])
+            else:
+                array_of_ordered_numbers.append(str(number)[start:end])
         return array_of_ordered_numbers  
         
     def is_digit(self, number):
