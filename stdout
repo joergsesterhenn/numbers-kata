@@ -1,1002 +1,1996 @@
-0 100  one hundred
-0 101  one hundred and one
-0 102  one hundred and two
-0 103  one hundred and three
-0 104  one hundred and four
-0 105  one hundred and five
-0 106  one hundred and six
-0 107  one hundred and seven
-0 108  one hundred and eight
-0 109  one hundred and nine
-0 110  one hundred and ten
-0 111  one hundred and eleven
-0 112  one hundred and twelve
-0 113  one hundred and thirteen
-0 114  one hundred and fourteen
-0 115  one hundred and fifteen
-0 116  one hundred and sixteen
-0 117  one hundred and seventeen
-0 118  one hundred and eighteen
-0 119  one hundred and nineteen
-0 120  one hundred and twenty
-0 121  one hundred and twenty one
-0 122  one hundred and twenty two
-0 123  one hundred and twenty three
-0 124  one hundred and twenty four
-0 125  one hundred and twenty five
-0 126  one hundred and twenty six
-0 127  one hundred and twenty seven
-0 128  one hundred and twenty eight
-0 129  one hundred and twenty nine
-0 130  one hundred and thirty
-0 131  one hundred and thirty one
-0 132  one hundred and thirty two
-0 133  one hundred and thirty three
-0 134  one hundred and thirty four
-0 135  one hundred and thirty five
-0 136  one hundred and thirty six
-0 137  one hundred and thirty seven
-0 138  one hundred and thirty eight
-0 139  one hundred and thirty nine
-0 140  one hundred and fourty
-0 141  one hundred and fourty one
-0 142  one hundred and fourty two
-0 143  one hundred and fourty three
-0 144  one hundred and fourty four
-0 145  one hundred and fourty five
-0 146  one hundred and fourty six
-0 147  one hundred and fourty seven
-0 148  one hundred and fourty eight
-0 149  one hundred and fourty nine
-0 150  one hundred and fifty
-0 151  one hundred and fifty one
-0 152  one hundred and fifty two
-0 153  one hundred and fifty three
-0 154  one hundred and fifty four
-0 155  one hundred and fifty five
-0 156  one hundred and fifty six
-0 157  one hundred and fifty seven
-0 158  one hundred and fifty eight
-0 159  one hundred and fifty nine
-0 160  one hundred and sixty
-0 161  one hundred and sixty one
-0 162  one hundred and sixty two
-0 163  one hundred and sixty three
-0 164  one hundred and sixty four
-0 165  one hundred and sixty five
-0 166  one hundred and sixty six
-0 167  one hundred and sixty seven
-0 168  one hundred and sixty eight
-0 169  one hundred and sixty nine
-0 170  one hundred and seventy
-0 171  one hundred and seventy one
-0 172  one hundred and seventy two
-0 173  one hundred and seventy three
-0 174  one hundred and seventy four
-0 175  one hundred and seventy five
-0 176  one hundred and seventy six
-0 177  one hundred and seventy seven
-0 178  one hundred and seventy eight
-0 179  one hundred and seventy nine
-0 180  one hundred and eighty
-0 181  one hundred and eighty one
-0 182  one hundred and eighty two
-0 183  one hundred and eighty three
-0 184  one hundred and eighty four
-0 185  one hundred and eighty five
-0 186  one hundred and eighty six
-0 187  one hundred and eighty seven
-0 188  one hundred and eighty eight
-0 189  one hundred and eighty nine
-0 190  one hundred and ninety
-0 191  one hundred and ninety one
-0 192  one hundred and ninety two
-0 193  one hundred and ninety three
-0 194  one hundred and ninety four
-0 195  one hundred and ninety five
-0 196  one hundred and ninety six
-0 197  one hundred and ninety seven
-0 198  one hundred and ninety eight
-0 199  one hundred and ninety nine
-0 200  two hundred
-0 201  two hundred and one
-0 202  two hundred and two
-0 203  two hundred and three
-0 204  two hundred and four
-0 205  two hundred and five
-0 206  two hundred and six
-0 207  two hundred and seven
-0 208  two hundred and eight
-0 209  two hundred and nine
-0 210  two hundred and ten
-0 211  two hundred and eleven
-0 212  two hundred and twelve
-0 213  two hundred and thirteen
-0 214  two hundred and fourteen
-0 215  two hundred and fifteen
-0 216  two hundred and sixteen
-0 217  two hundred and seventeen
-0 218  two hundred and eighteen
-0 219  two hundred and nineteen
-0 220  two hundred and twenty
-0 221  two hundred and twenty one
-0 222  two hundred and twenty two
-0 223  two hundred and twenty three
-0 224  two hundred and twenty four
-0 225  two hundred and twenty five
-0 226  two hundred and twenty six
-0 227  two hundred and twenty seven
-0 228  two hundred and twenty eight
-0 229  two hundred and twenty nine
-0 230  two hundred and thirty
-0 231  two hundred and thirty one
-0 232  two hundred and thirty two
-0 233  two hundred and thirty three
-0 234  two hundred and thirty four
-0 235  two hundred and thirty five
-0 236  two hundred and thirty six
-0 237  two hundred and thirty seven
-0 238  two hundred and thirty eight
-0 239  two hundred and thirty nine
-0 240  two hundred and fourty
-0 241  two hundred and fourty one
-0 242  two hundred and fourty two
-0 243  two hundred and fourty three
-0 244  two hundred and fourty four
-0 245  two hundred and fourty five
-0 246  two hundred and fourty six
-0 247  two hundred and fourty seven
-0 248  two hundred and fourty eight
-0 249  two hundred and fourty nine
-0 250  two hundred and fifty
-0 251  two hundred and fifty one
-0 252  two hundred and fifty two
-0 253  two hundred and fifty three
-0 254  two hundred and fifty four
-0 255  two hundred and fifty five
-0 256  two hundred and fifty six
-0 257  two hundred and fifty seven
-0 258  two hundred and fifty eight
-0 259  two hundred and fifty nine
-0 260  two hundred and sixty
-0 261  two hundred and sixty one
-0 262  two hundred and sixty two
-0 263  two hundred and sixty three
-0 264  two hundred and sixty four
-0 265  two hundred and sixty five
-0 266  two hundred and sixty six
-0 267  two hundred and sixty seven
-0 268  two hundred and sixty eight
-0 269  two hundred and sixty nine
-0 270  two hundred and seventy
-0 271  two hundred and seventy one
-0 272  two hundred and seventy two
-0 273  two hundred and seventy three
-0 274  two hundred and seventy four
-0 275  two hundred and seventy five
-0 276  two hundred and seventy six
-0 277  two hundred and seventy seven
-0 278  two hundred and seventy eight
-0 279  two hundred and seventy nine
-0 280  two hundred and eighty
-0 281  two hundred and eighty one
-0 282  two hundred and eighty two
-0 283  two hundred and eighty three
-0 284  two hundred and eighty four
-0 285  two hundred and eighty five
-0 286  two hundred and eighty six
-0 287  two hundred and eighty seven
-0 288  two hundred and eighty eight
-0 289  two hundred and eighty nine
-0 290  two hundred and ninety
-0 291  two hundred and ninety one
-0 292  two hundred and ninety two
-0 293  two hundred and ninety three
-0 294  two hundred and ninety four
-0 295  two hundred and ninety five
-0 296  two hundred and ninety six
-0 297  two hundred and ninety seven
-0 298  two hundred and ninety eight
-0 299  two hundred and ninety nine
-0 300  three hundred
-0 301  three hundred and one
-0 302  three hundred and two
-0 303  three hundred and three
-0 304  three hundred and four
-0 305  three hundred and five
-0 306  three hundred and six
-0 307  three hundred and seven
-0 308  three hundred and eight
-0 309  three hundred and nine
-0 310  three hundred and ten
-0 311  three hundred and eleven
-0 312  three hundred and twelve
-0 313  three hundred and thirteen
-0 314  three hundred and fourteen
-0 315  three hundred and fifteen
-0 316  three hundred and sixteen
-0 317  three hundred and seventeen
-0 318  three hundred and eighteen
-0 319  three hundred and nineteen
-0 320  three hundred and twenty
-0 321  three hundred and twenty one
-0 322  three hundred and twenty two
-0 323  three hundred and twenty three
-0 324  three hundred and twenty four
-0 325  three hundred and twenty five
-0 326  three hundred and twenty six
-0 327  three hundred and twenty seven
-0 328  three hundred and twenty eight
-0 329  three hundred and twenty nine
-0 330  three hundred and thirty
-0 331  three hundred and thirty one
-0 332  three hundred and thirty two
-0 333  three hundred and thirty three
-0 334  three hundred and thirty four
-0 335  three hundred and thirty five
-0 336  three hundred and thirty six
-0 337  three hundred and thirty seven
-0 338  three hundred and thirty eight
-0 339  three hundred and thirty nine
-0 340  three hundred and fourty
-0 341  three hundred and fourty one
-0 342  three hundred and fourty two
-0 343  three hundred and fourty three
-0 344  three hundred and fourty four
-0 345  three hundred and fourty five
-0 346  three hundred and fourty six
-0 347  three hundred and fourty seven
-0 348  three hundred and fourty eight
-0 349  three hundred and fourty nine
-0 350  three hundred and fifty
-0 351  three hundred and fifty one
-0 352  three hundred and fifty two
-0 353  three hundred and fifty three
-0 354  three hundred and fifty four
-0 355  three hundred and fifty five
-0 356  three hundred and fifty six
-0 357  three hundred and fifty seven
-0 358  three hundred and fifty eight
-0 359  three hundred and fifty nine
-0 360  three hundred and sixty
-0 361  three hundred and sixty one
-0 362  three hundred and sixty two
-0 363  three hundred and sixty three
-0 364  three hundred and sixty four
-0 365  three hundred and sixty five
-0 366  three hundred and sixty six
-0 367  three hundred and sixty seven
-0 368  three hundred and sixty eight
-0 369  three hundred and sixty nine
-0 370  three hundred and seventy
-0 371  three hundred and seventy one
-0 372  three hundred and seventy two
-0 373  three hundred and seventy three
-0 374  three hundred and seventy four
-0 375  three hundred and seventy five
-0 376  three hundred and seventy six
-0 377  three hundred and seventy seven
-0 378  three hundred and seventy eight
-0 379  three hundred and seventy nine
-0 380  three hundred and eighty
-0 381  three hundred and eighty one
-0 382  three hundred and eighty two
-0 383  three hundred and eighty three
-0 384  three hundred and eighty four
-0 385  three hundred and eighty five
-0 386  three hundred and eighty six
-0 387  three hundred and eighty seven
-0 388  three hundred and eighty eight
-0 389  three hundred and eighty nine
-0 390  three hundred and ninety
-0 391  three hundred and ninety one
-0 392  three hundred and ninety two
-0 393  three hundred and ninety three
-0 394  three hundred and ninety four
-0 395  three hundred and ninety five
-0 396  three hundred and ninety six
-0 397  three hundred and ninety seven
-0 398  three hundred and ninety eight
-0 399  three hundred and ninety nine
-0 400  four hundred
-0 401  four hundred and one
-0 402  four hundred and two
-0 403  four hundred and three
-0 404  four hundred and four
-0 405  four hundred and five
-0 406  four hundred and six
-0 407  four hundred and seven
-0 408  four hundred and eight
-0 409  four hundred and nine
-0 410  four hundred and ten
-0 411  four hundred and eleven
-0 412  four hundred and twelve
-0 413  four hundred and thirteen
-0 414  four hundred and fourteen
-0 415  four hundred and fifteen
-0 416  four hundred and sixteen
-0 417  four hundred and seventeen
-0 418  four hundred and eighteen
-0 419  four hundred and nineteen
-0 420  four hundred and twenty
-0 421  four hundred and twenty one
-0 422  four hundred and twenty two
-0 423  four hundred and twenty three
-0 424  four hundred and twenty four
-0 425  four hundred and twenty five
-0 426  four hundred and twenty six
-0 427  four hundred and twenty seven
-0 428  four hundred and twenty eight
-0 429  four hundred and twenty nine
-0 430  four hundred and thirty
-0 431  four hundred and thirty one
-0 432  four hundred and thirty two
-0 433  four hundred and thirty three
-0 434  four hundred and thirty four
-0 435  four hundred and thirty five
-0 436  four hundred and thirty six
-0 437  four hundred and thirty seven
-0 438  four hundred and thirty eight
-0 439  four hundred and thirty nine
-0 440  four hundred and fourty
-0 441  four hundred and fourty one
-0 442  four hundred and fourty two
-0 443  four hundred and fourty three
-0 444  four hundred and fourty four
-0 445  four hundred and fourty five
-0 446  four hundred and fourty six
-0 447  four hundred and fourty seven
-0 448  four hundred and fourty eight
-0 449  four hundred and fourty nine
-0 450  four hundred and fifty
-0 451  four hundred and fifty one
-0 452  four hundred and fifty two
-0 453  four hundred and fifty three
-0 454  four hundred and fifty four
-0 455  four hundred and fifty five
-0 456  four hundred and fifty six
-0 457  four hundred and fifty seven
-0 458  four hundred and fifty eight
-0 459  four hundred and fifty nine
-0 460  four hundred and sixty
-0 461  four hundred and sixty one
-0 462  four hundred and sixty two
-0 463  four hundred and sixty three
-0 464  four hundred and sixty four
-0 465  four hundred and sixty five
-0 466  four hundred and sixty six
-0 467  four hundred and sixty seven
-0 468  four hundred and sixty eight
-0 469  four hundred and sixty nine
-0 470  four hundred and seventy
-0 471  four hundred and seventy one
-0 472  four hundred and seventy two
-0 473  four hundred and seventy three
-0 474  four hundred and seventy four
-0 475  four hundred and seventy five
-0 476  four hundred and seventy six
-0 477  four hundred and seventy seven
-0 478  four hundred and seventy eight
-0 479  four hundred and seventy nine
-0 480  four hundred and eighty
-0 481  four hundred and eighty one
-0 482  four hundred and eighty two
-0 483  four hundred and eighty three
-0 484  four hundred and eighty four
-0 485  four hundred and eighty five
-0 486  four hundred and eighty six
-0 487  four hundred and eighty seven
-0 488  four hundred and eighty eight
-0 489  four hundred and eighty nine
-0 490  four hundred and ninety
-0 491  four hundred and ninety one
-0 492  four hundred and ninety two
-0 493  four hundred and ninety three
-0 494  four hundred and ninety four
-0 495  four hundred and ninety five
-0 496  four hundred and ninety six
-0 497  four hundred and ninety seven
-0 498  four hundred and ninety eight
-0 499  four hundred and ninety nine
-0 500  five hundred
-0 501  five hundred and one
-0 502  five hundred and two
-0 503  five hundred and three
-0 504  five hundred and four
-0 505  five hundred and five
-0 506  five hundred and six
-0 507  five hundred and seven
-0 508  five hundred and eight
-0 509  five hundred and nine
-0 510  five hundred and ten
-0 511  five hundred and eleven
-0 512  five hundred and twelve
-0 513  five hundred and thirteen
-0 514  five hundred and fourteen
-0 515  five hundred and fifteen
-0 516  five hundred and sixteen
-0 517  five hundred and seventeen
-0 518  five hundred and eighteen
-0 519  five hundred and nineteen
-0 520  five hundred and twenty
-0 521  five hundred and twenty one
-0 522  five hundred and twenty two
-0 523  five hundred and twenty three
-0 524  five hundred and twenty four
-0 525  five hundred and twenty five
-0 526  five hundred and twenty six
-0 527  five hundred and twenty seven
-0 528  five hundred and twenty eight
-0 529  five hundred and twenty nine
-0 530  five hundred and thirty
-0 531  five hundred and thirty one
-0 532  five hundred and thirty two
-0 533  five hundred and thirty three
-0 534  five hundred and thirty four
-0 535  five hundred and thirty five
-0 536  five hundred and thirty six
-0 537  five hundred and thirty seven
-0 538  five hundred and thirty eight
-0 539  five hundred and thirty nine
-0 540  five hundred and fourty
-0 541  five hundred and fourty one
-0 542  five hundred and fourty two
-0 543  five hundred and fourty three
-0 544  five hundred and fourty four
-0 545  five hundred and fourty five
-0 546  five hundred and fourty six
-0 547  five hundred and fourty seven
-0 548  five hundred and fourty eight
-0 549  five hundred and fourty nine
-0 550  five hundred and fifty
-0 551  five hundred and fifty one
-0 552  five hundred and fifty two
-0 553  five hundred and fifty three
-0 554  five hundred and fifty four
-0 555  five hundred and fifty five
-0 556  five hundred and fifty six
-0 557  five hundred and fifty seven
-0 558  five hundred and fifty eight
-0 559  five hundred and fifty nine
-0 560  five hundred and sixty
-0 561  five hundred and sixty one
-0 562  five hundred and sixty two
-0 563  five hundred and sixty three
-0 564  five hundred and sixty four
-0 565  five hundred and sixty five
-0 566  five hundred and sixty six
-0 567  five hundred and sixty seven
-0 568  five hundred and sixty eight
-0 569  five hundred and sixty nine
-0 570  five hundred and seventy
-0 571  five hundred and seventy one
-0 572  five hundred and seventy two
-0 573  five hundred and seventy three
-0 574  five hundred and seventy four
-0 575  five hundred and seventy five
-0 576  five hundred and seventy six
-0 577  five hundred and seventy seven
-0 578  five hundred and seventy eight
-0 579  five hundred and seventy nine
-0 580  five hundred and eighty
-0 581  five hundred and eighty one
-0 582  five hundred and eighty two
-0 583  five hundred and eighty three
-0 584  five hundred and eighty four
-0 585  five hundred and eighty five
-0 586  five hundred and eighty six
-0 587  five hundred and eighty seven
-0 588  five hundred and eighty eight
-0 589  five hundred and eighty nine
-0 590  five hundred and ninety
-0 591  five hundred and ninety one
-0 592  five hundred and ninety two
-0 593  five hundred and ninety three
-0 594  five hundred and ninety four
-0 595  five hundred and ninety five
-0 596  five hundred and ninety six
-0 597  five hundred and ninety seven
-0 598  five hundred and ninety eight
-0 599  five hundred and ninety nine
-0 600  six hundred
-0 601  six hundred and one
-0 602  six hundred and two
-0 603  six hundred and three
-0 604  six hundred and four
-0 605  six hundred and five
-0 606  six hundred and six
-0 607  six hundred and seven
-0 608  six hundred and eight
-0 609  six hundred and nine
-0 610  six hundred and ten
-0 611  six hundred and eleven
-0 612  six hundred and twelve
-0 613  six hundred and thirteen
-0 614  six hundred and fourteen
-0 615  six hundred and fifteen
-0 616  six hundred and sixteen
-0 617  six hundred and seventeen
-0 618  six hundred and eighteen
-0 619  six hundred and nineteen
-0 620  six hundred and twenty
-0 621  six hundred and twenty one
-0 622  six hundred and twenty two
-0 623  six hundred and twenty three
-0 624  six hundred and twenty four
-0 625  six hundred and twenty five
-0 626  six hundred and twenty six
-0 627  six hundred and twenty seven
-0 628  six hundred and twenty eight
-0 629  six hundred and twenty nine
-0 630  six hundred and thirty
-0 631  six hundred and thirty one
-0 632  six hundred and thirty two
-0 633  six hundred and thirty three
-0 634  six hundred and thirty four
-0 635  six hundred and thirty five
-0 636  six hundred and thirty six
-0 637  six hundred and thirty seven
-0 638  six hundred and thirty eight
-0 639  six hundred and thirty nine
-0 640  six hundred and fourty
-0 641  six hundred and fourty one
-0 642  six hundred and fourty two
-0 643  six hundred and fourty three
-0 644  six hundred and fourty four
-0 645  six hundred and fourty five
-0 646  six hundred and fourty six
-0 647  six hundred and fourty seven
-0 648  six hundred and fourty eight
-0 649  six hundred and fourty nine
-0 650  six hundred and fifty
-0 651  six hundred and fifty one
-0 652  six hundred and fifty two
-0 653  six hundred and fifty three
-0 654  six hundred and fifty four
-0 655  six hundred and fifty five
-0 656  six hundred and fifty six
-0 657  six hundred and fifty seven
-0 658  six hundred and fifty eight
-0 659  six hundred and fifty nine
-0 660  six hundred and sixty
-0 661  six hundred and sixty one
-0 662  six hundred and sixty two
-0 663  six hundred and sixty three
-0 664  six hundred and sixty four
-0 665  six hundred and sixty five
-0 666  six hundred and sixty six
-0 667  six hundred and sixty seven
-0 668  six hundred and sixty eight
-0 669  six hundred and sixty nine
-0 670  six hundred and seventy
-0 671  six hundred and seventy one
-0 672  six hundred and seventy two
-0 673  six hundred and seventy three
-0 674  six hundred and seventy four
-0 675  six hundred and seventy five
-0 676  six hundred and seventy six
-0 677  six hundred and seventy seven
-0 678  six hundred and seventy eight
-0 679  six hundred and seventy nine
-0 680  six hundred and eighty
-0 681  six hundred and eighty one
-0 682  six hundred and eighty two
-0 683  six hundred and eighty three
-0 684  six hundred and eighty four
-0 685  six hundred and eighty five
-0 686  six hundred and eighty six
-0 687  six hundred and eighty seven
-0 688  six hundred and eighty eight
-0 689  six hundred and eighty nine
-0 690  six hundred and ninety
-0 691  six hundred and ninety one
-0 692  six hundred and ninety two
-0 693  six hundred and ninety three
-0 694  six hundred and ninety four
-0 695  six hundred and ninety five
-0 696  six hundred and ninety six
-0 697  six hundred and ninety seven
-0 698  six hundred and ninety eight
-0 699  six hundred and ninety nine
-0 700  seven hundred
-0 701  seven hundred and one
-0 702  seven hundred and two
-0 703  seven hundred and three
-0 704  seven hundred and four
-0 705  seven hundred and five
-0 706  seven hundred and six
-0 707  seven hundred and seven
-0 708  seven hundred and eight
-0 709  seven hundred and nine
-0 710  seven hundred and ten
-0 711  seven hundred and eleven
-0 712  seven hundred and twelve
-0 713  seven hundred and thirteen
-0 714  seven hundred and fourteen
-0 715  seven hundred and fifteen
-0 716  seven hundred and sixteen
-0 717  seven hundred and seventeen
-0 718  seven hundred and eighteen
-0 719  seven hundred and nineteen
-0 720  seven hundred and twenty
-0 721  seven hundred and twenty one
-0 722  seven hundred and twenty two
-0 723  seven hundred and twenty three
-0 724  seven hundred and twenty four
-0 725  seven hundred and twenty five
-0 726  seven hundred and twenty six
-0 727  seven hundred and twenty seven
-0 728  seven hundred and twenty eight
-0 729  seven hundred and twenty nine
-0 730  seven hundred and thirty
-0 731  seven hundred and thirty one
-0 732  seven hundred and thirty two
-0 733  seven hundred and thirty three
-0 734  seven hundred and thirty four
-0 735  seven hundred and thirty five
-0 736  seven hundred and thirty six
-0 737  seven hundred and thirty seven
-0 738  seven hundred and thirty eight
-0 739  seven hundred and thirty nine
-0 740  seven hundred and fourty
-0 741  seven hundred and fourty one
-0 742  seven hundred and fourty two
-0 743  seven hundred and fourty three
-0 744  seven hundred and fourty four
-0 745  seven hundred and fourty five
-0 746  seven hundred and fourty six
-0 747  seven hundred and fourty seven
-0 748  seven hundred and fourty eight
-0 749  seven hundred and fourty nine
-0 750  seven hundred and fifty
-0 751  seven hundred and fifty one
-0 752  seven hundred and fifty two
-0 753  seven hundred and fifty three
-0 754  seven hundred and fifty four
-0 755  seven hundred and fifty five
-0 756  seven hundred and fifty six
-0 757  seven hundred and fifty seven
-0 758  seven hundred and fifty eight
-0 759  seven hundred and fifty nine
-0 760  seven hundred and sixty
-0 761  seven hundred and sixty one
-0 762  seven hundred and sixty two
-0 763  seven hundred and sixty three
-0 764  seven hundred and sixty four
-0 765  seven hundred and sixty five
-0 766  seven hundred and sixty six
-0 767  seven hundred and sixty seven
-0 768  seven hundred and sixty eight
-0 769  seven hundred and sixty nine
-0 770  seven hundred and seventy
-0 771  seven hundred and seventy one
-0 772  seven hundred and seventy two
-0 773  seven hundred and seventy three
-0 774  seven hundred and seventy four
-0 775  seven hundred and seventy five
-0 776  seven hundred and seventy six
-0 777  seven hundred and seventy seven
-0 778  seven hundred and seventy eight
-0 779  seven hundred and seventy nine
-0 780  seven hundred and eighty
-0 781  seven hundred and eighty one
-0 782  seven hundred and eighty two
-0 783  seven hundred and eighty three
-0 784  seven hundred and eighty four
-0 785  seven hundred and eighty five
-0 786  seven hundred and eighty six
-0 787  seven hundred and eighty seven
-0 788  seven hundred and eighty eight
-0 789  seven hundred and eighty nine
-0 790  seven hundred and ninety
-0 791  seven hundred and ninety one
-0 792  seven hundred and ninety two
-0 793  seven hundred and ninety three
-0 794  seven hundred and ninety four
-0 795  seven hundred and ninety five
-0 796  seven hundred and ninety six
-0 797  seven hundred and ninety seven
-0 798  seven hundred and ninety eight
-0 799  seven hundred and ninety nine
-0 800  eight hundred
-0 801  eight hundred and one
-0 802  eight hundred and two
-0 803  eight hundred and three
-0 804  eight hundred and four
-0 805  eight hundred and five
-0 806  eight hundred and six
-0 807  eight hundred and seven
-0 808  eight hundred and eight
-0 809  eight hundred and nine
-0 810  eight hundred and ten
-0 811  eight hundred and eleven
-0 812  eight hundred and twelve
-0 813  eight hundred and thirteen
-0 814  eight hundred and fourteen
-0 815  eight hundred and fifteen
-0 816  eight hundred and sixteen
-0 817  eight hundred and seventeen
-0 818  eight hundred and eighteen
-0 819  eight hundred and nineteen
-0 820  eight hundred and twenty
-0 821  eight hundred and twenty one
-0 822  eight hundred and twenty two
-0 823  eight hundred and twenty three
-0 824  eight hundred and twenty four
-0 825  eight hundred and twenty five
-0 826  eight hundred and twenty six
-0 827  eight hundred and twenty seven
-0 828  eight hundred and twenty eight
-0 829  eight hundred and twenty nine
-0 830  eight hundred and thirty
-0 831  eight hundred and thirty one
-0 832  eight hundred and thirty two
-0 833  eight hundred and thirty three
-0 834  eight hundred and thirty four
-0 835  eight hundred and thirty five
-0 836  eight hundred and thirty six
-0 837  eight hundred and thirty seven
-0 838  eight hundred and thirty eight
-0 839  eight hundred and thirty nine
-0 840  eight hundred and fourty
-0 841  eight hundred and fourty one
-0 842  eight hundred and fourty two
-0 843  eight hundred and fourty three
-0 844  eight hundred and fourty four
-0 845  eight hundred and fourty five
-0 846  eight hundred and fourty six
-0 847  eight hundred and fourty seven
-0 848  eight hundred and fourty eight
-0 849  eight hundred and fourty nine
-0 850  eight hundred and fifty
-0 851  eight hundred and fifty one
-0 852  eight hundred and fifty two
-0 853  eight hundred and fifty three
-0 854  eight hundred and fifty four
-0 855  eight hundred and fifty five
-0 856  eight hundred and fifty six
-0 857  eight hundred and fifty seven
-0 858  eight hundred and fifty eight
-0 859  eight hundred and fifty nine
-0 860  eight hundred and sixty
-0 861  eight hundred and sixty one
-0 862  eight hundred and sixty two
-0 863  eight hundred and sixty three
-0 864  eight hundred and sixty four
-0 865  eight hundred and sixty five
-0 866  eight hundred and sixty six
-0 867  eight hundred and sixty seven
-0 868  eight hundred and sixty eight
-0 869  eight hundred and sixty nine
-0 870  eight hundred and seventy
-0 871  eight hundred and seventy one
-0 872  eight hundred and seventy two
-0 873  eight hundred and seventy three
-0 874  eight hundred and seventy four
-0 875  eight hundred and seventy five
-0 876  eight hundred and seventy six
-0 877  eight hundred and seventy seven
-0 878  eight hundred and seventy eight
-0 879  eight hundred and seventy nine
-0 880  eight hundred and eighty
-0 881  eight hundred and eighty one
-0 882  eight hundred and eighty two
-0 883  eight hundred and eighty three
-0 884  eight hundred and eighty four
-0 885  eight hundred and eighty five
-0 886  eight hundred and eighty six
-0 887  eight hundred and eighty seven
-0 888  eight hundred and eighty eight
-0 889  eight hundred and eighty nine
-0 890  eight hundred and ninety
-0 891  eight hundred and ninety one
-0 892  eight hundred and ninety two
-0 893  eight hundred and ninety three
-0 894  eight hundred and ninety four
-0 895  eight hundred and ninety five
-0 896  eight hundred and ninety six
-0 897  eight hundred and ninety seven
-0 898  eight hundred and ninety eight
-0 899  eight hundred and ninety nine
-0 900  nine hundred
-0 901  nine hundred and one
-0 902  nine hundred and two
-0 903  nine hundred and three
-0 904  nine hundred and four
-0 905  nine hundred and five
-0 906  nine hundred and six
-0 907  nine hundred and seven
-0 908  nine hundred and eight
-0 909  nine hundred and nine
-0 910  nine hundred and ten
-0 911  nine hundred and eleven
-0 912  nine hundred and twelve
-0 913  nine hundred and thirteen
-0 914  nine hundred and fourteen
-0 915  nine hundred and fifteen
-0 916  nine hundred and sixteen
-0 917  nine hundred and seventeen
-0 918  nine hundred and eighteen
-0 919  nine hundred and nineteen
-0 920  nine hundred and twenty
-0 921  nine hundred and twenty one
-0 922  nine hundred and twenty two
-0 923  nine hundred and twenty three
-0 924  nine hundred and twenty four
-0 925  nine hundred and twenty five
-0 926  nine hundred and twenty six
-0 927  nine hundred and twenty seven
-0 928  nine hundred and twenty eight
-0 929  nine hundred and twenty nine
-0 930  nine hundred and thirty
-0 931  nine hundred and thirty one
-0 932  nine hundred and thirty two
-0 933  nine hundred and thirty three
-0 934  nine hundred and thirty four
-0 935  nine hundred and thirty five
-0 936  nine hundred and thirty six
-0 937  nine hundred and thirty seven
-0 938  nine hundred and thirty eight
-0 939  nine hundred and thirty nine
-0 940  nine hundred and fourty
-0 941  nine hundred and fourty one
-0 942  nine hundred and fourty two
-0 943  nine hundred and fourty three
-0 944  nine hundred and fourty four
-0 945  nine hundred and fourty five
-0 946  nine hundred and fourty six
-0 947  nine hundred and fourty seven
-0 948  nine hundred and fourty eight
-0 949  nine hundred and fourty nine
-0 950  nine hundred and fifty
-0 951  nine hundred and fifty one
-0 952  nine hundred and fifty two
-0 953  nine hundred and fifty three
-0 954  nine hundred and fifty four
-0 955  nine hundred and fifty five
-0 956  nine hundred and fifty six
-0 957  nine hundred and fifty seven
-0 958  nine hundred and fifty eight
-0 959  nine hundred and fifty nine
-0 960  nine hundred and sixty
-0 961  nine hundred and sixty one
-0 962  nine hundred and sixty two
-0 963  nine hundred and sixty three
-0 964  nine hundred and sixty four
-0 965  nine hundred and sixty five
-0 966  nine hundred and sixty six
-0 967  nine hundred and sixty seven
-0 968  nine hundred and sixty eight
-0 969  nine hundred and sixty nine
-0 970  nine hundred and seventy
-0 971  nine hundred and seventy one
-0 972  nine hundred and seventy two
-0 973  nine hundred and seventy three
-0 974  nine hundred and seventy four
-0 975  nine hundred and seventy five
-0 976  nine hundred and seventy six
-0 977  nine hundred and seventy seven
-0 978  nine hundred and seventy eight
-0 979  nine hundred and seventy nine
-0 980  nine hundred and eighty
-0 981  nine hundred and eighty one
-0 982  nine hundred and eighty two
-0 983  nine hundred and eighty three
-0 984  nine hundred and eighty four
-0 985  nine hundred and eighty five
-0 986  nine hundred and eighty six
-0 987  nine hundred and eighty seven
-0 988  nine hundred and eighty eight
-0 989  nine hundred and eighty nine
-0 990  nine hundred and ninety
-0 991  nine hundred and ninety one
-0 992  nine hundred and ninety two
-0 993  nine hundred and ninety three
-0 994  nine hundred and ninety four
-0 995  nine hundred and ninety five
-0 996  nine hundred and ninety six
-0 997  nine hundred and ninety seven
-0 998  nine hundred and ninety eight
-0 999  nine hundred and ninety nine
-0 10  ten
-0 11  eleven
-0 12  twelve
-0 13  thirteen
-0 14  fourteen
-0 15  fifteen
-0 16  sixteen
-0 17  seventeen
-0 18  eighteen
-0 19  nineteen
-0 20  twenty
-0 21  twenty one
-0 22  twenty two
-0 23  twenty three
-0 24  twenty four
-0 25  twenty five
-0 26  twenty six
-0 27  twenty seven
-0 28  twenty eight
-0 29  twenty nine
-0 30  thirty
-0 31  thirty one
-0 32  thirty two
-0 33  thirty three
-0 34  thirty four
-0 35  thirty five
-0 36  thirty six
-0 37  thirty seven
-0 38  thirty eight
-0 39  thirty nine
-0 40  fourty
-0 41  fourty one
-0 42  fourty two
-0 43  fourty three
-0 44  fourty four
-0 45  fourty five
-0 46  fourty six
-0 47  fourty seven
-0 48  fourty eight
-0 49  fourty nine
-0 50  fifty
-0 51  fifty one
-0 52  fifty two
-0 53  fifty three
-0 54  fifty four
-0 55  fifty five
-0 56  fifty six
-0 57  fifty seven
-0 58  fifty eight
-0 59  fifty nine
-0 60  sixty
-0 61  sixty one
-0 62  sixty two
-0 63  sixty three
-0 64  sixty four
-0 65  sixty five
-0 66  sixty six
-0 67  sixty seven
-0 68  sixty eight
-0 69  sixty nine
-0 70  seventy
-0 71  seventy one
-0 72  seventy two
-0 73  seventy three
-0 74  seventy four
-0 75  seventy five
-0 76  seventy six
-0 77  seventy seven
-0 78  seventy eight
-0 79  seventy nine
-0 80  eighty
-0 81  eighty one
-0 82  eighty two
-0 83  eighty three
-0 84  eighty four
-0 85  eighty five
-0 86  eighty six
-0 87  eighty seven
-0 88  eighty eight
-0 89  eighty nine
-0 90  ninety
-0 91  ninety one
-0 92  ninety two
-0 93  ninety three
-0 94  ninety four
-0 95  ninety five
-0 96  ninety six
-0 97  ninety seven
-0 98  ninety eight
-0 99  ninety nine
-0 99  ninety nine
-0 1  one
-0 100  one hundred
-0 1  one
-1 501 thousand onefive hundred and one
+100 [100]
+100 0 100  one hundred
+101 [101]
+101 0 101  one hundred and one
+102 [102]
+102 0 102  one hundred and two
+103 [103]
+103 0 103  one hundred and three
+104 [104]
+104 0 104  one hundred and four
+105 [105]
+105 0 105  one hundred and five
+106 [106]
+106 0 106  one hundred and six
+107 [107]
+107 0 107  one hundred and seven
+108 [108]
+108 0 108  one hundred and eight
+109 [109]
+109 0 109  one hundred and nine
+110 [110]
+110 0 110  one hundred and ten
+111 [111]
+111 0 111  one hundred and eleven
+112 [112]
+112 0 112  one hundred and twelve
+113 [113]
+113 0 113  one hundred and thirteen
+114 [114]
+114 0 114  one hundred and fourteen
+115 [115]
+115 0 115  one hundred and fifteen
+116 [116]
+116 0 116  one hundred and sixteen
+117 [117]
+117 0 117  one hundred and seventeen
+118 [118]
+118 0 118  one hundred and eighteen
+119 [119]
+119 0 119  one hundred and nineteen
+120 [120]
+120 0 120  one hundred and twenty
+121 [121]
+121 0 121  one hundred and twenty one
+122 [122]
+122 0 122  one hundred and twenty two
+123 [123]
+123 0 123  one hundred and twenty three
+124 [124]
+124 0 124  one hundred and twenty four
+125 [125]
+125 0 125  one hundred and twenty five
+126 [126]
+126 0 126  one hundred and twenty six
+127 [127]
+127 0 127  one hundred and twenty seven
+128 [128]
+128 0 128  one hundred and twenty eight
+129 [129]
+129 0 129  one hundred and twenty nine
+130 [130]
+130 0 130  one hundred and thirty
+131 [131]
+131 0 131  one hundred and thirty one
+132 [132]
+132 0 132  one hundred and thirty two
+133 [133]
+133 0 133  one hundred and thirty three
+134 [134]
+134 0 134  one hundred and thirty four
+135 [135]
+135 0 135  one hundred and thirty five
+136 [136]
+136 0 136  one hundred and thirty six
+137 [137]
+137 0 137  one hundred and thirty seven
+138 [138]
+138 0 138  one hundred and thirty eight
+139 [139]
+139 0 139  one hundred and thirty nine
+140 [140]
+140 0 140  one hundred and fourty
+141 [141]
+141 0 141  one hundred and fourty one
+142 [142]
+142 0 142  one hundred and fourty two
+143 [143]
+143 0 143  one hundred and fourty three
+144 [144]
+144 0 144  one hundred and fourty four
+145 [145]
+145 0 145  one hundred and fourty five
+146 [146]
+146 0 146  one hundred and fourty six
+147 [147]
+147 0 147  one hundred and fourty seven
+148 [148]
+148 0 148  one hundred and fourty eight
+149 [149]
+149 0 149  one hundred and fourty nine
+150 [150]
+150 0 150  one hundred and fifty
+151 [151]
+151 0 151  one hundred and fifty one
+152 [152]
+152 0 152  one hundred and fifty two
+153 [153]
+153 0 153  one hundred and fifty three
+154 [154]
+154 0 154  one hundred and fifty four
+155 [155]
+155 0 155  one hundred and fifty five
+156 [156]
+156 0 156  one hundred and fifty six
+157 [157]
+157 0 157  one hundred and fifty seven
+158 [158]
+158 0 158  one hundred and fifty eight
+159 [159]
+159 0 159  one hundred and fifty nine
+160 [160]
+160 0 160  one hundred and sixty
+161 [161]
+161 0 161  one hundred and sixty one
+162 [162]
+162 0 162  one hundred and sixty two
+163 [163]
+163 0 163  one hundred and sixty three
+164 [164]
+164 0 164  one hundred and sixty four
+165 [165]
+165 0 165  one hundred and sixty five
+166 [166]
+166 0 166  one hundred and sixty six
+167 [167]
+167 0 167  one hundred and sixty seven
+168 [168]
+168 0 168  one hundred and sixty eight
+169 [169]
+169 0 169  one hundred and sixty nine
+170 [170]
+170 0 170  one hundred and seventy
+171 [171]
+171 0 171  one hundred and seventy one
+172 [172]
+172 0 172  one hundred and seventy two
+173 [173]
+173 0 173  one hundred and seventy three
+174 [174]
+174 0 174  one hundred and seventy four
+175 [175]
+175 0 175  one hundred and seventy five
+176 [176]
+176 0 176  one hundred and seventy six
+177 [177]
+177 0 177  one hundred and seventy seven
+178 [178]
+178 0 178  one hundred and seventy eight
+179 [179]
+179 0 179  one hundred and seventy nine
+180 [180]
+180 0 180  one hundred and eighty
+181 [181]
+181 0 181  one hundred and eighty one
+182 [182]
+182 0 182  one hundred and eighty two
+183 [183]
+183 0 183  one hundred and eighty three
+184 [184]
+184 0 184  one hundred and eighty four
+185 [185]
+185 0 185  one hundred and eighty five
+186 [186]
+186 0 186  one hundred and eighty six
+187 [187]
+187 0 187  one hundred and eighty seven
+188 [188]
+188 0 188  one hundred and eighty eight
+189 [189]
+189 0 189  one hundred and eighty nine
+190 [190]
+190 0 190  one hundred and ninety
+191 [191]
+191 0 191  one hundred and ninety one
+192 [192]
+192 0 192  one hundred and ninety two
+193 [193]
+193 0 193  one hundred and ninety three
+194 [194]
+194 0 194  one hundred and ninety four
+195 [195]
+195 0 195  one hundred and ninety five
+196 [196]
+196 0 196  one hundred and ninety six
+197 [197]
+197 0 197  one hundred and ninety seven
+198 [198]
+198 0 198  one hundred and ninety eight
+199 [199]
+199 0 199  one hundred and ninety nine
+200 [200]
+200 0 200  two hundred
+201 [201]
+201 0 201  two hundred and one
+202 [202]
+202 0 202  two hundred and two
+203 [203]
+203 0 203  two hundred and three
+204 [204]
+204 0 204  two hundred and four
+205 [205]
+205 0 205  two hundred and five
+206 [206]
+206 0 206  two hundred and six
+207 [207]
+207 0 207  two hundred and seven
+208 [208]
+208 0 208  two hundred and eight
+209 [209]
+209 0 209  two hundred and nine
+210 [210]
+210 0 210  two hundred and ten
+211 [211]
+211 0 211  two hundred and eleven
+212 [212]
+212 0 212  two hundred and twelve
+213 [213]
+213 0 213  two hundred and thirteen
+214 [214]
+214 0 214  two hundred and fourteen
+215 [215]
+215 0 215  two hundred and fifteen
+216 [216]
+216 0 216  two hundred and sixteen
+217 [217]
+217 0 217  two hundred and seventeen
+218 [218]
+218 0 218  two hundred and eighteen
+219 [219]
+219 0 219  two hundred and nineteen
+220 [220]
+220 0 220  two hundred and twenty
+221 [221]
+221 0 221  two hundred and twenty one
+222 [222]
+222 0 222  two hundred and twenty two
+223 [223]
+223 0 223  two hundred and twenty three
+224 [224]
+224 0 224  two hundred and twenty four
+225 [225]
+225 0 225  two hundred and twenty five
+226 [226]
+226 0 226  two hundred and twenty six
+227 [227]
+227 0 227  two hundred and twenty seven
+228 [228]
+228 0 228  two hundred and twenty eight
+229 [229]
+229 0 229  two hundred and twenty nine
+230 [230]
+230 0 230  two hundred and thirty
+231 [231]
+231 0 231  two hundred and thirty one
+232 [232]
+232 0 232  two hundred and thirty two
+233 [233]
+233 0 233  two hundred and thirty three
+234 [234]
+234 0 234  two hundred and thirty four
+235 [235]
+235 0 235  two hundred and thirty five
+236 [236]
+236 0 236  two hundred and thirty six
+237 [237]
+237 0 237  two hundred and thirty seven
+238 [238]
+238 0 238  two hundred and thirty eight
+239 [239]
+239 0 239  two hundred and thirty nine
+240 [240]
+240 0 240  two hundred and fourty
+241 [241]
+241 0 241  two hundred and fourty one
+242 [242]
+242 0 242  two hundred and fourty two
+243 [243]
+243 0 243  two hundred and fourty three
+244 [244]
+244 0 244  two hundred and fourty four
+245 [245]
+245 0 245  two hundred and fourty five
+246 [246]
+246 0 246  two hundred and fourty six
+247 [247]
+247 0 247  two hundred and fourty seven
+248 [248]
+248 0 248  two hundred and fourty eight
+249 [249]
+249 0 249  two hundred and fourty nine
+250 [250]
+250 0 250  two hundred and fifty
+251 [251]
+251 0 251  two hundred and fifty one
+252 [252]
+252 0 252  two hundred and fifty two
+253 [253]
+253 0 253  two hundred and fifty three
+254 [254]
+254 0 254  two hundred and fifty four
+255 [255]
+255 0 255  two hundred and fifty five
+256 [256]
+256 0 256  two hundred and fifty six
+257 [257]
+257 0 257  two hundred and fifty seven
+258 [258]
+258 0 258  two hundred and fifty eight
+259 [259]
+259 0 259  two hundred and fifty nine
+260 [260]
+260 0 260  two hundred and sixty
+261 [261]
+261 0 261  two hundred and sixty one
+262 [262]
+262 0 262  two hundred and sixty two
+263 [263]
+263 0 263  two hundred and sixty three
+264 [264]
+264 0 264  two hundred and sixty four
+265 [265]
+265 0 265  two hundred and sixty five
+266 [266]
+266 0 266  two hundred and sixty six
+267 [267]
+267 0 267  two hundred and sixty seven
+268 [268]
+268 0 268  two hundred and sixty eight
+269 [269]
+269 0 269  two hundred and sixty nine
+270 [270]
+270 0 270  two hundred and seventy
+271 [271]
+271 0 271  two hundred and seventy one
+272 [272]
+272 0 272  two hundred and seventy two
+273 [273]
+273 0 273  two hundred and seventy three
+274 [274]
+274 0 274  two hundred and seventy four
+275 [275]
+275 0 275  two hundred and seventy five
+276 [276]
+276 0 276  two hundred and seventy six
+277 [277]
+277 0 277  two hundred and seventy seven
+278 [278]
+278 0 278  two hundred and seventy eight
+279 [279]
+279 0 279  two hundred and seventy nine
+280 [280]
+280 0 280  two hundred and eighty
+281 [281]
+281 0 281  two hundred and eighty one
+282 [282]
+282 0 282  two hundred and eighty two
+283 [283]
+283 0 283  two hundred and eighty three
+284 [284]
+284 0 284  two hundred and eighty four
+285 [285]
+285 0 285  two hundred and eighty five
+286 [286]
+286 0 286  two hundred and eighty six
+287 [287]
+287 0 287  two hundred and eighty seven
+288 [288]
+288 0 288  two hundred and eighty eight
+289 [289]
+289 0 289  two hundred and eighty nine
+290 [290]
+290 0 290  two hundred and ninety
+291 [291]
+291 0 291  two hundred and ninety one
+292 [292]
+292 0 292  two hundred and ninety two
+293 [293]
+293 0 293  two hundred and ninety three
+294 [294]
+294 0 294  two hundred and ninety four
+295 [295]
+295 0 295  two hundred and ninety five
+296 [296]
+296 0 296  two hundred and ninety six
+297 [297]
+297 0 297  two hundred and ninety seven
+298 [298]
+298 0 298  two hundred and ninety eight
+299 [299]
+299 0 299  two hundred and ninety nine
+300 [300]
+300 0 300  three hundred
+301 [301]
+301 0 301  three hundred and one
+302 [302]
+302 0 302  three hundred and two
+303 [303]
+303 0 303  three hundred and three
+304 [304]
+304 0 304  three hundred and four
+305 [305]
+305 0 305  three hundred and five
+306 [306]
+306 0 306  three hundred and six
+307 [307]
+307 0 307  three hundred and seven
+308 [308]
+308 0 308  three hundred and eight
+309 [309]
+309 0 309  three hundred and nine
+310 [310]
+310 0 310  three hundred and ten
+311 [311]
+311 0 311  three hundred and eleven
+312 [312]
+312 0 312  three hundred and twelve
+313 [313]
+313 0 313  three hundred and thirteen
+314 [314]
+314 0 314  three hundred and fourteen
+315 [315]
+315 0 315  three hundred and fifteen
+316 [316]
+316 0 316  three hundred and sixteen
+317 [317]
+317 0 317  three hundred and seventeen
+318 [318]
+318 0 318  three hundred and eighteen
+319 [319]
+319 0 319  three hundred and nineteen
+320 [320]
+320 0 320  three hundred and twenty
+321 [321]
+321 0 321  three hundred and twenty one
+322 [322]
+322 0 322  three hundred and twenty two
+323 [323]
+323 0 323  three hundred and twenty three
+324 [324]
+324 0 324  three hundred and twenty four
+325 [325]
+325 0 325  three hundred and twenty five
+326 [326]
+326 0 326  three hundred and twenty six
+327 [327]
+327 0 327  three hundred and twenty seven
+328 [328]
+328 0 328  three hundred and twenty eight
+329 [329]
+329 0 329  three hundred and twenty nine
+330 [330]
+330 0 330  three hundred and thirty
+331 [331]
+331 0 331  three hundred and thirty one
+332 [332]
+332 0 332  three hundred and thirty two
+333 [333]
+333 0 333  three hundred and thirty three
+334 [334]
+334 0 334  three hundred and thirty four
+335 [335]
+335 0 335  three hundred and thirty five
+336 [336]
+336 0 336  three hundred and thirty six
+337 [337]
+337 0 337  three hundred and thirty seven
+338 [338]
+338 0 338  three hundred and thirty eight
+339 [339]
+339 0 339  three hundred and thirty nine
+340 [340]
+340 0 340  three hundred and fourty
+341 [341]
+341 0 341  three hundred and fourty one
+342 [342]
+342 0 342  three hundred and fourty two
+343 [343]
+343 0 343  three hundred and fourty three
+344 [344]
+344 0 344  three hundred and fourty four
+345 [345]
+345 0 345  three hundred and fourty five
+346 [346]
+346 0 346  three hundred and fourty six
+347 [347]
+347 0 347  three hundred and fourty seven
+348 [348]
+348 0 348  three hundred and fourty eight
+349 [349]
+349 0 349  three hundred and fourty nine
+350 [350]
+350 0 350  three hundred and fifty
+351 [351]
+351 0 351  three hundred and fifty one
+352 [352]
+352 0 352  three hundred and fifty two
+353 [353]
+353 0 353  three hundred and fifty three
+354 [354]
+354 0 354  three hundred and fifty four
+355 [355]
+355 0 355  three hundred and fifty five
+356 [356]
+356 0 356  three hundred and fifty six
+357 [357]
+357 0 357  three hundred and fifty seven
+358 [358]
+358 0 358  three hundred and fifty eight
+359 [359]
+359 0 359  three hundred and fifty nine
+360 [360]
+360 0 360  three hundred and sixty
+361 [361]
+361 0 361  three hundred and sixty one
+362 [362]
+362 0 362  three hundred and sixty two
+363 [363]
+363 0 363  three hundred and sixty three
+364 [364]
+364 0 364  three hundred and sixty four
+365 [365]
+365 0 365  three hundred and sixty five
+366 [366]
+366 0 366  three hundred and sixty six
+367 [367]
+367 0 367  three hundred and sixty seven
+368 [368]
+368 0 368  three hundred and sixty eight
+369 [369]
+369 0 369  three hundred and sixty nine
+370 [370]
+370 0 370  three hundred and seventy
+371 [371]
+371 0 371  three hundred and seventy one
+372 [372]
+372 0 372  three hundred and seventy two
+373 [373]
+373 0 373  three hundred and seventy three
+374 [374]
+374 0 374  three hundred and seventy four
+375 [375]
+375 0 375  three hundred and seventy five
+376 [376]
+376 0 376  three hundred and seventy six
+377 [377]
+377 0 377  three hundred and seventy seven
+378 [378]
+378 0 378  three hundred and seventy eight
+379 [379]
+379 0 379  three hundred and seventy nine
+380 [380]
+380 0 380  three hundred and eighty
+381 [381]
+381 0 381  three hundred and eighty one
+382 [382]
+382 0 382  three hundred and eighty two
+383 [383]
+383 0 383  three hundred and eighty three
+384 [384]
+384 0 384  three hundred and eighty four
+385 [385]
+385 0 385  three hundred and eighty five
+386 [386]
+386 0 386  three hundred and eighty six
+387 [387]
+387 0 387  three hundred and eighty seven
+388 [388]
+388 0 388  three hundred and eighty eight
+389 [389]
+389 0 389  three hundred and eighty nine
+390 [390]
+390 0 390  three hundred and ninety
+391 [391]
+391 0 391  three hundred and ninety one
+392 [392]
+392 0 392  three hundred and ninety two
+393 [393]
+393 0 393  three hundred and ninety three
+394 [394]
+394 0 394  three hundred and ninety four
+395 [395]
+395 0 395  three hundred and ninety five
+396 [396]
+396 0 396  three hundred and ninety six
+397 [397]
+397 0 397  three hundred and ninety seven
+398 [398]
+398 0 398  three hundred and ninety eight
+399 [399]
+399 0 399  three hundred and ninety nine
+400 [400]
+400 0 400  four hundred
+401 [401]
+401 0 401  four hundred and one
+402 [402]
+402 0 402  four hundred and two
+403 [403]
+403 0 403  four hundred and three
+404 [404]
+404 0 404  four hundred and four
+405 [405]
+405 0 405  four hundred and five
+406 [406]
+406 0 406  four hundred and six
+407 [407]
+407 0 407  four hundred and seven
+408 [408]
+408 0 408  four hundred and eight
+409 [409]
+409 0 409  four hundred and nine
+410 [410]
+410 0 410  four hundred and ten
+411 [411]
+411 0 411  four hundred and eleven
+412 [412]
+412 0 412  four hundred and twelve
+413 [413]
+413 0 413  four hundred and thirteen
+414 [414]
+414 0 414  four hundred and fourteen
+415 [415]
+415 0 415  four hundred and fifteen
+416 [416]
+416 0 416  four hundred and sixteen
+417 [417]
+417 0 417  four hundred and seventeen
+418 [418]
+418 0 418  four hundred and eighteen
+419 [419]
+419 0 419  four hundred and nineteen
+420 [420]
+420 0 420  four hundred and twenty
+421 [421]
+421 0 421  four hundred and twenty one
+422 [422]
+422 0 422  four hundred and twenty two
+423 [423]
+423 0 423  four hundred and twenty three
+424 [424]
+424 0 424  four hundred and twenty four
+425 [425]
+425 0 425  four hundred and twenty five
+426 [426]
+426 0 426  four hundred and twenty six
+427 [427]
+427 0 427  four hundred and twenty seven
+428 [428]
+428 0 428  four hundred and twenty eight
+429 [429]
+429 0 429  four hundred and twenty nine
+430 [430]
+430 0 430  four hundred and thirty
+431 [431]
+431 0 431  four hundred and thirty one
+432 [432]
+432 0 432  four hundred and thirty two
+433 [433]
+433 0 433  four hundred and thirty three
+434 [434]
+434 0 434  four hundred and thirty four
+435 [435]
+435 0 435  four hundred and thirty five
+436 [436]
+436 0 436  four hundred and thirty six
+437 [437]
+437 0 437  four hundred and thirty seven
+438 [438]
+438 0 438  four hundred and thirty eight
+439 [439]
+439 0 439  four hundred and thirty nine
+440 [440]
+440 0 440  four hundred and fourty
+441 [441]
+441 0 441  four hundred and fourty one
+442 [442]
+442 0 442  four hundred and fourty two
+443 [443]
+443 0 443  four hundred and fourty three
+444 [444]
+444 0 444  four hundred and fourty four
+445 [445]
+445 0 445  four hundred and fourty five
+446 [446]
+446 0 446  four hundred and fourty six
+447 [447]
+447 0 447  four hundred and fourty seven
+448 [448]
+448 0 448  four hundred and fourty eight
+449 [449]
+449 0 449  four hundred and fourty nine
+450 [450]
+450 0 450  four hundred and fifty
+451 [451]
+451 0 451  four hundred and fifty one
+452 [452]
+452 0 452  four hundred and fifty two
+453 [453]
+453 0 453  four hundred and fifty three
+454 [454]
+454 0 454  four hundred and fifty four
+455 [455]
+455 0 455  four hundred and fifty five
+456 [456]
+456 0 456  four hundred and fifty six
+457 [457]
+457 0 457  four hundred and fifty seven
+458 [458]
+458 0 458  four hundred and fifty eight
+459 [459]
+459 0 459  four hundred and fifty nine
+460 [460]
+460 0 460  four hundred and sixty
+461 [461]
+461 0 461  four hundred and sixty one
+462 [462]
+462 0 462  four hundred and sixty two
+463 [463]
+463 0 463  four hundred and sixty three
+464 [464]
+464 0 464  four hundred and sixty four
+465 [465]
+465 0 465  four hundred and sixty five
+466 [466]
+466 0 466  four hundred and sixty six
+467 [467]
+467 0 467  four hundred and sixty seven
+468 [468]
+468 0 468  four hundred and sixty eight
+469 [469]
+469 0 469  four hundred and sixty nine
+470 [470]
+470 0 470  four hundred and seventy
+471 [471]
+471 0 471  four hundred and seventy one
+472 [472]
+472 0 472  four hundred and seventy two
+473 [473]
+473 0 473  four hundred and seventy three
+474 [474]
+474 0 474  four hundred and seventy four
+475 [475]
+475 0 475  four hundred and seventy five
+476 [476]
+476 0 476  four hundred and seventy six
+477 [477]
+477 0 477  four hundred and seventy seven
+478 [478]
+478 0 478  four hundred and seventy eight
+479 [479]
+479 0 479  four hundred and seventy nine
+480 [480]
+480 0 480  four hundred and eighty
+481 [481]
+481 0 481  four hundred and eighty one
+482 [482]
+482 0 482  four hundred and eighty two
+483 [483]
+483 0 483  four hundred and eighty three
+484 [484]
+484 0 484  four hundred and eighty four
+485 [485]
+485 0 485  four hundred and eighty five
+486 [486]
+486 0 486  four hundred and eighty six
+487 [487]
+487 0 487  four hundred and eighty seven
+488 [488]
+488 0 488  four hundred and eighty eight
+489 [489]
+489 0 489  four hundred and eighty nine
+490 [490]
+490 0 490  four hundred and ninety
+491 [491]
+491 0 491  four hundred and ninety one
+492 [492]
+492 0 492  four hundred and ninety two
+493 [493]
+493 0 493  four hundred and ninety three
+494 [494]
+494 0 494  four hundred and ninety four
+495 [495]
+495 0 495  four hundred and ninety five
+496 [496]
+496 0 496  four hundred and ninety six
+497 [497]
+497 0 497  four hundred and ninety seven
+498 [498]
+498 0 498  four hundred and ninety eight
+499 [499]
+499 0 499  four hundred and ninety nine
+500 [500]
+500 0 500  five hundred
+501 [501]
+501 0 501  five hundred and one
+502 [502]
+502 0 502  five hundred and two
+503 [503]
+503 0 503  five hundred and three
+504 [504]
+504 0 504  five hundred and four
+505 [505]
+505 0 505  five hundred and five
+506 [506]
+506 0 506  five hundred and six
+507 [507]
+507 0 507  five hundred and seven
+508 [508]
+508 0 508  five hundred and eight
+509 [509]
+509 0 509  five hundred and nine
+510 [510]
+510 0 510  five hundred and ten
+511 [511]
+511 0 511  five hundred and eleven
+512 [512]
+512 0 512  five hundred and twelve
+513 [513]
+513 0 513  five hundred and thirteen
+514 [514]
+514 0 514  five hundred and fourteen
+515 [515]
+515 0 515  five hundred and fifteen
+516 [516]
+516 0 516  five hundred and sixteen
+517 [517]
+517 0 517  five hundred and seventeen
+518 [518]
+518 0 518  five hundred and eighteen
+519 [519]
+519 0 519  five hundred and nineteen
+520 [520]
+520 0 520  five hundred and twenty
+521 [521]
+521 0 521  five hundred and twenty one
+522 [522]
+522 0 522  five hundred and twenty two
+523 [523]
+523 0 523  five hundred and twenty three
+524 [524]
+524 0 524  five hundred and twenty four
+525 [525]
+525 0 525  five hundred and twenty five
+526 [526]
+526 0 526  five hundred and twenty six
+527 [527]
+527 0 527  five hundred and twenty seven
+528 [528]
+528 0 528  five hundred and twenty eight
+529 [529]
+529 0 529  five hundred and twenty nine
+530 [530]
+530 0 530  five hundred and thirty
+531 [531]
+531 0 531  five hundred and thirty one
+532 [532]
+532 0 532  five hundred and thirty two
+533 [533]
+533 0 533  five hundred and thirty three
+534 [534]
+534 0 534  five hundred and thirty four
+535 [535]
+535 0 535  five hundred and thirty five
+536 [536]
+536 0 536  five hundred and thirty six
+537 [537]
+537 0 537  five hundred and thirty seven
+538 [538]
+538 0 538  five hundred and thirty eight
+539 [539]
+539 0 539  five hundred and thirty nine
+540 [540]
+540 0 540  five hundred and fourty
+541 [541]
+541 0 541  five hundred and fourty one
+542 [542]
+542 0 542  five hundred and fourty two
+543 [543]
+543 0 543  five hundred and fourty three
+544 [544]
+544 0 544  five hundred and fourty four
+545 [545]
+545 0 545  five hundred and fourty five
+546 [546]
+546 0 546  five hundred and fourty six
+547 [547]
+547 0 547  five hundred and fourty seven
+548 [548]
+548 0 548  five hundred and fourty eight
+549 [549]
+549 0 549  five hundred and fourty nine
+550 [550]
+550 0 550  five hundred and fifty
+551 [551]
+551 0 551  five hundred and fifty one
+552 [552]
+552 0 552  five hundred and fifty two
+553 [553]
+553 0 553  five hundred and fifty three
+554 [554]
+554 0 554  five hundred and fifty four
+555 [555]
+555 0 555  five hundred and fifty five
+556 [556]
+556 0 556  five hundred and fifty six
+557 [557]
+557 0 557  five hundred and fifty seven
+558 [558]
+558 0 558  five hundred and fifty eight
+559 [559]
+559 0 559  five hundred and fifty nine
+560 [560]
+560 0 560  five hundred and sixty
+561 [561]
+561 0 561  five hundred and sixty one
+562 [562]
+562 0 562  five hundred and sixty two
+563 [563]
+563 0 563  five hundred and sixty three
+564 [564]
+564 0 564  five hundred and sixty four
+565 [565]
+565 0 565  five hundred and sixty five
+566 [566]
+566 0 566  five hundred and sixty six
+567 [567]
+567 0 567  five hundred and sixty seven
+568 [568]
+568 0 568  five hundred and sixty eight
+569 [569]
+569 0 569  five hundred and sixty nine
+570 [570]
+570 0 570  five hundred and seventy
+571 [571]
+571 0 571  five hundred and seventy one
+572 [572]
+572 0 572  five hundred and seventy two
+573 [573]
+573 0 573  five hundred and seventy three
+574 [574]
+574 0 574  five hundred and seventy four
+575 [575]
+575 0 575  five hundred and seventy five
+576 [576]
+576 0 576  five hundred and seventy six
+577 [577]
+577 0 577  five hundred and seventy seven
+578 [578]
+578 0 578  five hundred and seventy eight
+579 [579]
+579 0 579  five hundred and seventy nine
+580 [580]
+580 0 580  five hundred and eighty
+581 [581]
+581 0 581  five hundred and eighty one
+582 [582]
+582 0 582  five hundred and eighty two
+583 [583]
+583 0 583  five hundred and eighty three
+584 [584]
+584 0 584  five hundred and eighty four
+585 [585]
+585 0 585  five hundred and eighty five
+586 [586]
+586 0 586  five hundred and eighty six
+587 [587]
+587 0 587  five hundred and eighty seven
+588 [588]
+588 0 588  five hundred and eighty eight
+589 [589]
+589 0 589  five hundred and eighty nine
+590 [590]
+590 0 590  five hundred and ninety
+591 [591]
+591 0 591  five hundred and ninety one
+592 [592]
+592 0 592  five hundred and ninety two
+593 [593]
+593 0 593  five hundred and ninety three
+594 [594]
+594 0 594  five hundred and ninety four
+595 [595]
+595 0 595  five hundred and ninety five
+596 [596]
+596 0 596  five hundred and ninety six
+597 [597]
+597 0 597  five hundred and ninety seven
+598 [598]
+598 0 598  five hundred and ninety eight
+599 [599]
+599 0 599  five hundred and ninety nine
+600 [600]
+600 0 600  six hundred
+601 [601]
+601 0 601  six hundred and one
+602 [602]
+602 0 602  six hundred and two
+603 [603]
+603 0 603  six hundred and three
+604 [604]
+604 0 604  six hundred and four
+605 [605]
+605 0 605  six hundred and five
+606 [606]
+606 0 606  six hundred and six
+607 [607]
+607 0 607  six hundred and seven
+608 [608]
+608 0 608  six hundred and eight
+609 [609]
+609 0 609  six hundred and nine
+610 [610]
+610 0 610  six hundred and ten
+611 [611]
+611 0 611  six hundred and eleven
+612 [612]
+612 0 612  six hundred and twelve
+613 [613]
+613 0 613  six hundred and thirteen
+614 [614]
+614 0 614  six hundred and fourteen
+615 [615]
+615 0 615  six hundred and fifteen
+616 [616]
+616 0 616  six hundred and sixteen
+617 [617]
+617 0 617  six hundred and seventeen
+618 [618]
+618 0 618  six hundred and eighteen
+619 [619]
+619 0 619  six hundred and nineteen
+620 [620]
+620 0 620  six hundred and twenty
+621 [621]
+621 0 621  six hundred and twenty one
+622 [622]
+622 0 622  six hundred and twenty two
+623 [623]
+623 0 623  six hundred and twenty three
+624 [624]
+624 0 624  six hundred and twenty four
+625 [625]
+625 0 625  six hundred and twenty five
+626 [626]
+626 0 626  six hundred and twenty six
+627 [627]
+627 0 627  six hundred and twenty seven
+628 [628]
+628 0 628  six hundred and twenty eight
+629 [629]
+629 0 629  six hundred and twenty nine
+630 [630]
+630 0 630  six hundred and thirty
+631 [631]
+631 0 631  six hundred and thirty one
+632 [632]
+632 0 632  six hundred and thirty two
+633 [633]
+633 0 633  six hundred and thirty three
+634 [634]
+634 0 634  six hundred and thirty four
+635 [635]
+635 0 635  six hundred and thirty five
+636 [636]
+636 0 636  six hundred and thirty six
+637 [637]
+637 0 637  six hundred and thirty seven
+638 [638]
+638 0 638  six hundred and thirty eight
+639 [639]
+639 0 639  six hundred and thirty nine
+640 [640]
+640 0 640  six hundred and fourty
+641 [641]
+641 0 641  six hundred and fourty one
+642 [642]
+642 0 642  six hundred and fourty two
+643 [643]
+643 0 643  six hundred and fourty three
+644 [644]
+644 0 644  six hundred and fourty four
+645 [645]
+645 0 645  six hundred and fourty five
+646 [646]
+646 0 646  six hundred and fourty six
+647 [647]
+647 0 647  six hundred and fourty seven
+648 [648]
+648 0 648  six hundred and fourty eight
+649 [649]
+649 0 649  six hundred and fourty nine
+650 [650]
+650 0 650  six hundred and fifty
+651 [651]
+651 0 651  six hundred and fifty one
+652 [652]
+652 0 652  six hundred and fifty two
+653 [653]
+653 0 653  six hundred and fifty three
+654 [654]
+654 0 654  six hundred and fifty four
+655 [655]
+655 0 655  six hundred and fifty five
+656 [656]
+656 0 656  six hundred and fifty six
+657 [657]
+657 0 657  six hundred and fifty seven
+658 [658]
+658 0 658  six hundred and fifty eight
+659 [659]
+659 0 659  six hundred and fifty nine
+660 [660]
+660 0 660  six hundred and sixty
+661 [661]
+661 0 661  six hundred and sixty one
+662 [662]
+662 0 662  six hundred and sixty two
+663 [663]
+663 0 663  six hundred and sixty three
+664 [664]
+664 0 664  six hundred and sixty four
+665 [665]
+665 0 665  six hundred and sixty five
+666 [666]
+666 0 666  six hundred and sixty six
+667 [667]
+667 0 667  six hundred and sixty seven
+668 [668]
+668 0 668  six hundred and sixty eight
+669 [669]
+669 0 669  six hundred and sixty nine
+670 [670]
+670 0 670  six hundred and seventy
+671 [671]
+671 0 671  six hundred and seventy one
+672 [672]
+672 0 672  six hundred and seventy two
+673 [673]
+673 0 673  six hundred and seventy three
+674 [674]
+674 0 674  six hundred and seventy four
+675 [675]
+675 0 675  six hundred and seventy five
+676 [676]
+676 0 676  six hundred and seventy six
+677 [677]
+677 0 677  six hundred and seventy seven
+678 [678]
+678 0 678  six hundred and seventy eight
+679 [679]
+679 0 679  six hundred and seventy nine
+680 [680]
+680 0 680  six hundred and eighty
+681 [681]
+681 0 681  six hundred and eighty one
+682 [682]
+682 0 682  six hundred and eighty two
+683 [683]
+683 0 683  six hundred and eighty three
+684 [684]
+684 0 684  six hundred and eighty four
+685 [685]
+685 0 685  six hundred and eighty five
+686 [686]
+686 0 686  six hundred and eighty six
+687 [687]
+687 0 687  six hundred and eighty seven
+688 [688]
+688 0 688  six hundred and eighty eight
+689 [689]
+689 0 689  six hundred and eighty nine
+690 [690]
+690 0 690  six hundred and ninety
+691 [691]
+691 0 691  six hundred and ninety one
+692 [692]
+692 0 692  six hundred and ninety two
+693 [693]
+693 0 693  six hundred and ninety three
+694 [694]
+694 0 694  six hundred and ninety four
+695 [695]
+695 0 695  six hundred and ninety five
+696 [696]
+696 0 696  six hundred and ninety six
+697 [697]
+697 0 697  six hundred and ninety seven
+698 [698]
+698 0 698  six hundred and ninety eight
+699 [699]
+699 0 699  six hundred and ninety nine
+700 [700]
+700 0 700  seven hundred
+701 [701]
+701 0 701  seven hundred and one
+702 [702]
+702 0 702  seven hundred and two
+703 [703]
+703 0 703  seven hundred and three
+704 [704]
+704 0 704  seven hundred and four
+705 [705]
+705 0 705  seven hundred and five
+706 [706]
+706 0 706  seven hundred and six
+707 [707]
+707 0 707  seven hundred and seven
+708 [708]
+708 0 708  seven hundred and eight
+709 [709]
+709 0 709  seven hundred and nine
+710 [710]
+710 0 710  seven hundred and ten
+711 [711]
+711 0 711  seven hundred and eleven
+712 [712]
+712 0 712  seven hundred and twelve
+713 [713]
+713 0 713  seven hundred and thirteen
+714 [714]
+714 0 714  seven hundred and fourteen
+715 [715]
+715 0 715  seven hundred and fifteen
+716 [716]
+716 0 716  seven hundred and sixteen
+717 [717]
+717 0 717  seven hundred and seventeen
+718 [718]
+718 0 718  seven hundred and eighteen
+719 [719]
+719 0 719  seven hundred and nineteen
+720 [720]
+720 0 720  seven hundred and twenty
+721 [721]
+721 0 721  seven hundred and twenty one
+722 [722]
+722 0 722  seven hundred and twenty two
+723 [723]
+723 0 723  seven hundred and twenty three
+724 [724]
+724 0 724  seven hundred and twenty four
+725 [725]
+725 0 725  seven hundred and twenty five
+726 [726]
+726 0 726  seven hundred and twenty six
+727 [727]
+727 0 727  seven hundred and twenty seven
+728 [728]
+728 0 728  seven hundred and twenty eight
+729 [729]
+729 0 729  seven hundred and twenty nine
+730 [730]
+730 0 730  seven hundred and thirty
+731 [731]
+731 0 731  seven hundred and thirty one
+732 [732]
+732 0 732  seven hundred and thirty two
+733 [733]
+733 0 733  seven hundred and thirty three
+734 [734]
+734 0 734  seven hundred and thirty four
+735 [735]
+735 0 735  seven hundred and thirty five
+736 [736]
+736 0 736  seven hundred and thirty six
+737 [737]
+737 0 737  seven hundred and thirty seven
+738 [738]
+738 0 738  seven hundred and thirty eight
+739 [739]
+739 0 739  seven hundred and thirty nine
+740 [740]
+740 0 740  seven hundred and fourty
+741 [741]
+741 0 741  seven hundred and fourty one
+742 [742]
+742 0 742  seven hundred and fourty two
+743 [743]
+743 0 743  seven hundred and fourty three
+744 [744]
+744 0 744  seven hundred and fourty four
+745 [745]
+745 0 745  seven hundred and fourty five
+746 [746]
+746 0 746  seven hundred and fourty six
+747 [747]
+747 0 747  seven hundred and fourty seven
+748 [748]
+748 0 748  seven hundred and fourty eight
+749 [749]
+749 0 749  seven hundred and fourty nine
+750 [750]
+750 0 750  seven hundred and fifty
+751 [751]
+751 0 751  seven hundred and fifty one
+752 [752]
+752 0 752  seven hundred and fifty two
+753 [753]
+753 0 753  seven hundred and fifty three
+754 [754]
+754 0 754  seven hundred and fifty four
+755 [755]
+755 0 755  seven hundred and fifty five
+756 [756]
+756 0 756  seven hundred and fifty six
+757 [757]
+757 0 757  seven hundred and fifty seven
+758 [758]
+758 0 758  seven hundred and fifty eight
+759 [759]
+759 0 759  seven hundred and fifty nine
+760 [760]
+760 0 760  seven hundred and sixty
+761 [761]
+761 0 761  seven hundred and sixty one
+762 [762]
+762 0 762  seven hundred and sixty two
+763 [763]
+763 0 763  seven hundred and sixty three
+764 [764]
+764 0 764  seven hundred and sixty four
+765 [765]
+765 0 765  seven hundred and sixty five
+766 [766]
+766 0 766  seven hundred and sixty six
+767 [767]
+767 0 767  seven hundred and sixty seven
+768 [768]
+768 0 768  seven hundred and sixty eight
+769 [769]
+769 0 769  seven hundred and sixty nine
+770 [770]
+770 0 770  seven hundred and seventy
+771 [771]
+771 0 771  seven hundred and seventy one
+772 [772]
+772 0 772  seven hundred and seventy two
+773 [773]
+773 0 773  seven hundred and seventy three
+774 [774]
+774 0 774  seven hundred and seventy four
+775 [775]
+775 0 775  seven hundred and seventy five
+776 [776]
+776 0 776  seven hundred and seventy six
+777 [777]
+777 0 777  seven hundred and seventy seven
+778 [778]
+778 0 778  seven hundred and seventy eight
+779 [779]
+779 0 779  seven hundred and seventy nine
+780 [780]
+780 0 780  seven hundred and eighty
+781 [781]
+781 0 781  seven hundred and eighty one
+782 [782]
+782 0 782  seven hundred and eighty two
+783 [783]
+783 0 783  seven hundred and eighty three
+784 [784]
+784 0 784  seven hundred and eighty four
+785 [785]
+785 0 785  seven hundred and eighty five
+786 [786]
+786 0 786  seven hundred and eighty six
+787 [787]
+787 0 787  seven hundred and eighty seven
+788 [788]
+788 0 788  seven hundred and eighty eight
+789 [789]
+789 0 789  seven hundred and eighty nine
+790 [790]
+790 0 790  seven hundred and ninety
+791 [791]
+791 0 791  seven hundred and ninety one
+792 [792]
+792 0 792  seven hundred and ninety two
+793 [793]
+793 0 793  seven hundred and ninety three
+794 [794]
+794 0 794  seven hundred and ninety four
+795 [795]
+795 0 795  seven hundred and ninety five
+796 [796]
+796 0 796  seven hundred and ninety six
+797 [797]
+797 0 797  seven hundred and ninety seven
+798 [798]
+798 0 798  seven hundred and ninety eight
+799 [799]
+799 0 799  seven hundred and ninety nine
+800 [800]
+800 0 800  eight hundred
+801 [801]
+801 0 801  eight hundred and one
+802 [802]
+802 0 802  eight hundred and two
+803 [803]
+803 0 803  eight hundred and three
+804 [804]
+804 0 804  eight hundred and four
+805 [805]
+805 0 805  eight hundred and five
+806 [806]
+806 0 806  eight hundred and six
+807 [807]
+807 0 807  eight hundred and seven
+808 [808]
+808 0 808  eight hundred and eight
+809 [809]
+809 0 809  eight hundred and nine
+810 [810]
+810 0 810  eight hundred and ten
+811 [811]
+811 0 811  eight hundred and eleven
+812 [812]
+812 0 812  eight hundred and twelve
+813 [813]
+813 0 813  eight hundred and thirteen
+814 [814]
+814 0 814  eight hundred and fourteen
+815 [815]
+815 0 815  eight hundred and fifteen
+816 [816]
+816 0 816  eight hundred and sixteen
+817 [817]
+817 0 817  eight hundred and seventeen
+818 [818]
+818 0 818  eight hundred and eighteen
+819 [819]
+819 0 819  eight hundred and nineteen
+820 [820]
+820 0 820  eight hundred and twenty
+821 [821]
+821 0 821  eight hundred and twenty one
+822 [822]
+822 0 822  eight hundred and twenty two
+823 [823]
+823 0 823  eight hundred and twenty three
+824 [824]
+824 0 824  eight hundred and twenty four
+825 [825]
+825 0 825  eight hundred and twenty five
+826 [826]
+826 0 826  eight hundred and twenty six
+827 [827]
+827 0 827  eight hundred and twenty seven
+828 [828]
+828 0 828  eight hundred and twenty eight
+829 [829]
+829 0 829  eight hundred and twenty nine
+830 [830]
+830 0 830  eight hundred and thirty
+831 [831]
+831 0 831  eight hundred and thirty one
+832 [832]
+832 0 832  eight hundred and thirty two
+833 [833]
+833 0 833  eight hundred and thirty three
+834 [834]
+834 0 834  eight hundred and thirty four
+835 [835]
+835 0 835  eight hundred and thirty five
+836 [836]
+836 0 836  eight hundred and thirty six
+837 [837]
+837 0 837  eight hundred and thirty seven
+838 [838]
+838 0 838  eight hundred and thirty eight
+839 [839]
+839 0 839  eight hundred and thirty nine
+840 [840]
+840 0 840  eight hundred and fourty
+841 [841]
+841 0 841  eight hundred and fourty one
+842 [842]
+842 0 842  eight hundred and fourty two
+843 [843]
+843 0 843  eight hundred and fourty three
+844 [844]
+844 0 844  eight hundred and fourty four
+845 [845]
+845 0 845  eight hundred and fourty five
+846 [846]
+846 0 846  eight hundred and fourty six
+847 [847]
+847 0 847  eight hundred and fourty seven
+848 [848]
+848 0 848  eight hundred and fourty eight
+849 [849]
+849 0 849  eight hundred and fourty nine
+850 [850]
+850 0 850  eight hundred and fifty
+851 [851]
+851 0 851  eight hundred and fifty one
+852 [852]
+852 0 852  eight hundred and fifty two
+853 [853]
+853 0 853  eight hundred and fifty three
+854 [854]
+854 0 854  eight hundred and fifty four
+855 [855]
+855 0 855  eight hundred and fifty five
+856 [856]
+856 0 856  eight hundred and fifty six
+857 [857]
+857 0 857  eight hundred and fifty seven
+858 [858]
+858 0 858  eight hundred and fifty eight
+859 [859]
+859 0 859  eight hundred and fifty nine
+860 [860]
+860 0 860  eight hundred and sixty
+861 [861]
+861 0 861  eight hundred and sixty one
+862 [862]
+862 0 862  eight hundred and sixty two
+863 [863]
+863 0 863  eight hundred and sixty three
+864 [864]
+864 0 864  eight hundred and sixty four
+865 [865]
+865 0 865  eight hundred and sixty five
+866 [866]
+866 0 866  eight hundred and sixty six
+867 [867]
+867 0 867  eight hundred and sixty seven
+868 [868]
+868 0 868  eight hundred and sixty eight
+869 [869]
+869 0 869  eight hundred and sixty nine
+870 [870]
+870 0 870  eight hundred and seventy
+871 [871]
+871 0 871  eight hundred and seventy one
+872 [872]
+872 0 872  eight hundred and seventy two
+873 [873]
+873 0 873  eight hundred and seventy three
+874 [874]
+874 0 874  eight hundred and seventy four
+875 [875]
+875 0 875  eight hundred and seventy five
+876 [876]
+876 0 876  eight hundred and seventy six
+877 [877]
+877 0 877  eight hundred and seventy seven
+878 [878]
+878 0 878  eight hundred and seventy eight
+879 [879]
+879 0 879  eight hundred and seventy nine
+880 [880]
+880 0 880  eight hundred and eighty
+881 [881]
+881 0 881  eight hundred and eighty one
+882 [882]
+882 0 882  eight hundred and eighty two
+883 [883]
+883 0 883  eight hundred and eighty three
+884 [884]
+884 0 884  eight hundred and eighty four
+885 [885]
+885 0 885  eight hundred and eighty five
+886 [886]
+886 0 886  eight hundred and eighty six
+887 [887]
+887 0 887  eight hundred and eighty seven
+888 [888]
+888 0 888  eight hundred and eighty eight
+889 [889]
+889 0 889  eight hundred and eighty nine
+890 [890]
+890 0 890  eight hundred and ninety
+891 [891]
+891 0 891  eight hundred and ninety one
+892 [892]
+892 0 892  eight hundred and ninety two
+893 [893]
+893 0 893  eight hundred and ninety three
+894 [894]
+894 0 894  eight hundred and ninety four
+895 [895]
+895 0 895  eight hundred and ninety five
+896 [896]
+896 0 896  eight hundred and ninety six
+897 [897]
+897 0 897  eight hundred and ninety seven
+898 [898]
+898 0 898  eight hundred and ninety eight
+899 [899]
+899 0 899  eight hundred and ninety nine
+900 [900]
+900 0 900  nine hundred
+901 [901]
+901 0 901  nine hundred and one
+902 [902]
+902 0 902  nine hundred and two
+903 [903]
+903 0 903  nine hundred and three
+904 [904]
+904 0 904  nine hundred and four
+905 [905]
+905 0 905  nine hundred and five
+906 [906]
+906 0 906  nine hundred and six
+907 [907]
+907 0 907  nine hundred and seven
+908 [908]
+908 0 908  nine hundred and eight
+909 [909]
+909 0 909  nine hundred and nine
+910 [910]
+910 0 910  nine hundred and ten
+911 [911]
+911 0 911  nine hundred and eleven
+912 [912]
+912 0 912  nine hundred and twelve
+913 [913]
+913 0 913  nine hundred and thirteen
+914 [914]
+914 0 914  nine hundred and fourteen
+915 [915]
+915 0 915  nine hundred and fifteen
+916 [916]
+916 0 916  nine hundred and sixteen
+917 [917]
+917 0 917  nine hundred and seventeen
+918 [918]
+918 0 918  nine hundred and eighteen
+919 [919]
+919 0 919  nine hundred and nineteen
+920 [920]
+920 0 920  nine hundred and twenty
+921 [921]
+921 0 921  nine hundred and twenty one
+922 [922]
+922 0 922  nine hundred and twenty two
+923 [923]
+923 0 923  nine hundred and twenty three
+924 [924]
+924 0 924  nine hundred and twenty four
+925 [925]
+925 0 925  nine hundred and twenty five
+926 [926]
+926 0 926  nine hundred and twenty six
+927 [927]
+927 0 927  nine hundred and twenty seven
+928 [928]
+928 0 928  nine hundred and twenty eight
+929 [929]
+929 0 929  nine hundred and twenty nine
+930 [930]
+930 0 930  nine hundred and thirty
+931 [931]
+931 0 931  nine hundred and thirty one
+932 [932]
+932 0 932  nine hundred and thirty two
+933 [933]
+933 0 933  nine hundred and thirty three
+934 [934]
+934 0 934  nine hundred and thirty four
+935 [935]
+935 0 935  nine hundred and thirty five
+936 [936]
+936 0 936  nine hundred and thirty six
+937 [937]
+937 0 937  nine hundred and thirty seven
+938 [938]
+938 0 938  nine hundred and thirty eight
+939 [939]
+939 0 939  nine hundred and thirty nine
+940 [940]
+940 0 940  nine hundred and fourty
+941 [941]
+941 0 941  nine hundred and fourty one
+942 [942]
+942 0 942  nine hundred and fourty two
+943 [943]
+943 0 943  nine hundred and fourty three
+944 [944]
+944 0 944  nine hundred and fourty four
+945 [945]
+945 0 945  nine hundred and fourty five
+946 [946]
+946 0 946  nine hundred and fourty six
+947 [947]
+947 0 947  nine hundred and fourty seven
+948 [948]
+948 0 948  nine hundred and fourty eight
+949 [949]
+949 0 949  nine hundred and fourty nine
+950 [950]
+950 0 950  nine hundred and fifty
+951 [951]
+951 0 951  nine hundred and fifty one
+952 [952]
+952 0 952  nine hundred and fifty two
+953 [953]
+953 0 953  nine hundred and fifty three
+954 [954]
+954 0 954  nine hundred and fifty four
+955 [955]
+955 0 955  nine hundred and fifty five
+956 [956]
+956 0 956  nine hundred and fifty six
+957 [957]
+957 0 957  nine hundred and fifty seven
+958 [958]
+958 0 958  nine hundred and fifty eight
+959 [959]
+959 0 959  nine hundred and fifty nine
+960 [960]
+960 0 960  nine hundred and sixty
+961 [961]
+961 0 961  nine hundred and sixty one
+962 [962]
+962 0 962  nine hundred and sixty two
+963 [963]
+963 0 963  nine hundred and sixty three
+964 [964]
+964 0 964  nine hundred and sixty four
+965 [965]
+965 0 965  nine hundred and sixty five
+966 [966]
+966 0 966  nine hundred and sixty six
+967 [967]
+967 0 967  nine hundred and sixty seven
+968 [968]
+968 0 968  nine hundred and sixty eight
+969 [969]
+969 0 969  nine hundred and sixty nine
+970 [970]
+970 0 970  nine hundred and seventy
+971 [971]
+971 0 971  nine hundred and seventy one
+972 [972]
+972 0 972  nine hundred and seventy two
+973 [973]
+973 0 973  nine hundred and seventy three
+974 [974]
+974 0 974  nine hundred and seventy four
+975 [975]
+975 0 975  nine hundred and seventy five
+976 [976]
+976 0 976  nine hundred and seventy six
+977 [977]
+977 0 977  nine hundred and seventy seven
+978 [978]
+978 0 978  nine hundred and seventy eight
+979 [979]
+979 0 979  nine hundred and seventy nine
+980 [980]
+980 0 980  nine hundred and eighty
+981 [981]
+981 0 981  nine hundred and eighty one
+982 [982]
+982 0 982  nine hundred and eighty two
+983 [983]
+983 0 983  nine hundred and eighty three
+984 [984]
+984 0 984  nine hundred and eighty four
+985 [985]
+985 0 985  nine hundred and eighty five
+986 [986]
+986 0 986  nine hundred and eighty six
+987 [987]
+987 0 987  nine hundred and eighty seven
+988 [988]
+988 0 988  nine hundred and eighty eight
+989 [989]
+989 0 989  nine hundred and eighty nine
+990 [990]
+990 0 990  nine hundred and ninety
+991 [991]
+991 0 991  nine hundred and ninety one
+992 [992]
+992 0 992  nine hundred and ninety two
+993 [993]
+993 0 993  nine hundred and ninety three
+994 [994]
+994 0 994  nine hundred and ninety four
+995 [995]
+995 0 995  nine hundred and ninety five
+996 [996]
+996 0 996  nine hundred and ninety six
+997 [997]
+997 0 997  nine hundred and ninety seven
+998 [998]
+998 0 998  nine hundred and ninety eight
+999 [999]
+999 0 999  nine hundred and ninety nine
+10 [10]
+10 0 10  ten
+11 [11]
+11 0 11  eleven
+12 [12]
+12 0 12  twelve
+13 [13]
+13 0 13  thirteen
+14 [14]
+14 0 14  fourteen
+15 [15]
+15 0 15  fifteen
+16 [16]
+16 0 16  sixteen
+17 [17]
+17 0 17  seventeen
+18 [18]
+18 0 18  eighteen
+19 [19]
+19 0 19  nineteen
+20 [20]
+20 0 20  twenty
+21 [21]
+21 0 21  twenty one
+22 [22]
+22 0 22  twenty two
+23 [23]
+23 0 23  twenty three
+24 [24]
+24 0 24  twenty four
+25 [25]
+25 0 25  twenty five
+26 [26]
+26 0 26  twenty six
+27 [27]
+27 0 27  twenty seven
+28 [28]
+28 0 28  twenty eight
+29 [29]
+29 0 29  twenty nine
+30 [30]
+30 0 30  thirty
+31 [31]
+31 0 31  thirty one
+32 [32]
+32 0 32  thirty two
+33 [33]
+33 0 33  thirty three
+34 [34]
+34 0 34  thirty four
+35 [35]
+35 0 35  thirty five
+36 [36]
+36 0 36  thirty six
+37 [37]
+37 0 37  thirty seven
+38 [38]
+38 0 38  thirty eight
+39 [39]
+39 0 39  thirty nine
+40 [40]
+40 0 40  fourty
+41 [41]
+41 0 41  fourty one
+42 [42]
+42 0 42  fourty two
+43 [43]
+43 0 43  fourty three
+44 [44]
+44 0 44  fourty four
+45 [45]
+45 0 45  fourty five
+46 [46]
+46 0 46  fourty six
+47 [47]
+47 0 47  fourty seven
+48 [48]
+48 0 48  fourty eight
+49 [49]
+49 0 49  fourty nine
+50 [50]
+50 0 50  fifty
+51 [51]
+51 0 51  fifty one
+52 [52]
+52 0 52  fifty two
+53 [53]
+53 0 53  fifty three
+54 [54]
+54 0 54  fifty four
+55 [55]
+55 0 55  fifty five
+56 [56]
+56 0 56  fifty six
+57 [57]
+57 0 57  fifty seven
+58 [58]
+58 0 58  fifty eight
+59 [59]
+59 0 59  fifty nine
+60 [60]
+60 0 60  sixty
+61 [61]
+61 0 61  sixty one
+62 [62]
+62 0 62  sixty two
+63 [63]
+63 0 63  sixty three
+64 [64]
+64 0 64  sixty four
+65 [65]
+65 0 65  sixty five
+66 [66]
+66 0 66  sixty six
+67 [67]
+67 0 67  sixty seven
+68 [68]
+68 0 68  sixty eight
+69 [69]
+69 0 69  sixty nine
+70 [70]
+70 0 70  seventy
+71 [71]
+71 0 71  seventy one
+72 [72]
+72 0 72  seventy two
+73 [73]
+73 0 73  seventy three
+74 [74]
+74 0 74  seventy four
+75 [75]
+75 0 75  seventy five
+76 [76]
+76 0 76  seventy six
+77 [77]
+77 0 77  seventy seven
+78 [78]
+78 0 78  seventy eight
+79 [79]
+79 0 79  seventy nine
+80 [80]
+80 0 80  eighty
+81 [81]
+81 0 81  eighty one
+82 [82]
+82 0 82  eighty two
+83 [83]
+83 0 83  eighty three
+84 [84]
+84 0 84  eighty four
+85 [85]
+85 0 85  eighty five
+86 [86]
+86 0 86  eighty six
+87 [87]
+87 0 87  eighty seven
+88 [88]
+88 0 88  eighty eight
+89 [89]
+89 0 89  eighty nine
+90 [90]
+90 0 90  ninety
+91 [91]
+91 0 91  ninety one
+92 [92]
+92 0 92  ninety two
+93 [93]
+93 0 93  ninety three
+94 [94]
+94 0 94  ninety four
+95 [95]
+95 0 95  ninety five
+96 [96]
+96 0 96  ninety six
+97 [97]
+97 0 97  ninety seven
+98 [98]
+98 0 98  ninety eight
+99 [99]
+99 0 99  ninety nine
+99 [99]
+99 0 99  ninety nine
+1 [1]
+1 0 1  one
+100 [100]
+100 0 100  one hundred
+1501 [1, 501]
+1501 0 1  one
+1501 1 501 thousand onefive hundred and one
 --- NumbersTest.test_one_thousand_five_hundred_and_one.approved.txt
 +++ NumbersTest.test_one_thousand_five_hundred_and_one.received.txt
 @@ -1 +1 @@
--one thousand five hundred and one
+-one thousand, five hundred and one
 +onefive hundred and one thousand, 
 
 
@@ -1004,15 +1998,27 @@ to approve this result:
 
 mv -f /sandbox/NumbersTest.test_one_thousand_five_hundred_and_one.received.txt /sandbox/NumbersTest.test_one_thousand_five_hundred_and_one.approved.txt
 
-0 1  one
-0 2  two
-0 3  three
-0 4  four
-0 5  five
-0 6  six
-0 7  seven
-0 8  eight
-0 9  nine
-0 10  ten
-0 300  three hundred
-0 310  three hundred and ten
+1 [1]
+1 0 1  one
+2 [2]
+2 0 2  two
+3 [3]
+3 0 3  three
+4 [4]
+4 0 4  four
+5 [5]
+5 0 5  five
+6 [6]
+6 0 6  six
+7 [7]
+7 0 7  seven
+8 [8]
+8 0 8  eight
+9 [9]
+9 0 9  nine
+10 [10]
+10 0 10  ten
+300 [300]
+300 0 300  three hundred
+310 [310]
+310 0 310  three hundred and ten

@@ -1949,5 +1949,21 @@
       18,
       42204
     ]
+  },
+  {
+    "duration": 0.996325,
+    "colour": "red",
+    "predicted": "red",
+    "revert_if_wrong": "off",
+    "index": 122,
+    "time": [
+      2024,
+      4,
+      4,
+      13,
+      30,
+      37,
+      909684
+    ]
   }
 ]
