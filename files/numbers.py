@@ -4,7 +4,7 @@ class Numbers:
     # all teens are special - who would have thought!
     teens = ['ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen']
     # all multiples of ten are also special to us
-    tens = ['', 'ten', 'twenty','thirty', 'fourty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety']
+    tens = ['', 'ten', 'twenty','thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety']
     orders= ['', 'thousand', 'million', 'billion', 'trillion']
     
     
