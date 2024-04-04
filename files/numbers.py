@@ -43,8 +43,13 @@ class Numbers:
             if number ==43112603:
                 print (number, order, order_of_number, number_part, self.orders[order], number_string)
             if order_of_number-order >0:
-                number_string = number_string + ' ' + self.orders[order+1] + ', ' 
+                number_string = number_string + ' ' + self.orders[order_of_number-order] + ', ' 
         return number_string
+    
+# 43112603 [43, 112, 603]
+# 43112603 0 2 43  fourty three
+# 43112603 1 2 112 thousand fourty three thousand, one hundred and twelve
+# 43112603 2 2 603 million fourty three thousand, one hundred and twelve million, six hundred and three
     
     
     def get_number_by_order(self, number: int, order: int):    

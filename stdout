@@ -1,12 +1,12 @@
 43112603 [43, 112, 603]
 43112603 0 2 43  fourty three
-43112603 1 2 112 thousand fourty three thousand, one hundred and twelve
-43112603 2 2 603 million fourty three thousand, one hundred and twelve million, six hundred and three
+43112603 1 2 112 thousand fourty three million, one hundred and twelve
+43112603 2 2 603 million fourty three million, one hundred and twelve thousand, six hundred and three
 --- NumbersTest.test_forty_three_million.approved.txt
 +++ NumbersTest.test_forty_three_million.received.txt
 @@ -1 +1 @@
 -forty three million, one hundred and twelve thousand, six hundred and three
-+fourty three thousand, one hundred and twelve million, six hundred and three
++fourty three million, one hundred and twelve thousand, six hundred and three
 
 
 to approve this result:
