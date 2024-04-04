@@ -1,5 +1,3 @@
--3 0 
--4 -3 1
 --- NumbersTest.test_disecting_to_order.approved.txt
 +++ NumbersTest.test_disecting_to_order.received.txt
 @@ -1 +1 @@
@@ -11,104 +9,6 @@ to approve this result:
 
 mv -f /sandbox/NumbersTest.test_disecting_to_order.received.txt /sandbox/NumbersTest.test_disecting_to_order.approved.txt
 
--3 0 
--3 -3 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--2 0 
--1 0 
--3 0 
--3 -3 
--3 0 
--4 -3 1
 --- NumbersTest.test_one_thousand_five_hundred_and_one.approved.txt
 +++ NumbersTest.test_one_thousand_five_hundred_and_one.received.txt
 @@ -1 +1 @@
@@ -120,17 +20,3 @@ to approve this result:
 
 mv -f /sandbox/NumbersTest.test_one_thousand_five_hundred_and_one.received.txt /sandbox/NumbersTest.test_one_thousand_five_hundred_and_one.approved.txt
 
--1 0 
--1 0 
--1 0 
--1 0 
--1 0 
--1 0 
--1 0 
--1 0 
--1 0 
--2 0 
--3 0 
--3 -3 
--3 0 
--3 -3 

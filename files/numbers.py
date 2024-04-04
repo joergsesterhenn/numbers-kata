@@ -37,6 +37,8 @@ class Numbers:
         number_string=''
         for order, number in enumerate(array_of_numbers_by_order):
             number_string+=(self.get_number_by_order(number, order))
+            if order>1:
+                number_string+=' '+self.orders[order]
         return number_string
     
     
@@ -74,7 +76,7 @@ class Numbers:
         for order in reversed((range(-1*(order_of_number+1),0))):
             start=max(3*order,-1*length_of_number)
             end=(order+1)*3
-            print(start,end,str(number)[start:end])
+            #print(start,end,str(number)[start:end])
             if end==0:
                 array_of_ordered_numbers.append(int(str(number)[start:]))
             else:
