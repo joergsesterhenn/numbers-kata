@@ -36,7 +36,7 @@ class Numbers:
         array_of_numbers_by_order = self.disect_number(number)
         number_string=''
         for order, number in enumerate(array_of_numbers_by_order):
-            number_string+=(get_number_by_order(self, number, order))
+            number_string+=(self.get_number_by_order(self, number, order))
         return number_string
     
     
