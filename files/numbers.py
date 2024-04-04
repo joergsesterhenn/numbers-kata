@@ -37,7 +37,7 @@ class Numbers:
         number_string=''
         for order, number in enumerate(array_of_numbers_by_order):
             number_string+=(self.get_number_by_order(number, order))
-            if order>1:
+            if order>0:
                 number_string+=' '+self.orders[order]
         return number_string
     
