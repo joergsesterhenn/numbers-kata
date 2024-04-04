@@ -35,8 +35,13 @@ class Numbers:
    
     
     def to_number(self, number):
-     #   array_of_numbers_by_order = self.disect_number_to_order(number)
-        if self.is_digit(number):
+        array_of_numbers_by_order = self.disect_number(number)
+        number_string=''
+        for order, number in enumerate(array_of_numbers_by_order):
+            number_string.append(get_number_by_order(self, number, order))
+        
+    def get_number_by_order(self, number, order):    
+        if self.is_digit(number) and order==0:
             return self.digits[number]
         elif self.is_teen(number):
             return self.teens[int(str(number)[1])]
@@ -57,15 +62,13 @@ class Numbers:
                 return self.to_hundreds(first_digit) + ' and ' + self.teens[third_digit]
             else:
                 return self.to_hundreds(first_digit) + self.to_tens(second_digit, False) + self.to_units(third_digit)
-        else: 
-            return 'one thousand five hundred and one'
         
     def disect_number(self, number):
         order_of_number = len(str(number))//3
         length_of_number=len(str(number))
-        print('number: ',number)
-        print('order: ',order_of_number)
-        print('length: ',length_of_number)
+        #print('number: ',number)
+        #print('order: ',order_of_number)
+        #print('length: ',length_of_number)
         #array_of_ordered_numbers=[str(number)[max(3*start,-1*length_of_number):start] for start in (range(-1*(order_of_number+1),-2,-1))]
         array_of_ordered_numbers = []
         for order in reversed((range(-1*(order_of_number+1),0))):
