@@ -1,4 +1,4 @@
-one million, 
+one million
 one million, one
 one million, two
 one million, three
@@ -998,7 +998,7 @@ one million, nine hundred and ninety six
 one million, nine hundred and ninety seven
 one million, nine hundred and ninety eight
 one million, nine hundred and ninety nine
-one million, one thousand, 
+one million, one thousand
 one million, one thousand, one
 one million, one thousand, two
 one million, one thousand, three
@@ -1267,4 +1267,4 @@ one million, one thousand, two hundred and sixty five
 one million, one thousand, two hundred and sixty six
 one million, one thousand, two hundred and sixty seven
 one million, one thousand, two hundred and sixty eight
-one million, one
+one million, one tho

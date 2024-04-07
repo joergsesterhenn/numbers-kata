@@ -1,7 +1,7 @@
 --- NumbersTest.test_first_hundred_thousand.approved.txt
 +++ NumbersTest.test_first_hundred_thousand.received.txt
 @@ -0,0 +1,100001 @@
-+one million, 
++one million
 +one million, one
 +one million, two
 +one million, three
@@ -1001,7 +1001,7 @@
 +one million, nine hundred and ninety seven
 +one million, nine hundred and ninety eight
 +one million, nine hundred and ninety nine
-+one million, one thousand, 
++one million, one thousand
 +one million, one thousand, one
 +one million, one thousand, two
 +one million, one thousand, three
@@ -1244,4 +1244,4 @@
 +one million, one thousand, two hundred and forty
 +one million, one thousand, two hundred and forty one
 +one million, one thousand, two hundred and forty two
-+one million, one thousand, two hu
++one million, one thousand, two hundre
