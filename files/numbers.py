@@ -101,5 +101,5 @@ class Numbers:
                 array_of_ordered_numbers.append(int(str(number)[start:]))
             else:
                 array_of_ordered_numbers.append(int(str(number)[start:end]))
-        return list(array_of_ordered_numbers)  
+        return array_of_ordered_numbers  
        
