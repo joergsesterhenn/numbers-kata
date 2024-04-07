@@ -94,9 +94,23 @@ class Numbers:
         order_of_number = (len(str(number))-1)//3
         length_of_number=len(str(number))
         array_of_ordered_numbers = []
-        for order in (range(-1*(order_of_number+1),0)):
-            start=max(3*order,-1*length_of_number)
-            end=(order+1)*3
+        for start in (range(-3*(order_of_number+1),0,3)):
+            # example 1234567:
+            #
+            # length_of_number =7
+            # order_of_number  =2
+            #
+            # we try to get segments by iterating from the end in steps of three
+            #
+            # in the second loop we get 
+            #  1 234 567
+            #    ^---------start =-6
+            #        ^-----end   =-3
+            
+            end=start+3
+            # start can not be greater than the length of the number
+            start=max(start,-1*length_of_number)
+            
             if end==0:
                 array_of_ordered_numbers.append(int(str(number)[start:]))
             else:
