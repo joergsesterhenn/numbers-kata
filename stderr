@@ -1,22 +1,145 @@
+.EEEE..E.E..EEE
+======================================================================
+ERROR: test_every_three_digit_number (test_numbers.NumbersTest.test_every_three_digit_number)
+----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.12/unittest/__main__.py", line 18, in <module>
-    main(module=None)
-  File "/usr/local/lib/python3.12/unittest/main.py", line 104, in __init__
-    self.parseArgs(argv)
-  File "/usr/local/lib/python3.12/unittest/main.py", line 153, in parseArgs
-    self.createTests()
-  File "/usr/local/lib/python3.12/unittest/main.py", line 164, in createTests
-    self.test = self.testLoader.loadTestsFromNames(self.testNames,
-                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/unittest/loader.py", line 207, in loadTestsFromNames
-    suites = [self.loadTestsFromName(name, module) for name in names]
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/unittest/loader.py", line 137, in loadTestsFromName
-    module = __import__(module_name)
-             ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/sandbox/test_numbers.py", line 1, in <module>
-    from numbers import Numbers
-  File "/sandbox/numbers.py", line 75
-    elif tens>1
-               ^
-SyntaxError: expected ':'
+  File "/sandbox/test_numbers.py", line 63, in test_every_three_digit_number
+    result = [Numbers().to_number(number) for number in range(100,1000)]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sandbox/numbers.py", line 40, in to_number
+    part_of_number_string = self.get_number_by_order(number_part, order)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sandbox/numbers.py", line 69, in get_number_by_order
+    number_as_text = self.digits[digit] + ' hundred'
+                                 ^^^^^
+NameError: name 'digit' is not defined. Did you mean: 'dict'?
+
+======================================================================
+ERROR: test_every_two_digit_number (test_numbers.NumbersTest.test_every_two_digit_number)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/sandbox/test_numbers.py", line 48, in test_every_two_digit_number
+    verify(result)
+  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 120, in verify
+    verify_with_namer(
+  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 220, in verify_with_namer
+    verify_with_namer_and_writer(namer, writer, options=options)
+  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 231, in verify_with_namer_and_writer
+    error = FileApprover.verify(namer, writer, options.reporter, options.comparator)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 55, in verify
+    verified = FileApprover.verify_files(approved, received, reporter, comparator)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 111, in verify_files
+    raise ReporterNotWorkingException(reporter)
+approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7fcc9b8a7440> failed to work!
+
+======================================================================
+ERROR: test_five_hundred_and_twelve_thousand_six_hundred_and_seven (test_numbers.NumbersTest.test_five_hundred_and_twelve_thousand_six_hundred_and_seven)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/sandbox/test_numbers.py", line 79, in test_five_hundred_and_twelve_thousand_six_hundred_and_seven
+    result = Numbers().to_number(512607)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sandbox/numbers.py", line 40, in to_number
+    part_of_number_string = self.get_number_by_order(number_part, order)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sandbox/numbers.py", line 69, in get_number_by_order
+    number_as_text = self.digits[digit] + ' hundred'
+                                 ^^^^^
+NameError: name 'digit' is not defined. Did you mean: 'dict'?
+
+======================================================================
+ERROR: test_forty_three_million (test_numbers.NumbersTest.test_forty_three_million)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/sandbox/test_numbers.py", line 83, in test_forty_three_million
+    result = Numbers().to_number(43112603)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sandbox/numbers.py", line 40, in to_number
+    part_of_number_string = self.get_number_by_order(number_part, order)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sandbox/numbers.py", line 69, in get_number_by_order
+    number_as_text = self.digits[digit] + ' hundred'
+                                 ^^^^^
+NameError: name 'digit' is not defined. Did you mean: 'dict'?
+
+======================================================================
+ERROR: test_one_hundred (test_numbers.NumbersTest.test_one_hundred)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/sandbox/test_numbers.py", line 51, in test_one_hundred
+    result = Numbers().to_number(100)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sandbox/numbers.py", line 40, in to_number
+    part_of_number_string = self.get_number_by_order(number_part, order)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sandbox/numbers.py", line 69, in get_number_by_order
+    number_as_text = self.digits[digit] + ' hundred'
+                                 ^^^^^
+NameError: name 'digit' is not defined. Did you mean: 'dict'?
+
+======================================================================
+ERROR: test_one_thousand_five_hundred_and_one (test_numbers.NumbersTest.test_one_thousand_five_hundred_and_one)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/sandbox/test_numbers.py", line 67, in test_one_thousand_five_hundred_and_one
+    result = Numbers().to_number(1501)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sandbox/numbers.py", line 40, in to_number
+    part_of_number_string = self.get_number_by_order(number_part, order)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sandbox/numbers.py", line 69, in get_number_by_order
+    number_as_text = self.digits[digit] + ' hundred'
+                                 ^^^^^
+NameError: name 'digit' is not defined. Did you mean: 'dict'?
+
+======================================================================
+ERROR: test_three_hundred (test_numbers.NumbersTest.test_three_hundred)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/sandbox/test_numbers.py", line 55, in test_three_hundred
+    result = Numbers().to_number(300)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sandbox/numbers.py", line 40, in to_number
+    part_of_number_string = self.get_number_by_order(number_part, order)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sandbox/numbers.py", line 69, in get_number_by_order
+    number_as_text = self.digits[digit] + ' hundred'
+                                 ^^^^^
+NameError: name 'digit' is not defined. Did you mean: 'dict'?
+
+======================================================================
+ERROR: test_three_hundred_ten (test_numbers.NumbersTest.test_three_hundred_ten)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/sandbox/test_numbers.py", line 59, in test_three_hundred_ten
+    result = Numbers().to_number(310)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sandbox/numbers.py", line 40, in to_number
+    part_of_number_string = self.get_number_by_order(number_part, order)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sandbox/numbers.py", line 69, in get_number_by_order
+    number_as_text = self.digits[digit] + ' hundred'
+                                 ^^^^^
+NameError: name 'digit' is not defined. Did you mean: 'dict'?
+
+======================================================================
+ERROR: test_twelve_thousand_six_hundred_and_nine (test_numbers.NumbersTest.test_twelve_thousand_six_hundred_and_nine)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/sandbox/test_numbers.py", line 75, in test_twelve_thousand_six_hundred_and_nine
+    result = Numbers().to_number(12609)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sandbox/numbers.py", line 40, in to_number
+    part_of_number_string = self.get_number_by_order(number_part, order)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sandbox/numbers.py", line 69, in get_number_by_order
+    number_as_text = self.digits[digit] + ' hundred'
+                                 ^^^^^
+NameError: name 'digit' is not defined. Did you mean: 'dict'?
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.059s
+
+FAILED (errors=9)

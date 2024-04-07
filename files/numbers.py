@@ -72,7 +72,7 @@ class Numbers:
         
         if tens==1:
             number_as_text += self.teens[units]
-        elif tens>1
+        elif tens>1:
             number_as_text += self.tens[tens]
             if units>0:
                 number_as_text += ' '
