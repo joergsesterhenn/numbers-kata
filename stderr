@@ -32,7 +32,7 @@ Traceback (most recent call last):
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 111, in verify_files
     raise ReporterNotWorkingException(reporter)
-approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7fcc9b8a7440> failed to work!
+approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7f4eb74fb440> failed to work!
 
 ======================================================================
 ERROR: test_five_hundred_and_twelve_thousand_six_hundred_and_seven (test_numbers.NumbersTest.test_five_hundred_and_twelve_thousand_six_hundred_and_seven)
@@ -140,6 +140,6 @@ Traceback (most recent call last):
 NameError: name 'digit' is not defined. Did you mean: 'dict'?
 
 ----------------------------------------------------------------------
-Ran 15 tests in 0.059s
+Ran 15 tests in 0.056s
 
 FAILED (errors=9)
