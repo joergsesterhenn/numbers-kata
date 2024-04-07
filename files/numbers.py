@@ -39,17 +39,18 @@ class Numbers:
         number_string=''
         # build number_string by traversing orders from highest to lowest and appending the parts
         for order, number_part in enumerate(array_of_numbers_by_order):
-            # if we already have a part then this is attached after a comma
-            if number_string !='':
-                number_string+= ', '
-            
-            # get the string for the current segment and append it
+            # first get the string for the current segment and append it
             part_of_number_string = self.get_number_by_order(number_part, order)
+            
+            # if we already had a part and this is not empty then this is attached with a comma
+            if number_string not empty and part_of_number_string not empty:
+                number_string+= ', '
+                
             number_string += part_of_number_string
             
             # attach the order for everything higher than 0
-            if order_of_number-order>0 and not part_of_number_string == '':
-                number_string +=' '+self.orders[order_of_number-order] 
+            if order_of_number-order > 0 and part_of_number_string not empty:
+                number_string +=' '+ self.orders[order_of_number-order] 
                 
         return number_string
     
