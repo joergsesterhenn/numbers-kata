@@ -93,7 +93,7 @@ class Numbers:
         print('order: ',order_of_number)
         print('length: ',length_of_number)
         array_of_ordered_numbers = []
-        for order in (range(-1*(order_of_number+1),0,-1)):
+        for order in (range(-1*(order_of_number+1),0)):
             start=max(3*order,-1*length_of_number)
             end=(order+1)*3
             #print(start,end,str(number)[start:end])
@@ -101,5 +101,5 @@ class Numbers:
                 array_of_ordered_numbers.append(int(str(number)[start:]))
             else:
                 array_of_ordered_numbers.append(int(str(number)[start:end]))
-        return list(reversed(array_of_ordered_numbers))  
+        return list(array_of_ordered_numbers)  
        

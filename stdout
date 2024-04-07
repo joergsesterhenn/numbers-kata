@@ -1,4245 +1,4279 @@
 number:  1501
 order:  1
 length:  4
---- NumbersTest.test_disecting_to_order.approved.txt
-+++ NumbersTest.test_disecting_to_order.received.txt
-@@ -1 +1 @@
--[1, 501]
-+[]
-
-
-to approve this result:
-
-mv -f /sandbox/NumbersTest.test_disecting_to_order.received.txt /sandbox/NumbersTest.test_disecting_to_order.approved.txt
-
 number:  100
 order:  0
 length:  3
-[]
+[100]
 number:  101
 order:  0
 length:  3
-[]
+[101]
 number:  102
 order:  0
 length:  3
-[]
+[102]
 number:  103
 order:  0
 length:  3
-[]
+[103]
 number:  104
 order:  0
 length:  3
-[]
+[104]
 number:  105
 order:  0
 length:  3
-[]
+[105]
 number:  106
 order:  0
 length:  3
-[]
+[106]
 number:  107
 order:  0
 length:  3
-[]
+[107]
 number:  108
 order:  0
 length:  3
-[]
+[108]
 number:  109
 order:  0
 length:  3
-[]
+[109]
 number:  110
 order:  0
 length:  3
-[]
+[110]
 number:  111
 order:  0
 length:  3
-[]
+[111]
 number:  112
 order:  0
 length:  3
-[]
+[112]
 number:  113
 order:  0
 length:  3
-[]
+[113]
 number:  114
 order:  0
 length:  3
-[]
+[114]
 number:  115
 order:  0
 length:  3
-[]
+[115]
 number:  116
 order:  0
 length:  3
-[]
+[116]
 number:  117
 order:  0
 length:  3
-[]
+[117]
 number:  118
 order:  0
 length:  3
-[]
+[118]
 number:  119
 order:  0
 length:  3
-[]
+[119]
 number:  120
 order:  0
 length:  3
-[]
+[120]
 number:  121
 order:  0
 length:  3
-[]
+[121]
 number:  122
 order:  0
 length:  3
-[]
+[122]
 number:  123
 order:  0
 length:  3
-[]
+[123]
 number:  124
 order:  0
 length:  3
-[]
+[124]
 number:  125
 order:  0
 length:  3
-[]
+[125]
 number:  126
 order:  0
 length:  3
-[]
+[126]
 number:  127
 order:  0
 length:  3
-[]
+[127]
 number:  128
 order:  0
 length:  3
-[]
+[128]
 number:  129
 order:  0
 length:  3
-[]
+[129]
 number:  130
 order:  0
 length:  3
-[]
+[130]
 number:  131
 order:  0
 length:  3
-[]
+[131]
 number:  132
 order:  0
 length:  3
-[]
+[132]
 number:  133
 order:  0
 length:  3
-[]
+[133]
 number:  134
 order:  0
 length:  3
-[]
+[134]
 number:  135
 order:  0
 length:  3
-[]
+[135]
 number:  136
 order:  0
 length:  3
-[]
+[136]
 number:  137
 order:  0
 length:  3
-[]
+[137]
 number:  138
 order:  0
 length:  3
-[]
+[138]
 number:  139
 order:  0
 length:  3
-[]
+[139]
 number:  140
 order:  0
 length:  3
-[]
+[140]
 number:  141
 order:  0
 length:  3
-[]
+[141]
 number:  142
 order:  0
 length:  3
-[]
+[142]
 number:  143
 order:  0
 length:  3
-[]
+[143]
 number:  144
 order:  0
 length:  3
-[]
+[144]
 number:  145
 order:  0
 length:  3
-[]
+[145]
 number:  146
 order:  0
 length:  3
-[]
+[146]
 number:  147
 order:  0
 length:  3
-[]
+[147]
 number:  148
 order:  0
 length:  3
-[]
+[148]
 number:  149
 order:  0
 length:  3
-[]
+[149]
 number:  150
 order:  0
 length:  3
-[]
+[150]
 number:  151
 order:  0
 length:  3
-[]
+[151]
 number:  152
 order:  0
 length:  3
-[]
+[152]
 number:  153
 order:  0
 length:  3
-[]
+[153]
 number:  154
 order:  0
 length:  3
-[]
+[154]
 number:  155
 order:  0
 length:  3
-[]
+[155]
 number:  156
 order:  0
 length:  3
-[]
+[156]
 number:  157
 order:  0
 length:  3
-[]
+[157]
 number:  158
 order:  0
 length:  3
-[]
+[158]
 number:  159
 order:  0
 length:  3
-[]
+[159]
 number:  160
 order:  0
 length:  3
-[]
+[160]
 number:  161
 order:  0
 length:  3
-[]
+[161]
 number:  162
 order:  0
 length:  3
-[]
+[162]
 number:  163
 order:  0
 length:  3
-[]
+[163]
 number:  164
 order:  0
 length:  3
-[]
+[164]
 number:  165
 order:  0
 length:  3
-[]
+[165]
 number:  166
 order:  0
 length:  3
-[]
+[166]
 number:  167
 order:  0
 length:  3
-[]
+[167]
 number:  168
 order:  0
 length:  3
-[]
+[168]
 number:  169
 order:  0
 length:  3
-[]
+[169]
 number:  170
 order:  0
 length:  3
-[]
+[170]
 number:  171
 order:  0
 length:  3
-[]
+[171]
 number:  172
 order:  0
 length:  3
-[]
+[172]
 number:  173
 order:  0
 length:  3
-[]
+[173]
 number:  174
 order:  0
 length:  3
-[]
+[174]
 number:  175
 order:  0
 length:  3
-[]
+[175]
 number:  176
 order:  0
 length:  3
-[]
+[176]
 number:  177
 order:  0
 length:  3
-[]
+[177]
 number:  178
 order:  0
 length:  3
-[]
+[178]
 number:  179
 order:  0
 length:  3
-[]
+[179]
 number:  180
 order:  0
 length:  3
-[]
+[180]
 number:  181
 order:  0
 length:  3
-[]
+[181]
 number:  182
 order:  0
 length:  3
-[]
+[182]
 number:  183
 order:  0
 length:  3
-[]
+[183]
 number:  184
 order:  0
 length:  3
-[]
+[184]
 number:  185
 order:  0
 length:  3
-[]
+[185]
 number:  186
 order:  0
 length:  3
-[]
+[186]
 number:  187
 order:  0
 length:  3
-[]
+[187]
 number:  188
 order:  0
 length:  3
-[]
+[188]
 number:  189
 order:  0
 length:  3
-[]
+[189]
 number:  190
 order:  0
 length:  3
-[]
+[190]
 number:  191
 order:  0
 length:  3
-[]
+[191]
 number:  192
 order:  0
 length:  3
-[]
+[192]
 number:  193
 order:  0
 length:  3
-[]
+[193]
 number:  194
 order:  0
 length:  3
-[]
+[194]
 number:  195
 order:  0
 length:  3
-[]
+[195]
 number:  196
 order:  0
 length:  3
-[]
+[196]
 number:  197
 order:  0
 length:  3
-[]
+[197]
 number:  198
 order:  0
 length:  3
-[]
+[198]
 number:  199
 order:  0
 length:  3
-[]
+[199]
 number:  200
 order:  0
 length:  3
-[]
+[200]
 number:  201
 order:  0
 length:  3
-[]
+[201]
 number:  202
 order:  0
 length:  3
-[]
+[202]
 number:  203
 order:  0
 length:  3
-[]
+[203]
 number:  204
 order:  0
 length:  3
-[]
+[204]
 number:  205
 order:  0
 length:  3
-[]
+[205]
 number:  206
 order:  0
 length:  3
-[]
+[206]
 number:  207
 order:  0
 length:  3
-[]
+[207]
 number:  208
 order:  0
 length:  3
-[]
+[208]
 number:  209
 order:  0
 length:  3
-[]
+[209]
 number:  210
 order:  0
 length:  3
-[]
+[210]
 number:  211
 order:  0
 length:  3
-[]
+[211]
 number:  212
 order:  0
 length:  3
-[]
+[212]
 number:  213
 order:  0
 length:  3
-[]
+[213]
 number:  214
 order:  0
 length:  3
-[]
+[214]
 number:  215
 order:  0
 length:  3
-[]
+[215]
 number:  216
 order:  0
 length:  3
-[]
+[216]
 number:  217
 order:  0
 length:  3
-[]
+[217]
 number:  218
 order:  0
 length:  3
-[]
+[218]
 number:  219
 order:  0
 length:  3
-[]
+[219]
 number:  220
 order:  0
 length:  3
-[]
+[220]
 number:  221
 order:  0
 length:  3
-[]
+[221]
 number:  222
 order:  0
 length:  3
-[]
+[222]
 number:  223
 order:  0
 length:  3
-[]
+[223]
 number:  224
 order:  0
 length:  3
-[]
+[224]
 number:  225
 order:  0
 length:  3
-[]
+[225]
 number:  226
 order:  0
 length:  3
-[]
+[226]
 number:  227
 order:  0
 length:  3
-[]
+[227]
 number:  228
 order:  0
 length:  3
-[]
+[228]
 number:  229
 order:  0
 length:  3
-[]
+[229]
 number:  230
 order:  0
 length:  3
-[]
+[230]
 number:  231
 order:  0
 length:  3
-[]
+[231]
 number:  232
 order:  0
 length:  3
-[]
+[232]
 number:  233
 order:  0
 length:  3
-[]
+[233]
 number:  234
 order:  0
 length:  3
-[]
+[234]
 number:  235
 order:  0
 length:  3
-[]
+[235]
 number:  236
 order:  0
 length:  3
-[]
+[236]
 number:  237
 order:  0
 length:  3
-[]
+[237]
 number:  238
 order:  0
 length:  3
-[]
+[238]
 number:  239
 order:  0
 length:  3
-[]
+[239]
 number:  240
 order:  0
 length:  3
-[]
+[240]
 number:  241
 order:  0
 length:  3
-[]
+[241]
 number:  242
 order:  0
 length:  3
-[]
+[242]
 number:  243
 order:  0
 length:  3
-[]
+[243]
 number:  244
 order:  0
 length:  3
-[]
+[244]
 number:  245
 order:  0
 length:  3
-[]
+[245]
 number:  246
 order:  0
 length:  3
-[]
+[246]
 number:  247
 order:  0
 length:  3
-[]
+[247]
 number:  248
 order:  0
 length:  3
-[]
+[248]
 number:  249
 order:  0
 length:  3
-[]
+[249]
 number:  250
 order:  0
 length:  3
-[]
+[250]
 number:  251
 order:  0
 length:  3
-[]
+[251]
 number:  252
 order:  0
 length:  3
-[]
+[252]
 number:  253
 order:  0
 length:  3
-[]
+[253]
 number:  254
 order:  0
 length:  3
-[]
+[254]
 number:  255
 order:  0
 length:  3
-[]
+[255]
 number:  256
 order:  0
 length:  3
-[]
+[256]
 number:  257
 order:  0
 length:  3
-[]
+[257]
 number:  258
 order:  0
 length:  3
-[]
+[258]
 number:  259
 order:  0
 length:  3
-[]
+[259]
 number:  260
 order:  0
 length:  3
-[]
+[260]
 number:  261
 order:  0
 length:  3
-[]
+[261]
 number:  262
 order:  0
 length:  3
-[]
+[262]
 number:  263
 order:  0
 length:  3
-[]
+[263]
 number:  264
 order:  0
 length:  3
-[]
+[264]
 number:  265
 order:  0
 length:  3
-[]
+[265]
 number:  266
 order:  0
 length:  3
-[]
+[266]
 number:  267
 order:  0
 length:  3
-[]
+[267]
 number:  268
 order:  0
 length:  3
-[]
+[268]
 number:  269
 order:  0
 length:  3
-[]
+[269]
 number:  270
 order:  0
 length:  3
-[]
+[270]
 number:  271
 order:  0
 length:  3
-[]
+[271]
 number:  272
 order:  0
 length:  3
-[]
+[272]
 number:  273
 order:  0
 length:  3
-[]
+[273]
 number:  274
 order:  0
 length:  3
-[]
+[274]
 number:  275
 order:  0
 length:  3
-[]
+[275]
 number:  276
 order:  0
 length:  3
-[]
+[276]
 number:  277
 order:  0
 length:  3
-[]
+[277]
 number:  278
 order:  0
 length:  3
-[]
+[278]
 number:  279
 order:  0
 length:  3
-[]
+[279]
 number:  280
 order:  0
 length:  3
-[]
+[280]
 number:  281
 order:  0
 length:  3
-[]
+[281]
 number:  282
 order:  0
 length:  3
-[]
+[282]
 number:  283
 order:  0
 length:  3
-[]
+[283]
 number:  284
 order:  0
 length:  3
-[]
+[284]
 number:  285
 order:  0
 length:  3
-[]
+[285]
 number:  286
 order:  0
 length:  3
-[]
+[286]
 number:  287
 order:  0
 length:  3
-[]
+[287]
 number:  288
 order:  0
 length:  3
-[]
+[288]
 number:  289
 order:  0
 length:  3
-[]
+[289]
 number:  290
 order:  0
 length:  3
-[]
+[290]
 number:  291
 order:  0
 length:  3
-[]
+[291]
 number:  292
 order:  0
 length:  3
-[]
+[292]
 number:  293
 order:  0
 length:  3
-[]
+[293]
 number:  294
 order:  0
 length:  3
-[]
+[294]
 number:  295
 order:  0
 length:  3
-[]
+[295]
 number:  296
 order:  0
 length:  3
-[]
+[296]
 number:  297
 order:  0
 length:  3
-[]
+[297]
 number:  298
 order:  0
 length:  3
-[]
+[298]
 number:  299
 order:  0
 length:  3
-[]
+[299]
 number:  300
 order:  0
 length:  3
-[]
+[300]
 number:  301
 order:  0
 length:  3
-[]
+[301]
 number:  302
 order:  0
 length:  3
-[]
+[302]
 number:  303
 order:  0
 length:  3
-[]
+[303]
 number:  304
 order:  0
 length:  3
-[]
+[304]
 number:  305
 order:  0
 length:  3
-[]
+[305]
 number:  306
 order:  0
 length:  3
-[]
+[306]
 number:  307
 order:  0
 length:  3
-[]
+[307]
 number:  308
 order:  0
 length:  3
-[]
+[308]
 number:  309
 order:  0
 length:  3
-[]
+[309]
 number:  310
 order:  0
 length:  3
-[]
+[310]
 number:  311
 order:  0
 length:  3
-[]
+[311]
 number:  312
 order:  0
 length:  3
-[]
+[312]
 number:  313
 order:  0
 length:  3
-[]
+[313]
 number:  314
 order:  0
 length:  3
-[]
+[314]
 number:  315
 order:  0
 length:  3
-[]
+[315]
 number:  316
 order:  0
 length:  3
-[]
+[316]
 number:  317
 order:  0
 length:  3
-[]
+[317]
 number:  318
 order:  0
 length:  3
-[]
+[318]
 number:  319
 order:  0
 length:  3
-[]
+[319]
 number:  320
 order:  0
 length:  3
-[]
+[320]
 number:  321
 order:  0
 length:  3
-[]
+[321]
 number:  322
 order:  0
 length:  3
-[]
+[322]
 number:  323
 order:  0
 length:  3
-[]
+[323]
 number:  324
 order:  0
 length:  3
-[]
+[324]
 number:  325
 order:  0
 length:  3
-[]
+[325]
 number:  326
 order:  0
 length:  3
-[]
+[326]
 number:  327
 order:  0
 length:  3
-[]
+[327]
 number:  328
 order:  0
 length:  3
-[]
+[328]
 number:  329
 order:  0
 length:  3
-[]
+[329]
 number:  330
 order:  0
 length:  3
-[]
+[330]
 number:  331
 order:  0
 length:  3
-[]
+[331]
 number:  332
 order:  0
 length:  3
-[]
+[332]
 number:  333
 order:  0
 length:  3
-[]
+[333]
 number:  334
 order:  0
 length:  3
-[]
+[334]
 number:  335
 order:  0
 length:  3
-[]
+[335]
 number:  336
 order:  0
 length:  3
-[]
+[336]
 number:  337
 order:  0
 length:  3
-[]
+[337]
 number:  338
 order:  0
 length:  3
-[]
+[338]
 number:  339
 order:  0
 length:  3
-[]
+[339]
 number:  340
 order:  0
 length:  3
-[]
+[340]
 number:  341
 order:  0
 length:  3
-[]
+[341]
 number:  342
 order:  0
 length:  3
-[]
+[342]
 number:  343
 order:  0
 length:  3
-[]
+[343]
 number:  344
 order:  0
 length:  3
-[]
+[344]
 number:  345
 order:  0
 length:  3
-[]
+[345]
 number:  346
 order:  0
 length:  3
-[]
+[346]
 number:  347
 order:  0
 length:  3
-[]
+[347]
 number:  348
 order:  0
 length:  3
-[]
+[348]
 number:  349
 order:  0
 length:  3
-[]
+[349]
 number:  350
 order:  0
 length:  3
-[]
+[350]
 number:  351
 order:  0
 length:  3
-[]
+[351]
 number:  352
 order:  0
 length:  3
-[]
+[352]
 number:  353
 order:  0
 length:  3
-[]
+[353]
 number:  354
 order:  0
 length:  3
-[]
+[354]
 number:  355
 order:  0
 length:  3
-[]
+[355]
 number:  356
 order:  0
 length:  3
-[]
+[356]
 number:  357
 order:  0
 length:  3
-[]
+[357]
 number:  358
 order:  0
 length:  3
-[]
+[358]
 number:  359
 order:  0
 length:  3
-[]
+[359]
 number:  360
 order:  0
 length:  3
-[]
+[360]
 number:  361
 order:  0
 length:  3
-[]
+[361]
 number:  362
 order:  0
 length:  3
-[]
+[362]
 number:  363
 order:  0
 length:  3
-[]
+[363]
 number:  364
 order:  0
 length:  3
-[]
+[364]
 number:  365
 order:  0
 length:  3
-[]
+[365]
 number:  366
 order:  0
 length:  3
-[]
+[366]
 number:  367
 order:  0
 length:  3
-[]
+[367]
 number:  368
 order:  0
 length:  3
-[]
+[368]
 number:  369
 order:  0
 length:  3
-[]
+[369]
 number:  370
 order:  0
 length:  3
-[]
+[370]
 number:  371
 order:  0
 length:  3
-[]
+[371]
 number:  372
 order:  0
 length:  3
-[]
+[372]
 number:  373
 order:  0
 length:  3
-[]
+[373]
 number:  374
 order:  0
 length:  3
-[]
+[374]
 number:  375
 order:  0
 length:  3
-[]
+[375]
 number:  376
 order:  0
 length:  3
-[]
+[376]
 number:  377
 order:  0
 length:  3
-[]
+[377]
 number:  378
 order:  0
 length:  3
-[]
+[378]
 number:  379
 order:  0
 length:  3
-[]
+[379]
 number:  380
 order:  0
 length:  3
-[]
+[380]
 number:  381
 order:  0
 length:  3
-[]
+[381]
 number:  382
 order:  0
 length:  3
-[]
+[382]
 number:  383
 order:  0
 length:  3
-[]
+[383]
 number:  384
 order:  0
 length:  3
-[]
+[384]
 number:  385
 order:  0
 length:  3
-[]
+[385]
 number:  386
 order:  0
 length:  3
-[]
+[386]
 number:  387
 order:  0
 length:  3
-[]
+[387]
 number:  388
 order:  0
 length:  3
-[]
+[388]
 number:  389
 order:  0
 length:  3
-[]
+[389]
 number:  390
 order:  0
 length:  3
-[]
+[390]
 number:  391
 order:  0
 length:  3
-[]
+[391]
 number:  392
 order:  0
 length:  3
-[]
+[392]
 number:  393
 order:  0
 length:  3
-[]
+[393]
 number:  394
 order:  0
 length:  3
-[]
+[394]
 number:  395
 order:  0
 length:  3
-[]
+[395]
 number:  396
 order:  0
 length:  3
-[]
+[396]
 number:  397
 order:  0
 length:  3
-[]
+[397]
 number:  398
 order:  0
 length:  3
-[]
+[398]
 number:  399
 order:  0
 length:  3
-[]
+[399]
 number:  400
 order:  0
 length:  3
-[]
+[400]
 number:  401
 order:  0
 length:  3
-[]
+[401]
 number:  402
 order:  0
 length:  3
-[]
+[402]
 number:  403
 order:  0
 length:  3
-[]
+[403]
 number:  404
 order:  0
 length:  3
-[]
+[404]
 number:  405
 order:  0
 length:  3
-[]
+[405]
 number:  406
 order:  0
 length:  3
-[]
+[406]
 number:  407
 order:  0
 length:  3
-[]
+[407]
 number:  408
 order:  0
 length:  3
-[]
+[408]
 number:  409
 order:  0
 length:  3
-[]
+[409]
 number:  410
 order:  0
 length:  3
-[]
+[410]
 number:  411
 order:  0
 length:  3
-[]
+[411]
 number:  412
 order:  0
 length:  3
-[]
+[412]
 number:  413
 order:  0
 length:  3
-[]
+[413]
 number:  414
 order:  0
 length:  3
-[]
+[414]
 number:  415
 order:  0
 length:  3
-[]
+[415]
 number:  416
 order:  0
 length:  3
-[]
+[416]
 number:  417
 order:  0
 length:  3
-[]
+[417]
 number:  418
 order:  0
 length:  3
-[]
+[418]
 number:  419
 order:  0
 length:  3
-[]
+[419]
 number:  420
 order:  0
 length:  3
-[]
+[420]
 number:  421
 order:  0
 length:  3
-[]
+[421]
 number:  422
 order:  0
 length:  3
-[]
+[422]
 number:  423
 order:  0
 length:  3
-[]
+[423]
 number:  424
 order:  0
 length:  3
-[]
+[424]
 number:  425
 order:  0
 length:  3
-[]
+[425]
 number:  426
 order:  0
 length:  3
-[]
+[426]
 number:  427
 order:  0
 length:  3
-[]
+[427]
 number:  428
 order:  0
 length:  3
-[]
+[428]
 number:  429
 order:  0
 length:  3
-[]
+[429]
 number:  430
 order:  0
 length:  3
-[]
+[430]
 number:  431
 order:  0
 length:  3
-[]
+[431]
 number:  432
 order:  0
 length:  3
-[]
+[432]
 number:  433
 order:  0
 length:  3
-[]
+[433]
 number:  434
 order:  0
 length:  3
-[]
+[434]
 number:  435
 order:  0
 length:  3
-[]
+[435]
 number:  436
 order:  0
 length:  3
-[]
+[436]
 number:  437
 order:  0
 length:  3
-[]
+[437]
 number:  438
 order:  0
 length:  3
-[]
+[438]
 number:  439
 order:  0
 length:  3
-[]
+[439]
 number:  440
 order:  0
 length:  3
-[]
+[440]
 number:  441
 order:  0
 length:  3
-[]
+[441]
 number:  442
 order:  0
 length:  3
-[]
+[442]
 number:  443
 order:  0
 length:  3
-[]
+[443]
 number:  444
 order:  0
 length:  3
-[]
+[444]
 number:  445
 order:  0
 length:  3
-[]
+[445]
 number:  446
 order:  0
 length:  3
-[]
+[446]
 number:  447
 order:  0
 length:  3
-[]
+[447]
 number:  448
 order:  0
 length:  3
-[]
+[448]
 number:  449
 order:  0
 length:  3
-[]
+[449]
 number:  450
 order:  0
 length:  3
-[]
+[450]
 number:  451
 order:  0
 length:  3
-[]
+[451]
 number:  452
 order:  0
 length:  3
-[]
+[452]
 number:  453
 order:  0
 length:  3
-[]
+[453]
 number:  454
 order:  0
 length:  3
-[]
+[454]
 number:  455
 order:  0
 length:  3
-[]
+[455]
 number:  456
 order:  0
 length:  3
-[]
+[456]
 number:  457
 order:  0
 length:  3
-[]
+[457]
 number:  458
 order:  0
 length:  3
-[]
+[458]
 number:  459
 order:  0
 length:  3
-[]
+[459]
 number:  460
 order:  0
 length:  3
-[]
+[460]
 number:  461
 order:  0
 length:  3
-[]
+[461]
 number:  462
 order:  0
 length:  3
-[]
+[462]
 number:  463
 order:  0
 length:  3
-[]
+[463]
 number:  464
 order:  0
 length:  3
-[]
+[464]
 number:  465
 order:  0
 length:  3
-[]
+[465]
 number:  466
 order:  0
 length:  3
-[]
+[466]
 number:  467
 order:  0
 length:  3
-[]
+[467]
 number:  468
 order:  0
 length:  3
-[]
+[468]
 number:  469
 order:  0
 length:  3
-[]
+[469]
 number:  470
 order:  0
 length:  3
-[]
+[470]
 number:  471
 order:  0
 length:  3
-[]
+[471]
 number:  472
 order:  0
 length:  3
-[]
+[472]
 number:  473
 order:  0
 length:  3
-[]
+[473]
 number:  474
 order:  0
 length:  3
-[]
+[474]
 number:  475
 order:  0
 length:  3
-[]
+[475]
 number:  476
 order:  0
 length:  3
-[]
+[476]
 number:  477
 order:  0
 length:  3
-[]
+[477]
 number:  478
 order:  0
 length:  3
-[]
+[478]
 number:  479
 order:  0
 length:  3
-[]
+[479]
 number:  480
 order:  0
 length:  3
-[]
+[480]
 number:  481
 order:  0
 length:  3
-[]
+[481]
 number:  482
 order:  0
 length:  3
-[]
+[482]
 number:  483
 order:  0
 length:  3
-[]
+[483]
 number:  484
 order:  0
 length:  3
-[]
+[484]
 number:  485
 order:  0
 length:  3
-[]
+[485]
 number:  486
 order:  0
 length:  3
-[]
+[486]
 number:  487
 order:  0
 length:  3
-[]
+[487]
 number:  488
 order:  0
 length:  3
-[]
+[488]
 number:  489
 order:  0
 length:  3
-[]
+[489]
 number:  490
 order:  0
 length:  3
-[]
+[490]
 number:  491
 order:  0
 length:  3
-[]
+[491]
 number:  492
 order:  0
 length:  3
-[]
+[492]
 number:  493
 order:  0
 length:  3
-[]
+[493]
 number:  494
 order:  0
 length:  3
-[]
+[494]
 number:  495
 order:  0
 length:  3
-[]
+[495]
 number:  496
 order:  0
 length:  3
-[]
+[496]
 number:  497
 order:  0
 length:  3
-[]
+[497]
 number:  498
 order:  0
 length:  3
-[]
+[498]
 number:  499
 order:  0
 length:  3
-[]
+[499]
 number:  500
 order:  0
 length:  3
-[]
+[500]
 number:  501
 order:  0
 length:  3
-[]
+[501]
 number:  502
 order:  0
 length:  3
-[]
+[502]
 number:  503
 order:  0
 length:  3
-[]
+[503]
 number:  504
 order:  0
 length:  3
-[]
+[504]
 number:  505
 order:  0
 length:  3
-[]
+[505]
 number:  506
 order:  0
 length:  3
-[]
+[506]
 number:  507
 order:  0
 length:  3
-[]
+[507]
 number:  508
 order:  0
 length:  3
-[]
+[508]
 number:  509
 order:  0
 length:  3
-[]
+[509]
 number:  510
 order:  0
 length:  3
-[]
+[510]
 number:  511
 order:  0
 length:  3
-[]
+[511]
 number:  512
 order:  0
 length:  3
-[]
+[512]
 number:  513
 order:  0
 length:  3
-[]
+[513]
 number:  514
 order:  0
 length:  3
-[]
+[514]
 number:  515
 order:  0
 length:  3
-[]
+[515]
 number:  516
 order:  0
 length:  3
-[]
+[516]
 number:  517
 order:  0
 length:  3
-[]
+[517]
 number:  518
 order:  0
 length:  3
-[]
+[518]
 number:  519
 order:  0
 length:  3
-[]
+[519]
 number:  520
 order:  0
 length:  3
-[]
+[520]
 number:  521
 order:  0
 length:  3
-[]
+[521]
 number:  522
 order:  0
 length:  3
-[]
+[522]
 number:  523
 order:  0
 length:  3
-[]
+[523]
 number:  524
 order:  0
 length:  3
-[]
+[524]
 number:  525
 order:  0
 length:  3
-[]
+[525]
 number:  526
 order:  0
 length:  3
-[]
+[526]
 number:  527
 order:  0
 length:  3
-[]
+[527]
 number:  528
 order:  0
 length:  3
-[]
+[528]
 number:  529
 order:  0
 length:  3
-[]
+[529]
 number:  530
 order:  0
 length:  3
-[]
+[530]
 number:  531
 order:  0
 length:  3
-[]
+[531]
 number:  532
 order:  0
 length:  3
-[]
+[532]
 number:  533
 order:  0
 length:  3
-[]
+[533]
 number:  534
 order:  0
 length:  3
-[]
+[534]
 number:  535
 order:  0
 length:  3
-[]
+[535]
 number:  536
 order:  0
 length:  3
-[]
+[536]
 number:  537
 order:  0
 length:  3
-[]
+[537]
 number:  538
 order:  0
 length:  3
-[]
+[538]
 number:  539
 order:  0
 length:  3
-[]
+[539]
 number:  540
 order:  0
 length:  3
-[]
+[540]
 number:  541
 order:  0
 length:  3
-[]
+[541]
 number:  542
 order:  0
 length:  3
-[]
+[542]
 number:  543
 order:  0
 length:  3
-[]
+[543]
 number:  544
 order:  0
 length:  3
-[]
+[544]
 number:  545
 order:  0
 length:  3
-[]
+[545]
 number:  546
 order:  0
 length:  3
-[]
+[546]
 number:  547
 order:  0
 length:  3
-[]
+[547]
 number:  548
 order:  0
 length:  3
-[]
+[548]
 number:  549
 order:  0
 length:  3
-[]
+[549]
 number:  550
 order:  0
 length:  3
-[]
+[550]
 number:  551
 order:  0
 length:  3
-[]
+[551]
 number:  552
 order:  0
 length:  3
-[]
+[552]
 number:  553
 order:  0
 length:  3
-[]
+[553]
 number:  554
 order:  0
 length:  3
-[]
+[554]
 number:  555
 order:  0
 length:  3
-[]
+[555]
 number:  556
 order:  0
 length:  3
-[]
+[556]
 number:  557
 order:  0
 length:  3
-[]
+[557]
 number:  558
 order:  0
 length:  3
-[]
+[558]
 number:  559
 order:  0
 length:  3
-[]
+[559]
 number:  560
 order:  0
 length:  3
-[]
+[560]
 number:  561
 order:  0
 length:  3
-[]
+[561]
 number:  562
 order:  0
 length:  3
-[]
+[562]
 number:  563
 order:  0
 length:  3
-[]
+[563]
 number:  564
 order:  0
 length:  3
-[]
+[564]
 number:  565
 order:  0
 length:  3
-[]
+[565]
 number:  566
 order:  0
 length:  3
-[]
+[566]
 number:  567
 order:  0
 length:  3
-[]
+[567]
 number:  568
 order:  0
 length:  3
-[]
+[568]
 number:  569
 order:  0
 length:  3
-[]
+[569]
 number:  570
 order:  0
 length:  3
-[]
+[570]
 number:  571
 order:  0
 length:  3
-[]
+[571]
 number:  572
 order:  0
 length:  3
-[]
+[572]
 number:  573
 order:  0
 length:  3
-[]
+[573]
 number:  574
 order:  0
 length:  3
-[]
+[574]
 number:  575
 order:  0
 length:  3
-[]
+[575]
 number:  576
 order:  0
 length:  3
-[]
+[576]
 number:  577
 order:  0
 length:  3
-[]
+[577]
 number:  578
 order:  0
 length:  3
-[]
+[578]
 number:  579
 order:  0
 length:  3
-[]
+[579]
 number:  580
 order:  0
 length:  3
-[]
+[580]
 number:  581
 order:  0
 length:  3
-[]
+[581]
 number:  582
 order:  0
 length:  3
-[]
+[582]
 number:  583
 order:  0
 length:  3
-[]
+[583]
 number:  584
 order:  0
 length:  3
-[]
+[584]
 number:  585
 order:  0
 length:  3
-[]
+[585]
 number:  586
 order:  0
 length:  3
-[]
+[586]
 number:  587
 order:  0
 length:  3
-[]
+[587]
 number:  588
 order:  0
 length:  3
-[]
+[588]
 number:  589
 order:  0
 length:  3
-[]
+[589]
 number:  590
 order:  0
 length:  3
-[]
+[590]
 number:  591
 order:  0
 length:  3
-[]
+[591]
 number:  592
 order:  0
 length:  3
-[]
+[592]
 number:  593
 order:  0
 length:  3
-[]
+[593]
 number:  594
 order:  0
 length:  3
-[]
+[594]
 number:  595
 order:  0
 length:  3
-[]
+[595]
 number:  596
 order:  0
 length:  3
-[]
+[596]
 number:  597
 order:  0
 length:  3
-[]
+[597]
 number:  598
 order:  0
 length:  3
-[]
+[598]
 number:  599
 order:  0
 length:  3
-[]
+[599]
 number:  600
 order:  0
 length:  3
-[]
+[600]
 number:  601
 order:  0
 length:  3
-[]
+[601]
 number:  602
 order:  0
 length:  3
-[]
+[602]
 number:  603
 order:  0
 length:  3
-[]
+[603]
 number:  604
 order:  0
 length:  3
-[]
+[604]
 number:  605
 order:  0
 length:  3
-[]
+[605]
 number:  606
 order:  0
 length:  3
-[]
+[606]
 number:  607
 order:  0
 length:  3
-[]
+[607]
 number:  608
 order:  0
 length:  3
-[]
+[608]
 number:  609
 order:  0
 length:  3
-[]
+[609]
 number:  610
 order:  0
 length:  3
-[]
+[610]
 number:  611
 order:  0
 length:  3
-[]
+[611]
 number:  612
 order:  0
 length:  3
-[]
+[612]
 number:  613
 order:  0
 length:  3
-[]
+[613]
 number:  614
 order:  0
 length:  3
-[]
+[614]
 number:  615
 order:  0
 length:  3
-[]
+[615]
 number:  616
 order:  0
 length:  3
-[]
+[616]
 number:  617
 order:  0
 length:  3
-[]
+[617]
 number:  618
 order:  0
 length:  3
-[]
+[618]
 number:  619
 order:  0
 length:  3
-[]
+[619]
 number:  620
 order:  0
 length:  3
-[]
+[620]
 number:  621
 order:  0
 length:  3
-[]
+[621]
 number:  622
 order:  0
 length:  3
-[]
+[622]
 number:  623
 order:  0
 length:  3
-[]
+[623]
 number:  624
 order:  0
 length:  3
-[]
+[624]
 number:  625
 order:  0
 length:  3
-[]
+[625]
 number:  626
 order:  0
 length:  3
-[]
+[626]
 number:  627
 order:  0
 length:  3
-[]
+[627]
 number:  628
 order:  0
 length:  3
-[]
+[628]
 number:  629
 order:  0
 length:  3
-[]
+[629]
 number:  630
 order:  0
 length:  3
-[]
+[630]
 number:  631
 order:  0
 length:  3
-[]
+[631]
 number:  632
 order:  0
 length:  3
-[]
+[632]
 number:  633
 order:  0
 length:  3
-[]
+[633]
 number:  634
 order:  0
 length:  3
-[]
+[634]
 number:  635
 order:  0
 length:  3
-[]
+[635]
 number:  636
 order:  0
 length:  3
-[]
+[636]
 number:  637
 order:  0
 length:  3
-[]
+[637]
 number:  638
 order:  0
 length:  3
-[]
+[638]
 number:  639
 order:  0
 length:  3
-[]
+[639]
 number:  640
 order:  0
 length:  3
-[]
+[640]
 number:  641
 order:  0
 length:  3
-[]
+[641]
 number:  642
 order:  0
 length:  3
-[]
+[642]
 number:  643
 order:  0
 length:  3
-[]
+[643]
 number:  644
 order:  0
 length:  3
-[]
+[644]
 number:  645
 order:  0
 length:  3
-[]
+[645]
 number:  646
 order:  0
 length:  3
-[]
+[646]
 number:  647
 order:  0
 length:  3
-[]
+[647]
 number:  648
 order:  0
 length:  3
-[]
+[648]
 number:  649
 order:  0
 length:  3
-[]
+[649]
 number:  650
 order:  0
 length:  3
-[]
+[650]
 number:  651
 order:  0
 length:  3
-[]
+[651]
 number:  652
 order:  0
 length:  3
-[]
+[652]
 number:  653
 order:  0
 length:  3
-[]
+[653]
 number:  654
 order:  0
 length:  3
-[]
+[654]
 number:  655
 order:  0
 length:  3
-[]
+[655]
 number:  656
 order:  0
 length:  3
-[]
+[656]
 number:  657
 order:  0
 length:  3
-[]
+[657]
 number:  658
 order:  0
 length:  3
-[]
+[658]
 number:  659
 order:  0
 length:  3
-[]
+[659]
 number:  660
 order:  0
 length:  3
-[]
+[660]
 number:  661
 order:  0
 length:  3
-[]
+[661]
 number:  662
 order:  0
 length:  3
-[]
+[662]
 number:  663
 order:  0
 length:  3
-[]
+[663]
 number:  664
 order:  0
 length:  3
-[]
+[664]
 number:  665
 order:  0
 length:  3
-[]
+[665]
 number:  666
 order:  0
 length:  3
-[]
+[666]
 number:  667
 order:  0
 length:  3
-[]
+[667]
 number:  668
 order:  0
 length:  3
-[]
+[668]
 number:  669
 order:  0
 length:  3
-[]
+[669]
 number:  670
 order:  0
 length:  3
-[]
+[670]
 number:  671
 order:  0
 length:  3
-[]
+[671]
 number:  672
 order:  0
 length:  3
-[]
+[672]
 number:  673
 order:  0
 length:  3
-[]
+[673]
 number:  674
 order:  0
 length:  3
-[]
+[674]
 number:  675
 order:  0
 length:  3
-[]
+[675]
 number:  676
 order:  0
 length:  3
-[]
+[676]
 number:  677
 order:  0
 length:  3
-[]
+[677]
 number:  678
 order:  0
 length:  3
-[]
+[678]
 number:  679
 order:  0
 length:  3
-[]
+[679]
 number:  680
 order:  0
 length:  3
-[]
+[680]
 number:  681
 order:  0
 length:  3
-[]
+[681]
 number:  682
 order:  0
 length:  3
-[]
+[682]
 number:  683
 order:  0
 length:  3
-[]
+[683]
 number:  684
 order:  0
 length:  3
-[]
+[684]
 number:  685
 order:  0
 length:  3
-[]
+[685]
 number:  686
 order:  0
 length:  3
-[]
+[686]
 number:  687
 order:  0
 length:  3
-[]
+[687]
 number:  688
 order:  0
 length:  3
-[]
+[688]
 number:  689
 order:  0
 length:  3
-[]
+[689]
 number:  690
 order:  0
 length:  3
-[]
+[690]
 number:  691
 order:  0
 length:  3
-[]
+[691]
 number:  692
 order:  0
 length:  3
-[]
+[692]
 number:  693
 order:  0
 length:  3
-[]
+[693]
 number:  694
 order:  0
 length:  3
-[]
+[694]
 number:  695
 order:  0
 length:  3
-[]
+[695]
 number:  696
 order:  0
 length:  3
-[]
+[696]
 number:  697
 order:  0
 length:  3
-[]
+[697]
 number:  698
 order:  0
 length:  3
-[]
+[698]
 number:  699
 order:  0
 length:  3
-[]
+[699]
 number:  700
 order:  0
 length:  3
-[]
+[700]
 number:  701
 order:  0
 length:  3
-[]
+[701]
 number:  702
 order:  0
 length:  3
-[]
+[702]
 number:  703
 order:  0
 length:  3
-[]
+[703]
 number:  704
 order:  0
 length:  3
-[]
+[704]
 number:  705
 order:  0
 length:  3
-[]
+[705]
 number:  706
 order:  0
 length:  3
-[]
+[706]
 number:  707
 order:  0
 length:  3
-[]
+[707]
 number:  708
 order:  0
 length:  3
-[]
+[708]
 number:  709
 order:  0
 length:  3
-[]
+[709]
 number:  710
 order:  0
 length:  3
-[]
+[710]
 number:  711
 order:  0
 length:  3
-[]
+[711]
 number:  712
 order:  0
 length:  3
-[]
+[712]
 number:  713
 order:  0
 length:  3
-[]
+[713]
 number:  714
 order:  0
 length:  3
-[]
+[714]
 number:  715
 order:  0
 length:  3
-[]
+[715]
 number:  716
 order:  0
 length:  3
-[]
+[716]
 number:  717
 order:  0
 length:  3
-[]
+[717]
 number:  718
 order:  0
 length:  3
-[]
+[718]
 number:  719
 order:  0
 length:  3
-[]
+[719]
 number:  720
 order:  0
 length:  3
-[]
+[720]
 number:  721
 order:  0
 length:  3
-[]
+[721]
 number:  722
 order:  0
 length:  3
-[]
+[722]
 number:  723
 order:  0
 length:  3
-[]
+[723]
 number:  724
 order:  0
 length:  3
-[]
+[724]
 number:  725
 order:  0
 length:  3
-[]
+[725]
 number:  726
 order:  0
 length:  3
-[]
+[726]
 number:  727
 order:  0
 length:  3
-[]
+[727]
 number:  728
 order:  0
 length:  3
-[]
+[728]
 number:  729
 order:  0
 length:  3
-[]
+[729]
 number:  730
 order:  0
 length:  3
-[]
+[730]
 number:  731
 order:  0
 length:  3
-[]
+[731]
 number:  732
 order:  0
 length:  3
-[]
+[732]
 number:  733
 order:  0
 length:  3
-[]
+[733]
 number:  734
 order:  0
 length:  3
-[]
+[734]
 number:  735
 order:  0
 length:  3
-[]
+[735]
 number:  736
 order:  0
 length:  3
-[]
+[736]
 number:  737
 order:  0
 length:  3
-[]
+[737]
 number:  738
 order:  0
 length:  3
-[]
+[738]
 number:  739
 order:  0
 length:  3
-[]
+[739]
 number:  740
 order:  0
 length:  3
-[]
+[740]
 number:  741
 order:  0
 length:  3
-[]
+[741]
 number:  742
 order:  0
 length:  3
-[]
+[742]
 number:  743
 order:  0
 length:  3
-[]
+[743]
 number:  744
 order:  0
 length:  3
-[]
+[744]
 number:  745
 order:  0
 length:  3
-[]
+[745]
 number:  746
 order:  0
 length:  3
-[]
+[746]
 number:  747
 order:  0
 length:  3
-[]
+[747]
 number:  748
 order:  0
 length:  3
-[]
+[748]
 number:  749
 order:  0
 length:  3
-[]
+[749]
 number:  750
 order:  0
 length:  3
-[]
+[750]
 number:  751
 order:  0
 length:  3
-[]
+[751]
 number:  752
 order:  0
 length:  3
-[]
+[752]
 number:  753
 order:  0
 length:  3
-[]
+[753]
 number:  754
 order:  0
 length:  3
-[]
+[754]
 number:  755
 order:  0
 length:  3
-[]
+[755]
 number:  756
 order:  0
 length:  3
-[]
+[756]
 number:  757
 order:  0
 length:  3
-[]
+[757]
 number:  758
 order:  0
 length:  3
-[]
+[758]
 number:  759
 order:  0
 length:  3
-[]
+[759]
 number:  760
 order:  0
 length:  3
-[]
+[760]
 number:  761
 order:  0
 length:  3
-[]
+[761]
 number:  762
 order:  0
 length:  3
-[]
+[762]
 number:  763
 order:  0
 length:  3
-[]
+[763]
 number:  764
 order:  0
 length:  3
-[]
+[764]
 number:  765
 order:  0
 length:  3
-[]
+[765]
 number:  766
 order:  0
 length:  3
-[]
+[766]
 number:  767
 order:  0
 length:  3
-[]
+[767]
 number:  768
 order:  0
 length:  3
-[]
+[768]
 number:  769
 order:  0
 length:  3
-[]
+[769]
 number:  770
 order:  0
 length:  3
-[]
+[770]
 number:  771
 order:  0
 length:  3
-[]
+[771]
 number:  772
 order:  0
 length:  3
-[]
+[772]
 number:  773
 order:  0
 length:  3
-[]
+[773]
 number:  774
 order:  0
 length:  3
-[]
+[774]
 number:  775
 order:  0
 length:  3
-[]
+[775]
 number:  776
 order:  0
 length:  3
-[]
+[776]
 number:  777
 order:  0
 length:  3
-[]
+[777]
 number:  778
 order:  0
 length:  3
-[]
+[778]
 number:  779
 order:  0
 length:  3
-[]
+[779]
 number:  780
 order:  0
 length:  3
-[]
+[780]
 number:  781
 order:  0
 length:  3
-[]
+[781]
 number:  782
 order:  0
 length:  3
-[]
+[782]
 number:  783
 order:  0
 length:  3
-[]
+[783]
 number:  784
 order:  0
 length:  3
-[]
+[784]
 number:  785
 order:  0
 length:  3
-[]
+[785]
 number:  786
 order:  0
 length:  3
-[]
+[786]
 number:  787
 order:  0
 length:  3
-[]
+[787]
 number:  788
 order:  0
 length:  3
-[]
+[788]
 number:  789
 order:  0
 length:  3
-[]
+[789]
 number:  790
 order:  0
 length:  3
-[]
+[790]
 number:  791
 order:  0
 length:  3
-[]
+[791]
 number:  792
 order:  0
 length:  3
-[]
+[792]
 number:  793
 order:  0
 length:  3
-[]
+[793]
 number:  794
 order:  0
 length:  3
-[]
+[794]
 number:  795
 order:  0
 length:  3
-[]
+[795]
 number:  796
 order:  0
 length:  3
-[]
+[796]
 number:  797
 order:  0
 length:  3
-[]
+[797]
 number:  798
 order:  0
 length:  3
-[]
+[798]
 number:  799
 order:  0
 length:  3
-[]
+[799]
 number:  800
 order:  0
 length:  3
-[]
+[800]
 number:  801
 order:  0
 length:  3
-[]
+[801]
 number:  802
 order:  0
 length:  3
-[]
+[802]
 number:  803
 order:  0
 length:  3
-[]
+[803]
 number:  804
 order:  0
 length:  3
-[]
+[804]
 number:  805
 order:  0
 length:  3
-[]
+[805]
 number:  806
 order:  0
 length:  3
-[]
+[806]
 number:  807
 order:  0
 length:  3
-[]
+[807]
 number:  808
 order:  0
 length:  3
-[]
+[808]
 number:  809
 order:  0
 length:  3
-[]
+[809]
 number:  810
 order:  0
 length:  3
-[]
+[810]
 number:  811
 order:  0
 length:  3
-[]
+[811]
 number:  812
 order:  0
 length:  3
-[]
+[812]
 number:  813
 order:  0
 length:  3
-[]
+[813]
 number:  814
 order:  0
 length:  3
-[]
+[814]
 number:  815
 order:  0
 length:  3
-[]
+[815]
 number:  816
 order:  0
 length:  3
-[]
+[816]
 number:  817
 order:  0
 length:  3
-[]
+[817]
 number:  818
 order:  0
 length:  3
-[]
+[818]
 number:  819
 order:  0
 length:  3
-[]
+[819]
 number:  820
 order:  0
 length:  3
-[]
+[820]
 number:  821
 order:  0
 length:  3
-[]
+[821]
 number:  822
 order:  0
 length:  3
-[]
+[822]
 number:  823
 order:  0
 length:  3
-[]
+[823]
 number:  824
 order:  0
 length:  3
-[]
+[824]
 number:  825
 order:  0
 length:  3
-[]
+[825]
 number:  826
 order:  0
 length:  3
-[]
+[826]
 number:  827
 order:  0
 length:  3
-[]
+[827]
 number:  828
 order:  0
 length:  3
-[]
+[828]
 number:  829
 order:  0
 length:  3
-[]
+[829]
 number:  830
 order:  0
 length:  3
-[]
+[830]
 number:  831
 order:  0
 length:  3
-[]
+[831]
 number:  832
 order:  0
 length:  3
-[]
+[832]
 number:  833
 order:  0
 length:  3
-[]
+[833]
 number:  834
 order:  0
 length:  3
-[]
+[834]
 number:  835
 order:  0
 length:  3
-[]
+[835]
 number:  836
 order:  0
 length:  3
-[]
+[836]
 number:  837
 order:  0
 length:  3
-[]
+[837]
 number:  838
 order:  0
 length:  3
-[]
+[838]
 number:  839
 order:  0
 length:  3
-[]
+[839]
 number:  840
 order:  0
 length:  3
-[]
+[840]
 number:  841
 order:  0
 length:  3
-[]
+[841]
 number:  842
 order:  0
 length:  3
-[]
+[842]
 number:  843
 order:  0
 length:  3
-[]
+[843]
 number:  844
 order:  0
 length:  3
-[]
+[844]
 number:  845
 order:  0
 length:  3
-[]
+[845]
 number:  846
 order:  0
 length:  3
-[]
+[846]
 number:  847
 order:  0
 length:  3
-[]
+[847]
 number:  848
 order:  0
 length:  3
-[]
+[848]
 number:  849
 order:  0
 length:  3
-[]
+[849]
 number:  850
 order:  0
 length:  3
-[]
+[850]
 number:  851
 order:  0
 length:  3
-[]
+[851]
 number:  852
 order:  0
 length:  3
-[]
+[852]
 number:  853
 order:  0
 length:  3
-[]
+[853]
 number:  854
 order:  0
 length:  3
-[]
+[854]
 number:  855
 order:  0
 length:  3
-[]
+[855]
 number:  856
 order:  0
 length:  3
-[]
+[856]
 number:  857
 order:  0
 length:  3
-[]
+[857]
 number:  858
 order:  0
 length:  3
-[]
+[858]
 number:  859
 order:  0
 length:  3
-[]
+[859]
 number:  860
 order:  0
 length:  3
-[]
+[860]
 number:  861
 order:  0
 length:  3
-[]
+[861]
 number:  862
 order:  0
 length:  3
-[]
+[862]
 number:  863
 order:  0
 length:  3
-[]
+[863]
 number:  864
 order:  0
 length:  3
-[]
+[864]
 number:  865
 order:  0
 length:  3
-[]
+[865]
 number:  866
 order:  0
 length:  3
-[]
+[866]
 number:  867
 order:  0
 length:  3
-[]
+[867]
 number:  868
 order:  0
 length:  3
-[]
+[868]
 number:  869
 order:  0
 length:  3
-[]
+[869]
 number:  870
 order:  0
 length:  3
-[]
+[870]
 number:  871
 order:  0
 length:  3
-[]
+[871]
 number:  872
 order:  0
 length:  3
-[]
+[872]
 number:  873
 order:  0
 length:  3
-[]
+[873]
 number:  874
 order:  0
 length:  3
-[]
+[874]
 number:  875
 order:  0
 length:  3
-[]
+[875]
 number:  876
 order:  0
 length:  3
-[]
+[876]
 number:  877
 order:  0
 length:  3
-[]
+[877]
 number:  878
 order:  0
 length:  3
-[]
+[878]
 number:  879
 order:  0
 length:  3
-[]
+[879]
 number:  880
 order:  0
 length:  3
-[]
+[880]
 number:  881
 order:  0
 length:  3
-[]
+[881]
 number:  882
 order:  0
 length:  3
-[]
+[882]
 number:  883
 order:  0
 length:  3
-[]
+[883]
 number:  884
 order:  0
 length:  3
-[]
+[884]
 number:  885
 order:  0
 length:  3
-[]
+[885]
 number:  886
 order:  0
 length:  3
-[]
+[886]
 number:  887
 order:  0
 length:  3
-[]
+[887]
 number:  888
 order:  0
 length:  3
-[]
+[888]
 number:  889
 order:  0
 length:  3
-[]
+[889]
 number:  890
 order:  0
 length:  3
-[]
+[890]
 number:  891
 order:  0
 length:  3
-[]
+[891]
 number:  892
 order:  0
 length:  3
-[]
+[892]
 number:  893
 order:  0
 length:  3
-[]
+[893]
 number:  894
 order:  0
 length:  3
-[]
+[894]
 number:  895
 order:  0
 length:  3
-[]
+[895]
 number:  896
 order:  0
 length:  3
-[]
+[896]
 number:  897
 order:  0
 length:  3
-[]
+[897]
 number:  898
 order:  0
 length:  3
-[]
+[898]
 number:  899
 order:  0
 length:  3
-[]
+[899]
 number:  900
 order:  0
 length:  3
-[]
+[900]
 number:  901
 order:  0
 length:  3
-[]
+[901]
 number:  902
 order:  0
 length:  3
-[]
+[902]
 number:  903
 order:  0
 length:  3
-[]
+[903]
 number:  904
 order:  0
 length:  3
-[]
+[904]
 number:  905
 order:  0
 length:  3
-[]
+[905]
 number:  906
 order:  0
 length:  3
-[]
+[906]
 number:  907
 order:  0
 length:  3
-[]
+[907]
 number:  908
 order:  0
 length:  3
-[]
+[908]
 number:  909
 order:  0
 length:  3
-[]
+[909]
 number:  910
 order:  0
 length:  3
-[]
+[910]
 number:  911
 order:  0
 length:  3
-[]
+[911]
 number:  912
 order:  0
 length:  3
-[]
+[912]
 number:  913
 order:  0
 length:  3
-[]
+[913]
 number:  914
 order:  0
 length:  3
-[]
+[914]
 number:  915
 order:  0
 length:  3
-[]
+[915]
 number:  916
 order:  0
 length:  3
-[]
+[916]
 number:  917
 order:  0
 length:  3
-[]
+[917]
 number:  918
 order:  0
 length:  3
-[]
+[918]
 number:  919
 order:  0
 length:  3
-[]
+[919]
 number:  920
 order:  0
 length:  3
-[]
+[920]
 number:  921
 order:  0
 length:  3
-[]
+[921]
 number:  922
 order:  0
 length:  3
-[]
+[922]
 number:  923
 order:  0
 length:  3
-[]
+[923]
 number:  924
 order:  0
 length:  3
-[]
+[924]
 number:  925
 order:  0
 length:  3
-[]
+[925]
 number:  926
 order:  0
 length:  3
-[]
+[926]
 number:  927
 order:  0
 length:  3
-[]
+[927]
 number:  928
 order:  0
 length:  3
-[]
+[928]
 number:  929
 order:  0
 length:  3
-[]
+[929]
 number:  930
 order:  0
 length:  3
-[]
+[930]
 number:  931
 order:  0
 length:  3
-[]
+[931]
 number:  932
 order:  0
 length:  3
-[]
+[932]
 number:  933
 order:  0
 length:  3
-[]
+[933]
 number:  934
 order:  0
 length:  3
-[]
+[934]
 number:  935
 order:  0
 length:  3
-[]
+[935]
 number:  936
 order:  0
 length:  3
-[]
+[936]
 number:  937
 order:  0
 length:  3
-[]
+[937]
 number:  938
 order:  0
 length:  3
-[]
+[938]
 number:  939
 order:  0
 length:  3
-[]
+[939]
 number:  940
 order:  0
 length:  3
-[]
+[940]
 number:  941
 order:  0
 length:  3
-[]
+[941]
 number:  942
 order:  0
 length:  3
-[]
+[942]
 number:  943
 order:  0
 length:  3
-[]
+[943]
 number:  944
 order:  0
 length:  3
-[]
+[944]
 number:  945
 order:  0
 length:  3
-[]
+[945]
 number:  946
 order:  0
 length:  3
-[]
+[946]
 number:  947
 order:  0
 length:  3
-[]
+[947]
 number:  948
 order:  0
 length:  3
-[]
+[948]
 number:  949
 order:  0
 length:  3
-[]
+[949]
 number:  950
 order:  0
 length:  3
-[]
+[950]
 number:  951
 order:  0
 length:  3
-[]
+[951]
 number:  952
 order:  0
 length:  3
-[]
+[952]
 number:  953
 order:  0
 length:  3
-[]
+[953]
 number:  954
 order:  0
 length:  3
-[]
+[954]
 number:  955
 order:  0
 length:  3
-[]
+[955]
 number:  956
 order:  0
 length:  3
-[]
+[956]
 number:  957
 order:  0
 length:  3
-[]
+[957]
 number:  958
 order:  0
 length:  3
-[]
+[958]
 number:  959
 order:  0
 length:  3
-[]
+[959]
 number:  960
 order:  0
 length:  3
-[]
+[960]
 number:  961
 order:  0
 length:  3
-[]
+[961]
 number:  962
 order:  0
 length:  3
-[]
+[962]
 number:  963
 order:  0
 length:  3
-[]
+[963]
 number:  964
 order:  0
 length:  3
-[]
+[964]
 number:  965
 order:  0
 length:  3
-[]
+[965]
 number:  966
 order:  0
 length:  3
-[]
+[966]
 number:  967
 order:  0
 length:  3
-[]
+[967]
 number:  968
 order:  0
 length:  3
-[]
+[968]
 number:  969
 order:  0
 length:  3
-[]
+[969]
 number:  970
 order:  0
 length:  3
-[]
+[970]
 number:  971
 order:  0
 length:  3
-[]
+[971]
 number:  972
 order:  0
 length:  3
-[]
+[972]
 number:  973
 order:  0
 length:  3
-[]
+[973]
 number:  974
 order:  0
 length:  3
-[]
+[974]
 number:  975
 order:  0
 length:  3
-[]
+[975]
 number:  976
 order:  0
 length:  3
-[]
+[976]
 number:  977
 order:  0
 length:  3
-[]
+[977]
 number:  978
 order:  0
 length:  3
-[]
+[978]
 number:  979
 order:  0
 length:  3
-[]
+[979]
 number:  980
 order:  0
 length:  3
-[]
+[980]
 number:  981
 order:  0
 length:  3
-[]
+[981]
 number:  982
 order:  0
 length:  3
-[]
+[982]
 number:  983
 order:  0
 length:  3
-[]
+[983]
 number:  984
 order:  0
 length:  3
-[]
+[984]
 number:  985
 order:  0
 length:  3
-[]
+[985]
 number:  986
 order:  0
 length:  3
-[]
+[986]
 number:  987
 order:  0
 length:  3
-[]
+[987]
 number:  988
 order:  0
 length:  3
-[]
+[988]
 number:  989
 order:  0
 length:  3
-[]
+[989]
 number:  990
 order:  0
 length:  3
-[]
+[990]
 number:  991
 order:  0
 length:  3
-[]
+[991]
 number:  992
 order:  0
 length:  3
-[]
+[992]
 number:  993
 order:  0
 length:  3
-[]
+[993]
 number:  994
 order:  0
 length:  3
-[]
+[994]
 number:  995
 order:  0
 length:  3
-[]
+[995]
 number:  996
 order:  0
 length:  3
-[]
+[996]
 number:  997
 order:  0
 length:  3
-[]
+[997]
 number:  998
 order:  0
 length:  3
-[]
+[998]
 number:  999
 order:  0
 length:  3
-[]
---- NumbersTest.test_every_three_digit_number.approved.txt
-+++ NumbersTest.test_every_three_digit_number.received.txt
-@@ -1,900 +1,899 @@
--one hundred
--one hundred and one
--one hundred and two
--one hundred and three
--one hundred and four
--one hundred and five
--one hundred and six
--one hundred and seven
--one hundred and eight
--one hundred and nine
--one hundred and ten
--one hundred and eleven
--one hundred and twelve
--one hundred and thirteen
--one hundred and fourteen
--one hundred and fifteen
--one hundred and sixteen
--one hundred and seventeen
--one hundred and eighteen
--one hundred and nineteen
--one hundred and twenty
--one hundred and twenty one
--one hundred and twenty two
--one hundred and twenty three
--one hundred and twenty four
--one hundred and twenty five
--one hundred and twenty six
--one hundred and twenty seven
--one hundred and twenty eight
--one hundred and twenty nine
--one hundred and thirty
--one hundred and thirty one
--one hundred and thirty two
--one hundred and thirty three
--one hundred and thirty four
--one hundred and thirty five
--one hundred and thirty six
--one hundred and thirty seven
--one hundred and thirty eight
--one hundred and thirty nine
--one hundred and forty
--one hundred and forty one
--one hundred and forty two
--one hundred and forty three
--one hundred and forty four
--one hundred and forty five
--one hundred and forty six
--one hundred and forty seven
--one hundred and forty eight
--one hundred and forty nine
--one hundred and fifty
--one hundred and fifty one
--one hundred and fifty two
--one hundred and fifty three
--one hundred and fifty four
--one hundred and fifty five
--one hundred and fifty six
--one hundred and fifty seven
--one hundred and fifty eight
--one hundred and fifty nine
--one hundred and sixty
--one hundred and sixty one
--one hundred and sixty two
--one hundred and sixty three
--one hundred and sixty four
--one hundred and sixty five
--one hundred and sixty six
--one hundred and sixty seven
--one hundred and sixty eight
--one hundred and sixty nine
--one hundred and seventy
--one hundred and seventy one
--one hundred and seventy two
--one hundred and seventy three
--one hundred and seventy four
--one hundred and seventy five
--one hundred and seventy six
--one hundred and seventy seven
--one hundred and seventy eight
--one hundred and seventy nine
--one hundred and eighty
--one hundred and eighty one
--one hundred and eighty two
--one hundred and eighty three
--one hundred and eighty four
--one hundred and eighty five
--one hundred and eighty six
--one hundred and eighty seven
--one hundred and eighty eight
--one hundred and eighty nine
--one hundred and ninety
--one hundred and ninety one
--one hundred and ninety two
--one hundred and ninety three
--one hundred and ninety four
--one hundred and ninety five
--one hundred and ninety six
--one hundred and ninety seven
--one hundred and ninety eight
--one hundred and ninety nine
--two hundred
--two hundred and one
--two hundred and two
--two hundred and three
--two hundred and four
--two hundred and five
--two hundred and six
--two hundred and seven
--two hundred and eight
--two hundred and nine
--two hundred and ten
--two hundred and eleven
--two hundred and twelve
--two hundred and thirteen
--two hundred and fourteen
--two hundred and fifteen
--two hundred and sixteen
--two hundred and seventeen
--two hundred and eighteen
--two hundred and nineteen
--two hundred and twenty
--two hundred and twenty one
--two hundred and twenty two
--two hundred and twenty three
--two hundred and twenty four
--two hundred and twenty five
--two hundred and twenty six
--two hundred and twenty seven
--two hundred and twenty eight
--two hundred and twenty nine
--two hundred and thirty
--two hundred and thirty one
--two hundred and thirty two
--two hundred and thirty three
--two hundred and thirty four
--two hundred and thirty five
--two hundred and thirty six
--two hundred and thirty seven
--two hundred and thirty eight
--two hundred and thirty nine
--two hundred and forty
--two hundred and forty one
--two hundred and forty two
--two hundred and forty three
--two hundred and forty four
--two hundred and forty five
--two hundred and forty six
--two hundred and forty seven
--two hundred and forty eight
--two hundred and forty nine
--two hundred and fifty
--two hundred and fifty one
--two hundred and fifty two
--two hundred and fifty three
--two hundred and fifty four
--two hundred and fifty five
--two hundred and fifty six
--two hundred and fifty seven
--two hundred and fifty eight
--two hundred and fifty nine
--two hundred and sixty
--two hundred and sixty one
--two hundred and sixty two
--two hundred and sixty three
--two hundred and sixty four
--two hundred and sixty five
--two hundred and sixty six
--two hundred and sixty seven
--two hundred and sixty eight
--two hundred and sixty nine
--two hundred and seventy
--two hundred and seventy one
--two hundred and seventy two
--two hundred and seventy three
--two hundred and seventy four
--two hundred and seventy five
--two hundred and seventy six
--two hundred and seventy seven
--two hundred and seventy eight
--two hundred and seventy nine
--two hundred and eighty
--two hundred and eighty one
--two hundred and eighty two
--two hundred and eighty three
--two hundred and eighty four
--two hundred and eighty five
--two hundred and eighty six
--two hundred and eighty seven
--two hundred and eighty eight
--two hundred and eighty nine
--two hundred and ninety
--two hundred and ninety one
--two hundred and ninety two
--two hundred and ninety three
--two hundred and ninety four
--two hundred and ninety five
--two hundred and ninety six
--two hundred and ninety seven
--two hundred and ninety eight
--two hundred and ninety nine
--three hundred
--three hundred and one
--three hundred and two
--three hundred and three
--three hundred and four
--three hundred and five
--three hundred and six
--three hundred and seven
--three hundred and eight
--three hundred and nine
--three hundred and ten
--three hundred and eleven
--three hundred and twelve
--three hundred and thirteen
--three hundred and fourteen
--three hundred and fifteen
--three hundred and sixteen
--three hundred and seventeen
--three hundred and eighteen
--three hundred and nineteen
--three hundred and twenty
--three hundred and twenty one
--three hundred and twenty two
--three hundred and twenty three
--three hundred and twenty four
--three hundred and twenty five
--three hundred and twenty six
--three hundred and twenty seven
--three hundred and twenty eight
--three hundred and twenty nine
--three hundred and thirty
--three hundred and thirty one
--three hundred and thirty two
--three hundred and thirty three
--three hundred and thirty four
--three hundred and thirty five
--three hundred and thirty six
--three hundred and thirty seven
--three hundred and thirty eight
--three hundred and thirty nine
--three hundred and forty
--three hundred and forty one
--three hundred and forty two
--three hundred and forty three
--three hundred and forty four
--three hundred and forty five
--three hundred and forty six
--three hundred and forty seven
--three hundred and forty eight
--three hundred and forty nine
--three hundred and fifty
--three hundred and fifty one
--three hundred and fifty two
--three hundred and fifty three
--three hundred and fifty four
--three hundred and fifty five
--three hundred and fifty six
--three hundred and fifty seven
--three hundred and fifty eight
--three hundred and fifty nine
--three hundred and sixty
--three hundred and sixty one
--three hundred and sixty two
--three hundred and sixty three
--three hundred and sixty four
--three hundred and sixty five
--three hundred and sixty six
--three hundred and sixty seven
--three hundred and sixty eight
--three hundred and sixty nine
--three hundred and seventy
--three hundred and seventy one
--three hundred and seventy two
--three hundred and seventy three
--three hundred and seventy four
--three hundred and seventy five
--three hundred and seventy six
--three hundred and seventy seven
--three hundred and seventy eight
--three hundred and seventy nine
--three hundred and eighty
--three hundred and eighty one
--three hundred and eighty two
--three hundred and eighty three
--three hundred and eighty four
--three hundred and eighty five
--three hundred and eighty six
--three hundred and eighty seven
--three hundred and eighty eight
--three hundred and eighty nine
--three hundred and ninety
--three hundred and ninety one
--three hundred and ninety two
--three hundred and ninety three
--three hundred and ninety four
--three hundred and ninety five
--three hundred and ninety six
--three hundred and ninety seven
--three hundred and ninety eight
--three hundred and ninety nine
--four hundred
--four hundred and one
--four hundred and two
--four hundred and three
--four hundred and four
--four hundred and five
--four hundred and six
--four hundred and seven
--four hundred and eight
--four hundred and nine
--four hundred and ten
--four hundred and eleven
--four hundred and twelve
--four hundred and thirteen
--four hundred and fourteen
--four hundred and fifteen
--four hundred and sixteen
--four hundred and seventeen
--four hundred and eighteen
--four hundred and nineteen
--four hundred and twenty
--four hundred and twenty one
--four hundred and twenty two
--four hundred and twenty three
--four hundred and twenty four
--four hundred and twenty five
--four hundred and twenty six
--four hundred and twenty seven
--four hundred and twenty eight
--four hundred and twenty nine
--four hundred and thirty
--four hundred and thirty one
--four hundred and thirty two
--four hundred and thirty three
--four hundred and thirty four
--four hundred and thirty five
--four hundred and thirty six
--four hundred and thirty seven
--four hundred and thirty eight
--four hundred and thirty nine
--four hundred and forty
--four hundred and forty one
--four hundred and forty two
--four hundred and forty three
--four hundred and forty four
--four hundred and forty five
--four hundred and forty six
--four hundred and forty seven
--four hundred and forty eight
--four hundred and forty nine
--four hundred and fifty
--four hundred and fifty one
--four hundred and fifty two
--four hundred and fifty three
--four hundred and fifty four
--four hundred and fifty five
--four hundred and fifty six
--four hundred and fifty seven
--four hundred and fifty eight
--four hundred and fifty nine
--four hundred and sixty
--four hundred and sixty one
--four hundred and sixty two
--four hundred and sixty three
--four hundred and sixty four
--four hundred and sixty five
--four hundred and sixty six
--four hundred and sixty seven
--four hundred and sixty eight
--four hundred and sixty nine
--four hundred and seventy
--four hundred and seventy one
--four hundred and seventy two
--four hundred and seventy three
--four hundred and seventy four
--four hundred and seventy five
--four hundred and seventy six
--four hundred and seventy seven
--four hundred and seventy eight
--four hundred and seventy nine
--four hundred and eighty
--four hundred and eighty one
--four hundred and eighty two
--four hundred and eighty three
--four hundred and eighty four
--four hundred and eighty five
--four hundred and eighty six
--four hundred and eighty seven
--four hundred and eighty eight
--four hundred and eighty nine
--four hundred and ninety
--four hundred and ninety one
--four hundred and ninety two
--four hundred and ninety three
--four hundred and ninety four
--four hundred and ninety five
--four hundred and ninety six
--four hundred and ninety seven
--four hundred and ninety eight
--four hundred and ninety nine
--five hundred
--five hundred and one
--five hundred and two
--five hundred and three
--five hundred and four
--five hundred and five
--five hundred and six
--five hundred and seven
--five hundred and eight
--five hundred and nine
--five hundred and ten
--five hundred and eleven
--five hundred and twelve
--five hundred and thirteen
--five hundred and fourteen
--five hundred and fifteen
--five hundred and sixteen
--five hundred and seventeen
--five hundred and eighteen
--five hundred and nineteen
--five hundred and twenty
--five hundred and twenty one
--five hundred and twenty two
--five hundred and twenty three
--five hundred and twenty four
--five hundred and twenty five
--five hundred and twenty six
--five hundred and twenty seven
--five hundred and twenty eight
--five hundred and twenty nine
--five hundred and thirty
--five hundred and thirty one
--five hundred and thirty two
--five hundred and thirty three
--five hundred and thirty four
--five hundred and thirty five
--five hundred and thirty six
--five hundred and thirty seven
--five hundred and thirty eight
--five hundred and thirty nine
--five hundred and forty
--five hundred and forty one
--five hundred and forty two
--five hundred and forty three
--five hundred and forty four
--five hundred and forty five
--five hundred and forty six
--five hundred and forty seven
--five hundred and forty eight
--five hundred and forty nine
--five hundred and fifty
--five hundred and fifty one
--five hundred and fifty two
--five hundred and fifty three
--five hundred and fifty four
--five hundred and fifty five
--five hundred and fifty six
--five hundred and fifty seven
--five hundred and fifty eight
--five hundred and fifty nine
--five hundred and sixty
--five hundred and sixty one
--five hundred and sixty two
--five hundred and sixty three
--five hundred and sixty four
--five hundred and sixty five
--five hundred and sixty six
--five hundred and sixty seven
--five hundred and sixty eight
--five hundred and sixty nine
--five hundred and seventy
--five hundred and seventy one
--five hundred and seventy two
--five hundred and seventy three
--five hundred and seventy four
--five hundred and seventy five
--five hundred and seventy six
--five hundred and seventy seven
--five hundred and seventy eight
--five hundred and seventy nine
--five hundred and eighty
--five hundred and eighty one
--five hundred and eighty two
--five hundred and eighty three
--five hundred and eighty four
--five hundred and eighty five
--five hundred and eighty six
--five hundred and eighty seven
--five hundred and eighty eight
--five hundred and eighty nine
--five hundred and ninety
--five hundred and ninety one
--five hundred and ninety two
--five hundred and ninety three
--five hundred and ninety four
--five hundred and ninety five
--five hundred and ninety six
--five hundred and ninety seven
--five hundred and ninety eight
--five hundred and ninety nine
--six hundred
--six hundred and one
--six hundred and two
--six hundred and three
--six hundred and four
--six hundred and five
--six hundred and six
--six hundred and seven
--six hundred and eight
--six hundred and nine
--six hundred and ten
--six hundred and eleven
--six hundred and twelve
--six hundred and thirteen
--six hundred and fourteen
--six hundred and fifteen
--six hundred and sixteen
--six hundred and seventeen
--six hundred and eighteen
--six hundred and nineteen
--six hundred and twenty
--six hundred and twenty one
--six hundred and twenty two
--six hundred and twenty three
--six hundred and twenty four
--six hundred and twenty five
--six hundred and twenty six
--six hundred and twenty seven
--six hundred and twenty eight
--six hundred and twenty nine
--six hundred and thirty
--six hundred and thirty one
--six hundred and thirty two
--six hundred and thirty three
--six hundred and thirty four
--six hundred and thirty five
--six hundred and thirty six
--six hundred and thirty seven
--six hundred and thirty eight
--six hundred and thirty nine
--six hundred and forty
--six hundred and forty one
--six hundred and forty two
--six hundred and forty three
--six hundred and forty four
--six hundred and forty five
--six hundred and forty six
--six hundred and forty seven
--six hundred and forty eight
--six hundred and forty nine
--six hundred and fifty
--six hundred and fifty one
--six hundred and fifty two
--six hundred and fifty three
--six hundred and fifty four
--six hundred and fifty five
--six hundred and fifty six
--six hundred and fifty seven
--six hundred and fifty eight
--six hundred and fifty nine
--six hundred and sixty
--six hundred and sixty one
--six hundred and sixty two
--six hundred and sixty three
--six hundred and sixty four
--six hundred and sixty five
--six hundred and sixty six
--six hundred and sixty seven
--six hundred and sixty eight
--six hundred and sixty nine
--six hundred and seventy
--six hundred and seventy one
--six hundred and seventy two
--six hundred and seventy three
--six hundred and seventy four
--six hundred and seventy five
--six hundred and seventy six
--six hundred and seventy seven
--six hundred and seventy eight
--six hundred and seventy nine
--six hundred and eighty
--six hundred and eighty one
--six hundred and eighty two
--six hundred and eighty three
--six hundred and eighty four
--six hundred and eighty five
--six hundred and eighty six
--six hundred and eighty seven
--six hundred and eighty eight
--six hundred and eighty nine
--six hundred and ninety
--six hundred and ninety one
--six hundred and ninety two
--six hundred and ninety three
--six hundred and ninety four
--six hundred and ninety five
--six hundred and ninety six
--six hundred and ninety seven
--six hundred and ninety eight
--six hundred and ninety nine
--seven hundred
--seven hundred and one
--seven hundred and two
--seven hundred and three
--seven hundred and four
--seven hundred and five
--seven hundred and six
--seven hundred and seven
--seven hundred and eight
--seven hundred and nine
--seven hundred and ten
--seven hundred and eleven
--seven hundred and twelve
--seven hundred and thirteen
--seven hundred and fourteen
--seven hundred and fifteen
--seven hundred and sixteen
--seven hundred and seventeen
--seven hundred and eighteen
--seven hundred and nineteen
--seven hundred and twenty
--seven hundred and twenty one
--seven hundred and twenty two
--seven hundred and twenty three
--seven hundred and twenty four
--seven hundred and twenty five
--seven hundred and twenty six
--seven h
+[999]
+number:  10
+order:  0
+length:  2
+[10]
+number:  11
+order:  0
+length:  2
+[11]
+number:  12
+order:  0
+length:  2
+[12]
+number:  13
+order:  0
+length:  2
+[13]
+number:  14
+order:  0
+length:  2
+[14]
+number:  15
+order:  0
+length:  2
+[15]
+number:  16
+order:  0
+length:  2
+[16]
+number:  17
+order:  0
+length:  2
+[17]
+number:  18
+order:  0
+length:  2
+[18]
+number:  19
+order:  0
+length:  2
+[19]
+number:  20
+order:  0
+length:  2
+[20]
+number:  21
+order:  0
+length:  2
+[21]
+number:  22
+order:  0
+length:  2
+[22]
+number:  23
+order:  0
+length:  2
+[23]
+number:  24
+order:  0
+length:  2
+[24]
+number:  25
+order:  0
+length:  2
+[25]
+number:  26
+order:  0
+length:  2
+[26]
+number:  27
+order:  0
+length:  2
+[27]
+number:  28
+order:  0
+length:  2
+[28]
+number:  29
+order:  0
+length:  2
+[29]
+number:  30
+order:  0
+length:  2
+[30]
+number:  31
+order:  0
+length:  2
+[31]
+number:  32
+order:  0
+length:  2
+[32]
+number:  33
+order:  0
+length:  2
+[33]
+number:  34
+order:  0
+length:  2
+[34]
+number:  35
+order:  0
+length:  2
+[35]
+number:  36
+order:  0
+length:  2
+[36]
+number:  37
+order:  0
+length:  2
+[37]
+number:  38
+order:  0
+length:  2
+[38]
+number:  39
+order:  0
+length:  2
+[39]
+number:  40
+order:  0
+length:  2
+[40]
+number:  41
+order:  0
+length:  2
+[41]
+number:  42
+order:  0
+length:  2
+[42]
+number:  43
+order:  0
+length:  2
+[43]
+number:  44
+order:  0
+length:  2
+[44]
+number:  45
+order:  0
+length:  2
+[45]
+number:  46
+order:  0
+length:  2
+[46]
+number:  47
+order:  0
+length:  2
+[47]
+number:  48
+order:  0
+length:  2
+[48]
+number:  49
+order:  0
+length:  2
+[49]
+number:  50
+order:  0
+length:  2
+[50]
+number:  51
+order:  0
+length:  2
+[51]
+number:  52
+order:  0
+length:  2
+[52]
+number:  53
+order:  0
+length:  2
+[53]
+number:  54
+order:  0
+length:  2
+[54]
+number:  55
+order:  0
+length:  2
+[55]
+number:  56
+order:  0
+length:  2
+[56]
+number:  57
+order:  0
+length:  2
+[57]
+number:  58
+order:  0
+length:  2
+[58]
+number:  59
+order:  0
+length:  2
+[59]
+number:  60
+order:  0
+length:  2
+[60]
+number:  61
+order:  0
+length:  2
+[61]
+number:  62
+order:  0
+length:  2
+[62]
+number:  63
+order:  0
+length:  2
+[63]
+number:  64
+order:  0
+length:  2
+[64]
+number:  65
+order:  0
+length:  2
+[65]
+number:  66
+order:  0
+length:  2
+[66]
+number:  67
+order:  0
+length:  2
+[67]
+number:  68
+order:  0
+length:  2
+[68]
+number:  69
+order:  0
+length:  2
+[69]
+number:  70
+order:  0
+length:  2
+[70]
+number:  71
+order:  0
+length:  2
+[71]
+number:  72
+order:  0
+length:  2
+[72]
+number:  73
+order:  0
+length:  2
+[73]
+number:  74
+order:  0
+length:  2
+[74]
+number:  75
+order:  0
+length:  2
+[75]
+number:  76
+order:  0
+length:  2
+[76]
+number:  77
+order:  0
+length:  2
+[77]
+number:  78
+order:  0
+length:  2
+[78]
+number:  79
+order:  0
+length:  2
+[79]
+number:  80
+order:  0
+length:  2
+[80]
+number:  81
+order:  0
+length:  2
+[81]
+number:  82
+order:  0
+length:  2
+[82]
+number:  83
+order:  0
+length:  2
+[83]
+number:  84
+order:  0
+length:  2
+[84]
+number:  85
+order:  0
+length:  2
+[85]
+number:  86
+order:  0
+length:  2
+[86]
+number:  87
+order:  0
+length:  2
+[87]
+number:  88
+order:  0
+length:  2
+[88]
+number:  89
+order:  0
+length:  2
+[89]
+number:  90
+order:  0
+length:  2
+[90]
+number:  91
+order:  0
+length:  2
+[91]
+number:  92
+order:  0
+length:  2
+[92]
+number:  93
+order:  0
+length:  2
+[93]
+number:  94
+order:  0
+length:  2
+[94]
+number:  95
+order:  0
+length:  2
+[95]
+number:  96
+order:  0
+length:  2
+[96]
+number:  97
+order:  0
+length:  2
+[97]
+number:  98
+order:  0
+length:  2
+[98]
+number:  99
+order:  0
+length:  2
+[99]
+number:  512607
+order:  1
+length:  6
+[512, 607]
+number:  43112603
+order:  2
+length:  8
+[43, 112, 603]
+number:  99
+order:  0
+length:  2
+[99]
+number:  1
+order:  0
+length:  1
+[1]
+number:  100
+order:  0
+length:  3
+[100]
+number:  1000000
+order:  2
+length:  7
+[1, 0, 0]
+number:  1501
+order:  1
+length:  4
+[1, 501]
+number:  1000000
+order:  2
+length:  7
+[1, 0, 0]
+number:  1154321
+order:  2
+length:  7
+[1, 154, 321]
+number:  1308642
+order:  2
+length:  7
+[1, 308, 642]
+number:  1462963
+order:  2
+length:  7
+[1, 462, 963]
+number:  1617284
+order:  2
+length:  7
+[1, 617, 284]
+number:  1771605
+order:  2
+length:  7
+[1, 771, 605]
+number:  1925926
+order:  2
+length:  7
+[1, 925, 926]
+number:  2080247
+order:  2
+length:  7
+[2, 80, 247]
+number:  2234568
+order:  2
+length:  7
+[2, 234, 568]
+number:  2388889
+order:  2
+length:  7
+[2, 388, 889]
+number:  2543210
+order:  2
+length:  7
+[2, 543, 210]
+number:  2697531
+order:  2
+length:  7
+[2, 697, 531]
+number:  2851852
+order:  2
+length:  7
+[2, 851, 852]
+number:  3006173
+order:  2
+length:  7
+[3, 6, 173]
+number:  3160494
+order:  2
+length:  7
+[3, 160, 494]
+number:  3314815
+order:  2
+length:  7
+[3, 314, 815]
+number:  3469136
+order:  2
+length:  7
+[3, 469, 136]
+number:  3623457
+order:  2
+length:  7
+[3, 623, 457]
+number:  3777778
+order:  2
+length:  7
+[3, 777, 778]
+number:  3932099
+order:  2
+length:  7
+[3, 932, 99]
+number:  4086420
+order:  2
+length:  7
+[4, 86, 420]
+number:  4240741
+order:  2
+length:  7
+[4, 240, 741]
+number:  4395062
+order:  2
+length:  7
+[4, 395, 62]
+number:  4549383
+order:  2
+length:  7
+[4, 549, 383]
+number:  4703704
+order:  2
+length:  7
+[4, 703, 704]
+number:  4858025
+order:  2
+length:  7
+[4, 858, 25]
+number:  5012346
+order:  2
+length:  7
+[5, 12, 346]
+number:  5166667
+order:  2
+length:  7
+[5, 166, 667]
+number:  5320988
+order:  2
+length:  7
+[5, 320, 988]
+number:  5475309
+order:  2
+length:  7
+[5, 475, 309]
+number:  5629630
+order:  2
+length:  7
+[5, 629, 630]
+number:  5783951
+order:  2
+length:  7
+[5, 783, 951]
+number:  5938272
+order:  2
+length:  7
+[5, 938, 272]
+number:  6092593
+order:  2
+length:  7
+[6, 92, 593]
+number:  6246914
+order:  2
+length:  7
+[6, 246, 914]
+number:  6401235
+order:  2
+length:  7
+[6, 401, 235]
+number:  6555556
+order:  2
+length:  7
+[6, 555, 556]
+number:  6709877
+order:  2
+length:  7
+[6, 709, 877]
+number:  6864198
+order:  2
+length:  7
+[6, 864, 198]
+number:  7018519
+order:  2
+length:  7
+[7, 18, 519]
+number:  7172840
+order:  2
+length:  7
+[7, 172, 840]
+number:  7327161
+order:  2
+length:  7
+[7, 327, 161]
+number:  7481482
+order:  2
+length:  7
+[7, 481, 482]
+number:  7635803
+order:  2
+length:  7
+[7, 635, 803]
+number:  7790124
+order:  2
+length:  7
+[7, 790, 124]
+number:  7944445
+order:  2
+length:  7
+[7, 944, 445]
+number:  8098766
+order:  2
+length:  7
+[8, 98, 766]
+number:  8253087
+order:  2
+length:  7
+[8, 253, 87]
+number:  8407408
+order:  2
+length:  7
+[8, 407, 408]
+number:  8561729
+order:  2
+length:  7
+[8, 561, 729]
+number:  8716050
+order:  2
+length:  7
+[8, 716, 50]
+number:  8870371
+order:  2
+length:  7
+[8, 870, 371]
+number:  9024692
+order:  2
+length:  7
+[9, 24, 692]
+number:  9179013
+order:  2
+length:  7
+[9, 179, 13]
+number:  9333334
+order:  2
+length:  7
+[9, 333, 334]
+number:  9487655
+order:  2
+length:  7
+[9, 487, 655]
+number:  9641976
+order:  2
+length:  7
+[9, 641, 976]
+number:  9796297
+order:  2
+length:  7
+[9, 796, 297]
+number:  9950618
+order:  2
+length:  7
+[9, 950, 618]
+number:  1
+order:  0
+length:  1
+[1]
+number:  2
+order:  0
+length:  1
+[2]
+number:  3
+order:  0
+length:  1
+[3]
+number:  4
+order:  0
+length:  1
+[4]
+number:  5
+order:  0
+length:  1
+[5]
+number:  6
+order:  0
+length:  1
+[6]
+number:  7
+order:  0
+length:  1
+[7]
+number:  8
+order:  0
+length:  1
+[8]
+number:  9
+order:  0
+length:  1
+[9]
+number:  10
+order:  0
+length:  2
+[10]
+number:  300
+order:  0
+length:  3
+[300]
+number:  310
+order:  0
+length:  3
+[310]
+number:  12609
+order:  1
+length:  5
+[12, 609]
