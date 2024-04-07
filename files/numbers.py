@@ -49,7 +49,7 @@ class Numbers:
             
             # attach the order for everything higher than 0
             if order_of_number-order>0 and not part_of_number_string == '':
-                number_string += self.orders[order_of_number-order] 
+                number_string +=' '+self.orders[order_of_number-order] 
                 
         return number_string
     

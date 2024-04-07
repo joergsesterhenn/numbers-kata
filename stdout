@@ -1,55 +1,11 @@
---- NumbersTest.test_five_hundred_and_twelve_thousand_six_hundred_and_seven.approved.txt
-+++ NumbersTest.test_five_hundred_and_twelve_thousand_six_hundred_and_seven.received.txt
-@@ -1 +1 @@
--five hundred and twelve thousand, six hundred and seven
-+five hundred and twelvethousand, six hundred and seven
-
-
-to approve this result:
-
-mv -f /sandbox/NumbersTest.test_five_hundred_and_twelve_thousand_six_hundred_and_seven.received.txt /sandbox/NumbersTest.test_five_hundred_and_twelve_thousand_six_hundred_and_seven.approved.txt
-
---- NumbersTest.test_forty_three_million.approved.txt
-+++ NumbersTest.test_forty_three_million.received.txt
-@@ -1 +1 @@
--forty three million, one hundred and twelve thousand, six hundred and three
-+forty threemillion, one hundred and twelvethousand, six hundred and three
-
-
-to approve this result:
-
-mv -f /sandbox/NumbersTest.test_forty_three_million.received.txt /sandbox/NumbersTest.test_forty_three_million.approved.txt
-
 --- NumbersTest.test_one_million.approved.txt
 +++ NumbersTest.test_one_million.received.txt
 @@ -1 +1 @@
 -one million
-+onemillion, , 
++one million, , 
 
 
 to approve this result:
 
 mv -f /sandbox/NumbersTest.test_one_million.received.txt /sandbox/NumbersTest.test_one_million.approved.txt
-
---- NumbersTest.test_one_thousand_five_hundred_and_one.approved.txt
-+++ NumbersTest.test_one_thousand_five_hundred_and_one.received.txt
-@@ -1 +1 @@
--one thousand, five hundred and one
-+onethousand, five hundred and one
-
-
-to approve this result:
-
-mv -f /sandbox/NumbersTest.test_one_thousand_five_hundred_and_one.received.txt /sandbox/NumbersTest.test_one_thousand_five_hundred_and_one.approved.txt
-
---- NumbersTest.test_twelve_thousand_six_hundred_and_nine.approved.txt
-+++ NumbersTest.test_twelve_thousand_six_hundred_and_nine.received.txt
-@@ -1 +1 @@
--twelve thousand, six hundred and nine
-+twelvethousand, six hundred and nine
-
-
-to approve this result:
-
-mv -f /sandbox/NumbersTest.test_twelve_thousand_six_hundred_and_nine.received.txt /sandbox/NumbersTest.test_twelve_thousand_six_hundred_and_nine.approved.txt
 
