@@ -84,7 +84,7 @@ class NumbersTest(unittest.TestCase):
         verify(result)
         
     def test_one_million(self):
-        result = Numbers().to_number(1000001)
+        result = Numbers().to_number(1000000)
         verify(result)
         
    # def test_sample_in_millions(self):
