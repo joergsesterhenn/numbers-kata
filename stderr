@@ -17,6 +17,6 @@ Traceback (most recent call last):
   File "/sandbox/test_numbers.py", line 1, in <module>
     from numbers import Numbers
   File "/sandbox/numbers.py", line 70
-    if tens > 0 || units > 0 number_as_text += ' and '
-                 ^
+    if tens > 0 or units > 0 number_as_text += ' and '
+                             ^^^^^^^^^^^^^^
 SyntaxError: invalid syntax
