@@ -87,8 +87,8 @@ class NumbersTest(unittest.TestCase):
         result = Numbers().to_number(1000000)
         verify(result)
         
-    def test_every_seven_digit_number_first_half(self):
-        result = "\n".join([Numbers().to_number(number) for number in range(100000,600000)])
+    def test_second_million(self):
+        result = "\n".join([Numbers().to_number(number) for number in range(1000000,2000001)])
         verify(result)
        
 if __name__ == "__main__":
