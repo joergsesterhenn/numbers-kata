@@ -76,8 +76,7 @@ class Numbers:
             number_as_text += self.tens[tens]
             if units>0:
                 number_as_text += ' '
-        if units > 1:
-            number_as_text +=self.digits[units]
+        number_as_text +=self.digits[units]
 
         return number_as_text
         
