@@ -2877,5 +2877,21 @@
       24,
       408533
     ]
+  },
+  {
+    "duration": 10.719996,
+    "colour": "timed_out",
+    "predicted": "red",
+    "revert_if_wrong": "off",
+    "index": 180,
+    "time": [
+      2024,
+      4,
+      7,
+      19,
+      17,
+      14,
+      671421
+    ]
   }
 ]
