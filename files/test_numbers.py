@@ -25,7 +25,7 @@ class NumbersTest(unittest.TestCase):
     # x 1501 --> one thousand, five hundred and one
     # x 12609 --> twelve thousand, six hundred and nine
     # x 512607 --> five hundred and twelve thousand, six hundred and seven
-    # 43112603 --> forty three million, one hundred and twelve thousand, six hundred and three
+    # x 43112603 --> forty three million, one hundred and twelve thousand, six hundred and three
       
     def test_number_one(self):
         result = str(Numbers().to_number(1))
@@ -85,6 +85,10 @@ class NumbersTest(unittest.TestCase):
         
     def test_one_million(self):
         result = Numbers().to_number(1000000)
+        verify(result)
+        
+    def test_every_seven_digit_number(self):
+        result = "\n".join([Numbers().to_number(number) for number in range(100000,1000000)])
         verify(result)
        
 if __name__ == "__main__":
