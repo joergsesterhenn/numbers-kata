@@ -5,6 +5,7 @@ class Numbers:
     teens = ['ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen']
     # all multiples of ten are also special to us
     tens = ['', 'ten', 'twenty','thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety']
+    # so are all multiples of thousand
     orders= ['', 'thousand', 'million', 'billion', 'trillion']
     
     
@@ -35,7 +36,6 @@ class Numbers:
     def to_number(self, number: int):
         #split number into segments of three digits and return them in an array from highest order to lowest
         array_of_numbers_by_order = self.disect_number(number)
-        #print (array_of_numbers_by_order)
         order_of_number = (len(str(number))-1)//3
         number_string=''
         
@@ -48,15 +48,17 @@ class Numbers:
             # first get the string for the current segment and append it
             part_of_number_string = self.get_number_part(number_part)
             
-            # if we already had a part and this is not empty then this is attached with a comma
-            if number_string and part_of_number_string:
-                number_string+= ', '
-                
-            number_string += part_of_number_string
+            # if this part is not empty 
+            if part_of_number_string:
+               # if we already had a part then this is attached with a comma
+               if number_string:
+                    number_string+= ', '
+               
+               number_string += part_of_number_string
             
-            # attach the order for everything higher than 0
-            if order_of_number-order > 0 and part_of_number_string :
-                number_string +=' '+ self.orders[order_of_number-order] 
+               # attach the order for everything higher than 0
+               if order_of_number-order > 0:
+                    number_string +=' '+ self.orders[order_of_number-order] 
                 
         return number_string
      
@@ -89,14 +91,10 @@ class Numbers:
     def disect_number(self, number: int):
         order_of_number = (len(str(number))-1)//3
         length_of_number=len(str(number))
-        #print('number: ',number)
-        #print('order: ',order_of_number)
-        #print('length: ',length_of_number)
         array_of_ordered_numbers = []
         for order in (range(-1*(order_of_number+1),0)):
             start=max(3*order,-1*length_of_number)
             end=(order+1)*3
-            #print(start,end,str(number)[start:end])
             if end==0:
                 array_of_ordered_numbers.append(int(str(number)[start:]))
             else:
