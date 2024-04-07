@@ -67,7 +67,8 @@ class Numbers:
         
         if hundreds>0:
             number_as_text = self.digits[digit] + ' hundred'
-            if tens > 0 or units > 0 number_as_text += ' and '
+            if tens > 0 or units > 0:
+                number_as_text += ' and '
         
         if tens==1:
             number_as_text += self.teens[units]
