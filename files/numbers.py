@@ -43,8 +43,8 @@ class Numbers:
             part_of_number_string = self.get_number_by_order(number_part, order)
             number_string += part_of_number_string
             # then determine how to connect it to the next segment
-            #if part_of_number_string == '' and not order_of_number == order:
-            #    number_string=number_string[:number_string.rfind(',')]
+            if part_of_number_string == '' and not order_of_number == order:
+                number_string=number_string[:number_string.rfind(',')]
             if order_of_number-order>0 and not part_of_number_string == '':
                 number_string = number_string + ' ' + self.orders[order_of_number-order] + ', ' 
         return number_string
