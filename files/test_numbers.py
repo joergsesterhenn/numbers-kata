@@ -91,5 +91,9 @@ class NumbersTest(unittest.TestCase):
         result = "\n".join([Numbers().to_number(number) for number in range(1000000,10000000,154321)])
         verify(result)
        
+    def test_a_really_long_one(self):
+        result = Numbers().to_number(1050907000407750600030640022401)
+        verify(result)
+    
 if __name__ == "__main__":
     unittest.main()

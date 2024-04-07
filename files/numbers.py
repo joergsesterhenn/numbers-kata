@@ -5,8 +5,8 @@ class Numbers:
     teens = ['ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen']
     # all multiples of ten are also special to us
     tens = ['', 'ten', 'twenty','thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety']
-    # so are all multiples of thousand
-    orders= ['', 'thousand', 'million', 'billion', 'trillion']
+    # so are all multiples of thousand apparently - we are counting  with the short scale
+    orders= ['', 'thousand', 'million', 'billion', 'trillion', 'quadrillion', 'quintillion', 'sextillion', 'septillion', 'octillion', 'nonillion']
     
     
     # we need to look at the length of the number before we start calculations
@@ -44,7 +44,9 @@ class Numbers:
             return self.digits[number]
         
         # build number_string by traversing orders from highest to lowest and appending the parts
-        for order, number_part in enumerate(array_of_numbers_by_order):
+        for inverseorder, number_part in enumerate(array_of_numbers_by_order):
+            order = order_of_number - inverseorder
+            
             # first get the string for the current segment and append it
             part_of_number_string = self.get_number_part(number_part)
             
@@ -55,20 +57,20 @@ class Numbers:
                     number_string+= ', '
                
                number_string += part_of_number_string
-            
-               # attach the order for everything higher than 0
-               if order_of_number-order > 0:
-                    number_string +=' '+ self.orders[order_of_number-order] 
+
+               # attach the order for everything higher than 0            
+               if order > 0:
+                    number_string +=' '+ self.orders[order] 
                 
         return number_string
      
     
     def get_number_part(self, number: int):    
-        number_string=str(number).zfill(3)
+        number_string = str(number).zfill(3)
         
-        hundreds=int(number_string[0])
-        tens=int(number_string[1])
-        units=int(number_string[2])
+        hundreds = int(number_string[0])
+        tens = int(number_string[1])
+        units = int(number_string[2])
         
         number_as_text=''
         
