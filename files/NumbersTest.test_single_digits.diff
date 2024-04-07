@@ -1,4 +1,5 @@
 --- NumbersTest.test_single_digits.approved.txt
 +++ NumbersTest.test_single_digits.received.txt
 @@ -1 +1 @@
--['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']+['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight']
+-['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
++[', one', ', two', ', three', ', four', ', five', ', six', ', seven', ', eight', ', nine']

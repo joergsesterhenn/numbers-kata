@@ -1,4 +1,5 @@
 --- NumbersTest.test_number_one.approved.txt
 +++ NumbersTest.test_number_one.received.txt
 @@ -1 +1 @@
--one+one
+-one
++, one

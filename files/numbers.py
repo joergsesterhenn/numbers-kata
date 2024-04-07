@@ -39,14 +39,17 @@ class Numbers:
         number_string=''
         # build number_string by traversing orders from highest to lowest and appending the parts
         for order, number_part in enumerate(array_of_numbers_by_order):
-            # first get the string for the current segment and append it
+            # if we already have a part then this is attached after a comma
+            number_string+= ', '
+            
+            # get the string for the current segment and append it
             part_of_number_string = self.get_number_by_order(number_part, order)
             number_string += part_of_number_string
-            # then determine how to connect it to the next segment
-            if part_of_number_string == '' and not order_of_number == order:
-                number_string=number_string[:number_string.rfind(',')]
+            
+            # attach the order for everything higher than 0
             if order_of_number-order>0 and not part_of_number_string == '':
-                number_string = number_string + ' ' + self.orders[order_of_number-order] + ', ' 
+                number_string += self.orders[order_of_number-order] 
+                
         return number_string
     
 # 43112603 [43, 112, 603]
