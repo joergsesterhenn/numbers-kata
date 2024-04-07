@@ -94,7 +94,7 @@ class Numbers:
         order_of_number = (len(str(number))-1)//3
         length_of_number=len(str(number))
         array_of_ordered_numbers = []
-        for end in (range(-3*order_of_number,0,3)):
+        for end in (range(-3*order_of_number,1,3)):
             # example 1234567:
             #
             # length_of_number =7
@@ -110,7 +110,7 @@ class Numbers:
             # start is three before end can not be greater than the length of the number
             start=max(end-3,-1*length_of_number)
             print(start,end)
-            if start==-3:
+            if end==0:
                 array_of_ordered_numbers.append(int(str(number)[start:]))
             else:
                 array_of_ordered_numbers.append(int(str(number)[start:end]))
