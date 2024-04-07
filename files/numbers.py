@@ -43,13 +43,13 @@ class Numbers:
             part_of_number_string = self.get_number_by_order(number_part, order)
             
             # if we already had a part and this is not empty then this is attached with a comma
-            if number_string not empty and part_of_number_string not empty:
+            if number_string and part_of_number_string:
                 number_string+= ', '
                 
             number_string += part_of_number_string
             
             # attach the order for everything higher than 0
-            if order_of_number-order > 0 and part_of_number_string not empty:
+            if order_of_number-order > 0 and part_of_number_string :
                 number_string +=' '+ self.orders[order_of_number-order] 
                 
         return number_string
