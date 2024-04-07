@@ -110,7 +110,7 @@ class Numbers:
             # start is three before end can not be greater than the length of the number
             start=max(end-3,-1*length_of_number)
             print(start,end)
-            if end==0:
+            if start==-3:
                 array_of_ordered_numbers.append(int(str(number)[start:]))
             else:
                 array_of_ordered_numbers.append(int(str(number)[start:end]))
