@@ -53,26 +53,32 @@ class Numbers:
     
     def get_number_by_order(self, number: int, order: int):    
         number_string=str(number).zfill(3)
-        first_digit=int(number_string[0])
-        second_digit=int(number_string[1])
-        third_digit=int(number_string[2])
+        
+        hundreds=int(number_string[0])
+        tens=int(number_string[1])
+        units=int(number_string[2])
+        
+        number_as_text=''
         #print (str(number),str(number).zfill(3))
+        
+        # edgecase handled first
         if self.is_digit(number) and order==0:
             return self.digits[number]
-        elif self.is_teen(number):
-            return self.teens[int(str(number)[1])]
-        elif self.is_below_hundred(number):
-            return self.to_tens(second_digit, True) + self.to_units(third_digit)
-        else:
-            if second_digit==0:
-                if third_digit==0:
-                    return self.to_hundreds(first_digit) 
-                else:
-                    return self.to_hundreds(first_digit) + ' and '  + self.to_units(third_digit)
-            elif second_digit==1:
-                return self.to_hundreds(first_digit) + ' and ' + self.teens[third_digit]
-            else:
-                return self.to_hundreds(first_digit) + self.to_tens(second_digit, False) + ' ' + self.to_units(third_digit)
+        
+        if hundreds>0:
+            number_as_text = self.digits[digit] + ' hundred'
+            if tens > 0 || units > 0 number_as_text += ' and '
+        
+        if tens==1:
+            number_as_text += self.teens[units]
+        elif tens>1
+            number_as_text += self.tens[tens]
+            if units>0:
+                number_as_text += ' '
+        if units > 1:
+            number_as_text +=self.digits[units]
+
+        return number_as_text
         
     def disect_number(self, number: int):
         order_of_number = (len(str(number))-1)//3
@@ -94,28 +100,3 @@ class Numbers:
         
     def is_digit(self, number: int):
         return number < 10
-
-    def is_teen(self, number: int):
-        return 9 < number < 20
-
-    def is_below_hundred(self, number: int):
-        return number < 100
-  
-    # units do not contain zero and are led by a space
-    def to_units(self,digit):
-        if digit == 0:
-            return ''
-        else:
-            return self.digits[digit]
-    
-    def to_tens(self,digit, leading):
-        space = ' and '
-        if leading:
-            space = ''
-        if digit == 0:
-            return ''
-        else:
-            return space + self.tens[digit]
-    
-    def to_hundreds(self,digit):
-        return self.digits[digit] + ' hundred'
