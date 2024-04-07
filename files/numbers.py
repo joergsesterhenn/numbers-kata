@@ -39,7 +39,7 @@ class Numbers:
         number_string=''
         
         # edgecase handled first
-        if number < 10
+        if number < 10:
             return self.digits[number]
         
         # build number_string by traversing orders from highest to lowest and appending the parts
