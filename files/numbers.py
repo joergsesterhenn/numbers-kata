@@ -34,14 +34,16 @@ class Numbers:
     # if we have hundreds of something we append partial hundreds with an ' and '
         
     def to_number(self, number: int):
+        
+        # edgecase handled first
+        if number < 10:
+            return self.digits[number]
+        
         #split number into segments of three digits and return them in an array from highest order to lowest
         array_of_numbers_by_order = self.disect_number(number)
         order_of_number = (len(str(number))-1)//3
         number_string=''
         
-        # edgecase handled first
-        if number < 10:
-            return self.digits[number]
         
         # build number_string by traversing orders from highest to lowest and appending the parts
         for inverseorder, number_part in enumerate(array_of_numbers_by_order):
@@ -97,19 +99,28 @@ class Numbers:
         for end in (range(-3*order_of_number,1,3)):
             # example 1234567:
             #
-            # length_of_number =7
-            # order_of_number  =2  (means 1000^order = million is the largest segment)
+            # length_of_number = 7
+            # order_of_number  = 2  (means 1000^order = million is the largest segment)
             #
             # we try to get segments of three by iterating from the end in steps of three
             #
-            # in the second loop we get 
-            #  1 234 567
-            #    ^---------start =-6
-            #        ^-----end   =-3
+            # 
+            #    __1 234 567
+            #                     --first--
+            #    ^----------------start =-9
+            #        ^------------end   =-6
+            #                     --second--
+            #        ^------------start =-6
+            #            ^--------end   =-3
+            #                     --third--
+            #            ^--------start =-3
+            #                ^----end   = 0
             
-            # start is three before end can not be greater than the length of the number
+            # start is three before end but not greater than the length of the number
             start=max(end-3,-1*length_of_number)
-            print(start,end)
+
+            # need to handle the last segment differently since python does not allow 
+            # mixing of negative, neutral and positive indices while slicing
             if end==0:
                 array_of_ordered_numbers.append(int(str(number)[start:]))
             else:
