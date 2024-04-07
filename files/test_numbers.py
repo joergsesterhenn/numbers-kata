@@ -88,7 +88,7 @@ class NumbersTest(unittest.TestCase):
         verify(result)
         
     def test_second_million(self):
-        result = "\n".join([Numbers().to_number(number) for number in range(1000000,2000001)])
+        result = [Numbers().to_number(number) for number in range(1000000,2000001)]
         verify(result)
        
 if __name__ == "__main__":
