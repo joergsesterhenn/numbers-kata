@@ -72,7 +72,7 @@ class Numbers:
             elif second_digit==1:
                 return self.to_hundreds(first_digit) + ' and ' + self.teens[third_digit]
             else:
-                return self.to_hundreds(first_digit) + self.to_tens(second_digit, False) + self.to_units(third_digit)
+                return self.to_hundreds(first_digit) + self.to_tens(second_digit, False) + ' ' + self.to_units(third_digit)
         
     def disect_number(self, number: int):
         order_of_number = (len(str(number))-1)//3
