@@ -40,7 +40,7 @@ class Numbers:
         # build number_string by traversing orders from highest to lowest and appending the parts
         for order, number_part in enumerate(array_of_numbers_by_order):
             # if we already have a part then this is attached after a comma
-            if number_string <>'':
+            if number_string !='':
                 number_string+= ', '
             
             # get the string for the current segment and append it
