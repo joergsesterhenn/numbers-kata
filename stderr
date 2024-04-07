@@ -1,4 +1,4 @@
-EEEEEEE.EEEE.EEEE
+EEEEEEE.EEEE
 ======================================================================
 ERROR: test_a_really_long_one (test_numbers.NumbersTest.test_a_really_long_one)
 ----------------------------------------------------------------------
@@ -21,61 +21,6 @@ Traceback (most recent call last):
   File "/sandbox/test_numbers.py", line 71, in test_disecting_to_order
     result = Numbers().disect_number(1501)
              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/sandbox/numbers.py", line 112, in disect_number
-    print(order,start,end)
-          ^^^^^
-NameError: name 'order' is not defined
-
-======================================================================
-ERROR: test_every_three_digit_number (test_numbers.NumbersTest.test_every_three_digit_number)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/sandbox/test_numbers.py", line 64, in test_every_three_digit_number
-    verify(result)
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 120, in verify
-    verify_with_namer(
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 220, in verify_with_namer
-    verify_with_namer_and_writer(namer, writer, options=options)
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 231, in verify_with_namer_and_writer
-    error = FileApprover.verify(namer, writer, options.reporter, options.comparator)
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 55, in verify
-    verified = FileApprover.verify_files(approved, received, reporter, comparator)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 111, in verify_files
-    raise ReporterNotWorkingException(reporter)
-approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7fe5749a69f0> failed to work!
-
-======================================================================
-ERROR: test_every_two_digit_number (test_numbers.NumbersTest.test_every_two_digit_number)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/sandbox/test_numbers.py", line 48, in test_every_two_digit_number
-    verify(result)
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 120, in verify
-    verify_with_namer(
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 220, in verify_with_namer
-    verify_with_namer_and_writer(namer, writer, options=options)
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 231, in verify_with_namer_and_writer
-    error = FileApprover.verify(namer, writer, options.reporter, options.comparator)
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 55, in verify
-    verified = FileApprover.verify_files(approved, received, reporter, comparator)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 111, in verify_files
-    raise ReporterNotWorkingException(reporter)
-approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7fe574f25df0> failed to work!
-
-======================================================================
-ERROR: test_five_hundred_and_twelve_thousand_six_hundred_and_seven (test_numbers.NumbersTest.test_five_hundred_and_twelve_thousand_six_hundred_and_seven)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/sandbox/test_numbers.py", line 79, in test_five_hundred_and_twelve_thousand_six_hundred_and_seven
-    result = Numbers().to_number(512607)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/sandbox/numbers.py", line 38, in to_number
-    array_of_numbers_by_order = self.disect_number(number)
-                                ^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/sandbox/numbers.py", line 112, in disect_number
     print(order,start,end)
           ^^^^^
@@ -114,7 +59,7 @@ Traceback (most recent call last):
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 111, in verify_files
     raise ReporterNotWorkingException(reporter)
-approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7fe574a38410> failed to work!
+approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7ff58d6a2720> failed to work!
 
 ======================================================================
 ERROR: test_one_hundred (test_numbers.NumbersTest.test_one_hundred)
@@ -134,7 +79,7 @@ Traceback (most recent call last):
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 111, in verify_files
     raise ReporterNotWorkingException(reporter)
-approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7fe574a3bfb0> failed to work!
+approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7ff58d6a2de0> failed to work!
 
 ======================================================================
 ERROR: test_one_million (test_numbers.NumbersTest.test_one_million)
@@ -167,21 +112,6 @@ Traceback (most recent call last):
 NameError: name 'order' is not defined
 
 ======================================================================
-ERROR: test_sample_in_millions (test_numbers.NumbersTest.test_sample_in_millions)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/sandbox/test_numbers.py", line 91, in test_sample_in_millions
-    result = "\n".join([Numbers().to_number(number) for number in range(1000000,10000000,154321)])
-                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/sandbox/numbers.py", line 38, in to_number
-    array_of_numbers_by_order = self.disect_number(number)
-                                ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/sandbox/numbers.py", line 112, in disect_number
-    print(order,start,end)
-          ^^^^^
-NameError: name 'order' is not defined
-
-======================================================================
 ERROR: test_ten (test_numbers.NumbersTest.test_ten)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
@@ -199,7 +129,7 @@ Traceback (most recent call last):
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 111, in verify_files
     raise ReporterNotWorkingException(reporter)
-approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7fe574fccd70> failed to work!
+approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7ff58d6a3470> failed to work!
 
 ======================================================================
 ERROR: test_three_hundred (test_numbers.NumbersTest.test_three_hundred)
@@ -219,7 +149,7 @@ Traceback (most recent call last):
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 111, in verify_files
     raise ReporterNotWorkingException(reporter)
-approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7fe574a38860> failed to work!
+approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7ff58d6a3740> failed to work!
 
 ======================================================================
 ERROR: test_three_hundred_ten (test_numbers.NumbersTest.test_three_hundred_ten)
@@ -239,7 +169,7 @@ Traceback (most recent call last):
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 111, in verify_files
     raise ReporterNotWorkingException(reporter)
-approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7fe574a38ec0> failed to work!
+approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7ff58d6a3980> failed to work!
 
 ======================================================================
 ERROR: test_twelve_thousand_six_hundred_and_nine (test_numbers.NumbersTest.test_twelve_thousand_six_hundred_and_nine)
@@ -257,6 +187,6 @@ Traceback (most recent call last):
 NameError: name 'order' is not defined
 
 ----------------------------------------------------------------------
-Ran 17 tests in 0.071s
+Ran 12 tests in 0.060s
 
-FAILED (errors=15)
+FAILED (errors=11)
