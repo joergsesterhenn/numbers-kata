@@ -37,10 +37,15 @@ class Numbers:
         array_of_numbers_by_order = self.disect_number(number)
         order_of_number = (len(str(number))-1)//3
         number_string=''
+        
+        # edgecase handled first
+        if number < 10
+            return self.digits[number]
+        
         # build number_string by traversing orders from highest to lowest and appending the parts
         for order, number_part in enumerate(array_of_numbers_by_order):
             # first get the string for the current segment and append it
-            part_of_number_string = self.get_number_by_order(number_part, order)
+            part_of_number_string = self.get_number_part(number_part)
             
             # if we already had a part and this is not empty then this is attached with a comma
             if number_string and part_of_number_string:
@@ -53,14 +58,9 @@ class Numbers:
                 number_string +=' '+ self.orders[order_of_number-order] 
                 
         return number_string
+     
     
-# 43112603 [43, 112, 603]
-# 43112603 0 2 43  fourty three
-# 43112603 1 2 112 thousand fourty three thousand, one hundred and twelve
-# 43112603 2 2 603 million fourty three thousand, one hundred and twelve million, six hundred and three
-    
-    
-    def get_number_by_order(self, number: int, order: int):    
+    def get_number_part(self, number: int):    
         number_string=str(number).zfill(3)
         
         hundreds=int(number_string[0])
@@ -68,11 +68,6 @@ class Numbers:
         units=int(number_string[2])
         
         number_as_text=''
-        #print (str(number),str(number).zfill(3))
-        
-        # edgecase handled first
-        if self.is_digit(number) and order==0:
-            return self.digits[number]
         
         if hundreds>0:
             number_as_text = self.digits[hundreds] + ' hundred'
@@ -106,6 +101,4 @@ class Numbers:
             else:
                 array_of_ordered_numbers.append(int(str(number)[start:end]))
         return list(reversed(array_of_ordered_numbers))  
-        
-    def is_digit(self, number: int):
-        return number < 10
+       
