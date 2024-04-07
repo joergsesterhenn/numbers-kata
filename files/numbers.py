@@ -35,7 +35,7 @@ class Numbers:
     def to_number(self, number: int):
         #split number into segments of three digits and return them in an array from highest order to lowest
         array_of_numbers_by_order = self.disect_number(number)
-        print (array_of_numbers_by_order)
+        #print (array_of_numbers_by_order)
         order_of_number = (len(str(number))-1)//3
         number_string=''
         
@@ -89,9 +89,9 @@ class Numbers:
     def disect_number(self, number: int):
         order_of_number = (len(str(number))-1)//3
         length_of_number=len(str(number))
-        print('number: ',number)
-        print('order: ',order_of_number)
-        print('length: ',length_of_number)
+        #print('number: ',number)
+        #print('order: ',order_of_number)
+        #print('length: ',length_of_number)
         array_of_ordered_numbers = []
         for order in (range(-1*(order_of_number+1),0)):
             start=max(3*order,-1*length_of_number)
