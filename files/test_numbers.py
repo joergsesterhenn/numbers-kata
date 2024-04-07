@@ -87,8 +87,8 @@ class NumbersTest(unittest.TestCase):
         result = Numbers().to_number(1000000)
         verify(result)
         
-    def test_first_hundred_thousand(self):
-        result = "\n".join([Numbers().to_number(number) for number in range(1000000,1100001)])
+    def test_sample_in_millions(self):
+        result = "\n".join([Numbers().to_number(number) for number in range(1000000,10000000,333331)])
         verify(result)
        
 if __name__ == "__main__":

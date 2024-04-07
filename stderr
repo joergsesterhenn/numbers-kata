@@ -1,9 +1,9 @@
-...E............
+..........E.....
 ======================================================================
-ERROR: test_first_hundred_thousand (test_numbers.NumbersTest.test_first_hundred_thousand)
+ERROR: test_sample_in_millions (test_numbers.NumbersTest.test_sample_in_millions)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/sandbox/test_numbers.py", line 92, in test_first_hundred_thousand
+  File "/sandbox/test_numbers.py", line 92, in test_sample_in_millions
     verify(result)
   File "/usr/local/lib/python3.12/site-packages/approvaltests/approvals.py", line 120, in verify
     verify_with_namer(
@@ -17,9 +17,9 @@ Traceback (most recent call last):
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/usr/local/lib/python3.12/site-packages/approvaltests/file_approver.py", line 111, in verify_files
     raise ReporterNotWorkingException(reporter)
-approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7fb57729b1a0> failed to work!
+approvaltests.file_approver.ReporterNotWorkingException: Reporter <approvaltests.reporters.report_on_cyber_dojo.ReportOnCyberDojo object at 0x7f0e25c735f0> failed to work!
 
 ----------------------------------------------------------------------
-Ran 16 tests in 2.940s
+Ran 16 tests in 0.372s
 
 FAILED (errors=1)
