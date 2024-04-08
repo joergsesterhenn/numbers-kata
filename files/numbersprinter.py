@@ -49,7 +49,7 @@ class NumbersPrinter:
     # blocks of three digits are divided by a comma - unless nothing follows
     # if we have hundreds we append partial hundreds with an ' and '
 
-    def to_number(self):
+    def print(self):
 
         # edge case handled first
         if self.number == 0:
@@ -57,26 +57,26 @@ class NumbersPrinter:
 
         # split number into segments of three digits
         # and return them in an array from the highest order to lowest
-        order_of_number = self.number_splitter.get_order_of_number()
         number_string = ''
 
         # build number_string by traversing orders
         # from highest to lowest and appending the parts
         for inverse_order, number_part in self.number_splitter.enumerate():
-            order = order_of_number - inverse_order
 
             # first get the string for the current segment and append it
             part_of_number_string = self.get_number_part(number_part)
 
             # if this part is not empty 
             if part_of_number_string:
-                # if we already had a part then this is attached with a comma
-                if number_string:
+                # if we are not the highest order lead with a comma
+                if inverse_order > 0:
                     number_string += self.SEPERATOR_OF_ORDERS
 
                 number_string += part_of_number_string
 
-                # attach the order for everything higher than 0
+                # attach the order for everything but the lowest order
+                order = (self.number_splitter.get_order_of_number()
+                         - inverse_order)
                 if order > 0:
                     number_string += ' ' + self.ORDERS[order]
 
