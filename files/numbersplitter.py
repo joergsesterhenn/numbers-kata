@@ -1,5 +1,5 @@
-# takes a number and splits it into an array of strings with length three digits
-# in order to always have three digits in every segment we first fill up the number
+# takes a number and splits it into an array of strings with length three
+# in order to always have three digits in a segment we first fill up the number
 class NumberSplitter:
 
     number: int
@@ -17,36 +17,24 @@ class NumberSplitter:
         self.array_of_ordered_numbers = []
         self.dissect_number()
 
+    # example 1234567:
+    # length_of_number = 7
+    # order_of_number  = 2  means 1000^order
+    #                         ==>  million is the largest segment
+    #    001 234 567
+    #                     --first--
+    #    ^----------------start =0
+    #        ^------------end   =3
+    #                     --second--
+    #        ^------------start =3
+    #            ^--------end   =6
+    #                     --third--
+    #            ^--------start =6
+    #                ^----end   =9
     def dissect_number(self):
-
-        for start in (range(0, self.length_of_number, 3)):
-            # example 1234567:
-            #
-            # length_of_number = 7
-            # order_of_number  = 2  means 1000^order
-            #                         ==>  million is the largest segment)
-            #
-            # we try to get segments of three by iterating from the end
-            #
-            #
-            #    001 234 567
-            #                     --first--
-            #    ^----------------start =0
-            #        ^------------end   =3
-            #                     --second--
-            #        ^------------start =3
-            #            ^--------end   =6
-            #                     --third--
-            #            ^--------start =6
-            #                ^----end   =9
-
-            end = start+3
-
-            # handle the last segment to avoid out of bounds error
-            if end == self.length_of_number:
-                self.array_of_ordered_numbers.append(self.number_string[start:])
-            else:
-                self.array_of_ordered_numbers.append(self.number_string[start:end])
+        self.array_of_ordered_numbers = \
+            [self.number_string[start:start+3]
+             for start in (range(0, self.length_of_number, 3))]
 
     def get_length_of_number(self):
         return len(str(self.number))

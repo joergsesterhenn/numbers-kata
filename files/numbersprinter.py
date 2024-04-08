@@ -2,19 +2,28 @@ from files.numbersplitter import NumberSplitter
 
 
 class NumbersPrinter:
-    digits = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven',
+    DIGITS = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven',
               'eight', 'nine']
     # all teens are special - who would have thought!
-    teens = ['ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen',
+    TEENS = ['ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen',
              'sixteen', 'seventeen', 'eighteen', 'nineteen']
     # all multiples of ten are also special to us
-    tens = ['', 'ten', 'twenty', 'thirty', 'forty', 'fifty', 'sixty',
+    TENS = ['', 'ten', 'twenty', 'thirty', 'forty', 'fifty', 'sixty',
             'seventy', 'eighty', 'ninety']
     # so are all multiples of thousand apparently
     # - we are counting  with the short scale
-    orders = ['', 'thousand', 'million', 'billion', 'trillion', 'quadrillion',
+    ORDERS = ['', 'thousand', 'million', 'billion', 'trillion', 'quadrillion',
               'quintillion', 'sextillion', 'septillion', 'octillion',
               'nonillion']
+
+    SEPERATOR_OF_ORDERS = ', '
+
+    number_splitter: NumberSplitter
+    number: int
+
+    def __init__(self, number: int):
+        self.number = number
+        self.number_splitter = NumberSplitter(number)
 
     # we need to look at the length of the number before we start calculations
     #
@@ -35,26 +44,25 @@ class NumbersPrinter:
     # zero needs to be handled separately
     # multiples of ten and teens need to be handled for length 2, 5, 8, (2+x*3)
     #
-    # we need to count tupples of three digits
+    # we need to count segments of three digits
     # once those are done we can calculate the next order of magnitude
     # blocks of three digits are divided by a comma - unless nothing follows
     # if we have hundreds we append partial hundreds with an ' and '
 
-    def to_number(self, number: int):
+    def to_number(self):
 
         # edge case handled first
-        if number == 0:
+        if self.number == 0:
             return 'zero'
 
         # split number into segments of three digits
-        # and return them in an array from highest order to lowest
-        number_splitter = NumberSplitter(number)
-        order_of_number = number_splitter.get_order_of_number()
+        # and return them in an array from the highest order to lowest
+        order_of_number = self.number_splitter.get_order_of_number()
         number_string = ''
 
         # build number_string by traversing orders
         # from highest to lowest and appending the parts
-        for inverse_order, number_part in number_splitter.enumerate():
+        for inverse_order, number_part in self.number_splitter.enumerate():
             order = order_of_number - inverse_order
 
             # first get the string for the current segment and append it
@@ -64,17 +72,17 @@ class NumbersPrinter:
             if part_of_number_string:
                 # if we already had a part then this is attached with a comma
                 if number_string:
-                    number_string += ', '
+                    number_string += self.SEPERATOR_OF_ORDERS
 
                 number_string += part_of_number_string
 
                 # attach the order for everything higher than 0
                 if order > 0:
-                    number_string += ' ' + self.orders[order]
+                    number_string += ' ' + self.ORDERS[order]
 
         return number_string
 
-    def get_number_part(self, number_string:str):
+    def get_number_part(self, number_string: str):
 
         hundreds = int(number_string[0])
         tens = int(number_string[1])
@@ -83,16 +91,16 @@ class NumbersPrinter:
         number_as_text = ''
 
         if hundreds > 0:
-            number_as_text = self.digits[hundreds] + ' hundred'
+            number_as_text = self.DIGITS[hundreds] + ' hundred'
             if tens > 0 or units > 0:
                 number_as_text += ' and '
         if tens == 1:
-            return number_as_text + self.teens[units]
+            return number_as_text + self.TEENS[units]
         elif tens > 1:
-            number_as_text += self.tens[tens]
+            number_as_text += self.TENS[tens]
             if units > 0:
                 number_as_text += ' '
         if units > 0:
-            number_as_text += self.digits[units]
+            number_as_text += self.DIGITS[units]
 
         return number_as_text

@@ -27,77 +27,78 @@ class NumbersTest(unittest.TestCase):
     # x 43112603 --> forty three million, one hundred and twelve thousand, six hundred and three
 
     def test_number_zero(self):
-        result = str(NumbersPrinter().to_number(0))
+        result = str(NumbersPrinter(0).to_number())
         verify(result)
 
     def test_number_one(self):
-        result = str(NumbersPrinter().to_number(1))
+        result = str(NumbersPrinter(1).to_number())
         verify(result)
     
     def test_single_digits(self):
-        result =  [NumbersPrinter().to_number(number) for number in range(1, 10)]
+        result = [NumbersPrinter(number).to_number() for number in range(1, 10)]
         verify(result)
  
     def test_ten(self):
-        result = str(NumbersPrinter().to_number(10))
+        result = str(NumbersPrinter(10).to_number())
         verify(result)
         
     def test_ninety_nine(self):
-        result = str(NumbersPrinter().to_number(99))
+        result = str(NumbersPrinter(99).to_number())
         verify(result)
 
     def test_every_two_digit_number(self):
-        result = "\n".join([NumbersPrinter().to_number(number) for number in range(10, 100)])
+        result = "\n".join([NumbersPrinter(number).to_number() for number in range(10, 100)])
         verify(result)
  
     def test_one_hundred(self):
-        result = NumbersPrinter().to_number(100)
+        result = NumbersPrinter(100).to_number()
         verify(result)
         
     def test_three_hundred(self):
-        result = NumbersPrinter().to_number(300)
+        result = NumbersPrinter(300).to_number()
         verify(result)
         
     def test_three_hundred_ten(self):
-        result = NumbersPrinter().to_number(310)
+        result = NumbersPrinter(310).to_number()
         verify(result)
         
     def test_every_three_digit_number(self):
-        result = "\n".join([NumbersPrinter().to_number(number) for number in range(100, 1000)])
+        result = "\n".join([NumbersPrinter(number).to_number() for number in range(100, 1000)])
         verify(result)
         
     def test_one_thousand_five_hundred_and_one(self):
-        result = NumbersPrinter().to_number(1501)
+        result = NumbersPrinter(1501).to_number()
         verify(result)
         
-    def test_disecting_to_order(self):
+    def test_dissecting_to_order(self):
         splitter = NumberSplitter(1501)
         result = splitter.array_of_ordered_numbers
         verify(result)
         
     def test_twelve_thousand_six_hundred_and_nine(self):
-        result = NumbersPrinter().to_number(12609)
+        result = NumbersPrinter(12609).to_number()
         verify(result)
     
     def test_five_hundred_and_twelve_thousand_six_hundred_and_seven(self):
-        result = NumbersPrinter().to_number(512607)
+        result = NumbersPrinter(512607).to_number()
         verify(result)
     
     def test_forty_three_million(self):
-        result = NumbersPrinter().to_number(43112603)
+        result = NumbersPrinter(43112603).to_number()
         verify(result)
         
     def test_one_million(self):
-        result = NumbersPrinter().to_number(1000000)
+        result = NumbersPrinter(1000000).to_number()
         verify(result)
         
     def test_sample_in_millions(self):
-        result = "\n".join([NumbersPrinter().to_number(number) for number in range(1000000, 100000000, 215431)])
+        result = "\n".join([NumbersPrinter(number).to_number() for number in range(1000000, 100000000, 215431)])
         verify(result)
        
     def test_a_really_long_one(self):
-        result = NumbersPrinter().to_number(1050907000407750600030640022401)
+        result = NumbersPrinter(1050907000407750600030640022401).to_number()
         verify(result)
-    
+
+
 if __name__ == "__main__":
     unittest.main()
