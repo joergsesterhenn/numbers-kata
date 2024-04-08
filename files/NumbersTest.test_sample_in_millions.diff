@@ -643,9 +643,3 @@
 +nine million, nine hundred and sixty five thousand, four hundred and eleven
 +nine million, nine hundred and eighty thousand, eight hundred and forty two
 +nine million, nine hundred and ninety six thousand, two hundred and seventy three
-
-
-to approve this result:
-
-mv -f /sandbox/NumbersTest.test_sample_in_millions.received.txt /sandbox/NumbersTest.test_sample_in_millions.approved.txt
-

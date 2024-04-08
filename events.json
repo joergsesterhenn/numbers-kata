@@ -3565,5 +3565,21 @@
       12,
       267007
     ]
+  },
+  {
+    "duration": 1.264008,
+    "colour": "red",
+    "predicted": "red",
+    "revert_if_wrong": "off",
+    "index": 223,
+    "time": [
+      2024,
+      4,
+      8,
+      20,
+      32,
+      40,
+      62522
+    ]
   }
 ]

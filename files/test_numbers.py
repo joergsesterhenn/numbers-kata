@@ -13,12 +13,12 @@ class NumbersTest(unittest.TestCase):
 
     # testplan:
     #
-    # x test number one
+    # x 1 --> one
     # x test single digit
-    # x test ten
+    # x 10 --> ten
     # x 99 --> ninety nine
     # x test two digits
-    # x test one hundred
+    # x 100 --> one hundred
     # x 300 --> three hundred
     # x 310 --> three hundred and ten
     # x test three digits
@@ -88,7 +88,7 @@ class NumbersTest(unittest.TestCase):
         verify(result)
         
     def test_sample_in_millions(self):
-        result = "\n".join([Numbers().to_number(number) for number in range(1000000,10000000,154321)])
+        result = "\n".join([Numbers().to_number(number) for number in range(1000000,10000000,15431)])
         verify(result)
        
     def test_a_really_long_one(self):
