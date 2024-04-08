@@ -88,7 +88,7 @@ class NumbersTest(unittest.TestCase):
         verify(result)
         
     def test_sample_in_millions(self):
-        result = "\n".join([Numbers().to_number(number) for number in range(1000000,10000000,15431)])
+        result = "\n".join([Numbers().to_number(number) for number in range(1000000,100000000,215431)])
         verify(result)
        
     def test_a_really_long_one(self):

@@ -1,6 +1,6 @@
 --- NumbersTest.test_sample_in_millions.approved.txt
 +++ NumbersTest.test_sample_in_millions.received.txt
-@@ -1,59 +1,584 @@
+@@ -1,59 +1,460 @@
  one million
 -one million, one hundred and fifty four thousand, three hundred and twenty one
 -one million, three hundred and eight thousand, six hundred and forty two
@@ -60,586 +60,462 @@
 -nine million, six hundred and forty one thousand, nine hundred and seventy six
 -nine million, seven hundred and ninety six thousand, two hundred and ninety seven
 -nine million, nine hundred and fifty thousand, six hundred and eighteen
-+one million, fifteen thousand, four hundred and thirty one
-+one million, thirty thousand, eight hundred and sixty two
-+one million, forty six thousand, two hundred and ninety three
-+one million, sixty one thousand, seven hundred and twenty four
-+one million, seventy seven thousand, one hundred and fifty five
-+one million, ninety two thousand, five hundred and eighty six
-+one million, one hundred and eight thousand, seventeen
-+one million, one hundred and twenty three thousand, four hundred and forty eight
-+one million, one hundred and thirty eight thousand, eight hundred and seventy nine
-+one million, one hundred and fifty four thousand, three hundred and ten
-+one million, one hundred and sixty nine thousand, seven hundred and forty one
-+one million, one hundred and eighty five thousand, one hundred and seventy two
-+one million, two hundred thousand, six hundred and three
-+one million, two hundred and sixteen thousand, thirty four
-+one million, two hundred and thirty one thousand, four hundred and sixty five
-+one million, two hundred and forty six thousand, eight hundred and ninety six
-+one million, two hundred and sixty two thousand, three hundred and twenty seven
-+one million, two hundred and seventy seven thousand, seven hundred and fifty eight
-+one million, two hundred and ninety three thousand, one hundred and eighty nine
-+one million, three hundred and eight thousand, six hundred and twenty
-+one million, three hundred and twenty four thousand, fifty one
-+one million, three hundred and thirty nine thousand, four hundred and eighty two
-+one million, three hundred and fifty four thousand, nine hundred and thirteen
-+one million, three hundred and seventy thousand, three hundred and forty four
-+one million, three hundred and eighty five thousand, seven hundred and seventy five
-+one million, four hundred and one thousand, two hundred and six
-+one million, four hundred and sixteen thousand, six hundred and thirty seven
-+one million, four hundred and thirty two thousand, sixty eight
-+one million, four hundred and forty seven thousand, four hundred and ninety nine
-+one million, four hundred and sixty two thousand, nine hundred and thirty
-+one million, four hundred and seventy eight thousand, three hundred and sixty one
-+one million, four hundred and ninety three thousand, seven hundred and ninety two
-+one million, five hundred and nine thousand, two hundred and twenty three
-+one million, five hundred and twenty four thousand, six hundred and fifty four
-+one million, five hundred and forty thousand, eighty five
-+one million, five hundred and fifty five thousand, five hundred and sixteen
-+one million, five hundred and seventy thousand, nine hundred and forty seven
-+one million, five hundred and eighty six thousand, three hundred and seventy eight
-+one million, six hundred and one thousand, eight hundred and nine
-+one million, six hundred and seventeen thousand, two hundred and forty
-+one million, six hundred and thirty two thousand, six hundred and seventy one
-+one million, six hundred and forty eight thousand, one hundred and two
-+one million, six hundred and sixty three thousand, five hundred and thirty three
-+one million, six hundred and seventy eight thousand, nine hundred and sixty four
-+one million, six hundred and ninety four thousand, three hundred and ninety five
-+one million, seven hundred and nine thousand, eight hundred and twenty six
-+one million, seven hundred and twenty five thousand, two hundred and fifty seven
-+one million, seven hundred and forty thousand, six hundred and eighty eight
-+one million, seven hundred and fifty six thousand, one hundred and nineteen
-+one million, seven hundred and seventy one thousand, five hundred and fifty
-+one million, seven hundred and eighty six thousand, nine hundred and eighty one
-+one million, eight hundred and two thousand, four hundred and twelve
-+one million, eight hundred and seventeen thousand, eight hundred and forty three
-+one million, eight hundred and thirty three thousand, two hundred and seventy four
-+one million, eight hundred and forty eight thousand, seven hundred and five
-+one million, eight hundred and sixty four thousand, one hundred and thirty six
-+one million, eight hundred and seventy nine thousand, five hundred and sixty seven
-+one million, eight hundred and ninety four thousand, nine hundred and ninety eight
-+one million, nine hundred and ten thousand, four hundred and twenty nine
-+one million, nine hundred and twenty five thousand, eight hundred and sixty
-+one million, nine hundred and forty one thousand, two hundred and ninety one
-+one million, nine hundred and fifty six thousand, seven hundred and twenty two
-+one million, nine hundred and seventy two thousand, one hundred and fifty three
-+one million, nine hundred and eighty seven thousand, five hundred and eighty four
-+two million, three thousand, fifteen
-+two million, eighteen thousand, four hundred and forty six
-+two million, thirty three thousand, eight hundred and seventy seven
-+two million, forty nine thousand, three hundred and eight
-+two million, sixty four thousand, seven hundred and thirty nine
-+two million, eighty thousand, one hundred and seventy
-+two million, ninety five thousand, six hundred and one
-+two million, one hundred and eleven thousand, thirty two
-+two million, one hundred and twenty six thousand, four hundred and sixty three
-+two million, one hundred and forty one thousand, eight hundred and ninety four
-+two million, one hundred and fifty seven thousand, three hundred and twenty five
-+two million, one hundred and seventy two thousand, seven hundred and fifty six
-+two million, one hundred and eighty eight thousand, one hundred and eighty seven
-+two million, two hundred and three thousand, six hundred and eighteen
-+two million, two hundred and nineteen thousand, forty nine
-+two million, two hundred and thirty four thousand, four hundred and eighty
-+two million, two hundred and forty nine thousand, nine hundred and eleven
-+two million, two hundred and sixty five thousand, three hundred and forty two
-+two million, two hundred and eighty thousand, seven hundred and seventy three
-+two million, two hundred and ninety six thousand, two hundred and four
-+two million, three hundred and eleven thousand, six hundred and thirty five
-+two million, three hundred and twenty seven thousand, sixty six
-+two million, three hundred and forty two thousand, four hundred and ninety seven
-+two million, three hundred and fifty seven thousand, nine hundred and twenty eight
-+two million, three hundred and seventy three thousand, three hundred and fifty nine
-+two million, three hundred and eighty eight thousand, seven hundred and ninety
-+two million, four hundred and four thousand, two hundred and twenty one
-+two million, four hundred and nineteen thousand, six hundred and fifty two
-+two million, four hundred and thirty five thousand, eighty three
-+two million, four hundred and fifty thousand, five hundred and fourteen
-+two million, four hundred and sixty five thousand, nine hundred and forty five
-+two million, four hundred and eighty one thousand, three hundred and seventy six
-+two million, four hundred and ninety six thousand, eight hundred and seven
-+two million, five hundred and twelve thousand, two hundred and thirty eight
-+two million, five hundred and twenty seven thousand, six hundred and sixty nine
-+two million, five hundred and forty three thousand, one hundred
-+two million, five hundred and fifty eight thousand, five hundred and thirty one
-+two million, five hundred and seventy three thousand, nine hundred and sixty two
-+two million, five hundred and eighty nine thousand, three hundred and ninety three
-+two million, six hundred and four thousand, eight hundred and twenty four
-+two million, six hundred and twenty thousand, two hundred and fifty five
-+two million, six hundred and thirty five thousand, six hundred and eighty six
-+two million, six hundred and fifty one thousand, one hundred and seventeen
-+two million, six hundred and sixty six thousand, five hundred and forty eight
-+two million, six hundred and eighty one thousand, nine hundred and seventy nine
-+two million, six hundred and ninety seven thousand, four hundred and ten
-+two million, seven hundred and twelve thousand, eight hundred and forty one
-+two million, seven hundred and twenty eight thousand, two hundred and seventy two
-+two million, seven hundred and forty three thousand, seven hundred and three
-+two million, seven hundred and fifty nine thousand, one hundred and thirty four
-+two million, seven hundred and seventy four thousand, five hundred and sixty five
-+two million, seven hundred and eighty nine thousand, nine hundred and ninety six
-+two million, eight hundred and five thousand, four hundred and twenty seven
-+two million, eight hundred and twenty thousand, eight hundred and fifty eight
-+two million, eight hundred and thirty six thousand, two hundred and eighty nine
-+two million, eight hundred and fifty one thousand, seven hundred and twenty
-+two million, eight hundred and sixty seven thousand, one hundred and fifty one
-+two million, eight hundred and eighty two thousand, five hundred and eighty two
-+two million, eight hundred and ninety eight thousand, thirteen
-+two million, nine hundred and thirteen thousand, four hundred and forty four
-+two million, nine hundred and twenty eight thousand, eight hundred and seventy five
-+two million, nine hundred and forty four thousand, three hundred and six
-+two million, nine hundred and fifty nine thousand, seven hundred and thirty seven
-+two million, nine hundred and seventy five thousand, one hundred and sixty eight
-+two million, nine hundred and ninety thousand, five hundred and ninety nine
-+three million, six thousand, thirty
-+three million, twenty one thousand, four hundred and sixty one
-+three million, thirty six thousand, eight hundred and ninety two
-+three million, fifty two thousand, three hundred and twenty three
-+three million, sixty seven thousand, seven hundred and fifty four
-+three million, eighty three thousand, one hundred and eighty five
-+three million, ninety eight thousand, six hundred and sixteen
-+three million, one hundred and fourteen thousand, forty seven
-+three million, one hundred and twenty nine thousand, four hundred and seventy eight
-+three million, one hundred and forty four thousand, nine hundred and nine
-+three million, one hundred and sixty thousand, three hundred and forty
-+three million, one hundred and seventy five thousand, seven hundred and seventy one
-+three million, one hundred and ninety one thousand, two hundred and two
-+three million, two hundred and six thousand, six hundred and thirty three
-+three million, two hundred and twenty two thousand, sixty four
-+three million, two hundred and thirty seven thousand, four hundred and ninety five
-+three million, two hundred and fifty two thousand, nine hundred and twenty six
-+three million, two hundred and sixty eight thousand, three hundred and fifty seven
-+three million, two hundred and eighty three thousand, seven hundred and eighty eight
-+three million, two hundred and ninety nine thousand, two hundred and nineteen
-+three million, three hundred and fourteen thousand, six hundred and fifty
-+three million, three hundred and thirty thousand, eighty one
-+three million, three hundred and forty five thousand, five hundred and twelve
-+three million, three hundred and sixty thousand, nine hundred and forty three
-+three million, three hundred and seventy six thousand, three hundred and seventy four
-+three million, three hundred and ninety one thousand, eight hundred and five
-+three million, four hundred and seven thousand, two hundred and thirty six
-+three million, four hundred and twenty two thousand, six hundred and sixty seven
-+three million, four hundred and thirty eight thousand, ninety eight
-+three million, four hundred and fifty three thousand, five hundred and twenty nine
-+three million, four hundred and sixty eight thousand, nine hundred and sixty
-+three million, four hundred and eighty four thousand, three hundred and ninety one
-+three million, four hundred and ninety nine thousand, eight hundred and twenty two
-+three million, five hundred and fifteen thousand, two hundred and fifty three
-+three million, five hundred and thirty thousand, six hundred and eighty four
-+three million, five hundred and forty six thousand, one hundred and fifteen
-+three million, five hundred and sixty one thousand, five hundred and forty six
-+three million, five hundred and seventy six thousand, nine hundred and seventy seven
-+three million, five hundred and ninety two thousand, four hundred and eight
-+three million, six hundred and seven thousand, eight hundred and thirty nine
-+three million, six hundred and twenty three thousand, two hundred and seventy
-+three million, six hundred and thirty eight thousand, seven hundred and one
-+three million, six hundred and fifty four thousand, one hundred and thirty two
-+three million, six hundred and sixty nine thousand, five hundred and sixty three
-+three million, six hundred and eighty four thousand, nine hundred and ninety four
-+three million, seven hundred thousand, four hundred and twenty five
-+three million, seven hundred and fifteen thousand, eight hundred and fifty six
-+three million, seven hundred and thirty one thousand, two hundred and eighty seven
-+three million, seven hundred and forty six thousand, seven hundred and eighteen
-+three million, seven hundred and sixty two thousand, one hundred and forty nine
-+three million, seven hundred and seventy seven thousand, five hundred and eighty
-+three million, seven hundred and ninety three thousand, eleven
-+three million, eight hundred and eight thousand, four hundred and forty two
-+three million, eight hundred and twenty three thousand, eight hundred and seventy three
-+three million, eight hundred and thirty nine thousand, three hundred and four
-+three million, eight hundred and fifty four thousand, seven hundred and thirty five
-+three million, eight hundred and seventy thousand, one hundred and sixty six
-+three million, eight hundred and eighty five thousand, five hundred and ninety seven
-+three million, nine hundred and one thousand, twenty eight
-+three million, nine hundred and sixteen thousand, four hundred and fifty nine
-+three million, nine hundred and thirty one thousand, eight hundred and ninety
-+three million, nine hundred and forty seven thousand, three hundred and twenty one
-+three million, nine hundred and sixty two thousand, seven hundred and fifty two
-+three million, nine hundred and seventy eight thousand, one hundred and eighty three
-+three million, nine hundred and ninety three thousand, six hundred and fourteen
-+four million, nine thousand, forty five
-+four million, twenty four thousand, four hundred and seventy six
-+four million, thirty nine thousand, nine hundred and seven
-+four million, fifty five thousand, three hundred and thirty eight
-+four million, seventy thousand, seven hundred and sixty nine
-+four million, eighty six thousand, two hundred
-+four million, one hundred and one thousand, six hundred and thirty one
-+four million, one hundred and seventeen thousand, sixty two
-+four million, one hundred and thirty two thousand, four hundred and ninety three
-+four million, one hundred and forty seven thousand, nine hundred and twenty four
-+four million, one hundred and sixty three thousand, three hundred and fifty five
-+four million, one hundred and seventy eight thousand, seven hundred and eighty six
-+four million, one hundred and ninety four thousand, two hundred and seventeen
-+four million, two hundred and nine thousand, six hundred and forty eight
-+four million, two hundred and twenty five thousand, seventy nine
-+four million, two hundred and forty thousand, five hundred and ten
-+four million, two hundred and fifty five thousand, nine hundred and forty one
-+four million, two hundred and seventy one thousand, three hundred and seventy two
-+four million, two hundred and eighty six thousand, eight hundred and three
-+four million, three hundred and two thousand, two hundred and thirty four
-+four million, three hundred and seventeen thousand, six hundred and sixty five
-+four million, three hundred and thirty three thousand, ninety six
-+four million, three hundred and forty eight thousand, five hundred and twenty seven
-+four million, three hundred and sixty three thousand, nine hundred and fifty eight
-+four million, three hundred and seventy nine thousand, three hundred and eighty nine
-+four million, three hundred and ninety four thousand, eight hundred and twenty
-+four million, four hundred and ten thousand, two hundred and fifty one
-+four million, four hundred and twenty five thousand, six hundred and eighty two
-+four million, four hundred and forty one thousand, one hundred and thirteen
-+four million, four hundred and fifty six thousand, five hundred and forty four
-+four million, four hundred and seventy one thousand, nine hundred and seventy five
-+four million, four hundred and eighty seven thousand, four hundred and six
-+four million, five hundred and two thousand, eight hundred and thirty seven
-+four million, five hundred and eighteen thousand, two hundred and sixty eight
-+four million, five hundred and thirty three thousand, six hundred and ninety nine
-+four million, five hundred and forty nine thousand, one hundred and thirty
-+four million, five hundred and sixty four thousand, five hundred and sixty one
-+four million, five hundred and seventy nine thousand, nine hundred and ninety two
-+four million, five hundred and ninety five thousand, four hundred and twenty three
-+four million, six hundred and ten thousand, eight hundred and fifty four
-+four million, six hundred and twenty six thousand, two hundred and eighty five
-+four million, six hundred and forty one thousand, seven hundred and sixteen
-+four million, six hundred and fifty seven thousand, one hundred and forty seven
-+four million, six hundred and seventy two thousand, five hundred and seventy eight
-+four million, six hundred and eighty eight thousand, nine
-+four million, seven hundred and three thousand, four hundred and forty
-+four million, seven hundred and eighteen thousand, eight hundred and seventy one
-+four million, seven hundred and thirty four thousand, three hundred and two
-+four million, seven hundred and forty nine thousand, seven hundred and thirty three
-+four million, seven hundred and sixty five thousand, one hundred and sixty four
-+four million, seven hundred and eighty thousand, five hundred and ninety five
-+four million, seven hundred and ninety six thousand, twenty six
-+four million, eight hundred and eleven thousand, four hundred and fifty seven
-+four million, eight hundred and twenty six thousand, eight hundred and eighty eight
-+four million, eight hundred and forty two thousand, three hundred and nineteen
-+four million, eight hundred and fifty seven thousand, seven hundred and fifty
-+four million, eight hundred and seventy three thousand, one hundred and eighty one
-+four million, eight hundred and eighty eight thousand, six hundred and twelve
-+four million, nine hundred and four thousand, forty three
-+four million, nine hundred and nineteen thousand, four hundred and seventy four
-+four million, nine hundred and thirty four thousand, nine hundred and five
-+four million, nine hundred and fifty thousand, three hundred and thirty six
-+four million, nine hundred and sixty five thousand, seven hundred and sixty seven
-+four million, nine hundred and eighty one thousand, one hundred and ninety eight
-+four million, nine hundred and ninety six thousand, six hundred and twenty nine
-+five million, twelve thousand, sixty
-+five million, twenty seven thousand, four hundred and ninety one
-+five million, forty two thousand, nine hundred and twenty two
-+five million, fifty eight thousand, three hundred and fifty three
-+five million, seventy three thousand, seven hundred and eighty four
-+five million, eighty nine thousand, two hundred and fifteen
-+five million, one hundred and four thousand, six hundred and forty six
-+five million, one hundred and twenty thousand, seventy seven
-+five million, one hundred and thirty five thousand, five hundred and eight
-+five million, one hundred and fifty thousand, nine hundred and thirty nine
-+five million, one hundred and sixty six thousand, three hundred and seventy
-+five million, one hundred and eighty one thousand, eight hundred and one
-+five million, one hundred and ninety seven thousand, two hundred and thirty two
-+five million, two hundred and twelve thousand, six hundred and sixty three
-+five million, two hundred and twenty eight thousand, ninety four
-+five million, two hundred and forty three thousand, five hundred and twenty five
-+five million, two hundred and fifty eight thousand, nine hundred and fifty six
-+five million, two hundred and seventy four thousand, three hundred and eighty seven
-+five million, two hundred and eighty nine thousand, eight hundred and eighteen
-+five million, three hundred and five thousand, two hundred and forty nine
-+five million, three hundred and twenty thousand, six hundred and eighty
-+five million, three hundred and thirty six thousand, one hundred and eleven
-+five million, three hundred and fifty one thousand, five hundred and forty two
-+five million, three hundred and sixty six thousand, nine hundred and seventy three
-+five million, three hundred and eighty two thousand, four hundred and four
-+five million, three hundred and ninety seven thousand, eight hundred and thirty five
-+five million, four hundred and thirteen thousand, two hundred and sixty six
-+five million, four hundred and twenty eight thousand, six hundred and ninety seven
-+five million, four hundred and forty four thousand, one hundred and twenty eight
-+five million, four hundred and fifty nine thousand, five hundred and fifty nine
-+five million, four hundred and seventy four thousand, nine hundred and ninety
-+five million, four hundred and ninety thousand, four hundred and twenty one
-+five million, five hundred and five thousand, eight hundred and fifty two
-+five million, five hundred and twenty one thousand, two hundred and eighty three
-+five million, five hundred and thirty six thousand, seven hundred and fourteen
-+five million, five hundred and fifty two thousand, one hundred and forty five
-+five million, five hundred and sixty seven thousand, five hundred and seventy six
-+five million, five hundred and eighty three thousand, seven
-+five million, five hundred and ninety eight thousand, four hundred and thirty eight
-+five million, six hundred and thirteen thousand, eight hundred and sixty nine
-+five million, six hundred and twenty nine thousand, three hundred
-+five million, six hundred and forty four thousand, seven hundred and thirty one
-+five million, six hundred and sixty thousand, one hundred and sixty two
-+five million, six hundred and seventy five thousand, five hundred and ninety three
-+five million, six hundred and ninety one thousand, twenty four
-+five million, seven hundred and six thousand, four hundred and fifty five
-+five million, seven hundred and twenty one thousand, eight hundred and eighty six
-+five million, seven hundred and thirty seven thousand, three hundred and seventeen
-+five million, seven hundred and fifty two thousand, seven hundred and forty eight
-+five million, seven hundred and sixty eight thousand, one hundred and seventy nine
-+five million, seven hundred and eighty three thousand, six hundred and ten
-+five million, seven hundred and ninety nine thousand, forty one
-+five million, eight hundred and fourteen thousand, four hundred and seventy two
-+five million, eight hundred and twenty nine thousand, nine hundred and three
-+five million, eight hundred and forty five thousand, three hundred and thirty four
-+five million, eight hundred and sixty thousand, seven hundred and sixty five
-+five million, eight hundred and seventy six thousand, one hundred and ninety six
-+five million, eight hundred and ninety one thousand, six hundred and twenty seven
-+five million, nine hundred and seven thousand, fifty eight
-+five million, nine hundred and twenty two thousand, four hundred and eighty nine
-+five million, nine hundred and thirty seven thousand, nine hundred and twenty
-+five million, nine hundred and fifty three thousand, three hundred and fifty one
-+five million, nine hundred and sixty eight thousand, seven hundred and eighty two
-+five million, nine hundred and eighty four thousand, two hundred and thirteen
-+five million, nine hundred and ninety nine thousand, six hundred and forty four
-+six million, fifteen thousand, seventy five
-+six million, thirty thousand, five hundred and six
-+six million, forty five thousand, nine hundred and thirty seven
-+six million, sixty one thousand, three hundred and sixty eight
-+six million, seventy six thousand, seven hundred and ninety nine
-+six million, ninety two thousand, two hundred and thirty
-+six million, one hundred and seven thousand, six hundred and sixty one
-+six million, one hundred and twenty three thousand, ninety two
-+six million, one hundred and thirty eight thousand, five hundred and twenty three
-+six million, one hundred and fifty three thousand, nine hundred and fifty four
-+six million, one hundred and sixty nine thousand, three hundred and eighty five
-+six million, one hundred and eighty four thousand, eight hundred and sixteen
-+six million, two hundred thousand, two hundred and forty seven
-+six million, two hundred and fifteen thousand, six hundred and seventy eight
-+six million, two hundred and thirty one thousand, one hundred and nine
-+six million, two hundred and forty six thousand, five hundred and forty
-+six million, two hundred and sixty one thousand, nine hundred and seventy one
-+six million, two hundred and seventy seven thousand, four hundred and two
-+six million, two hundred and ninety two thousand, eight hundred and thirty three
-+six million, three hundred and eight thousand, two hundred and sixty four
-+six million, three hundred and twenty three thousand, six hundred and ninety five
-+six million, three hundred and thirty nine thousand, one hundred and twenty six
-+six million, three hundred and fifty four thousand, five hundred and fifty seven
-+six million, three hundred and sixty nine thousand, nine hundred and eighty eight
-+six million, three hundred and eighty five thousand, four hundred and nineteen
-+six million, four hundred thousand, eight hundred and fifty
-+six million, four hundred and sixteen thousand, two hundred and eighty one
-+six million, four hundred and thirty one thousand, seven hundred and twelve
-+six million, four hundred and forty seven thousand, one hundred and forty three
-+six million, four hundred and sixty two thousand, five hundred and seventy four
-+six million, four hundred and seventy eight thousand, five
-+six million, four hundred and ninety three thousand, four hundred and thirty six
-+six million, five hundred and eight thousand, eight hundred and sixty seven
-+six million, five hundred and twenty four thousand, two hundred and ninety eight
-+six million, five hundred and thirty nine thousand, seven hundred and twenty nine
-+six million, five hundred and fifty five thousand, one hundred and sixty
-+six million, five hundred and seventy thousand, five hundred and ninety one
-+six million, five hundred and eighty six thousand, twenty two
-+six million, six hundred and one thousand, four hundred and fifty three
-+six million, six hundred and sixteen thousand, eight hundred and eighty four
-+six million, six hundred and thirty two thousand, three hundred and fifteen
-+six million, six hundred and forty seven thousand, seven hundred and forty six
-+six million, six hundred and sixty three thousand, one hundred and seventy seven
-+six million, six hundred and seventy eight thousand, six hundred and eight
-+six million, six hundred and ninety four thousand, thirty nine
-+six million, seven hundred and nine thousand, four hundred and seventy
-+six million, seven hundred and twenty four thousand, nine hundred and one
-+six million, seven hundred and forty thousand, three hundred and thirty two
-+six million, seven hundred and fifty five thousand, seven hundred and sixty three
-+six million, seven hundred and seventy one thousand, one hundred and ninety four
-+six million, seven hundred and eighty six thousand, six hundred and twenty five
-+six million, eight hundred and two thousand, fifty six
-+six million, eight hundred and seventeen thousand, four hundred and eighty seven
-+six million, eight hundred and thirty two thousand, nine hundred and eighteen
-+six million, eight hundred and forty eight thousand, three hundred and forty nine
-+six million, eight hundred and sixty three thousand, seven hundred and eighty
-+six million, eight hundred and seventy nine thousand, two hundred and eleven
-+six million, eight hundred and ninety four thousand, six hundred and forty two
-+six million, nine hundred and ten thousand, seventy three
-+six million, nine hundred and twenty five thousand, five hundred and four
-+six million, nine hundred and forty thousand, nine hundred and thirty five
-+six million, nine hundred and fifty six thousand, three hundred and sixty six
-+six million, nine hundred and seventy one thousand, seven hundred and ninety seven
-+six million, nine hundred and eighty seven thousand, two hundred and twenty eight
-+seven million, two thousand, six hundred and fifty nine
-+seven million, eighteen thousand, ninety
-+seven million, thirty three thousand, five hundred and twenty one
-+seven million, forty eight thousand, nine hundred and fifty two
-+seven million, sixty four thousand, three hundred and eighty three
-+seven million, seventy nine thousand, eight hundred and fourteen
-+seven million, ninety five thousand, two hundred and forty five
-+seven million, one hundred and ten thousand, six hundred and seventy six
-+seven million, one hundred and twenty six thousand, one hundred and seven
-+seven million, one hundred and forty one thousand, five hundred and thirty eight
-+seven million, one hundred and fifty six thousand, nine hundred and sixty nine
-+seven million, one hundred and seventy two thousand, four hundred
-+seven million, one hundred and eighty seven thousand, eight hundred and thirty one
-+seven million, two hundred and three thousand, two hundred and sixty two
-+seven million, two hundred and eighteen thousand, six hundred and ninety three
-+seven million, two hundred and thirty four thousand, one hundred and twenty four
-+seven million, two hundred and forty nine thousand, five hundred and fifty five
-+seven million, two hundred and sixty four thousand, nine hundred and eighty six
-+seven million, two hundred and eighty thousand, four hundred and seventeen
-+seven million, two hundred and ninety five thousand, eight hundred and forty eight
-+seven million, three hundred and eleven thousand, two hundred and seventy nine
-+seven million, three hundred and twenty six thousand, seven hundred and ten
-+seven million, three hundred and forty two thousand, one hundred and forty one
-+seven million, three hundred and fifty seven thousand, five hundred and seventy two
-+seven million, three hundred and seventy three thousand, three
-+seven million, three hundred and eighty eight thousand, four hundred and thirty four
-+seven million, four hundred and three thousand, eight hundred and sixty five
-+seven million, four hundred and nineteen thousand, two hundred and ninety six
-+seven million, four hundred and thirty four thousand, seven hundred and twenty seven
-+seven million, four hundred and fifty thousand, one hundred and fifty eight
-+seven million, four hundred and sixty five thousand, five hundred and eighty nine
-+seven million, four hundred and eighty one thousand, twenty
-+seven million, four hundred and ninety six thousand, four hundred and fifty one
-+seven million, five hundred and eleven thousand, eight hundred and eighty two
-+seven million, five hundred and twenty seven thousand, three hundred and thirteen
-+seven million, five hundred and forty two thousand, seven hundred and forty four
-+seven million, five hundred and fifty eight thousand, one hundred and seventy five
-+seven million, five hundred and seventy three thousand, six hundred and six
-+seven million, five hundred and eighty nine thousand, thirty seven
-+seven million, six hundred and four thousand, four hundred and sixty eight
-+seven million, six hundred and nineteen thousand, eight hundred and ninety nine
-+seven million, six hundred and thirty five thousand, three hundred and thirty
-+seven million, six hundred and fifty thousand, seven hundred and sixty one
-+seven million, six hundred and sixty six thousand, one hundred and ninety two
-+seven million, six hundred and eighty one thousand, six hundred and twenty three
-+seven million, six hundred and ninety seven thousand, fifty four
-+seven million, seven hundred and twelve thousand, four hundred and eighty five
-+seven million, seven hundred and twenty seven thousand, nine hundred and sixteen
-+seven million, seven hundred and forty three thousand, three hundred and forty seven
-+seven million, seven hundred and fifty eight thousand, seven hundred and seventy eight
-+seven million, seven hundred and seventy four thousand, two hundred and nine
-+seven million, seven hundred and eighty nine thousand, six hundred and forty
-+seven million, eight hundred and five thousand, seventy one
-+seven million, eight hundred and twenty thousand, five hundred and two
-+seven million, eight hundred and thirty five thousand, nine hundred and thirty three
-+seven million, eight hundred and fifty one thousand, three hundred and sixty four
-+seven million, eight hundred and sixty six thousand, seven hundred and ninety five
-+seven million, eight hundred and eighty two thousand, two hundred and twenty six
-+seven million, eight hundred and ninety seven thousand, six hundred and fifty seven
-+seven million, nine hundred and thirteen thousand, eighty eight
-+seven million, nine hundred and twenty eight thousand, five hundred and nineteen
-+seven million, nine hundred and forty three thousand, nine hundred and fifty
-+seven million, nine hundred and fifty nine thousand, three hundred and eighty one
-+seven million, nine hundred and seventy four thousand, eight hundred and twelve
-+seven million, nine hundred and ninety thousand, two hundred and forty three
-+eight million, five thousand, six hundred and seventy four
-+eight million, twenty one thousand, one hundred and five
-+eight million, thirty six thousand, five hundred and thirty six
-+eight million, fifty one thousand, nine hundred and sixty seven
-+eight million, sixty seven thousand, three hundred and ninety eight
-+eight million, eighty two thousand, eight hundred and twenty nine
-+eight million, ninety eight thousand, two hundred and sixty
-+eight million, one hundred and thirteen thousand, six hundred and ninety one
-+eight million, one hundred and twenty nine thousand, one hundred and twenty two
-+eight million, one hundred and forty four thousand, five hundred and fifty three
-+eight million, one hundred and fifty nine thousand, nine hundred and eighty four
-+eight million, one hundred and seventy five thousand, four hundred and fifteen
-+eight million, one hundred and ninety thousand, eight hundred and forty six
-+eight million, two hundred and six thousand, two hundred and seventy seven
-+eight million, two hundred and twenty one thousand, seven hundred and eight
-+eight million, two hundred and thirty seven thousand, one hundred and thirty nine
-+eight million, two hundred and fifty two thousand, five hundred and seventy
-+eight million, two hundred and sixty eight thousand, one
-+eight million, two hundred and eighty three thousand, four hundred and thirty two
-+eight million, two hundred and ninety eight thousand, eight hundred and sixty three
-+eight million, three hundred and fourteen thousand, two hundred and ninety four
-+eight million, three hundred and twenty nine thousand, seven hundred and twenty five
-+eight million, three hundred and forty five thousand, one hundred and fifty six
-+eight million, three hundred and sixty thousand, five hundred and eighty seven
-+eight million, three hundred and seventy six thousand, eighteen
-+eight million, three hundred and ninety one thousand, four hundred and forty nine
-+eight million, four hundred and six thousand, eight hundred and eighty
-+eight million, four hundred and twenty two thousand, three hundred and eleven
-+eight million, four hundred and thirty seven thousand, seven hundred and forty two
-+eight million, four hundred and fifty three thousand, one hundred and seventy three
-+eight million, four hundred and sixty eight thousand, six hundred and four
-+eight million, four hundred and eighty four thousand, thirty five
-+eight million, four hundred and ninety nine thousand, four hundred and sixty six
-+eight million, five hundred and fourteen thousand, eight hundred and ninety seven
-+eight million, five hundred and thirty thousand, three hundred and twenty eight
-+eight million, five hundred and forty five thousand, seven hundred and fifty nine
-+eight million, five hundred and sixty one thousand, one hundred and ninety
-+eight million, five hundred and seventy six thousand, six hundred and twenty one
-+eight million, five hundred and ninety two thousand, fifty two
-+eight million, six hundred and seven thousand, four hundred and eighty three
-+eight million, six hundred and twenty two thousand, nine hundred and fourteen
-+eight million, six hundred and thirty eight thousand, three hundred and forty five
-+eight million, six hundred and fifty three thousand, seven hundred and seventy six
-+eight million, six hundred and sixty nine thousand, two hundred and seven
-+eight million, six hundred and eighty four thousand, six hundred and thirty eight
-+eight million, seven hundred thousand, sixty nine
-+eight million, seven hundred and fifteen thousand, five hundred
-+eight million, seven hundred and thirty thousand, nine hundred and thirty one
-+eight million, seven hundred and forty six thousand, three hundred and sixty two
-+eight million, seven hundred and sixty one thousand, seven hundred and ninety three
-+eight million, seven hundred and seventy seven thousand, two hundred and twenty four
-+eight million, seven hundred and ninety two thousand, six hundred and fifty five
-+eight million, eight hundred and eight thousand, eighty six
-+eight million, eight hundred and twenty three thousand, five hundred and seventeen
-+eight million, eight hundred and thirty eight thousand, nine hundred and forty eight
-+eight million, eight hundred and fifty four thousand, three hundred and seventy nine
-+eight million, eight hundred and sixty nine thousand, eight hundred and ten
-+eight million, eight hundred and eighty five thousand, two hundred and forty one
-+eight million, nine hundred thousand, six hundred and seventy two
-+eight million, nine hundred and sixteen thousand, one hundred and three
-+eight million, nine hundred and thirty one thousand, five hundred and thirty four
-+eight million, nine hundred and forty six thousand, nine hundred and sixty five
-+eight million, nine hundred and sixty two thousand, three hundred and ninety six
-+eight million, nine hundred and seventy seven thousand, eight hundred and twenty seven
-+eight million, nine hundred and ninety three thousand, two hundred and fifty eight
-+nine million, eight thousand, six hundred and eighty nine
-+nine million, twenty four thousand, one hundred and twenty
-+nine million, thirty nine thousand, five hundred and fifty one
-+nine million, fifty four thousand, nine hundred and eighty two
-+nine million, seventy thousand, four hundred and thirteen
-+nine million, eighty five thousand, eight hundred and forty four
-+nine million, one hundred and one thousand, two hundred and seventy five
-+nine million, one hundred and sixteen thousand, seven hundred and six
-+nine million, one hundred and thirty two thousand, one hundred and thirty seven
-+nine million, one hundred and forty seven thousand, five hundred and sixty eight
-+nine million, one hundred and sixty two thousand, nine hundred and ninety nine
-+nine million, one hundred and seventy eight thousand, four hundred and thirty
-+nine million, one hundred and ninety three thousand, eight hundred and sixty one
-+nine million, two hundred and nine thousand, two hundred and ninety two
-+nine million, two hundred and twenty four thousand, seven hundred and twenty three
-+nine million, two hundred and forty thousand, one hundred and fifty four
-+nine million, two hundred and fifty five thousand, five hundred and eighty five
-+nine million, two hundred and seventy one thousand, sixteen
-+nine million, two hundred and eighty six thousand, four hundred and forty seven
-+nine million, three hundred and one thousand, eight hundred and seventy eight
-+nine million, three hundred and seventeen thousand, three hundred and nine
-+nine million, three hundred and thirty two thousand, seven hundred and forty
-+nine million, three hundred and forty eight thousand, one hundred and seventy one
-+nine million, three hundred and sixty three thousand, six hundred and two
-+nine million, three hundred and seventy nine thousand, thirty three
-+nine million, three hundred and ninety four thousand, four hundred and sixty four
-+nine million, four hundred and nine thousand, eight hundred and ninety five
-+nine million, four hundred and twenty five thousand, three hundred and twenty six
-+nine million, four hundred and forty thousand, seven hundred and fifty seven
-+nine million, four hundred and fifty six thousand, one hundred and eighty eight
-+nine million, four hundred and seventy one thousand, six hundred and nineteen
-+nine million, four hundred and eighty seven thousand, fifty
-+nine million, five hundred and two thousand, four hundred and eighty one
-+nine million, five hundred and seventeen thousand, nine hundred and twelve
-+nine million, five hundred and thirty three thousand, three hundred and forty three
-+nine million, five hundred and forty eight thousand, seven hundred and seventy four
-+nine million, five hundred and sixty four thousand, two hundred and five
-+nine million, five hundred and seventy nine thousand, six hundred and thirty six
-+nine million, five hundred and ninety five thousand, sixty seven
-+nine million, six hundred and ten thousand, four hundred and ninety eight
-+nine million, six hundred and twenty five thousand, nine hundred and twenty nine
-+nine million, six hundred and forty one thousand, three hundred and sixty
-+nine million, six hundred and fifty six thousand, seven hundred and ninety one
-+nine million, six hundred and seventy two thousand, two hundred and twenty two
-+nine million, six hundred and eighty seven thousand, six hundred and fifty three
-+nine million, seven hundred and three thousand, eighty four
-+nine million, seven hundred and eighteen thousand, five hundred and fifteen
-+nine million, seven hundred and thirty three thousand, nine hundred and forty six
-+nine million, seven hundred and forty nine thousand, three hundred and seventy seven
-+nine million, seven hundred and sixty four thousand, eight hundred and eight
-+nine million, seven hundred and eighty thousand, two hundred and thirty nine
-+nine million, seven hundred and ninety five thousand, six hundred and seventy
-+nine million, eight hundred and eleven thousand, one hundred and one
-+nine million, eight hundred and twenty six thousand, five hundred and thirty two
-+nine million, eight hundred and forty one thousand, nine hundred and sixty three
-+nine million, eight hundred and fifty seven thousand, three hundred and ninety four
-+nine million, eight hundred and seventy two thousand, eight hundred and twenty five
-+nine million, eight hundred and eighty eight thousand, two hundred and fifty six
-+nine million, nine hundred and three thousand, six hundred and eighty seven
-+nine million, nine hundred and nineteen thousand, one hundred and eighteen
-+nine million, nine hundred and thirty four thousand, five hundred and forty nine
-+nine million, nine hundred and forty nine thousand, nine hundred and eighty
-+nine million, nine hundred and sixty five thousand, four hundred and eleven
-+nine million, nine hundred and eighty thousand, eight hundred and forty two
-+nine million, nine hundred and ninety six thousand, two hundred and seventy three
++one million, two hundred and fifteen thousand, four hundred and thirty one
++one million, four hundred and thirty thousand, eight hundred and sixty two
++one million, six hundred and forty six thousand, two hundred and ninety three
++one million, eight hundred and sixty one thousand, seven hundred and twenty four
++two million, seventy seven thousand, one hundred and fifty five
++two million, two hundred and ninety two thousand, five hundred and eighty six
++two million, five hundred and eight thousand, seventeen
++two million, seven hundred and twenty three thousand, four hundred and forty eight
++two million, nine hundred and thirty eight thousand, eight hundred and seventy nine
++three million, one hundred and fifty four thousand, three hundred and ten
++three million, three hundred and sixty nine thousand, seven hundred and forty one
++three million, five hundred and eighty five thousand, one hundred and seventy two
++three million, eight hundred thousand, six hundred and three
++four million, sixteen thousand, thirty four
++four million, two hundred and thirty one thousand, four hundred and sixty five
++four million, four hundred and forty six thousand, eight hundred and ninety six
++four million, six hundred and sixty two thousand, three hundred and twenty seven
++four million, eight hundred and seventy seven thousand, seven hundred and fifty eight
++five million, ninety three thousand, one hundred and eighty nine
++five million, three hundred and eight thousand, six hundred and twenty
++five million, five hundred and twenty four thousand, fifty one
++five million, seven hundred and thirty nine thousand, four hundred and eighty two
++five million, nine hundred and fifty four thousand, nine hundred and thirteen
++six million, one hundred and seventy thousand, three hundred and forty four
++six million, three hundred and eighty five thousand, seven hundred and seventy five
++six million, six hundred and one thousand, two hundred and six
++six million, eight hundred and sixteen thousand, six hundred and thirty seven
++seven million, thirty two thousand, sixty eight
++seven million, two hundred and forty seven thousand, four hundred and ninety nine
++seven million, four hundred and sixty two thousand, nine hundred and thirty
++seven million, six hundred and seventy eight thousand, three hundred and sixty one
++seven million, eight hundred and ninety three thousand, seven hundred and ninety two
++eight million, one hundred and nine thousand, two hundred and twenty three
++eight million, three hundred and twenty four thousand, six hundred and fifty four
++eight million, five hundred and forty thousand, eighty five
++eight million, seven hundred and fifty five thousand, five hundred and sixteen
++eight million, nine hundred and seventy thousand, nine hundred and forty seven
++nine million, one hundred and eighty six thousand, three hundred and seventy eight
++nine million, four hundred and one thousand, eight hundred and nine
++nine million, six hundred and seventeen thousand, two hundred and forty
++nine million, eight hundred and thirty two thousand, six hundred and seventy one
++ten million, forty eight thousand, one hundred and two
++ten million, two hundred and sixty three thousand, five hundred and thirty three
++ten million, four hundred and seventy eight thousand, nine hundred and sixty four
++ten million, six hundred and ninety four thousand, three hundred and ninety five
++ten million, nine hundred and nine thousand, eight hundred and twenty six
++eleven million, one hundred and twenty five thousand, two hundred and fifty seven
++eleven million, three hundred and forty thousand, six hundred and eighty eight
++eleven million, five hundred and fifty six thousand, one hundred and nineteen
++eleven million, seven hundred and seventy one thousand, five hundred and fifty
++eleven million, nine hundred and eighty six thousand, nine hundred and eighty one
++twelve million, two hundred and two thousand, four hundred and twelve
++twelve million, four hundred and seventeen thousand, eight hundred and forty three
++twelve million, six hundred and thirty three thousand, two hundred and seventy four
++twelve million, eight hundred and forty eight thousand, seven hundred and five
++thirteen million, sixty four thousand, one hundred and thirty six
++thirteen million, two hundred and seventy nine thousand, five hundred and sixty seven
++thirteen million, four hundred and ninety four thousand, nine hundred and ninety eight
++thirteen million, seven hundred and ten thousand, four hundred and twenty nine
++thirteen million, nine hundred and twenty five thousand, eight hundred and sixty
++fourteen million, one hundred and forty one thousand, two hundred and ninety one
++fourteen million, three hundred and fifty six thousand, seven hundred and twenty two
++fourteen million, five hundred and seventy two thousand, one hundred and fifty three
++fourteen million, seven hundred and eighty seven thousand, five hundred and eighty four
++fifteen million, three thousand, fifteen
++fifteen million, two hundred and eighteen thousand, four hundred and forty six
++fifteen million, four hundred and thirty three thousand, eight hundred and seventy seven
++fifteen million, six hundred and forty nine thousand, three hundred and eight
++fifteen million, eight hundred and sixty four thousand, seven hundred and thirty nine
++sixteen million, eighty thousand, one hundred and seventy
++sixteen million, two hundred and ninety five thousand, six hundred and one
++sixteen million, five hundred and eleven thousand, thirty two
++sixteen million, seven hundred and twenty six thousand, four hundred and sixty three
++sixteen million, nine hundred and forty one thousand, eight hundred and ninety four
++seventeen million, one hundred and fifty seven thousand, three hundred and twenty five
++seventeen million, three hundred and seventy two thousand, seven hundred and fifty six
++seventeen million, five hundred and eighty eight thousand, one hundred and eighty seven
++seventeen million, eight hundred and three thousand, six hundred and eighteen
++eighteen million, nineteen thousand, forty nine
++eighteen million, two hundred and thirty four thousand, four hundred and eighty
++eighteen million, four hundred and forty nine thousand, nine hundred and eleven
++eighteen million, six hundred and sixty five thousand, three hundred and forty two
++eighteen million, eight hundred and eighty thousand, seven hundred and seventy three
++nineteen million, ninety six thousand, two hundred and four
++nineteen million, three hundred and eleven thousand, six hundred and thirty five
++nineteen million, five hundred and twenty seven thousand, sixty six
++nineteen million, seven hundred and forty two thousand, four hundred and ninety seven
++nineteen million, nine hundred and fifty seven thousand, nine hundred and twenty eight
++twenty million, one hundred and seventy three thousand, three hundred and fifty nine
++twenty million, three hundred and eighty eight thousand, seven hundred and ninety
++twenty million, six hundred and four thousand, two hundred and twenty one
++twenty million, eight hundred and nineteen thousand, six hundred and fifty two
++twenty one million, thirty five thousand, eighty three
++twenty one million, two hundred and fifty thousand, five hundred and fourteen
++twenty one million, four hundred and sixty five thousand, nine hundred and forty five
++twenty one million, six hundred and eighty one thousand, three hundred and seventy six
++twenty one million, eight hundred and ninety six thousand, eight hundred and seven
++twenty two million, one hundred and twelve thousand, two hundred and thirty eight
++twenty two million, three hundred and twenty seven thousand, six hundred and sixty nine
++twenty two million, five hundred and forty three thousand, one hundred
++twenty two million, seven hundred and fifty eight thousand, five hundred and thirty one
++twenty two million, nine hundred and seventy three thousand, nine hundred and sixty two
++twenty three million, one hundred and eighty nine thousand, three hundred and ninety three
++twenty three million, four hundred and four thousand, eight hundred and twenty four
++twenty three million, six hundred and twenty thousand, two hundred and fifty five
++twenty three million, eight hundred and thirty five thousand, six hundred and eighty six
++twenty four million, fifty one thousand, one hundred and seventeen
++twenty four million, two hundred and sixty six thousand, five hundred and forty eight
++twenty four million, four hundred and eighty one thousand, nine hundred and seventy nine
++twenty four million, six hundred and ninety seven thousand, four hundred and ten
++twenty four million, nine hundred and twelve thousand, eight hundred and forty one
++twenty five million, one hundred and twenty eight thousand, two hundred and seventy two
++twenty five million, three hundred and forty three thousand, seven hundred and three
++twenty five million, five hundred and fifty nine thousand, one hundred and thirty four
++twenty five million, seven hundred and seventy four thousand, five hundred and sixty five
++twenty five million, nine hundred and eighty nine thousand, nine hundred and ninety six
++twenty six million, two hundred and five thousand, four hundred and twenty seven
++twenty six million, four hundred and twenty thousand, eight hundred and fifty eight
++twenty six million, six hundred and thirty six thousand, two hundred and eighty nine
++twenty six million, eight hundred and fifty one thousand, seven hundred and twenty
++twenty seven million, sixty seven thousand, one hundred and fifty one
++twenty seven million, two hundred and eighty two thousand, five hundred and eighty two
++twenty seven million, four hundred and ninety eight thousand, thirteen
++twenty seven million, seven hundred and thirteen thousand, four hundred and forty four
++twenty seven million, nine hundred and twenty eight thousand, eight hundred and seventy five
++twenty eight million, one hundred and forty four thousand, three hundred and six
++twenty eight million, three hundred and fifty nine thousand, seven hundred and thirty seven
++twenty eight million, five hundred and seventy five thousand, one hundred and sixty eight
++twenty eight million, seven hundred and ninety thousand, five hundred and ninety nine
++twenty nine million, six thousand, thirty
++twenty nine million, two hundred and twenty one thousand, four hundred and sixty one
++twenty nine million, four hundred and thirty six thousand, eight hundred and ninety two
++twenty nine million, six hundred and fifty two thousand, three hundred and twenty three
++twenty nine million, eight hundred and sixty seven thousand, seven hundred and fifty four
++thirty million, eighty three thousand, one hundred and eighty five
++thirty million, two hundred and ninety eight thousand, six hundred and sixteen
++thirty million, five hundred and fourteen thousand, forty seven
++thirty million, seven hundred and twenty nine thousand, four hundred and seventy eight
++thirty million, nine hundred and forty four thousand, nine hundred and nine
++thirty one million, one hundred and sixty thousand, three hundred and forty
++thirty one million, three hundred and seventy five thousand, seven hundred and seventy one
++thirty one million, five hundred and ninety one thousand, two hundred and two
++thirty one million, eight hundred and six thousand, six hundred and thirty three
++thirty two million, twenty two thousand, sixty four
++thirty two million, two hundred and thirty seven thousand, four hundred and ninety five
++thirty two million, four hundred and fifty two thousand, nine hundred and twenty six
++thirty two million, six hundred and sixty eight thousand, three hundred and fifty seven
++thirty two million, eight hundred and eighty three thousand, seven hundred and eighty eight
++thirty three million, ninety nine thousand, two hundred and nineteen
++thirty three million, three hundred and fourteen thousand, six hundred and fifty
++thirty three million, five hundred and thirty thousand, eighty one
++thirty three million, seven hundred and forty five thousand, five hundred and twelve
++thirty three million, nine hundred and sixty thousand, nine hundred and forty three
++thirty four million, one hundred and seventy six thousand, three hundred and seventy four
++thirty four million, three hundred and ninety one thousand, eight hundred and five
++thirty four million, six hundred and seven thousand, two hundred and thirty six
++thirty four million, eight hundred and twenty two thousand, six hundred and sixty seven
++thirty five million, thirty eight thousand, ninety eight
++thirty five million, two hundred and fifty three thousand, five hundred and twenty nine
++thirty five million, four hundred and sixty eight thousand, nine hundred and sixty
++thirty five million, six hundred and eighty four thousand, three hundred and ninety one
++thirty five million, eight hundred and ninety nine thousand, eight hundred and twenty two
++thirty six million, one hundred and fifteen thousand, two hundred and fifty three
++thirty six million, three hundred and thirty thousand, six hundred and eighty four
++thirty six million, five hundred and forty six thousand, one hundred and fifteen
++thirty six million, seven hundred and sixty one thousand, five hundred and forty six
++thirty six million, nine hundred and seventy six thousand, nine hundred and seventy seven
++thirty seven million, one hundred and ninety two thousand, four hundred and eight
++thirty seven million, four hundred and seven thousand, eight hundred and thirty nine
++thirty seven million, six hundred and twenty three thousand, two hundred and seventy
++thirty seven million, eight hundred and thirty eight thousand, seven hundred and one
++thirty eight million, fifty four thousand, one hundred and thirty two
++thirty eight million, two hundred and sixty nine thousand, five hundred and sixty three
++thirty eight million, four hundred and eighty four thousand, nine hundred and ninety four
++thirty eight million, seven hundred thousand, four hundred and twenty five
++thirty eight million, nine hundred and fifteen thousand, eight hundred and fifty six
++thirty nine million, one hundred and thirty one thousand, two hundred and eighty seven
++thirty nine million, three hundred and forty six thousand, seven hundred and eighteen
++thirty nine million, five hundred and sixty two thousand, one hundred and forty nine
++thirty nine million, seven hundred and seventy seven thousand, five hundred and eighty
++thirty nine million, nine hundred and ninety three thousand, eleven
++forty million, two hundred and eight thousand, four hundred and forty two
++forty million, four hundred and twenty three thousand, eight hundred and seventy three
++forty million, six hundred and thirty nine thousand, three hundred and four
++forty million, eight hundred and fifty four thousand, seven hundred and thirty five
++forty one million, seventy thousand, one hundred and sixty six
++forty one million, two hundred and eighty five thousand, five hundred and ninety seven
++forty one million, five hundred and one thousand, twenty eight
++forty one million, seven hundred and sixteen thousand, four hundred and fifty nine
++forty one million, nine hundred and thirty one thousand, eight hundred and ninety
++forty two million, one hundred and forty seven thousand, three hundred and twenty one
++forty two million, three hundred and sixty two thousand, seven hundred and fifty two
++forty two million, five hundred and seventy eight thousand, one hundred and eighty three
++forty two million, seven hundred and ninety three thousand, six hundred and fourteen
++forty three million, nine thousand, forty five
++forty three million, two hundred and twenty four thousand, four hundred and seventy six
++forty three million, four hundred and thirty nine thousand, nine hundred and seven
++forty three million, six hundred and fifty five thousand, three hundred and thirty eight
++forty three million, eight hundred and seventy thousand, seven hundred and sixty nine
++forty four million, eighty six thousand, two hundred
++forty four million, three hundred and one thousand, six hundred and thirty one
++forty four million, five hundred and seventeen thousand, sixty two
++forty four million, seven hundred and thirty two thousand, four hundred and ninety three
++forty four million, nine hundred and forty seven thousand, nine hundred and twenty four
++forty five million, one hundred and sixty three thousand, three hundred and fifty five
++forty five million, three hundred and seventy eight thousand, seven hundred and eighty six
++forty five million, five hundred and ninety four thousand, two hundred and seventeen
++forty five million, eight hundred and nine thousand, six hundred and forty eight
++forty six million, twenty five thousand, seventy nine
++forty six million, two hundred and forty thousand, five hundred and ten
++forty six million, four hundred and fifty five thousand, nine hundred and forty one
++forty six million, six hundred and seventy one thousand, three hundred and seventy two
++forty six million, eight hundred and eighty six thousand, eight hundred and three
++forty seven million, one hundred and two thousand, two hundred and thirty four
++forty seven million, three hundred and seventeen thousand, six hundred and sixty five
++forty seven million, five hundred and thirty three thousand, ninety six
++forty seven million, seven hundred and forty eight thousand, five hundred and twenty seven
++forty seven million, nine hundred and sixty three thousand, nine hundred and fifty eight
++forty eight million, one hundred and seventy nine thousand, three hundred and eighty nine
++forty eight million, three hundred and ninety four thousand, eight hundred and twenty
++forty eight million, six hundred and ten thousand, two hundred and fifty one
++forty eight million, eight hundred and twenty five thousand, six hundred and eighty two
++forty nine million, forty one thousand, one hundred and thirteen
++forty nine million, two hundred and fifty six thousand, five hundred and forty four
++forty nine million, four hundred and seventy one thousand, nine hundred and seventy five
++forty nine million, six hundred and eighty seven thousand, four hundred and six
++forty nine million, nine hundred and two thousand, eight hundred and thirty seven
++fifty million, one hundred and eighteen thousand, two hundred and sixty eight
++fifty million, three hundred and thirty three thousand, six hundred and ninety nine
++fifty million, five hundred and forty nine thousand, one hundred and thirty
++fifty million, seven hundred and sixty four thousand, five hundred and sixty one
++fifty million, nine hundred and seventy nine thousand, nine hundred and ninety two
++fifty one million, one hundred and ninety five thousand, four hundred and twenty three
++fifty one million, four hundred and ten thousand, eight hundred and fifty four
++fifty one million, six hundred and twenty six thousand, two hundred and eighty five
++fifty one million, eight hundred and forty one thousand, seven hundred and sixteen
++fifty two million, fifty seven thousand, one hundred and forty seven
++fifty two million, two hundred and seventy two thousand, five hundred and seventy eight
++fifty two million, four hundred and eighty eight thousand, nine
++fifty two million, seven hundred and three thousand, four hundred and forty
++fifty two million, nine hundred and eighteen thousand, eight hundred and seventy one
++fifty three million, one hundred and thirty four thousand, three hundred and two
++fifty three million, three hundred and forty nine thousand, seven hundred and thirty three
++fifty three million, five hundred and sixty five thousand, one hundred and sixty four
++fifty three million, seven hundred and eighty thousand, five hundred and ninety five
++fifty three million, nine hundred and ninety six thousand, twenty six
++fifty four million, two hundred and eleven thousand, four hundred and fifty seven
++fifty four million, four hundred and twenty six thousand, eight hundred and eighty eight
++fifty four million, six hundred and forty two thousand, three hundred and nineteen
++fifty four million, eight hundred and fifty seven thousand, seven hundred and fifty
++fifty five million, seventy three thousand, one hundred and eighty one
++fifty five million, two hundred and eighty eight thousand, six hundred and twelve
++fifty five million, five hundred and four thousand, forty three
++fifty five million, seven hundred and nineteen thousand, four hundred and seventy four
++fifty five million, nine hundred and thirty four thousand, nine hundred and five
++fifty six million, one hundred and fifty thousand, three hundred and thirty six
++fifty six million, three hundred and sixty five thousand, seven hundred and sixty seven
++fifty six million, five hundred and eighty one thousand, one hundred and ninety eight
++fifty six million, seven hundred and ninety six thousand, six hundred and twenty nine
++fifty seven million, twelve thousand, sixty
++fifty seven million, two hundred and twenty seven thousand, four hundred and ninety one
++fifty seven million, four hundred and forty two thousand, nine hundred and twenty two
++fifty seven million, six hundred and fifty eight thousand, three hundred and fifty three
++fifty seven million, eight hundred and seventy three thousand, seven hundred and eighty four
++fifty eight million, eighty nine thousand, two hundred and fifteen
++fifty eight million, three hundred and four thousand, six hundred and forty six
++fifty eight million, five hundred and twenty thousand, seventy seven
++fifty eight million, seven hundred and thirty five thousand, five hundred and eight
++fifty eight million, nine hundred and fifty thousand, nine hundred and thirty nine
++fifty nine million, one hundred and sixty six thousand, three hundred and seventy
++fifty nine million, three hundred and eighty one thousand, eight hundred and one
++fifty nine million, five hundred and ninety seven thousand, two hundred and thirty two
++fifty nine million, eight hundred and twelve thousand, six hundred and sixty three
++sixty million, twenty eight thousand, ninety four
++sixty million, two hundred and forty three thousand, five hundred and twenty five
++sixty million, four hundred and fifty eight thousand, nine hundred and fifty six
++sixty million, six hundred and seventy four thousand, three hundred and eighty seven
++sixty million, eight hundred and eighty nine thousand, eight hundred and eighteen
++sixty one million, one hundred and five thousand, two hundred and forty nine
++sixty one million, three hundred and twenty thousand, six hundred and eighty
++sixty one million, five hundred and thirty six thousand, one hundred and eleven
++sixty one million, seven hundred and fifty one thousand, five hundred and forty two
++sixty one million, nine hundred and sixty six thousand, nine hundred and seventy three
++sixty two million, one hundred and eighty two thousand, four hundred and four
++sixty two million, three hundred and ninety seven thousand, eight hundred and thirty five
++sixty two million, six hundred and thirteen thousand, two hundred and sixty six
++sixty two million, eight hundred and twenty eight thousand, six hundred and ninety seven
++sixty three million, forty four thousand, one hundred and twenty eight
++sixty three million, two hundred and fifty nine thousand, five hundred and fifty nine
++sixty three million, four hundred and seventy four thousand, nine hundred and ninety
++sixty three million, six hundred and ninety thousand, four hundred and twenty one
++sixty three million, nine hundred and five thousand, eight hundred and fifty two
++sixty four million, one hundred and twenty one thousand, two hundred and eighty three
++sixty four million, three hundred and thirty six thousand, seven hundred and fourteen
++sixty four million, five hundred and fifty two thousand, one hundred and forty five
++sixty four million, seven hundred and sixty seven thousand, five hundred and seventy six
++sixty four million, nine hundred and eighty three thousand, seven
++sixty five million, one hundred and ninety eight thousand, four hundred and thirty eight
++sixty five million, four hundred and thirteen thousand, eight hundred and sixty nine
++sixty five million, six hundred and twenty nine thousand, three hundred
++sixty five million, eight hundred and forty four thousand, seven hundred and thirty one
++sixty six million, sixty thousand, one hundred and sixty two
++sixty six million, two hundred and seventy five thousand, five hundred and ninety three
++sixty six million, four hundred and ninety one thousand, twenty four
++sixty six million, seven hundred and six thousand, four hundred and fifty five
++sixty six million, nine hundred and twenty one thousand, eight hundred and eighty six
++sixty seven million, one hundred and thirty seven thousand, three hundred and seventeen
++sixty seven million, three hundred and fifty two thousand, seven hundred and forty eight
++sixty seven million, five hundred and sixty eight thousand, one hundred and seventy nine
++sixty seven million, seven hundred and eighty three thousand, six hundred and ten
++sixty seven million, nine hundred and ninety nine thousand, forty one
++sixty eight million, two hundred and fourteen thousand, four hundred and seventy two
++sixty eight million, four hundred and twenty nine thousand, nine hundred and three
++sixty eight million, six hundred and forty five thousand, three hundred and thirty four
++sixty eight million, eight hundred and sixty thousand, seven hundred and sixty five
++sixty nine million, seventy six thousand, one hundred and ninety six
++sixty nine million, two hundred and ninety one thousand, six hundred and twenty seven
++sixty nine million, five hundred and seven thousand, fifty eight
++sixty nine million, seven hundred and twenty two thousand, four hundred and eighty nine
++sixty nine million, nine hundred and thirty seven thousand, nine hundred and twenty
++seventy million, one hundred and fifty three thousand, three hundred and fifty one
++seventy million, three hundred and sixty eight thousand, seven hundred and eighty two
++seventy million, five hundred and eighty four thousand, two hundred and thirteen
++seventy million, seven hundred and ninety nine thousand, six hundred and forty four
++seventy one million, fifteen thousand, seventy five
++seventy one million, two hundred and thirty thousand, five hundred and six
++seventy one million, four hundred and forty five thousand, nine hundred and thirty seven
++seventy one million, six hundred and sixty one thousand, three hundred and sixty eight
++seventy one million, eight hundred and seventy six thousand, seven hundred and ninety nine
++seventy two million, ninety two thousand, two hundred and thirty
++seventy two million, three hundred and seven thousand, six hundred and sixty one
++seventy two million, five hundred and twenty three thousand, ninety two
++seventy two million, seven hundred and thirty eight thousand, five hundred and twenty three
++seventy two million, nine hundred and fifty three thousand, nine hundred and fifty four
++seventy three million, one hundred and sixty nine thousand, three hundred and eighty five
++seventy three million, three hundred and eighty four thousand, eight hundred and sixteen
++seventy three million, six hundred thousand, two hundred and forty seven
++seventy three million, eight hundred and fifteen thousand, six hundred and seventy eight
++seventy four million, thirty one thousand, one hundred and nine
++seventy four million, two hundred and forty six thousand, five hundred and forty
++seventy four million, four hundred and sixty one thousand, nine hundred and seventy one
++seventy four million, six hundred and seventy seven thousand, four hundred and two
++seventy four million, eight hundred and ninety two thousand, eight hundred and thirty three
++seventy five million, one hundred and eight thousand, two hundred and sixty four
++seventy five million, three hundred and twenty three thousand, six hundred and ninety five
++seventy five million, five hundred and thirty nine thousand, one hundred and twenty six
++seventy five million, seven hundred and fifty four thousand, five hundred and fifty seven
++seventy five million, nine hundred and sixty nine thousand, nine hundred and eighty eight
++seventy six million, one hundred and eighty five thousand, four hundred and nineteen
++seventy six million, four hundred thousand, eight hundred and fifty
++seventy six million, six hundred and sixteen thousand, two hundred and eighty one
++seventy six million, eight hundred and thirty one thousand, seven hundred and twelve
++seventy seven million, forty seven thousand, one hundred and forty three
++seventy seven million, two hundred and sixty two thousand, five hundred and seventy four
++seventy seven million, four hundred and seventy eight thousand, five
++seventy seven million, six hundred and ninety three thousand, four hundred and thirty six
++seventy seven million, nine hundred and eight thousand, eight hundred and sixty seven
++seventy eight million, one hundred and twenty four thousand, two hundred and ninety eight
++seventy eight million, three hundred and thirty nine thousand, seven hundred and twenty nine
++seventy eight million, five hundred and fifty five thousand, one hundred and sixty
++seventy eight million, seven hundred and seventy thousand, five hundred and ninety one
++seventy eight million, nine hundred and eighty six thousand, twenty two
++seventy nine million, two hundred and one thousand, four hundred and fifty three
++seventy nine million, four hundred and sixteen thousand, eight hundred and eighty four
++seventy nine million, six hundred and thirty two thousand, three hundred and fifteen
++seventy nine million, eight hundred and forty seven thousand, seven hundred and forty six
++eighty million, sixty three thousand, one hundred and seventy seven
++eighty million, two hundred and seventy eight thousand, six hundred and eight
++eighty million, four hundred and ninety four thousand, thirty nine
++eighty million, seven hundred and nine thousand, four hundred and seventy
++eighty million, nine hundred and twenty four thousand, nine hundred and one
++eighty one million, one hundred and forty thousand, three hundred and thirty two
++eighty one million, three hundred and fifty five thousand, seven hundred and sixty three
++eighty one million, five hundred and seventy one thousand, one hundred and ninety four
++eighty one million, seven hundred and eighty six thousand, six hundred and twenty five
++eighty two million, two thousand, fifty six
++eighty two million, two hundred and seventeen thousand, four hundred and eighty seven
++eighty two million, four hundred and thirty two thousand, nine hundred and eighteen
++eighty two million, six hundred and forty eight thousand, three hundred and forty nine
++eighty two million, eight hundred and sixty three thousand, seven hundred and eighty
++eighty three million, seventy nine thousand, two hundred and eleven
++eighty three million, two hundred and ninety four thousand, six hundred and forty two
++eighty three million, five hundred and ten thousand, seventy three
++eighty three million, seven hundred and twenty five thousand, five hundred and four
++eighty three million, nine hundred and forty thousand, nine hundred and thirty five
++eighty four million, one hundred and fifty six thousand, three hundred and sixty six
++eighty four million, three hundred and seventy one thousand, seven hundred and ninety seven
++eighty four million, five hundred and eighty seven thousand, two hundred and twenty eight
++eighty four million, eight hundred and two thousand, six hundred and fifty nine
++eighty five million, eighteen thousand, ninety
++eighty five million, two hundred and thirty three thousand, five hundred and twenty one
++eighty five million, four hundred and forty eight thousand, nine hundred and fifty two
++eighty five million, six hundred and sixty four thousand, three hundred and eighty three
++eighty five million, eight hundred and seventy nine thousand, eight hundred and fourteen
++eighty six million, ninety five thousand, two hundred and forty five
++eighty six million, three hundred and ten thousand, six hundred and seventy six
++eighty six million, five hundred and twenty six thousand, one hundred and seven
++eighty six million, seven hundred and forty one thousand, five hundred and thirty eight
++eighty six million, nine hundred and fifty six thousand, nine hundred and sixty nine
++eighty seven million, one hundred and seventy two thousand, four hundred
++eighty seven million, three hundred and eighty seven thousand, eight hundred and thirty one
++eighty seven million, six hundred and three thousand, two hundred and sixty two
++eighty seven million, eight hundred and eighteen thousand, six hundred and ninety three
++eighty eight million, thirty four thousand, one hundred and twenty four
++eighty eight million, two hundred and forty nine thousand, five hundred and fifty five
++eighty eight million, four hundred and sixty four thousand, nine hundred and eighty six
++eighty eight million, six hundred and eighty thousand, four hundred and seventeen
++eighty eight million, eight hundred and ninety five thousand, eight hundred and forty eight
++eighty nine million, one hundred and eleven thousand, two hundred and seventy nine
++eighty nine million, three hundred and twenty six thousand, seven hundred and ten
++eighty nine million, five hundred and forty two thousand, one hundred and forty one
++eighty nine million, seven hundred and fifty seven thousand, five hundred and seventy two
++eighty nine million, nine hundred and seventy three thousand, three
++ninety million, one hundred and eighty eight thousand, four hundred and thirty four
++ninety million, four hundred and three thousand, eight hundred and sixty five
++ninety million, six hundred and nineteen thousand, two hundred and ninety six
++ninety million, eight hundred and thirty four thousand, seven hundred and twenty seven
++ninety one million, fifty thousand, one hundred and fifty eight
++ninety one million, two hundred and sixty five thousand, five hundred and eighty nine
++ninety one million, four hundred and eighty one thousand, twenty
++ninety one million, six hundred and ninety six thousand, four hundred and fifty one
++ninety one million, nine hundred and eleven thousand, eight hundred and eighty two
++ninety two million, one hundred and twenty seven thousand, three hundred and thirteen
++ninety two million, three hundred and forty two thousand, seven hundred and forty four
++ninety two million, five hundred and fifty eight thousand, one hundred and seventy five
++ninety two million, seven hundred and seventy three thousand, six hundred and six
++ninety two million, nine hundred and eighty nine thousand, thirty seven
++ninety three million, two hundred and four thousand, four hundred and sixty eight
++ninety three million, four hundred and nineteen thousand, eight hundred and ninety nine
++ninety three million, six hundred and thirty five thousand, three hundred and thirty
++ninety three million, eight hundred and fifty thousand, seven hundred and sixty one
++ninety four million, sixty six thousand, one hundred and ninety two
++ninety four million, two hundred and eighty one thousand, six hundred and twenty three
++ninety four million, four hundred and ninety seven thousand, fifty four
++ninety four million, seven hundred and twelve thousand, four hundred and eighty five
++ninety four million, nine hundred and twenty seven thousand, nine hundred and sixteen
++ninety five million, one hundred and forty three thousand, three hundred and forty seven
++ninety five million, three hundred and fifty eight thousand, seven hundred and seventy eight
++ninety five million, five hundred and seventy four thousand, two hundred and nine
++ninety five million, seven hundred and eighty nine thousand, six hundred and forty
++ninety six million, five thousand, seventy one
++ninety six million, two hundred and twenty thousand, five hundred and two
++ninety six million, four hundred and thirty five thousand, nine hundred and thirty three
++ninety six million, six hundred and fifty one thousand, three hundred and sixty four
++ninety six million, eight hundred and sixty six thousand, seven hundred and ninety five
++ninety seven million, eighty two thousand, two hundred and twenty six
++ninety seven million, two hundred and ninety seven thousand, six hundred and fifty seven
++ninety seven million, five hundred and thirteen thousand, eighty eight
++ninety seven million, seven hundred and twenty eight thousand, five hundred and nineteen
++ninety seven million, nine hundred and forty three thousand, nine hundred and fifty
++ninety eight million, one hundred and fifty nine thousand, three hundred and eighty one
++ninety eight million, three hundred and seventy four thousand, eight hundred and twelve
++ninety eight million, five hundred and ninety thousand, two hundred and forty three
++ninety eight million, eight hundred and five thousand, six hundred and seventy four
++ninety nine million, twenty one thousand, one hundred and five
++ninety nine million, two hundred and thirty six thousand, five hundred and thirty six
++ninety nine million, four hundred and fifty one thousand, nine hundred and sixty seven
++ninety nine million, six hundred and sixty seven thousand, three hundred and ninety eight
++ninety nine million, eight hundred and eighty two thousand, eight hundred and twenty nine
