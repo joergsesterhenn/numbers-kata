@@ -63,7 +63,6 @@ class NumbersPrinter:
         # from highest to lowest and appending the parts
         for inverse_order, number_part in self.number_splitter.enumerate():
 
-            # first get the string for the current segment and append it
             part_of_number_string = self.get_number_part(number_part)
 
             # if this part is not empty 
