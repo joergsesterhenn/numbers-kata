@@ -11,7 +11,7 @@ class SegmentWriter:
 
     HUNDRED_APPENDIX = ' hundred'
     PARTIAL_TENS_SEPERATOR = ' '
-    PARTIAL_HUNDRED_SEPERATOR = ' and '
+    PARTIAL_HUNDREDS_SEPERATOR = ' and '
 
     def __init__(self, number_segment: str):
         """
@@ -30,7 +30,7 @@ class SegmentWriter:
             segment_as_text = (self.DIGITS[self.hundreds]
                                + self.HUNDRED_APPENDIX)
             if self.tens > 0 or self.units > 0:
-                segment_as_text += self.PARTIAL_HUNDRED_SEPERATOR
+                segment_as_text += self.PARTIAL_HUNDREDS_SEPERATOR
         if self.tens == 1:
             return segment_as_text + self.TEENS[self.units]
         elif self.tens > 1:
