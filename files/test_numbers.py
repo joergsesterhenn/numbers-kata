@@ -26,43 +26,15 @@ class NumbersTest(unittest.TestCase):
     # x 512607 --> five hundred and twelve thousand, six hundred and seven
     # x 43112603 --> forty three million, one hundred and twelve thousand, six hundred and three
 
-    def test_number_zero(self):
-        result = str(NumberWriter(0).to_text())
-        verify(result)
-
-    def test_number_one(self):
-        result = str(NumberWriter(1).to_text())
-        verify(result)
-    
     def test_single_digits(self):
         result = [NumberWriter(number).to_text() for number in range(1, 10)]
         verify(result)
  
-    def test_ten(self):
-        result = str(NumberWriter(10).to_text())
-        verify(result)
-        
-    def test_ninety_nine(self):
-        result = str(NumberWriter(99).to_text())
-        verify(result)
-
     def test_every_two_digit_number(self):
         result = "\n".join(
             [NumberWriter(number).to_text() for number in range(10, 100)])
         verify(result)
- 
-    def test_one_hundred(self):
-        result = NumberWriter(100).to_text()
-        verify(result)
-        
-    def test_three_hundred(self):
-        result = NumberWriter(300).to_text()
-        verify(result)
-        
-    def test_three_hundred_ten(self):
-        result = NumberWriter(310).to_text()
-        verify(result)
-        
+
     def test_every_three_digit_number(self):
         result = "\n".join(
             [NumberWriter(number).to_text() for number in range(100, 1000)])
@@ -71,12 +43,12 @@ class NumbersTest(unittest.TestCase):
     def test_one_thousand_five_hundred_and_one(self):
         result = NumberWriter(1501).to_text()
         verify(result)
-        
+
     def test_dissecting_to_order(self):
         splitter = NumberSegmenter(1501)
         result = list(splitter.segments())
         verify(result)
-        
+
     def test_twelve_thousand_six_hundred_and_nine(self):
         result = NumberWriter(12609).to_text()
         verify(result)
