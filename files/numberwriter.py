@@ -1,4 +1,4 @@
-from files.numbersplitter import NumberSplitter
+from files.numbersegmenter import NumberSegmenter
 from files.segmentwriter import SegmentWriter
 
 
@@ -12,11 +12,11 @@ class NumberWriter:
     SEPERATOR_OF_ORDERS = ', '
 
     number: int
-    number_splitter: NumberSplitter
+    number_splitter: NumberSegmenter
 
     def __init__(self, number: int):
         self.number = number
-        self.number_splitter = NumberSplitter(number)
+        self.number_splitter = NumberSegmenter(number)
 
     def to_text(self):
         """

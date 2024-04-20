@@ -1,6 +1,8 @@
-# takes a number and splits it into an array of strings with length three
-# in order to always have three digits in a segment we first fill up the number
-class NumberSplitter:
+class NumberSegmenter:
+    """
+    takes a number and derives segments as strings with length three
+    to always have three digits in a segment we first fill up the number
+    """
     number: int
 
     def __init__(self, number: int):

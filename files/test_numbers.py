@@ -1,5 +1,5 @@
 from numberwriter import NumberWriter
-from numbersplitter import NumberSplitter
+from numbersegmenter import NumberSegmenter
 import unittest
 from approvaltests.approvals import verify
 from approvaltests.reporters.report_on_cyber_dojo import ReportOnCyberDojo
@@ -73,7 +73,7 @@ class NumbersTest(unittest.TestCase):
         verify(result)
         
     def test_dissecting_to_order(self):
-        splitter = NumberSplitter(1501)
+        splitter = NumberSegmenter(1501)
         result = list(splitter.segments())
         verify(result)
         
