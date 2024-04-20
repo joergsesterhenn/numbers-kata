@@ -3,12 +3,12 @@
 class NumberSplitter:
 
     number: int
-    array_of_ordered_numbers: [str]
+    ordered_segments: [str]
 
     def __init__(self, number: int):
         super().__init__()
         self.number = number
-        self.array_of_ordered_numbers = []
+        self.ordered_segments = []
         self.dissect_number()
 
     # example 1234567:
@@ -26,7 +26,7 @@ class NumberSplitter:
     #            ^--------start =6
     #                ^----end   =9
     def dissect_number(self):
-        self.array_of_ordered_numbers = \
+        self.ordered_segments = \
             [self.number_to_string()[start:start+3]
              for start in (range(0, self.get_length_of_number(), 3))]
 
@@ -39,5 +39,6 @@ class NumberSplitter:
     def number_to_string(self):
         return str(self.number).zfill((self.get_order_of_number()+1) * 3)
 
-    def enumerate(self):
-        return enumerate(self.array_of_ordered_numbers)
+    def segments(self):
+        reversed_orders, segments = zip(* enumerate(self.ordered_segments))
+        return dict(zip(reversed(reversed_orders), self.ordered_segments))

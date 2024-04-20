@@ -6,8 +6,8 @@ class NumberWriter:
 
     # names for multiples of thousand - we are counting with the short scale
     ORDERS_SUFFIX = ['', ' thousand', ' million', ' billion', ' trillion',
-                       ' quadrillion', ' quintillion', ' sextillion',
-                       ' septillion', ' octillion', ' nonillion']
+                     ' quadrillion', ' quintillion', ' sextillion',
+                     ' septillion', ' octillion', ' nonillion']
 
     SEPERATOR_OF_ORDERS = ', '
 
@@ -31,7 +31,7 @@ class NumberWriter:
 
         # build number_as_text by traversing and appending segments
         # from highest to lowest orders
-        for inverse_order, segment in self.number_splitter.enumerate():
+        for order, segment in self.number_splitter.segments().items():
 
             # split number into segments of three digits
             # and return them in an array from the highest order to lowest
@@ -40,14 +40,12 @@ class NumberWriter:
             # if this segment is not empty
             if segment_as_text:
                 # if we are not the highest order lead with a comma
-                if inverse_order > 0:
+                if order != self.number_splitter.get_order_of_number():
                     number_as_text += self.SEPERATOR_OF_ORDERS
 
                 number_as_text += segment_as_text
 
                 # attach the orders suffix
-                order = (self.number_splitter.get_order_of_number()
-                         - inverse_order)
                 number_as_text += self.ORDERS_SUFFIX[order]
 
         return number_as_text

@@ -74,7 +74,7 @@ class NumbersTest(unittest.TestCase):
         
     def test_dissecting_to_order(self):
         splitter = NumberSplitter(1501)
-        result = splitter.array_of_ordered_numbers
+        result = splitter.ordered_segments
         verify(result)
         
     def test_twelve_thousand_six_hundred_and_nine(self):
