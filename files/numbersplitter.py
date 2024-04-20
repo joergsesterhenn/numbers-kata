@@ -1,15 +1,11 @@
 # takes a number and splits it into an array of strings with length three
 # in order to always have three digits in a segment we first fill up the number
 class NumberSplitter:
-
     number: int
-    ordered_segments: [str]
 
     def __init__(self, number: int):
         super().__init__()
         self.number = number
-        self.ordered_segments = []
-        self.dissect_number()
 
     # example 1234567:
     # length_of_number = 7
@@ -25,10 +21,6 @@ class NumberSplitter:
     #                     --third--
     #            ^--------start =6
     #                ^----end   =9
-    def dissect_number(self):
-        self.ordered_segments = \
-            [self.number_to_string()[start:start+3]
-             for start in (range(0, self.get_length_of_number(), 3))]
 
     def get_length_of_number(self):
         return len(str(self.number))
@@ -43,6 +35,10 @@ class NumberSplitter:
         """
         :return: ordered tuples of order and segment
         """
-        reversed_orders, segments = zip(* enumerate(self.ordered_segments))
+        ordered_segments = \
+            [self.number_to_string()[start:start + 3]
+             for start in (range(0, self.get_length_of_number(), 3))]
+
+        reversed_orders, segments = zip(* enumerate(ordered_segments))
         # we need to reverse the order so that it starts with the highest
-        return zip(reversed(reversed_orders), self.ordered_segments)
+        return zip(reversed(reversed_orders), ordered_segments)
