@@ -1,15 +1,10 @@
+import unittest
 from numberwriter import NumberWriter
 from numbersegmenter import NumberSegmenter
-import unittest
 from approvaltests.approvals import verify
-from approvaltests.reporters.report_on_cyber_dojo import ReportOnCyberDojo
-from approvaltests import set_default_reporter
 
 
 class NumbersTest(unittest.TestCase):
-    #def setUp(self):
-    #    set_default_reporter(ReportOnCyberDojo())
-
     # testplan:
     #
     # x 1 --> one
