@@ -3,7 +3,7 @@ class SegmentWriter:
     Writes a segment of numbers as text.
     """
 
-    DIGITS = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven',
+    DIGITS = ['', 'one', 'two', 'three', 'four', 'five', 'six', 'seven',
               'eight', 'nine']
     # all teens are special - who would have thought!
     TEENS = ['ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen',
@@ -29,18 +29,20 @@ class SegmentWriter:
         :return: this segment as text
         """
         segment_as_text = ''
-        if self.hundreds > 0:
+
+        if self.hundreds:
             segment_as_text = (self.DIGITS[self.hundreds]
                                + self.HUNDRED_SUFFIX)
-            if self.tens > 0 or self.units > 0:
+            if self.tens or self.units:
                 segment_as_text += self.PARTIAL_HUNDREDS_SEPERATOR
+
         if self.tens == 1:
             return segment_as_text + self.TEENS[self.units]
         elif self.tens > 1:
             segment_as_text += self.TENS[self.tens]
-            if self.units > 0:
+            if self.units:
                 segment_as_text += self.PARTIAL_TENS_SEPERATOR
-        if self.units > 0:
-            segment_as_text += self.DIGITS[self.units]
+
+        segment_as_text += self.DIGITS[self.units]
 
         return segment_as_text
