@@ -1,4 +1,7 @@
 class SegmentWriter:
+    """
+    Writes a segment of numbers as text.
+    """
 
     DIGITS = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven',
               'eight', 'nine']
@@ -13,13 +16,13 @@ class SegmentWriter:
     PARTIAL_TENS_SEPERATOR = ' '
     PARTIAL_HUNDREDS_SEPERATOR = ' and '
 
-    def __init__(self, number_segment: str):
+    def __init__(self, segment: str):
         """
-        :param number_segment: needs to be a string consisting of three digits
+        :param segment: needs to be a string consisting of three digits
         """
-        self.hundreds = int(number_segment[0])
-        self.tens = int(number_segment[1])
-        self.units = int(number_segment[2])
+        self.hundreds = int(segment[0])
+        self.tens = int(segment[1])
+        self.units = int(segment[2])
 
     def to_text(self):
         """

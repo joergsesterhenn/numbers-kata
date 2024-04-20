@@ -2,27 +2,27 @@ class NumberSegmenter:
     """
     takes a number and derives segments as strings with length three
     to always have three digits in a segment we first fill up the number
+
+     example 1234567:
+     length_of_number = 7
+     order_of_number  = 2  means 1000^order
+                             ==>  million is the largest segment
+        001 234 567
+                         --first segment--
+        ^----------------start =0
+            ^------------end   =3
+                         --second segment--
+            ^------------start =3
+                ^--------end   =6
+                         --third segment--
+                ^--------start =6
+                    ^----end   =9
     """
     number: int
 
     def __init__(self, number: int):
         super().__init__()
         self.number = number
-
-    # example 1234567:
-    # length_of_number = 7
-    # order_of_number  = 2  means 1000^order
-    #                         ==>  million is the largest segment
-    #    001 234 567
-    #                     --first--
-    #    ^----------------start =0
-    #        ^------------end   =3
-    #                     --second--
-    #        ^------------start =3
-    #            ^--------end   =6
-    #                     --third--
-    #            ^--------start =6
-    #                ^----end   =9
 
     def get_length_of_number(self):
         return len(str(self.number))
