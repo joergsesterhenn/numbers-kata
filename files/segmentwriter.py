@@ -9,7 +9,7 @@ class SegmentWriter:
     TENS = ['', 'ten', 'twenty', 'thirty', 'forty', 'fifty', 'sixty',
             'seventy', 'eighty', 'ninety']
 
-    HUNDRED_APPENDIX = ' hundred'
+    HUNDRED_SUFFIX = ' hundred'
     PARTIAL_TENS_SEPERATOR = ' '
     PARTIAL_HUNDREDS_SEPERATOR = ' and '
 
@@ -28,7 +28,7 @@ class SegmentWriter:
         segment_as_text = ''
         if self.hundreds > 0:
             segment_as_text = (self.DIGITS[self.hundreds]
-                               + self.HUNDRED_APPENDIX)
+                               + self.HUNDRED_SUFFIX)
             if self.tens > 0 or self.units > 0:
                 segment_as_text += self.PARTIAL_HUNDREDS_SEPERATOR
         if self.tens == 1:

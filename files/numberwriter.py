@@ -5,7 +5,7 @@ from files.segmentwriter import SegmentWriter
 class NumberWriter:
 
     # names for multiples of thousand - we are counting with the short scale
-    ORDERS_APPENDIX = ['', ' thousand', ' million', ' billion', ' trillion',
+    ORDERS_SUFFIX = ['', ' thousand', ' million', ' billion', ' trillion',
                        ' quadrillion', ' quintillion', ' sextillion',
                        ' septillion', ' octillion', ' nonillion']
 
@@ -37,7 +37,7 @@ class NumberWriter:
             # and return them in an array from the highest order to lowest
             segment_as_text = SegmentWriter(segment).to_text()
 
-            # if this part is not empty 
+            # if this segment is not empty
             if segment_as_text:
                 # if we are not the highest order lead with a comma
                 if inverse_order > 0:
@@ -45,9 +45,9 @@ class NumberWriter:
 
                 number_as_text += segment_as_text
 
-                # attach the order
+                # attach the orders suffix
                 order = (self.number_splitter.get_order_of_number()
                          - inverse_order)
-                number_as_text += self.ORDERS_APPENDIX[order]
+                number_as_text += self.ORDERS_SUFFIX[order]
 
         return number_as_text
