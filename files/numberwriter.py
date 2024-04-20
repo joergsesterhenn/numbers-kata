@@ -4,16 +4,15 @@ from files.segmentwriter import SegmentWriter
 
 class NumberWriter:
 
-    # names for multiples of thousand
-    # - we are counting  with the short scale
+    # names for multiples of thousand - we are counting with the short scale
     ORDERS_APPENDIX = ['', ' thousand', ' million', ' billion', ' trillion',
                        ' quadrillion', ' quintillion', ' sextillion',
                        ' septillion', ' octillion', ' nonillion']
 
     SEPERATOR_OF_ORDERS = ', '
 
-    number_splitter: NumberSplitter
     number: int
+    number_splitter: NumberSplitter
 
     def __init__(self, number: int):
         self.number = number
