@@ -1,4 +1,4 @@
-from numbersprinter import NumbersPrinter
+from numberwriter import NumberWriter
 from numbersplitter import NumberSplitter
 import unittest
 from approvaltests.approvals import verify
@@ -27,49 +27,49 @@ class NumbersTest(unittest.TestCase):
     # x 43112603 --> forty three million, one hundred and twelve thousand, six hundred and three
 
     def test_number_zero(self):
-        result = str(NumbersPrinter(0).print())
+        result = str(NumberWriter(0).to_text())
         verify(result)
 
     def test_number_one(self):
-        result = str(NumbersPrinter(1).print())
+        result = str(NumberWriter(1).to_text())
         verify(result)
     
     def test_single_digits(self):
-        result = [NumbersPrinter(number).print() for number in range(1, 10)]
+        result = [NumberWriter(number).to_text() for number in range(1, 10)]
         verify(result)
  
     def test_ten(self):
-        result = str(NumbersPrinter(10).print())
+        result = str(NumberWriter(10).to_text())
         verify(result)
         
     def test_ninety_nine(self):
-        result = str(NumbersPrinter(99).print())
+        result = str(NumberWriter(99).to_text())
         verify(result)
 
     def test_every_two_digit_number(self):
         result = "\n".join(
-            [NumbersPrinter(number).print() for number in range(10, 100)])
+            [NumberWriter(number).to_text() for number in range(10, 100)])
         verify(result)
  
     def test_one_hundred(self):
-        result = NumbersPrinter(100).print()
+        result = NumberWriter(100).to_text()
         verify(result)
         
     def test_three_hundred(self):
-        result = NumbersPrinter(300).print()
+        result = NumberWriter(300).to_text()
         verify(result)
         
     def test_three_hundred_ten(self):
-        result = NumbersPrinter(310).print()
+        result = NumberWriter(310).to_text()
         verify(result)
         
     def test_every_three_digit_number(self):
         result = "\n".join(
-            [NumbersPrinter(number).print() for number in range(100, 1000)])
+            [NumberWriter(number).to_text() for number in range(100, 1000)])
         verify(result)
         
     def test_one_thousand_five_hundred_and_one(self):
-        result = NumbersPrinter(1501).print()
+        result = NumberWriter(1501).to_text()
         verify(result)
         
     def test_dissecting_to_order(self):
@@ -78,29 +78,29 @@ class NumbersTest(unittest.TestCase):
         verify(result)
         
     def test_twelve_thousand_six_hundred_and_nine(self):
-        result = NumbersPrinter(12609).print()
+        result = NumberWriter(12609).to_text()
         verify(result)
     
     def test_five_hundred_and_twelve_thousand_six_hundred_and_seven(self):
-        result = NumbersPrinter(512607).print()
+        result = NumberWriter(512607).to_text()
         verify(result)
     
     def test_forty_three_million(self):
-        result = NumbersPrinter(43112603).print()
+        result = NumberWriter(43112603).to_text()
         verify(result)
         
     def test_one_million(self):
-        result = NumbersPrinter(1000000).print()
+        result = NumberWriter(1000000).to_text()
         verify(result)
         
     def test_sample_in_millions(self):
         result = "\n".join(
-            [NumbersPrinter(number).print() for number in
+            [NumberWriter(number).to_text() for number in
              range(1000000, 100000000, 215431)])
         verify(result)
        
     def test_a_really_long_one(self):
-        result = NumbersPrinter(1050907000407750600030640022401).print()
+        result = NumberWriter(1050907000407750600030640022401).to_text()
         verify(result)
 
 
