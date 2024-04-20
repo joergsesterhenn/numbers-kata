@@ -31,7 +31,7 @@ class NumberWriter:
 
         # build number_as_text by traversing and appending segments
         # from highest to lowest orders
-        for order, segment in self.number_splitter.segments().items():
+        for order, segment in self.number_splitter.segments():
 
             # split number into segments of three digits
             # and return them in an array from the highest order to lowest

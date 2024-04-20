@@ -40,5 +40,9 @@ class NumberSplitter:
         return str(self.number).zfill((self.get_order_of_number()+1) * 3)
 
     def segments(self):
+        """
+        :return: ordered tuples of order and segment
+        """
         reversed_orders, segments = zip(* enumerate(self.ordered_segments))
-        return dict(zip(reversed(reversed_orders), self.ordered_segments))
+        # we need to reverse the order so that it starts with the highest
+        return zip(reversed(reversed_orders), self.ordered_segments)
