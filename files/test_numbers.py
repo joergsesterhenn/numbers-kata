@@ -7,8 +7,8 @@ from approvaltests import set_default_reporter
 
 
 class NumbersTest(unittest.TestCase):
-    def setUp(self):
-        set_default_reporter(ReportOnCyberDojo())
+    #def setUp(self):
+    #    set_default_reporter(ReportOnCyberDojo())
 
     # testplan:
     #
