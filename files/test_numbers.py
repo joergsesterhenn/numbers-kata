@@ -47,7 +47,8 @@ class NumbersTest(unittest.TestCase):
         verify(result)
 
     def test_every_two_digit_number(self):
-        result = "\n".join([NumbersPrinter(number).print() for number in range(10, 100)])
+        result = "\n".join(
+            [NumbersPrinter(number).print() for number in range(10, 100)])
         verify(result)
  
     def test_one_hundred(self):
@@ -63,7 +64,8 @@ class NumbersTest(unittest.TestCase):
         verify(result)
         
     def test_every_three_digit_number(self):
-        result = "\n".join([NumbersPrinter(number).print() for number in range(100, 1000)])
+        result = "\n".join(
+            [NumbersPrinter(number).print() for number in range(100, 1000)])
         verify(result)
         
     def test_one_thousand_five_hundred_and_one(self):
@@ -92,7 +94,9 @@ class NumbersTest(unittest.TestCase):
         verify(result)
         
     def test_sample_in_millions(self):
-        result = "\n".join([NumbersPrinter(number).print() for number in range(1000000, 100000000, 215431)])
+        result = "\n".join(
+            [NumbersPrinter(number).print() for number in
+             range(1000000, 100000000, 215431)])
         verify(result)
        
     def test_a_really_long_one(self):
